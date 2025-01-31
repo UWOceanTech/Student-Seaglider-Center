@@ -1,5 +1,6 @@
-#!/bin/bash  # Keep this
+#!/bin/bash  
 
+# Must keep the above line^^^
 # This script grabs all of the netcdf files from the current mission and 
 # downloads them to your local machine.
 
