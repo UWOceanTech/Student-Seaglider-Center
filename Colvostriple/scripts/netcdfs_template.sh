@@ -1,5 +1,8 @@
 #!/bin/bash  # Keep this
 
+# This script grabs all of the netcdf files from the current mission and 
+# downloads them to your local machine.
+
 SSH_USER="username"       # Replace with your SSH username
 SSH_HOST="seaglider.pub" # Keep this
 REMOTE_DIR="/home/jails/uwssc/gliderjail/home/sg195/current" # This is the current remote directory containing .nc files (tropical mission) 
