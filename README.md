@@ -5,3 +5,4 @@ The University of Washington Student Seaglider Center (SSC) manages a fleet of S
 Contents: 
 - Colvos Passage Triple Glider Mission (2024)
 - Tropics Mission (2024-2025)
+- Time Series (2025)
