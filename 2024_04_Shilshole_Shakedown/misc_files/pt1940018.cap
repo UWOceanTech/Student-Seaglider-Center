@@ -1,0 +1,2699 @@
+216.358,SUSR,N,Beginning selftest #18 on glider SG194
+0.380,SUSR,N,Fri Apr  5 08:10:12 2024
+2.193,HPRES,N,20 samples mean depth = 7.76m noise = 0.0276m (0.0700m threshold)
+2.333,HPRES,N,enabled.
+2.400,SUSR,N,---- Audible pings to mark start of tests ----
+2.890,HXPDR,N,ping response: R006.421ms
+
+2.951,HXPDR,N,range 4.815750 m
+5.082,HXPDR,N,ping response: R---------
+
+5.144,HXPDR,N,range 999.000000 m
+7.279,HXPDR,N,ping response: R---------
+
+7.341,HXPDR,N,range 999.000000 m
+9.538,SUSR,N,clearing tranponder ping count, prev count=0
+9.658,SUSR,N,xpdr/ranging can be tested while other tests proceed
+9.783,SUSR,N,---- Checking GPS ----
+10.895,HGPS,N,Fetching GPS version - this may take one minute
+70.974,HGPS,N,timeout
+71.005,HGPS,N,reset GPS, flags=1
+73.356,HGPS,N,Obtaining GPS fix
+73.475,HGPS,N,reset GPS, flags=1
+75.538,HGPS,N,Acquiring GPS fix (5,8,40)
+76.013,HGPS,N,VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVAAAAAAAAAAAAAAAAAAAAAA
+-619289834.001,HGPS,N,sync sentence $GPRMC,151257,A,4741.2810,N,12224.2867,W,003.0,332.6,200804,016.3,E*6D
+ (k=22584)set 2004/08/20 15:12:58
+-619289834.209,HGPS,N,200804 151256 4741.2803 -12224.2861 hdop=1.1 cog=338.5 sog=1.5 hpe=5.0 n=9 36/57 seconds
+-619289830.440,SUSR,N,---- Checking Iridium phone ----
+-619289820.705,HPHONE,N,model: 9523
+-619289820.955,HPHONE,N,IMEI: 300125010008090
+-619289819.030,HPHONE,N,NUM: +CNUM:"","",129
+-619289819.105,HPHONE,N,SIM: 8988169234005408117
+-619289819.705,HPHONE,N,signal strength 5
+-619289817.330,HPHONE,N,signal strength 5
+-619289810.880,HPHONE,N,signal strength 4
+-619289809.005,HPHONE,N,-MSGEO: -2296,-3640,4688,cece51a3
+-619289809.080,HPHONE,N,lat: 47.639545, lon: -122.242470, time: Tue Apr  2 19:05:37 2024
+-619289809.230,HPHONE,N,Phone registered
+-619289809.280,HPHONE,N,registered OK
+-619289807.362,HPHONE,N,phone on 22675 ms, avg mA=24.5, max mA=59.7
+-619289807.488,SUSR,N,---- Checking bathymetry data ----
+-619289807.604,SUSR,N,Normal Heap: 0+28671 bytes
+-619289807.728,SGLMALLOC,N,glheap_walk: 345252 bytes free, 1 blocks free, 2812 bytes alloc, 3 blocks alloc
+-619289795.643,SBATHY,N,Loaded bathymap.001 [208 138] 1000m (LL) 46.7860,-126.0000 (UR) 48.6578,-124.1863
+-619289785.394,SBATHY,N,Loaded bathymap.002 [167 108] 1000m (LL) 45.5000,-125.3000 (UR) 47.0029,-123.9133
+-619289775.980,SBATHY,N,Loaded bathymap.003 [178 111] 1000m (LL) 44.0000,-125.3000 (UR) 45.6019,-123.9113
+-619289766.344,SBATHY,N,Loaded bathymap.006 [156 100] 100m (LL) 47.6800,-122.5000 (UR) 47.8204,-122.3663
+-619289763.196,SBATHY,N,Loaded bathymap.007 [ 56  75] 100m (LL) 47.6500,-122.5000 (UR) 47.7004,-122.3998
+-619289763.495,SBATHY,N,Current location (4741.280273,-12224.286133) is covered by at least one bathymetry file
+-619289763.710,SGLMALLOC,N,glheap_walk: 336488 bytes free, 5 blocks free, 11432 bytes alloc, 5 blocks alloc
+-619289763.893,SUSR,N,---- Checking compass and calibration files ----
+-619289762.223,HCOMPASS,N,Reading compass coefficients: "SG194 dive compass cal using DiveMagFile.SG194 collected at 47.651,-122.873 on 2/4/2018 for SN XXX (IGRF = 537.430)"
+-619289762.485,HCOMPASS,N,Compass 1, SP3003
+-619289762.622,HCOMPASS,N,pitch A,B,C,D: 0.000000 1.000000 0.000000 0.000000
+-619289762.803,HCOMPASS,N,roll A,B,C,D:  0.000000 1.000000 0.000000 0.000000
+-619289761.094,HCOMPASS,N,hard iron P,Q,R: -14.015000 54.380100 52.977001
+-619289761.348,HCOMPASS,N,soft iron: 0.961400 0.004900 -0.004300
+-619289761.587,HCOMPASS,N,           0.001500 1.015500 -0.006800
+-619289761.826,HCOMPASS,N,           0.004600 0.003100 1.028100
+-619289759.396,HCOMPASS,N,compass filter disabled ok
+-619289758.126,HCOMPASS,N,1, SP3003, Hdg: 36.63 deg Rol: 6.94 deg Pit: -30.70 deg Tmp: 19.50 C
+-619289756.039,SUSR,N,---- Reporting hardware configuration ----
+-619289756.184,SUSR,N,Sensor in slot 1 is SBE_CT on port 2, TPU04/TPU05, nominally 'CT'
+-619289756.365,SUSR,N,Sensor in slot 2 is AA4330 on port 5, TPU10/TPU11 (mux channel 0), nominally 'Optics 2'
+-619289756.572,SUSR,N,Sensor in slot 3 is WL_blue_red_Chl_old_fw on port 3, TPU06/TPU07, nominally 'Optics 1'
+-619289756.760,SUSR,N,Sensor in slot 4 is not installed
+-619289756.876,SUSR,N,Sensor in slot 5 is not installed
+-619289753.166,SUSR,N,Sensor in slot 6 is not installed
+-619289753.284,SUSR,N,Logger Sensor in logger slot 1 is not installed
+-619289753.422,SUSR,N,Logger Sensor in logger slot 2 is not installed
+-619289753.559,SUSR,N,Logger Sensor in logger slot 3 is not installed
+-619289753.697,SUSR,N,Logger Sensor in logger slot 4 is not installed
+-619289753.828,SUSR,N,Motherboard is Rev.B.1
+-619289753.936,SUSR,N,Motherboard is not configured for high current detection (Deep Glider)
+-619289752.096,SUSR,N,Phone is Iridium9522
+-619289752.201,SUSR,N,    Phone is configured for flow control and carrier detect
+-619289752.359,SUSR,N,    Phone supply is battery 2 with real-time current measurement
+-619289752.511,SUSR,N,GPS is Garmin_GPS15H
+-619289752.604,SUSR,N,Compass is SP3003
+-619289752.696,SUSR,N,    Spare compass is not installed
+-619289752.807,SUSR,N,XPDR is AAE_955
+-619289752.897,SUSR,N,Glider is not a Deep Glider
+-619289751.061,SUSR,N,External pressure sensor gain (128.000000) consistent with Paine
+Iridium_during_init=0.00765
+Iridium_during_connect=0.16000
+Iridium_during_xfer=0.22300
+GPS=0.03071
+TT8=0.01496
+TT8_Active=0.01496
+TT8_Sampling=0.04342
+TT8_CF8=0.05316
+TT8_Kalman=0.06964
+Analog_circuits=0.01500
+Compass=0.00899
+SBE_CT=0.02397
+AA4330=0.00075
+WL_blue_red_Chl_old_fw=0.00075
+---- Reporting software version ----
+-619289747.845,SUSR,N,Version: 66.14
+-619289747.933,SUSR,N,Compiled on: Nov  5 2017 10:24:15
+-619289746.045,SUSR,N,From SVN version 5179M
+-619289746.140,SUSR,N,Compiler: gcc
+-619289746.223,SUSR,N,x SCENARIO
+-619289746.303,SUSR,N,o ICE support
+-619289746.385,SUSR,N,o RAFOS
+-619289746.460,SUSR,N,o Kermit
+-619289746.535,SUSR,N,o ARS
+-619289746.606,SUSR,N,o PAAM
+-619289746.679,SUSR,N,o MIB
+-619289746.751,SUSR,N,o AQUADOPP
+-619289746.830,SUSR,N,o SAILCT
+-619289746.906,SUSR,N,o MicroModem
+-619289746.989,SUSR,N,x DeepGlider
+-619289745.071,SUSR,N,o Heap Recycle
+-619289745.156,SUSR,N,o LUA
+-619289745.242,SUSR,N,NVRAM: 194 parameters, 780 bytes, 250 bytes in utility storage
+-619289745.391,SUSR,N,Buffers: static
+-619289745.476,SUSR,N,Active (2Mhz)
+-619289743.752,SUSR,N,PicoDOS version: C82#3041-1.63b
+-619289743.860,SUSR,N,Launched as: MAIN
+-619289743.954,SUSR,N,Normal Heap: 0+28671 bytes
+-619289742.085,SGLMALLOC,N,glheap_walk: 336440 bytes free, 7 blocks free, 11432 bytes alloc, 5 blocks alloc
+-619289742.265,SUSR,N,Sensors: SBE_CT,AA4330,WL_blue_red_Chl_old_fw
+-619289740.272,SUSR,N,MAIN.RUN: 544768 bytes
+-619289740.370,SUSR,N,---- Reporting directory contents ----
+WLBBFL2.CNF            237
+WLBB2FL.CNF            241
+WLBB2F.CNF             219
+MAIN.RUN            544768
+TANK.RUN            621568
+THISDIVE.KAP          6216
+TARGETS                356
+BG112017               548
+RECEIVE.000              0
+SCIENCE                215
+BG110617               548
+CMDFILE                  5
+BG052813               494
+PDOSLOG.GZ             291
+SG194PRM.TXT          3076
+PNW.TAR             266240
+IOTEST.RUN           49440
+BG100413               504
+THISDIVE.DAT          1393
+THISDIVE.LOG          4441
+BG102513               511
+CURRENTS               288
+BATTERY                548
+SG0004KZ.A           25234
+BATHYMAP.001        112320
+SG0123KZ.A           26443
+BATHYMAP.002         70646
+TCM2MAT.OLD            282
+BATHYMAP.003         76596
+SG0000KL.A            4122
+BG013118               507
+SG0005KZ.A           17995
+SG0006KZ.A           16975
+SG0000KZ.A            1771
+SG0000LZ.A            1485
+SG0007KZ.A           19344
+BG110517               548
+BG121317               490
+BG100913               504
+PDOSLOG                  0
+SG0008KZ.A           16121
+SG0001DZ.A            5298
+SG0002DZ.A            7423
+SG0009KZ.A           16350
+THISDIVE.WRK             5
+BG052113               493
+SG0003DZ.A            9502
+SG0001KZ.A           14604
+SG0001LZ.A            3378
+SG0004DZ.A            9241
+SG0010KZ.A           16122
+LOGGERS.CMD              0
+SG0002KZ.A           19490
+SG0002LZ.A            3713
+SG0004LZ.A            4117
+SG0005DZ.A            9994
+SG0003KZ.A           20057
+SG0003LZ.A            3910
+SG0011KZ.A           16162
+SG0005LZ.A            4117
+SG0006DZ.A            8330
+SG0006LZ.A            4036
+SG0012KZ.A           15457
+SG0007DZ.A           10272
+SG0013KZ.A           16649
+SG0007LZ.A            4256
+SG0008DZ.A            8555
+SG0008LZ.A            3901
+SG0009DZ.A            8079
+SG0009LZ.A            4052
+SG0014KZ.A           17311
+SG0010DZ.A            8057
+SG0010LZ.A            3942
+SG0015KZ.A           15738
+SG0011DZ.A            7873
+SG0011LZ.A            3954
+SG0016KZ.A           17465
+SG0012DZ.A            7629
+SG0012LZ.A            3862
+SG0017KZ.A           17133
+SG0018KZ.A           16958
+SG0013DZ.A            8676
+SG0013LZ.A            4047
+SG0019KZ.A           10197
+SG0014DZ.A            8723
+SG0014LZ.A            4083
+SG0015DZ.A            8048
+SG0015LZ.A            3837
+SG0020KZ.A            7630
+SG0021KZ.A            7294
+SG0016DZ.A            8836
+SG0022KZ.A            7303
+SG0016LZ.A            4119
+SG0017DZ.A            9000
+SG0023KZ.A            7231
+SG0017LZ.A            4166
+SG0018DZ.A            8488
+SG0018LZ.A            4008
+SG0019DZ.A            5480
+SG0019LZ.A            3200
+SG0020DZ.A            3596
+SG0020LZ.A            3125
+SG0024KZ.A            7140
+SG0021DZ.A            3609
+SG0021LZ.A            3088
+SG0025KZ.A            7276
+SG0022DZ.A            3512
+SG0022LZ.A            3043
+SG0026KZ.A            7351
+SG0023DZ.A            3304
+SG0023LZ.A            3052
+SG0027KZ.A            7277
+SG0024DZ.A            3367
+SG0024LZ.A            3036
+SG0028KZ.A            7129
+SG0025DZ.A            3538
+SG0025LZ.A            3037
+SG0029KZ.A            7852
+SG0026DZ.A            3603
+SG0038KZ.A           17445
+SG0030KZ.A            7358
+SG0027DZ.A            3516
+SG0027LZ.A            3043
+SG0031KZ.A            7941
+SG0028DZ.A            3453
+SG0028LZ.A            3043
+SG0032KZ.A           10019
+SG0029DZ.A            3454
+SG0029LZ.A            3150
+SG0033KZ.A           16312
+SG0030DZ.A            3490
+SG0030LZ.A            3043
+SG0034KZ.A           14572
+SG0035KZ.A           22576
+SG0031DZ.A            4311
+SG0031LZ.A            3113
+SG0036KZ.A           17223
+SG0032DZ.A            4741
+SG0032LZ.A            3361
+SG0037KZ.A           18024
+SG0033DZ.A            7796
+SG0033LZ.A            4057
+SG0039KZ.A           17312
+SG0034DZ.A            7315
+SG0034LZ.A            3797
+SG0040KZ.A           16004
+SG0041KZ.A           17917
+SG0035DZ.A            9016
+SG0035LZ.A            4032
+BG112117               550
+SG0042KZ.A           16715
+SG0036DZ.A            9257
+KENTERS.KAP          41898
+SG0036LZ.A            4014
+SG0026LZ.A            3041
+BALLAST.KAP           3400
+SG0037DZ.A            9380
+SG0043KZ.A           16928
+BG120617               548
+SG0037LZ.A            4153
+SG0038DZ.A            8877
+SG0038LZ.A            4016
+SG0044KZ.A           17626
+SG0039DZ.A            9066
+SG0039LZ.A            4064
+BATHYMAP.006         54654
+SG0045KZ.A           17588
+SG0040DZ.A            8539
+BATHYMAP.007         14816
+SG0040LZ.A            3880
+SG0046KZ.A           18699
+SG0041DZ.A            9509
+SG0047KZ.A           15135
+SG0041LZ.A            4175
+BG121217               548
+SG0042DZ.A            9374
+SG0042LZ.A            4076
+SG0048KZ.A           16130
+SG0043DZ.A            9140
+SG0049KZ.A           18573
+SG0043LZ.A            4169
+SG0044DZ.A            9436
+SG0050KZ.A           16701
+SG0044LZ.A            4145
+SG0045DZ.A            9220
+SG0051KZ.A           16751
+SG0045LZ.A            4149
+SG0046DZ.A            9678
+SG0047DZ.A            7589
+SG0046LZ.A            4119
+SG0047LZ.A            3762
+SG0052KZ.A           17580
+SG0048DZ.A            7892
+SG0048LZ.A            3844
+SG0053KZ.A           17009
+SG0054KZ.A           16759
+SG0049DZ.A            9793
+SG0049LZ.A            3986
+SG0055KZ.A           17789
+SG0050DZ.A            8651
+SG0050LZ.A            3926
+SG0056KZ.A           16597
+SG0051DZ.A            9322
+SG0051LZ.A            3909
+SG0057KZ.A           17177
+SG0052DZ.A           10010
+SG0052LZ.A            4031
+SG0058KZ.A           18515
+SG0053DZ.A            8801
+SG0059KZ.A           16685
+SG0053LZ.A            4104
+SG0054DZ.A            8668
+SG0054LZ.A            4033
+SG0060KZ.A           15603
+SG0055DZ.A            8631
+SG0061KZ.A           15813
+SG0055LZ.A            4125
+SG0056DZ.A            8404
+SG0056LZ.A            3960
+SG0062KZ.A           17496
+SG0057DZ.A            9025
+SG0063KZ.A           18339
+SG0057LZ.A            4118
+SG0058DZ.A           10491
+SG0064KZ.A           17281
+SG0058LZ.A            4172
+SG0059DZ.A            8363
+SG0059LZ.A            3972
+SG0060DZ.A            8032
+SG0060LZ.A            3719
+SG0065KZ.A           19019
+SG0061DZ.A            7836
+SG0061LZ.A            3870
+SG0066KZ.A           16843
+SG0067KZ.A           16545
+SG0062DZ.A            9039
+SG0062LZ.A            4076
+SG0068KZ.A           17447
+SG0063DZ.A            9423
+SG0069KZ.A           17659
+SG0063LZ.A            4246
+SG0064DZ.A            8971
+SG0064LZ.A            3988
+SG0070KZ.A           15746
+SG0065DZ.A           10565
+SG0071KZ.A           17691
+SG0065LZ.A            4176
+SG0066DZ.A            8938
+SG0066LZ.A            3986
+SG0067DZ.A            7837
+SG0067LZ.A            3985
+SG0072KZ.A           15256
+SG0073KZ.A           10931
+SG0068DZ.A            8917
+SG0074KZ.A           16313
+SG0068LZ.A            4099
+SG0069DZ.A            9674
+SG0070DZ.A            7988
+SG0069LZ.A            4150
+SG0070LZ.A            3962
+SG0075KZ.A           17514
+SG0076KZ.A           15876
+SG0071DZ.A            9265
+SG0072DZ.A            7798
+SG0071LZ.A            4098
+SG0072LZ.A            3826
+SG0073DZ.A            3813
+SG0073LZ.A            3304
+SG0077KZ.A           18609
+SG0078KZ.A           18154
+SG0079KZ.A           18060
+SG0074DZ.A            9215
+SG0074LZ.A            3920
+SG0080KZ.A           16215
+SG0075DZ.A            9481
+SG0075LZ.A            4084
+SG0076DZ.A            7977
+SG0076LZ.A            3883
+TEMP1A                 220
+SG0081KZ.A           18523
+SG0082KZ.A           17833
+SG0077DZ.A           10499
+SG0083KZ.A           17073
+SG0077LZ.A            4138
+SG0078DZ.A            9356
+SG0084KZ.A           16717
+SG0078LZ.A            4211
+SG0079DZ.A            9047
+SG0085KZ.A           18454
+SG0079LZ.A            4112
+SG0080DZ.A            8789
+SG0080LZ.A            3918
+SG0086KZ.A           19869
+SG0081DZ.A            9637
+SG0087KZ.A           18235
+SG0081LZ.A            4207
+SG0082DZ.A            9262
+SG0083DZ.A            8170
+SG0082LZ.A            4130
+SG0088KZ.A           17669
+SG0083LZ.A            4132
+SG0089KZ.A           16845
+SG0084DZ.A            8751
+SG0090KZ.A           17419
+SG0084LZ.A            4126
+SG0085DZ.A            9631
+SG0091KZ.A           17523
+SG0085LZ.A            4243
+SG0086DZ.A           10367
+SG0092KZ.A           18038
+SG0086LZ.A            4386
+SG0087DZ.A            9384
+SG0093KZ.A           16530
+SG0087LZ.A            4182
+SG0088DZ.A            9606
+SG0088LZ.A            4027
+SG0094KZ.A           11251
+SG0089DZ.A            9497
+SG0089LZ.A            3967
+SG0095KZ.A           18317
+SG0090DZ.A            9349
+SG0090LZ.A            3960
+SG0096KZ.A           16357
+SG0091DZ.A            9540
+SG0097KZ.A           17566
+SG0091LZ.A            4141
+SG0092DZ.A            9866
+SG0092LZ.A            4064
+SG0093DZ.A            7701
+SG0093LZ.A            3978
+SG0094DZ.A            3816
+SG0094LZ.A            3354
+SG0098KZ.A           16386
+SG0099KZ.A           16715
+SG0100KZ.A           17285
+SG0095DZ.A           10387
+SG0101KZ.A           17687
+SG0095LZ.A            4118
+SG0096DZ.A            8528
+SG0096LZ.A            3864
+SG0102KZ.A           17647
+SG0097DZ.A            9167
+SG0097LZ.A            4087
+SG0103KZ.A           17692
+SG0098DZ.A            8455
+SG0098LZ.A            3959
+SG0104KZ.A           15859
+SG0099DZ.A            8387
+SG0099LZ.A            3850
+SG0105KZ.A           16814
+SG0100DZ.A            8610
+SG0106KZ.A           17146
+SG0100LZ.A            4120
+SG0101DZ.A            8740
+SG0107KZ.A           11371
+SG0101LZ.A            4119
+SG0102DZ.A            9109
+SG0102LZ.A            4023
+SG0108KZ.A           15919
+SG0103DZ.A            9771
+SG0103LZ.A            3988
+SG0109KZ.A           15419
+SG0104DZ.A            8918
+SG0104LZ.A            3841
+SG0110KZ.A           16867
+SG0105DZ.A            8705
+SG0105LZ.A            3988
+SG0107DZ.A            3879
+SG0106DZ.A            8904
+SG0106LZ.A            3788
+SG0107LZ.A            3386
+SG0111KZ.A           16993
+SG0112KZ.A           15732
+SG0108DZ.A            8115
+SG0108LZ.A            3896
+SG0113KZ.A           16922
+SG0109DZ.A            7544
+SG0109LZ.A            3814
+SG0114KZ.A           15729
+SG0115KZ.A           17771
+SG0110DZ.A            8331
+SG0110LZ.A            3954
+SG0116KZ.A           16516
+SG0111DZ.A            8975
+SG0111LZ.A            3937
+SG0117KZ.A           15258
+SG0112DZ.A            8700
+SG0112LZ.A            3881
+SG0118KZ.A           17690
+SG0113DZ.A           10756
+SG0113LZ.A            4085
+SG0119KZ.A           18730
+SG0114DZ.A            9836
+SG0114LZ.A            3961
+SG0120KZ.A           17939
+SG0115DZ.A           10346
+SG0121KZ.A           18797
+SG0115LZ.A            4099
+SG0116DZ.A            8265
+SG0116LZ.A            3821
+SG0117DZ.A            7547
+SG0117LZ.A            3729
+SG0122KZ.A           17911
+TCM2MAT.NEW            284
+SG0118DZ.A            9124
+SG0118LZ.A            4023
+TCM2MAT.BAK            286
+SG0119DZ.A           10518
+TCM2MAT.194            284
+SG0119LZ.A            4159
+SG0120DZ.A            9232
+SG0124KZ.A           19518
+SG0120LZ.A            4137
+SG0121DZ.A           10577
+SG0125KZ.A           18860
+SG0121LZ.A            4188
+SG0122DZ.A            9596
+SG0126KZ.A           18624
+SG0122LZ.A            4208
+SG0127KZ.A           18759
+SG0128KZ.A           19751
+SG0129KZ.A           18793
+SG0123DZ.A           10230
+SG0124DZ.A           10619
+SG0130KZ.A           17265
+SG0124LZ.A            4123
+SG0125DZ.A           10532
+SG0131KZ.A           17055
+SG0125LZ.A            4189
+SG0126DZ.A           10107
+SG0123LZ.A            4171
+SG0126LZ.A            4066
+SG0132KZ.A           18963
+SG0127DZ.A           10123
+SG0133KZ.A           18994
+SG0127LZ.A            4236
+SG0128DZ.A           11934
+SG0134KZ.A           18532
+SG0128LZ.A            4206
+SG0129DZ.A           10316
+SG0135KZ.A           18045
+SG0129LZ.A            4151
+SG0130DZ.A            9053
+SG0130LZ.A            4037
+SG0136KZ.A           19722
+SG0131DZ.A            8613
+SG0131LZ.A            4008
+SG0137KZ.A           17988
+SG0132DZ.A           10217
+SG0138KZ.A           17366
+SG0132LZ.A            4267
+SG0133DZ.A           10665
+SG0139KZ.A           17330
+SG0133LZ.A            4201
+SG0134DZ.A            9769
+SG0140KZ.A           20108
+SG0134LZ.A            4168
+SG0135DZ.A            9466
+SG0141KZ.A           18151
+SG0135LZ.A            4167
+SG0136DZ.A           11001
+SG0142KZ.A           18553
+SG0136LZ.A            4269
+SG0137DZ.A           10393
+SG0137LZ.A            4092
+SG0143KZ.A           19705
+SG0138DZ.A            9525
+SG0138LZ.A            3929
+SG0144KZ.A           19311
+SG0139DZ.A            9237
+SG0139LZ.A            3896
+SG0145KZ.A           20626
+SG0140DZ.A           10948
+SG0146KZ.A           20853
+SG0140LZ.A            4342
+SG0141DZ.A           10378
+SG0141LZ.A            4016
+SG0147KZ.A           20702
+SG0142DZ.A           10447
+SG0148KZ.A           19696
+SG0142LZ.A            4201
+SG0143DZ.A           10504
+SG0149KZ.A           17829
+SG0143LZ.A            4337
+SG0144DZ.A           10118
+SG0144LZ.A            4012
+SG0150KZ.A           20128
+SG0145DZ.A           11324
+SG0151KZ.A           21532
+SG0145LZ.A            4258
+SG0146DZ.A           11244
+SG0152KZ.A           17856
+SG0146LZ.A            4376
+SG0147DZ.A           11412
+SG0153KZ.A           16546
+SG0147LZ.A            4290
+SG0148DZ.A           11073
+SG0154KZ.A           20361
+SG0148LZ.A            4273
+SG0149DZ.A            9866
+SG0149LZ.A            3988
+SG0155KZ.A           18273
+SG0150DZ.A           11371
+SG0156KZ.A           18657
+SG0150LZ.A            4224
+SG0157KZ.A           20584
+SG0151DZ.A           12558
+SG0152DZ.A           10000
+SG0151LZ.A            4435
+SG0158KZ.A           20437
+SG0152LZ.A            4114
+SG0153DZ.A            8467
+SG0153LZ.A            3730
+SG0159KZ.A           17786
+SG0154DZ.A           11365
+SG0160KZ.A           20406
+SG0154LZ.A            4264
+SG0155DZ.A            9177
+SG0155LZ.A            4081
+SG0161KZ.A           18392
+SG0156DZ.A            9470
+SG0162KZ.A           20103
+SG0156LZ.A            4196
+SG0157DZ.A           11793
+SG0163KZ.A           18839
+SG0157LZ.A            4393
+SG0158DZ.A           10662
+SG0164KZ.A           17638
+SG0158LZ.A            4428
+SG0159DZ.A            9586
+SG0159LZ.A            4025
+SG0165KZ.A           18494
+SG0160DZ.A           10815
+SG0166KZ.A           18736
+SG0160LZ.A            4390
+SG0161DZ.A           10231
+SG0161LZ.A            3978
+SG0167KZ.A           19018
+SG0162DZ.A           11122
+SG0168KZ.A           20718
+SG0162LZ.A            4192
+SG0163DZ.A           10023
+SG0163LZ.A            4081
+SG0169KZ.A           21466
+SG0164DZ.A            9456
+SG0164LZ.A            4012
+SG0170KZ.A           19441
+SG0165DZ.A            9945
+SG0171KZ.A           20433
+SG0165LZ.A            4255
+SG0166DZ.A           10041
+SG0172KZ.A           19324
+SG0166LZ.A            4237
+SG0167DZ.A            9943
+SG0173KZ.A           21419
+SG0167LZ.A            4209
+SG0168DZ.A           11158
+SG0174KZ.A           19098
+SG0168LZ.A            4403
+SG0169DZ.A           12027
+SG0175KZ.A           20573
+SG0169LZ.A            4361
+SG0170DZ.A           10775
+SG0176KZ.A           11347
+SG0170LZ.A            4133
+SG0171DZ.A           11222
+SG0177KZ.A           18779
+SG0171LZ.A            4179
+SG0172DZ.A           10117
+SG0178KZ.A           19760
+SG0172LZ.A            4208
+SG0173DZ.A           11636
+SG0179KZ.A           20732
+SG0173LZ.A            4352
+SG0174DZ.A           10215
+SG0180KZ.A           21661
+SG0174LZ.A            4266
+SG0175DZ.A           11348
+SG0176DZ.A            4476
+SG0175LZ.A            4349
+SG0176LZ.A            3343
+SG0181KZ.A           18750
+SG0182KZ.A           19029
+SG0177DZ.A           10041
+SG0183KZ.A           19630
+SG0177LZ.A            4195
+SG0178DZ.A           10901
+SG0184KZ.A           19840
+SG0178LZ.A            4276
+SG0179DZ.A           11712
+SG0185KZ.A           16972
+SG0179LZ.A            4401
+SG0180DZ.A           11679
+SG0186KZ.A           19380
+SG0180LZ.A            4428
+SG0181DZ.A            9500
+SG0187KZ.A           17797
+SG0181LZ.A            4141
+SG0182DZ.A           10449
+SG0188KZ.A           18764
+SG0182LZ.A            4126
+SG0183DZ.A           11455
+SG0183LZ.A            4059
+SG0189KZ.A           20418
+SG0184DZ.A           11127
+SG0190KZ.A           19569
+SG0184LZ.A            4341
+SG0185DZ.A            8777
+SG0185LZ.A            3918
+SG0191KZ.A           17299
+SG0186DZ.A           10843
+SG0192KZ.A           20175
+SG0186LZ.A            4132
+SG0187DZ.A            8784
+SG0193KZ.A           19824
+SG0187LZ.A            4100
+SG0188DZ.A           10820
+SG0194KZ.A           18597
+SG0188LZ.A            4255
+SG0189DZ.A           10380
+SG0195KZ.A           19931
+SG0189LZ.A            4329
+SG0190DZ.A           10551
+SG0196KZ.A           19492
+SG0190LZ.A            4362
+SG0191DZ.A            9467
+SG0197KZ.A           20468
+SG0191LZ.A            4120
+SG0192DZ.A           11643
+SG0198KZ.A           19945
+SG0192LZ.A            4278
+SG0193DZ.A           10855
+SG0199KZ.A           19736
+SG0193LZ.A            4316
+SG0194DZ.A           10361
+SG0200KZ.A           18852
+SG0194LZ.A            4285
+SG0195DZ.A           10242
+SG0201KZ.A           19740
+SG0195LZ.A            4433
+SG0196DZ.A            9436
+SG0202KZ.A           20073
+SG0196LZ.A            4260
+SG0197DZ.A           10809
+SG0203KZ.A           18352
+SG0197LZ.A            4422
+SG0198DZ.A           11661
+SG0204KZ.A           17994
+SG0198LZ.A            4318
+SG0199DZ.A           10457
+SG0205KZ.A           19476
+SG0199LZ.A            4299
+SG0200DZ.A           10702
+SG0206KZ.A           19821
+SG0200LZ.A            4129
+SG0201DZ.A           10292
+SG0207KZ.A           21115
+SG0201LZ.A            4269
+SG0202DZ.A           10757
+SG0208KZ.A           20429
+SG0202LZ.A            4303
+SG0203DZ.A           10840
+SG0203LZ.A            4009
+SG0209KZ.A           20932
+SG0204DZ.A            9942
+SG0204LZ.A            4010
+SG0210KZ.A           19634
+SG0205DZ.A           11353
+SG0211KZ.A           19065
+SG0205LZ.A            4138
+SG0206DZ.A           10851
+SG0212KZ.A           17827
+SG0206LZ.A            4284
+SG0207DZ.A           11469
+SG0213KZ.A           20009
+SG0207LZ.A            4293
+SG0208DZ.A           10893
+SG0214KZ.A           20926
+SG0208LZ.A            4261
+SG0209DZ.A           11108
+SG0215KZ.A           18311
+SG0209LZ.A            4412
+SG0210DZ.A           10257
+SG0216KZ.A           20478
+SG0210LZ.A            4371
+SG0211DZ.A           10882
+SG0217KZ.A           21754
+SG0211LZ.A            4192
+SG0212DZ.A            9557
+SG0212LZ.A            4062
+SG0218KZ.A           27900
+SG0213DZ.A           11067
+SG0253KZ.A           22740
+SG0213LZ.A            4246
+SG0214DZ.A           10841
+SG0219KZ.A           24348
+SG0214LZ.A            4413
+SG0215DZ.A           10360
+SG0215LZ.A            4085
+SG0220KZ.A           24184
+SG0216DZ.A           10842
+SG0221KZ.A           23002
+SG0216LZ.A            4281
+SG0217DZ.A           11399
+SG0222KZ.A           22560
+SG0217LZ.A            4425
+SG0223KZ.A           21415
+SG0218DZ.A           11272
+SG0224KZ.A           22453
+SG0218LZ.A            4399
+SG0219DZ.A           10445
+SG0225KZ.A           23108
+SG0219LZ.A            4217
+SG0220DZ.A           10167
+SG0226KZ.A           21013
+SG0220LZ.A            4260
+SG0221DZ.A           10831
+SG0221LZ.A            4044
+SG0227KZ.A           14415
+SG0222DZ.A            9403
+SG0228KZ.A           20981
+SG0222LZ.A            4191
+SG0223DZ.A            8757
+SG0229KZ.A           22511
+SG0223LZ.A            4113
+SG0224DZ.A            9269
+SG0224LZ.A            4024
+SG0230KZ.A           22025
+SG0225DZ.A            9183
+SG0226DZ.A            8131
+SG0225LZ.A            4133
+SG0226LZ.A            4010
+SG0231KZ.A           23015
+SG0227DZ.A            4991
+SG0227LZ.A            3535
+SG0232KZ.A           21016
+SG0233KZ.A           23626
+SG0228DZ.A            8742
+SG0228LZ.A            3965
+SG0234KZ.A           22487
+SG0229DZ.A            8818
+SG0235KZ.A           20678
+SG0229LZ.A            4172
+SG0230DZ.A            8979
+SG0236KZ.A           24042
+SG0230LZ.A            4141
+SG0231DZ.A            9910
+SG0237KZ.A           21229
+SG0231LZ.A            4148
+SG0232DZ.A            8450
+SG0232LZ.A            3960
+SG0238KZ.A           21875
+SG0233DZ.A           10348
+SG0239KZ.A           25547
+SG0233LZ.A            4157
+SG0234DZ.A            9981
+SG0234LZ.A            4039
+SG0240KZ.A           26237
+SG0235DZ.A            8452
+SG0235LZ.A            3942
+SG0241KZ.A           20335
+SG0236DZ.A           10592
+SG0243KZ.A           26139
+SG0236LZ.A            4144
+SG0237DZ.A            8933
+SG0237LZ.A            3916
+PDOSLOG.SAV        3788859
+SG0238DZ.A            8709
+SG0238LZ.A            4040
+SG0244KZ.A           21292
+SG0239DZ.A           10659
+SG0245KZ.A           20618
+SG0239LZ.A            4506
+SG0240DZ.A           11329
+SG0241DZ.A            8084
+SG0240LZ.A            4436
+SG0241LZ.A            3755
+SG0246KZ.A           23505
+SG0247KZ.A           19533
+SG0242DZ.A           10415
+SG0248KZ.A           23673
+SG0242LZ.A            4129
+SG0243DZ.A            9936
+SG0249KZ.A           21228
+SG0242KZ.A           27832
+SG0243LZ.A            4316
+SG0244DZ.A            9318
+SG0244LZ.A            4000
+SG0250KZ.A           19456
+SG0245DZ.A            8573
+SG0245LZ.A            4063
+SG0251KZ.A           20549
+SG0246DZ.A           10380
+SG0252KZ.A           23949
+SG0246LZ.A            4223
+SG0247DZ.A            8205
+SG0247LZ.A            3798
+SG0254KZ.A           20080
+SG0248DZ.A           10386
+SG0274KZ.A           19688
+SG0248LZ.A            4160
+SG0249DZ.A            9176
+SG0249LZ.A            3864
+SG0255KZ.A           19409
+SG0250DZ.A            8707
+SG0250LZ.A            3686
+SG0256KZ.A           19202
+SG0251DZ.A            8693
+SG0251LZ.A            3826
+SG0257KZ.A           17740
+SG0252DZ.A           10672
+SG0258KZ.A           18954
+SG0252LZ.A            4268
+SG0253DZ.A           11186
+SG0259KZ.A           18372
+SG0253LZ.A            4319
+SG0254DZ.A           10621
+SG0260KZ.A           19138
+SG0254LZ.A            4332
+SG0255DZ.A           11172
+SG0261KZ.A           16549
+SG0255LZ.A            4232
+SG0256DZ.A           10800
+SG0262KZ.A           18459
+SG0256LZ.A            4184
+SG0257DZ.A           10276
+SG0263KZ.A           18147
+SG0257LZ.A            4120
+SG0258DZ.A           10399
+SG0264KZ.A           21766
+SG0258LZ.A            4102
+SG0259DZ.A           10502
+SG0259LZ.A            4067
+SG0265KZ.A           25200
+SG0260DZ.A           10759
+SG0266KZ.A           24884
+SG0260LZ.A            4122
+SG0261DZ.A            8946
+SG0261LZ.A            3921
+SG0267KZ.A           26175
+SG0262DZ.A           10236
+SG0268KZ.A           24892
+SG0262LZ.A            4132
+SG0263DZ.A           10449
+SG0264DZ.A            7728
+SG0263LZ.A            4119
+SG0264LZ.A            3761
+SG0269KZ.A           25935
+SG0270KZ.A           23180
+SG0265DZ.A           10863
+SG0271KZ.A           18758
+SG0265LZ.A            4369
+SG0266DZ.A           10873
+SG0272KZ.A           23712
+SG0266LZ.A            4311
+SG0267DZ.A           11390
+SG0273KZ.A           23767
+SG0267LZ.A            4424
+SG0268DZ.A           11183
+SG0275KZ.A           16542
+SG0268LZ.A            4212
+SG0269DZ.A           11417
+ALTIM.SAV              220
+SG0269LZ.A            4419
+SG0270DZ.A            9698
+SG0271DZ.A            7332
+SG0270LZ.A            4141
+SG0271LZ.A            3741
+SG0276KZ.A           17958
+SG0277KZ.A           19291
+SG0272DZ.A           10396
+SG0278KZ.A           17809
+SG0272LZ.A            4322
+SG0273DZ.A           10602
+SG0279KZ.A           19421
+SG0273LZ.A            4275
+SG0274DZ.A            9130
+SG0280KZ.A           20334
+SG0274LZ.A            4109
+SG0275DZ.A            9183
+SG0275LZ.A            3952
+SG0281KZ.A           17581
+SG0276DZ.A           10538
+SG0276LZ.A            4067
+SG0282KZ.A           16910
+SG0277DZ.A           10283
+SG0283KZ.A           21204
+SG0277LZ.A            4182
+SG0278DZ.A            9553
+SG0278LZ.A            3958
+SG0284KZ.A           17218
+SG0279DZ.A           10972
+SG0285KZ.A           19179
+SG0279LZ.A            4200
+SG0280DZ.A           10627
+SG0286KZ.A           19189
+SG0280LZ.A            4318
+SG0281DZ.A            9662
+SG0281LZ.A            3958
+SG0287KZ.A           18909
+SG0282DZ.A            9493
+SG0282LZ.A            3946
+SG0288KZ.A           20263
+SG0283DZ.A           11219
+SG0289KZ.A           18524
+SG0283LZ.A            4371
+SG0284DZ.A            9043
+SG0284LZ.A            4032
+SG0290KZ.A           19356
+SG0285DZ.A           10196
+SG0291KZ.A           19633
+SG0285LZ.A            4099
+SG0286DZ.A           10789
+SG0292KZ.A           19888
+SG0286LZ.A            4184
+SG0287DZ.A           10682
+SG0293KZ.A           18826
+SG0287LZ.A            4149
+SG0288DZ.A           10946
+SG0294KZ.A           18037
+SG0288LZ.A            4355
+SG0289DZ.A            9350
+SG0289LZ.A            4059
+SG0295KZ.A           18138
+SG0290DZ.A           10766
+SG0296KZ.A           20024
+SG0290LZ.A            4229
+SG0291DZ.A           10474
+SG0297KZ.A           21338
+SG0291LZ.A            4274
+SG0292DZ.A           10696
+SG0298KZ.A           18281
+SG0292LZ.A            4266
+SG0293DZ.A           10392
+SG0293LZ.A            4082
+SG0299KZ.A           16805
+SG0294DZ.A            9710
+SG0294LZ.A            4091
+SG0300KZ.A           17725
+SG0295DZ.A            9460
+SG0301KZ.A           18916
+SG0295LZ.A            4111
+SG0296DZ.A           10715
+SG0302KZ.A           19077
+SG0296LZ.A            4242
+SG0297DZ.A           11457
+SG0303KZ.A           18961
+SG0297LZ.A            4441
+SG0298DZ.A           10381
+SG0304KZ.A           19573
+SG0298LZ.A            4144
+SG0299DZ.A            8352
+SG0299LZ.A            3944
+SG0305KZ.A           18961
+SG0300DZ.A            9563
+SG0300LZ.A            4066
+SG0306KZ.A           19312
+SG0301DZ.A           10570
+SG0307KZ.A           21448
+SG0301LZ.A            4215
+SG0302DZ.A            9670
+SG0308KZ.A           18775
+SG0302LZ.A            4257
+SG0303DZ.A           10148
+SG0309KZ.A           18845
+SG0303LZ.A            4153
+SG0304DZ.A           10446
+SG0310KZ.A           20813
+SG0304LZ.A            4361
+SG0305DZ.A           10461
+SG0311KZ.A           19498
+SG0305LZ.A            4217
+SG0306DZ.A           11075
+SG0306LZ.A            4085
+SG0312KZ.A           19456
+SG0307DZ.A           11195
+SG0313KZ.A           20597
+SG0307LZ.A            4421
+SG0308DZ.A           10896
+SG0314KZ.A           20287
+SG0308LZ.A            4172
+SG0309DZ.A            9707
+SG0315KZ.A           21038
+SG0309LZ.A            4199
+SG0310DZ.A           12123
+SG0316KZ.A           20234
+SG0310LZ.A            4354
+SG0311DZ.A           10593
+SG0317KZ.A           20030
+SG0311LZ.A            4175
+SG0312DZ.A           10613
+SG0318KZ.A           23937
+SG0312LZ.A            4298
+SG0313DZ.A           11402
+SG0319KZ.A           20708
+SG0313LZ.A            4272
+SG0314DZ.A           11602
+SG0320KZ.A           19682
+SG0314LZ.A            4279
+SG0315DZ.A           11472
+SG0321KZ.A           20017
+SG0315LZ.A            4427
+SG0316DZ.A           10897
+SG0322KZ.A           20683
+SG0316LZ.A            4330
+SG0317DZ.A           10675
+SG0323KZ.A           18590
+SG0317LZ.A            4342
+SG0324KZ.A           20090
+SG0318DZ.A            9791
+SG0319DZ.A            9931
+SG0318LZ.A            4253
+SG0319LZ.A            4071
+SG0325KZ.A           19533
+SG0320DZ.A           10430
+SG0326KZ.A           17198
+SG0320LZ.A            4328
+SG0321DZ.A           11311
+SG0327KZ.A           20110
+SG0321LZ.A            4310
+SG0322DZ.A           10640
+SG0328KZ.A           19672
+SG0322LZ.A            4297
+SG0323DZ.A           10388
+SG0329KZ.A           19086
+SG0323LZ.A            4190
+SG0324DZ.A           11061
+SG0330KZ.A           19803
+SG0324LZ.A            4222
+SG0325DZ.A           10555
+SG0331KZ.A           20121
+SG0325LZ.A            4217
+SG0326DZ.A            8789
+SG0326LZ.A            4041
+SG0332KZ.A           20300
+SG0327DZ.A           11095
+SG0333KZ.A           21065
+SG0327LZ.A            4237
+SG0328DZ.A           10909
+SG0334KZ.A           21541
+SG0328LZ.A            4305
+SG0329DZ.A           10315
+SG0335KZ.A           21055
+SG0329LZ.A            4231
+SG0330DZ.A           11217
+SG0336KZ.A           20687
+SG0330LZ.A            4312
+SG0331DZ.A           11019
+SG0337KZ.A           18912
+SG0331LZ.A            4285
+SG0332DZ.A           10985
+SG0339KZ.A           20340
+SG0332LZ.A            4211
+SG0333DZ.A           11587
+SG0340KZ.A           21018
+SG0333LZ.A            4408
+SG0341KZ.A           19232
+SG0334DZ.A           12383
+SG0342KZ.A           17699
+SG0334LZ.A            4418
+SG0335DZ.A           12328
+SG0336DZ.A           11334
+SG0335LZ.A            4394
+SG0343KZ.A           17005
+SG0336LZ.A            4354
+SG0337DZ.A           10061
+SG0344KZ.A           17852
+SG0337LZ.A            4137
+SG0339DZ.A           10578
+SG0338DZ.A            8479
+SG0338LZ.A            3885
+SG0345KZ.A           21343
+SG0338KZ.A           21471
+SG0339LZ.A            4270
+SG0340DZ.A           11177
+SG0346KZ.A           19870
+SG0340LZ.A            4453
+SG0341DZ.A           10264
+SG0347KZ.A           20651
+SG0341LZ.A            4270
+SG0342DZ.A            9742
+SG0342LZ.A            3942
+SG0348KZ.A           18692
+SG0343DZ.A            9322
+SG0343LZ.A            4008
+SG0349KZ.A           20096
+SG0344DZ.A            9809
+SG0344LZ.A            4057
+SG0350KZ.A           19639
+SG0345DZ.A           11520
+SG0351KZ.A           19450
+SG0345LZ.A            4378
+SG0346DZ.A           10892
+SG0352KZ.A           20551
+SG0346LZ.A            4251
+SG0347DZ.A           11305
+SG0353KZ.A           21063
+SG0347LZ.A            4277
+SG0348DZ.A           10205
+SG0354KZ.A           19595
+SG0348LZ.A            4188
+SG0349DZ.A           11284
+SG0355KZ.A           19785
+SG0349LZ.A            4192
+SG0350DZ.A           10699
+SG0356KZ.A           19497
+SG0350LZ.A            4148
+SG0351DZ.A           10129
+SG0351LZ.A            4050
+SG0357KZ.A           21081
+SG0352DZ.A           10857
+SG0358KZ.A           13949
+SG0352LZ.A            4388
+SG0353DZ.A           11003
+SG0359KZ.A           21390
+SG0353LZ.A            4586
+SG0354DZ.A           10831
+SG0360KZ.A           19060
+SG0354LZ.A            4296
+SG0355DZ.A           10315
+SG0361KZ.A           17392
+SG0355LZ.A            4333
+SG0356DZ.A           10395
+SG0362KZ.A           18956
+SG0356LZ.A            4287
+SG0357DZ.A           11341
+SG0358DZ.A            5604
+SG0357LZ.A            4432
+SG0358LZ.A            3634
+SG0363KZ.A           17669
+SG0364KZ.A           17989
+SG0359DZ.A           11731
+SG0365KZ.A           20145
+SG0359LZ.A            4393
+SG0360DZ.A           10501
+SG0366KZ.A           20406
+SG0360LZ.A            4177
+SG0361DZ.A            9788
+SG0361LZ.A            3983
+SG0367KZ.A           19990
+SG0362DZ.A           11450
+SG0368KZ.A           21165
+SG0362LZ.A            4127
+SG0363DZ.A            9458
+SG0363LZ.A            3991
+SG0369KZ.A           19798
+SG0364DZ.A            9002
+SG0370KZ.A           18437
+SG0364LZ.A            4132
+SG0365DZ.A           10851
+SG0371KZ.A           18890
+SG0365LZ.A            4193
+SG0366DZ.A           10925
+SG0372KZ.A           20179
+SG0366LZ.A            4248
+SG0367DZ.A           10508
+SG0373KZ.A           19581
+SG0367LZ.A            4207
+SG0368DZ.A           11471
+SG0374KZ.A           20831
+SG0368LZ.A            4447
+SG0369DZ.A           10757
+SG0375KZ.A           18296
+SG0369LZ.A            4270
+SG0370DZ.A            9852
+SG0376KZ.A           18905
+SG0370LZ.A            4106
+SG0371DZ.A           10871
+SG0377KZ.A           17912
+SG0371LZ.A            4100
+SG0372DZ.A           11774
+SG0378KZ.A           17904
+SG0372LZ.A            4238
+SG0373DZ.A           10891
+SG0379KZ.A           18721
+SG0373LZ.A            4215
+SG0374DZ.A           11121
+SG0380KZ.A           19850
+SG0374LZ.A            4429
+SG0375DZ.A            9766
+SG0381KZ.A           18723
+SG0375LZ.A            4155
+SG0376DZ.A            9909
+SG0382KZ.A           14710
+SG0376LZ.A            4197
+SG0377DZ.A            9470
+SG0377LZ.A            4044
+SG0383KZ.A           13229
+SG0378DZ.A           10093
+SG0384KZ.A           13508
+SG0378LZ.A            4139
+SG0379DZ.A           10102
+SG0385KZ.A           17894
+SG0379LZ.A            4172
+SG0380DZ.A           10095
+SG0386KZ.A           16300
+SG0380LZ.A            4401
+SG0381DZ.A            9918
+SG0382DZ.A            7431
+SG0381LZ.A            4134
+SG0382LZ.A            3771
+SG0387KZ.A           19039
+SG0383DZ.A            6228
+SG0383LZ.A            3588
+SG0388KZ.A           18588
+SG0384DZ.A            6627
+SG0384LZ.A            3611
+SG0389KZ.A           19079
+SG0390KZ.A           19747
+SG0385DZ.A            9423
+SG0385LZ.A            4017
+SG0391KZ.A           19166
+SG0386DZ.A            8706
+SG0386LZ.A            3896
+SG0392KZ.A           18531
+SG0387DZ.A            9968
+SG0393KZ.A           16212
+SG0387LZ.A            4218
+SG0388DZ.A            9495
+SG0394KZ.A           19970
+SG0388LZ.A            4282
+SG0389DZ.A           10323
+SG0395KZ.A           19932
+SG0389LZ.A            4153
+SG0390DZ.A           10297
+SG0396KZ.A           21918
+SG0390LZ.A            4270
+SG0391DZ.A           10633
+SG0397KZ.A           18944
+SG0391LZ.A            4177
+SG0392DZ.A            9995
+SG0392LZ.A            4062
+SG0393DZ.A            7858
+SG0393LZ.A            3791
+SG0398KZ.A           21614
+SG0399KZ.A           19163
+SG0394DZ.A           11180
+SG0400KZ.A           20899
+SG0394LZ.A            4139
+SG0395DZ.A           10502
+SG0401KZ.A           21197
+SG0395LZ.A            4241
+SG0396DZ.A           11371
+SG0402KZ.A           21553
+SG0396LZ.A            4491
+SG0397DZ.A           10201
+SG0403KZ.A           21289
+SG0397LZ.A            4138
+SG0398DZ.A           11255
+SG0404KZ.A           20948
+SG0398LZ.A            4449
+SG0399DZ.A            9667
+SG0405KZ.A           20621
+SG0399LZ.A            4264
+SG0400DZ.A           11005
+SG0406KZ.A           20548
+SG0400LZ.A            4434
+SG0401DZ.A           11116
+SG0407KZ.A           20928
+SG0401LZ.A            4491
+SG0402DZ.A           11616
+SG0408KZ.A           19797
+SG0402LZ.A            4468
+SG0403DZ.A           11561
+SG0409KZ.A           19436
+SG0403LZ.A            4436
+SG0404DZ.A           11464
+SG0410KZ.A           19914
+SG0404LZ.A            4457
+SG0405DZ.A           10945
+SG0411KZ.A           19722
+SG0405LZ.A            4372
+SG0406DZ.A           11425
+SG0412KZ.A           19693
+SG0406LZ.A            4319
+SG0407DZ.A           11149
+SG0413KZ.A           21532
+SG0407LZ.A            4387
+SG0408DZ.A           10348
+SG0414KZ.A           22085
+SG0408LZ.A            4303
+SG0409DZ.A           10603
+SG0415KZ.A           16107
+SG0409LZ.A            4203
+SG0410DZ.A           10228
+SG0416KZ.A           18557
+SG0410LZ.A            4226
+SG0411DZ.A           10500
+SG0417KZ.A           18947
+SG0411LZ.A            4376
+SG0412DZ.A           11175
+SG0418KZ.A           17133
+SG0412LZ.A            4296
+SG0413DZ.A           11785
+SG0419KZ.A           18797
+SG0413LZ.A            4402
+SG0414DZ.A           11742
+SG0420KZ.A           18008
+SG0414LZ.A            4535
+SG0415DZ.A            8908
+SG0415LZ.A            3823
+SG0421KZ.A           17191
+SG0416DZ.A            9639
+SG0422KZ.A           20436
+SG0416LZ.A            4123
+SG0417DZ.A            9613
+SG0423KZ.A           18694
+SG0417LZ.A            4155
+SG0418DZ.A            9105
+SG0418LZ.A            3997
+SG0424KZ.A           20519
+SG0419DZ.A            9577
+SG0425KZ.A           17867
+SG0419LZ.A            4107
+SG0420DZ.A            9482
+SG0420LZ.A            4007
+SG0426KZ.A           20354
+SG0421DZ.A            8335
+SG0421LZ.A            3929
+SG0427KZ.A           17627
+SG0422DZ.A           11078
+SG0428KZ.A           18704
+SG0422LZ.A            4393
+SG0423DZ.A            9892
+SG0429KZ.A           19045
+SG0423LZ.A            4158
+SG0424DZ.A           10518
+SG0430KZ.A           19577
+SG0424LZ.A            4321
+SG0425DZ.A            9026
+SG0431KZ.A           11596
+SG0425LZ.A            4158
+SG0426DZ.A           10659
+SG0432KZ.A           18405
+SG0426LZ.A            4271
+SG0427DZ.A            8621
+SG0427LZ.A            4082
+SG0433KZ.A           19595
+SG0428DZ.A            9971
+SG0434KZ.A           19890
+SG0428LZ.A            4154
+SG0429DZ.A           10122
+SG0429LZ.A            4048
+SG0435KZ.A           20119
+SG0430DZ.A           10692
+SG0431DZ.A            4163
+SG0430LZ.A            4121
+SG0431LZ.A            3370
+SG0436KZ.A           19196
+SG0437KZ.A           17917
+SG0432DZ.A            9266
+SG0432LZ.A            4032
+SG0438KZ.A           17980
+SG0433DZ.A            9859
+SG0439KZ.A           19389
+SG0433LZ.A            4300
+SG0434DZ.A           10345
+SG0440KZ.A           18381
+SG0434LZ.A            4256
+SG0435DZ.A           10552
+SG0441KZ.A           21004
+SG0435LZ.A            4173
+SG0436DZ.A            9857
+SG0442KZ.A           19172
+SG0436LZ.A            4263
+SG0437DZ.A            9502
+SG0437LZ.A            4086
+SG0443KZ.A           19321
+SG0438DZ.A            9182
+SG0444KZ.A           18795
+SG0438LZ.A            4158
+SG0439DZ.A           10338
+SG0445KZ.A           18729
+SG0439LZ.A            4136
+SG0440DZ.A            9508
+SG0440LZ.A            3931
+SG0446KZ.A           18105
+SG0441DZ.A           11442
+SG0447KZ.A           19664
+SG0441LZ.A            4419
+SG0442DZ.A           10160
+SG0448KZ.A           18751
+SG0442LZ.A            4137
+SG0443DZ.A           10832
+SG0449KZ.A           19570
+SG0443LZ.A            4155
+SG0444DZ.A           10422
+SG0450KZ.A           19114
+SG0444LZ.A            4101
+SG0445DZ.A           10199
+SG0445LZ.A            4056
+SG0451KZ.A           19029
+SG0446DZ.A            9904
+SG0452KZ.A           19752
+SG0446LZ.A            4135
+SG0447DZ.A            9965
+SG0453KZ.A           20772
+SG0447LZ.A            4100
+SG0448DZ.A            9997
+SG0454KZ.A           17085
+SG0448LZ.A            4105
+SG0449DZ.A           10327
+SG0455KZ.A           19370
+SG0449LZ.A            4237
+SG0450DZ.A           10026
+SG0456KZ.A           20416
+SG0450LZ.A            4173
+SG0451DZ.A           10710
+SG0457KZ.A           18364
+SG0451LZ.A            4124
+SG0452DZ.A           10823
+SG0458KZ.A           20158
+SG0452LZ.A            4214
+SG0453DZ.A           11224
+SG0459KZ.A           18077
+SG0453LZ.A            4329
+SG0454DZ.A            9238
+SG0454LZ.A            3983
+SG0460KZ.A           19501
+SG0455DZ.A           10127
+SG0461KZ.A           21183
+SG0455LZ.A            4232
+SG0456DZ.A           10909
+SG0462KZ.A           17355
+SG0456LZ.A            4313
+SG0457DZ.A            9411
+SG0457LZ.A            4091
+SG0463KZ.A           20519
+SG0458DZ.A           10290
+SG0464KZ.A           12478
+SG0458LZ.A            4316
+SG0459DZ.A            9927
+SG0465KZ.A           18860
+SG0459LZ.A            4193
+SG0460DZ.A           10140
+SG0466KZ.A           18644
+SG0460LZ.A            4213
+SG0461DZ.A           10925
+SG0467KZ.A           19339
+SG0461LZ.A            4465
+SG0462DZ.A            8517
+SG0462LZ.A            4061
+SG0468KZ.A           17692
+SG0463DZ.A           11286
+SG0464DZ.A            4462
+SG0463LZ.A            4262
+SG0464LZ.A            3486
+SG0469KZ.A           20162
+SG0470KZ.A           17822
+SG0465DZ.A            9031
+SG0471KZ.A            8615
+SG0465LZ.A            4160
+SG0466DZ.A            9397
+SG0472KZ.A           18507
+SG0466LZ.A            4150
+SG0467DZ.A            9972
+SG0473KZ.A           17807
+SG0467LZ.A            4218
+SG0480KZ.A           20111
+SG0468LZ.A            4086
+SG0474KZ.A           20167
+SG0469DZ.A           10886
+SG0471DZ.A            3920
+SG0469LZ.A            4315
+SG0470DZ.A            9607
+SG0471LZ.A            3169
+SG0470LZ.A            4107
+SG0475KZ.A           15416
+SG0476KZ.A           19419
+SG0477KZ.A           19828
+SG0472DZ.A           10289
+SG0472LZ.A            4096
+SG0478KZ.A           18175
+SG0473DZ.A            9346
+SG0473LZ.A            4048
+SG0479KZ.A           19358
+SG0474DZ.A           11122
+SG0475DZ.A            7506
+SG0474LZ.A            4233
+SG0475LZ.A            3877
+SG0481KZ.A           16228
+SG0482KZ.A           19217
+SG0476DZ.A           10419
+SG0483KZ.A           18797
+SG0476LZ.A            4210
+SG0477DZ.A           10462
+SG0484KZ.A           16719
+SG0477LZ.A            4293
+SG0478DZ.A           10073
+SG0468DZ.A            9240
+SG0478LZ.A            4174
+SG0479DZ.A           10482
+SG0485KZ.A           18611
+SG0479LZ.A            4257
+SG0480DZ.A           11257
+SG0481DZ.A            7845
+SG0480LZ.A            4300
+SG0481LZ.A            3954
+SG0486KZ.A           19699
+SG0487KZ.A           18836
+SG0482DZ.A            9666
+SG0488KZ.A           19126
+SG0482LZ.A            4202
+SG0483DZ.A           10035
+SG0483LZ.A            4048
+SG0489KZ.A           17909
+SG0484DZ.A            8623
+SG0484LZ.A            3908
+SG0490KZ.A           19539
+SG0485DZ.A           10092
+SG0485LZ.A            4026
+SG0491KZ.A           19994
+SG0486DZ.A           10310
+SG0492KZ.A           18154
+SG0486LZ.A            4211
+SG0487DZ.A           10140
+SG0493KZ.A           18873
+SG0487LZ.A            4155
+SG0488DZ.A            9915
+SG0494KZ.A           19860
+SG0488LZ.A            4225
+SG0489DZ.A            9274
+SG0495KZ.A           17348
+SG0489LZ.A            4117
+SG0490DZ.A           10177
+SG0496KZ.A           18480
+SG0490LZ.A            4156
+SG0491DZ.A           10655
+SG0497KZ.A           18709
+SG0491LZ.A            4235
+SG0492DZ.A            8479
+SG0498KZ.A           19519
+SG0492LZ.A            4193
+SG0493DZ.A           10067
+SG0499KZ.A           19504
+SG0493LZ.A            4142
+SG0494DZ.A           10384
+SG0500KZ.A           17841
+SG0494LZ.A            4234
+SG0495DZ.A            9397
+SG0495LZ.A            3943
+SG0501KZ.A           18195
+SG0496DZ.A            9896
+SG0502KZ.A           16841
+SG0496LZ.A            4128
+SG0497DZ.A            9866
+SG0497LZ.A            4091
+SG0503KZ.A           17768
+SG0498DZ.A            9976
+SG0504KZ.A           18343
+SG0498LZ.A            4149
+SG0499DZ.A            9683
+SG0505KZ.A           20452
+SG0499LZ.A            4210
+SG0500DZ.A            9084
+SG0506KZ.A           19461
+SG0500LZ.A            4166
+SG0501DZ.A            9249
+SG0507KZ.A           19385
+SG0501LZ.A            4210
+SG0502DZ.A            8810
+SG0502LZ.A            4040
+SG0508KZ.A           18836
+SG0503DZ.A            9517
+SG0509KZ.A           18390
+SG0503LZ.A            4119
+SG0504DZ.A           10178
+SG0504LZ.A            4064
+SG0510KZ.A           19125
+SG0505DZ.A           11229
+SG0511KZ.A           19867
+SG0505LZ.A            4269
+SG0506DZ.A           10393
+SG0512KZ.A           20431
+SG0506LZ.A            4201
+SG0507DZ.A           10553
+SG0513KZ.A           19526
+SG0507LZ.A            4132
+SG0508DZ.A            9039
+SG0514KZ.A           20288
+SG0508LZ.A            4276
+SG0509DZ.A           10030
+SG0515KZ.A           19306
+SG0509LZ.A            4116
+SG0510DZ.A           10102
+SG0516KZ.A           18797
+SG0510LZ.A            4115
+SG0529KZ.A           18546
+SG0517KZ.A           19239
+SG0511LZ.A            4161
+SG0512DZ.A           11294
+SG0518KZ.A           18596
+SG0512LZ.A            4231
+SG0513DZ.A           10738
+SG0519KZ.A           20897
+SG0513LZ.A            4248
+SG0514DZ.A           11069
+SG0520KZ.A           17024
+SG0514LZ.A            4245
+SG0515DZ.A           10043
+SG0521KZ.A           18032
+SG0515LZ.A            4217
+SG0516DZ.A            9835
+SG0522KZ.A           19383
+SG0516LZ.A            4132
+SG0517DZ.A           10376
+SG0523KZ.A           18065
+SG0517LZ.A            4178
+SG0518DZ.A            8761
+SG0518LZ.A            4033
+SG0524KZ.A           18145
+SG0519DZ.A           10587
+SG0525KZ.A           19134
+SG0519LZ.A            4270
+SG0520DZ.A            8976
+SG0520LZ.A            4001
+SG0526KZ.A           18277
+SG0521DZ.A            9191
+SG0527KZ.A           19816
+SG0521LZ.A            4210
+SG0522DZ.A            9777
+SG0528KZ.A           19799
+SG0522LZ.A            4319
+SG0523DZ.A            9480
+SG0523LZ.A            4065
+SG0530KZ.A           17001
+SG0524DZ.A            9958
+SG0524LZ.A            4058
+SG0531KZ.A           19208
+SG0525DZ.A           10618
+SG0511DZ.A           10307
+SG0525LZ.A            4186
+SG0526DZ.A           10385
+SG0526LZ.A            4079
+SG0532KZ.A           19201
+SG0527DZ.A           10365
+SG0533KZ.A           18689
+SG0527LZ.A            4238
+SG0528DZ.A           11009
+SG0534KZ.A           18393
+SG0528LZ.A            4203
+SG0529DZ.A            9859
+SG0535KZ.A           19049
+SG0529LZ.A            4154
+SG0530DZ.A            8360
+SG0530LZ.A            3936
+SG0536KZ.A           19532
+SG0531DZ.A           10448
+SG0537KZ.A           19720
+SG0531LZ.A            4210
+SG0532DZ.A           10385
+SG0538KZ.A           19284
+SG0532LZ.A            4199
+SG0533DZ.A           10517
+SG0539KZ.A           20687
+SG0533LZ.A            4131
+SG0534DZ.A            9839
+SG0540KZ.A           19438
+SG0534LZ.A            4184
+SG0535DZ.A           10573
+SG0535LZ.A            4093
+SG0541KZ.A           20210
+SG0536DZ.A           10991
+SG0542KZ.A           20911
+SG0536LZ.A            4218
+SG0537DZ.A           10982
+SG0543KZ.A           19062
+SG0537LZ.A            4217
+SG0538DZ.A           10190
+SG0544KZ.A           18558
+SG0538LZ.A            4162
+SG0539DZ.A           10672
+SG0545KZ.A           15906
+SG0539LZ.A            4321
+SG0540DZ.A           10183
+SG0546KZ.A           14670
+SG0540LZ.A            4186
+SG0541DZ.A           10336
+SG0547KZ.A           12727
+SG0541LZ.A            4405
+SG0542DZ.A           10844
+SG0548KZ.A           10798
+SG0542LZ.A            4415
+SG0543DZ.A           10358
+SG0549KZ.A            9859
+SG0543LZ.A            4231
+SG0544DZ.A            9703
+SG0545DZ.A            7914
+SG0544LZ.A            4128
+SG0545LZ.A            3785
+SG0550KZ.A           11433
+SG0546DZ.A            7371
+SG0546LZ.A            3690
+SG0551KZ.A           15829
+SG0547DZ.A            6046
+SG0547LZ.A            3627
+SG0552KZ.A           17135
+SG0548DZ.A            5110
+SG0548LZ.A            3337
+SG0553KZ.A           16533
+SG0549DZ.A            4394
+SG0549LZ.A            3292
+SG0554KZ.A           20562
+SG0550DZ.A            5230
+SG0550LZ.A            3381
+SG0555KZ.A           17862
+SG0556KZ.A           17586
+SG0551DZ.A            8208
+SG0551LZ.A            3813
+SG0557KZ.A           19963
+SG0552DZ.A            8886
+SG0552LZ.A            4013
+SG0558KZ.A           19215
+SG0553DZ.A            8862
+SG0553LZ.A            3853
+SG0559KZ.A           19137
+SG0554DZ.A            9447
+SG0554LZ.A            3962
+SG0560KZ.A           18755
+SG0555DZ.A            9068
+SG0555LZ.A            4045
+SG0561KZ.A           16418
+SG0556DZ.A            9447
+SG0556LZ.A            3960
+SG0562KZ.A           16317
+SG0557DZ.A           10142
+SG0563KZ.A           19055
+SG0557LZ.A            4180
+SG0558DZ.A           10386
+SG0564KZ.A           18230
+SG0558LZ.A            4132
+SG0559DZ.A           10154
+SG0565KZ.A           20530
+SG0559LZ.A            4174
+SG0560DZ.A           10071
+SG0560LZ.A            4081
+SG0566KZ.A           19178
+SG0561DZ.A            8585
+SG0561LZ.A            3993
+SG0567KZ.A           19927
+SG0562DZ.A            8572
+SG0562LZ.A            3829
+SG0568KZ.A           21279
+SG0563DZ.A           10199
+SG0569KZ.A           20364
+SG0563LZ.A            4139
+SG0564DZ.A            9422
+SG0570KZ.A           16777
+SG0564LZ.A            4206
+SG0565DZ.A           10941
+SG0571KZ.A           17035
+SG0565LZ.A            4301
+SG0566DZ.A           10502
+SG0572KZ.A           17851
+SG0566LZ.A            4170
+SG0567DZ.A           10674
+SG0573KZ.A           18610
+SG0567LZ.A            4161
+SG0568DZ.A           11157
+SG0574KZ.A           18337
+SG0568LZ.A            4287
+SG0569DZ.A           10941
+SG0575KZ.A           17314
+SG0569LZ.A            4269
+SG0570DZ.A            8649
+SG0570LZ.A            4020
+SG0576KZ.A           18327
+SG0571DZ.A            8703
+SG0571LZ.A            4065
+SG0577KZ.A           18140
+SG0572DZ.A            9325
+SG0578KZ.A           18857
+SG0572LZ.A            4136
+SG0573DZ.A            9657
+SG0573LZ.A            4049
+SG0579KZ.A           12010
+SG0574DZ.A            8974
+SG0574LZ.A            4056
+SG0580KZ.A           17207
+SG0575DZ.A            8534
+SG0575LZ.A            3932
+SG0581KZ.A           20734
+SG0576DZ.A           10087
+SG0576LZ.A            4021
+SG0582KZ.A           18694
+SG0577DZ.A            9608
+SG0577LZ.A            4004
+SG0583KZ.A           17999
+SG0578DZ.A            9993
+SG0579DZ.A            4459
+SG0578LZ.A            4146
+SG0579LZ.A            3411
+SG0584KZ.A           18293
+SG0585KZ.A           13356
+SG0580DZ.A            8458
+SG0580LZ.A            4015
+SG0586KZ.A           12491
+SG0581DZ.A           11086
+SG0587KZ.A           12856
+SG0581LZ.A            4335
+SG0582DZ.A            9913
+SG0588KZ.A           12130
+SG0582LZ.A            4177
+SG0583DZ.A            9486
+SG0583LZ.A            3986
+SG0589KZ.A           11872
+SG0584DZ.A            9635
+SG0585DZ.A            6358
+SG0584LZ.A            4161
+SG0585LZ.A            3678
+SG0590KZ.A           13071
+SG0586DZ.A            5919
+SG0586LZ.A            3494
+SG0591KZ.A           12394
+SG0587DZ.A            6464
+SG0587LZ.A            3521
+SG0592KZ.A           12447
+SG0588DZ.A            5687
+SG0588LZ.A            3478
+SG0593KZ.A           15438
+SG0589DZ.A            5864
+SG0589LZ.A            3366
+SG0594KZ.A           17150
+SG0590DZ.A            6124
+SG0590LZ.A            3494
+SG0595KZ.A           17334
+SG0591DZ.A            6103
+SG0591LZ.A            3539
+SG0596KZ.A           16840
+SG0592DZ.A            5761
+SG0592LZ.A            3518
+SG0597KZ.A           16789
+SG0593DZ.A            7899
+SG0593LZ.A            3812
+SG0598KZ.A           15771
+SG0599KZ.A           16078
+SG0594DZ.A            8928
+SG0594LZ.A            3964
+SG0600KZ.A           16132
+SG0595DZ.A            9073
+SG0595LZ.A            4042
+SG0601KZ.A           17792
+SG0596DZ.A            9280
+SG0596LZ.A            3903
+SG0602KZ.A           16177
+SG0597DZ.A            9088
+SG0597LZ.A            3927
+SG0603KZ.A           16671
+SG0598DZ.A            8434
+SG0598LZ.A            3798
+SG0604KZ.A           18160
+SG0599DZ.A            8444
+SG0599LZ.A            3898
+SG0605KZ.A           15965
+SG0600DZ.A            8510
+SG0600LZ.A            3911
+SG0606KZ.A           19637
+SG0601DZ.A            9242
+SG0601LZ.A            3967
+SG0607KZ.A           18208
+SG0602DZ.A            8354
+SG0602LZ.A            3751
+SG0608KZ.A           18649
+SG0603DZ.A            8868
+SG0603LZ.A            3878
+SG0609KZ.A           18176
+SG0604DZ.A            9590
+SG0604LZ.A            4012
+SG0610KZ.A           20360
+SG0605DZ.A            8551
+SG0605LZ.A            3828
+SG0611KZ.A           19727
+SG0606DZ.A           10401
+SG0612KZ.A           14203
+SG0606LZ.A            4167
+SG0607DZ.A            8967
+SG0607LZ.A            3975
+SG0613KZ.A           17721
+SG0608DZ.A           10073
+SG0614KZ.A           18171
+SG0608LZ.A            4099
+SG0609DZ.A           10178
+SG0609LZ.A            4066
+SG0615KZ.A           18490
+SG0610DZ.A           10906
+SG0616KZ.A           18127
+SG0610LZ.A            4310
+SG0611DZ.A           10464
+SG0612DZ.A            6530
+SG0611LZ.A            4223
+SG0612LZ.A            3776
+SG0617KZ.A           17559
+SG0618KZ.A           20003
+SG0613DZ.A            9771
+SG0613LZ.A            3988
+SG0619KZ.A           18979
+SG0614DZ.A            9624
+SG0620KZ.A           19224
+SG0614LZ.A            4131
+SG0615DZ.A            9562
+SG0621KZ.A           19898
+SG0615LZ.A            4098
+SG0616DZ.A            9809
+SG0616LZ.A            4026
+SG0622KZ.A           18109
+SG0617DZ.A            9344
+SG0617LZ.A            4062
+SG0623KZ.A           18757
+SG0618DZ.A           11154
+SG0624KZ.A           16147
+SG0618LZ.A            4284
+SG0619DZ.A           10154
+SG0625KZ.A           14938
+SG0619LZ.A            4175
+SG0620DZ.A           10174
+SG0620LZ.A            4088
+SG0626KZ.A           16319
+SG0621DZ.A           10511
+SG0627KZ.A           17822
+SG0621LZ.A            4254
+SG0622DZ.A            9518
+SG0622LZ.A            4074
+SG0628KZ.A           20859
+SG0623DZ.A           10109
+SG0624DZ.A            8057
+SG0623LZ.A            4103
+SG0624LZ.A            3893
+SG0629KZ.A           18135
+SG0625DZ.A            7016
+SG0625LZ.A            3780
+SG0630KZ.A           15174
+SG0626DZ.A            8012
+SG0626LZ.A            3985
+SG0631KZ.A           19456
+SG0632KZ.A           18232
+SG0627DZ.A           10027
+SG0627LZ.A            3967
+SG0633KZ.A           19093
+SG0628DZ.A           11426
+SG0634KZ.A           18575
+SG0628LZ.A            4328
+SG0629DZ.A            9622
+SG0629LZ.A            4093
+SG0630DZ.A            7324
+SG0630LZ.A            3796
+SG0635KZ.A           21228
+SG0636KZ.A           18901
+SG0631DZ.A           10408
+SG0637KZ.A           19951
+SG0631LZ.A            4173
+SG0632DZ.A            9567
+SG0638KZ.A           19407
+SG0632LZ.A            4147
+SG0633DZ.A            9938
+SG0639KZ.A           20118
+SG0633LZ.A            4150
+SG0634DZ.A            9135
+SG0634LZ.A            4042
+SG0640KZ.A           19149
+SG0635DZ.A           11421
+SG0641KZ.A           19553
+SG0635LZ.A            4261
+SG0636DZ.A           10077
+SG0642KZ.A           17949
+SG0636LZ.A            4168
+SG0637DZ.A           10529
+SG0643KZ.A           16161
+SG0637LZ.A            4262
+SG0638DZ.A            9895
+SG0644KZ.A           14432
+SG0638LZ.A            4149
+SG0639DZ.A           10953
+SG0645KZ.A           14467
+SG0639LZ.A            4275
+SG0640DZ.A           10279
+SG0646KZ.A           16251
+SG0640LZ.A            4125
+SG0641DZ.A           10303
+SG0647KZ.A           18588
+SG0641LZ.A            4227
+SG0642DZ.A            9684
+SG0642LZ.A            4040
+SG0643DZ.A            7963
+SG0643LZ.A            3946
+SG0648KZ.A           18672
+SG0644DZ.A            6362
+SG0644LZ.A            3725
+SG0649KZ.A           17546
+SG0645DZ.A            6699
+SG0645LZ.A            3760
+SG0650KZ.A           19121
+SG0646DZ.A            7725
+SG0646LZ.A            3937
+SG0651KZ.A           18544
+SG0652KZ.A           17668
+SG0647DZ.A            9772
+SG0653KZ.A           19491
+SG0647LZ.A            4168
+SG0648DZ.A            9857
+SG0654KZ.A           18795
+SG0648LZ.A            4155
+SG0649DZ.A            9164
+SG0649LZ.A            4045
+SG0655KZ.A           19674
+SG0650DZ.A           10217
+SG0656KZ.A           19087
+SG0650LZ.A            4184
+SG0651DZ.A            9939
+SG0657KZ.A           19170
+SG0651LZ.A            4158
+SG0652DZ.A            9769
+SG0652LZ.A            4021
+SG0658KZ.A           21695
+SG0653DZ.A           10071
+BG081704               548
+SG0653LZ.A            4245
+SG0654DZ.A            9746
+BG070804               548
+SG0654LZ.A            4200
+SG0655DZ.A           10343
+BG071904               548
+SG0655LZ.A            4290
+SG0656DZ.A           10286
+ST0015KZ.A           25583
+SG0656LZ.A            4182
+SG0657DZ.A           10172
+SG0659LZ.X00          4096
+SG0657LZ.A            4173
+SG0658DZ.A           10885
+SG0659LZ.X01            53
+SG0658LZ.A            4462
+SG0659DZ.A            9812
+SG0659LZ.A            4149
+ST0013DZ.A             615
+SG0659KZ.A           18614
+ST0013LZ.A            2061
+ST0016KZ.A           23153
+ST0017KZ.A           22480
+ST0014DZ.A             588
+ST0014LZ.A            2057
+ST0016DZ.A             653
+ST0016LZ.A            2057
+ST0015DZ.A             633
+ST0015LZ.A            2058
+ST0017DZ.A             655
+ST0017LZ.A            2072
+ST0014KZ.A           22641
+27026008 bytes used; 2047 files
+-619289537.425,SUSR,N,---- Checking pressure sensor ----
+-619289534.627,HPRES,N,                A/D         mVolts     Meters
+-619289534.885,HPRES,N, Mean:          527503.2   0.612866   7.19    
+-619289533.151,HPRES,N, RMS:           527503.0   0.612866   7.19    
+-619289533.369,HPRES,N, Min:           526622     0.611843   7.12    
+-619289533.587,HPRES,N, Max:           528002     0.613446   7.23    
+-619289533.768,HPRES,N, Peak-to-peak:  1380       1.603318   uV
+
+-619289533.940,HPRES,N, Volts per bit: 1.161825e-09
+
+-619289532.106,HPRES,N,Current pressure y-intercept is -50.597691 (psig).
+-619289532.303,HPRES,N,If truly at sealevel, this data suggests it should be -61.089649 (psig).
+-619289532.523,HTT8,N,Updating parameter $PRESSURE_YINT to -61.089649
+-619289532.880,HTT8,N,Writing NVRAM...done.
+-619289523.749,HPRES,N,new value automatically accepted
+-619289522.577,HPRES,N,                A/D         mVolts     Meters
+-619289522.834,HPRES,N, Mean:          524876.1   0.609814   -0.21   
+-619289521.098,HPRES,N, RMS:           524876.0   0.609814   -0.21   
+-619289521.316,HPRES,N, Min:           524230     0.609063   -0.26   
+-619289521.534,HPRES,N, Max:           525634     0.610695   -0.15   
+-619289521.715,HPRES,N, Peak-to-peak:  1404       1.631202   uV
+
+-619289521.887,HPRES,N, Volts per bit: 1.161825e-09
+
+-619289520.054,HPRES,N,Current pressure y-intercept is -61.089649 (psig).
+-619289520.251,HPRES,N,If truly at sealevel, this data suggests it should be -60.785419 (psig).
+-619289520.470,HTT8,N,Updating parameter $PRESSURE_YINT to -60.785419
+-619289520.828,HTT8,N,Writing NVRAM...done.
+-619289511.697,HPRES,N,new value automatically accepted
+-619289510.625,HPRES,N,                A/D         mVolts     Meters
+-619289510.883,HPRES,N, Mean:          522664.5   0.607245   -0.18   
+-619289507.349,HPRES,N, RMS:           522664.8   0.607245   -0.18   
+-619289507.565,HPRES,N, Min:           521631     0.606044   -0.26   
+-619289507.781,HPRES,N, Max:           523622     0.608357   -0.10   
+-619289507.965,HPRES,N, Peak-to-peak:  1991       2.313193   uV
+
+-619289506.137,HPRES,N, Volts per bit: 1.161825e-09
+
+-619289506.304,HPRES,N,Current pressure y-intercept is -60.785419 (psig).
+-619289506.501,HPRES,N,If truly at sealevel, this data suggests it should be -60.529251 (psig).
+-619289506.720,HTT8,N,Updating parameter $PRESSURE_YINT to -60.529251
+-619289505.078,HTT8,N,Writing NVRAM...done.
+-619289497.947,HPRES,N,new value automatically accepted
+-619289496.063,HPRES,N,skipping additional verification attempts
+-619289496.261,SUSR,N,---- Checking pitch, roll, and VBD ----
+-619289496.382,SUSR,N,---- Checking pitch motor ----
+-619289496.487,SUSR,N,Pitching up
+-619289496.824,HPITCH,N,Pitch commanded from -6.39 cm (1110) to 2.32 cm (3894)...
+-619289493.750,HPITCH,N,-6.0 cm (ad: 1227) mA=161 minV=26.7 (0,0)
+-619289487.475,HPITCH,N,-1.6 cm (ad: 2650) mA=149 minV=26.7 (0,0)
+-619289481.175,HPITCH,N,2.2 cm (ad: 3869) mA=152 minV=21.3 (0,0)MOTOR_DONE: ticks: 32 max 24v: 5.4mA avg 24v: 3.8mA minV 24v: 24.7V
+-619289481.989,SMOTOR,N,GC TICKS/TIME: 491/496069
+-619289480.089,HPITCH,N,done.
+-619289480.239,HPITCH,N,Pitch completed from -6.39 cm (1110) to 2.24 cm (3869) took 11.4 sec 152 mA (315 mA peak) 21.3 Vmin 242.02 AD/sec 456 ticks
+-619289480.701,HPITCH,N,TRACK: b: 3863/0 a: 3866/0 d: -4 o: 3
+-619289480.819,SUSR,N,Pitching down
+-619289479.162,HPITCH,N,Pitch commanded from 2.23 cm (3868) to -9.23 cm (199)...
+-619289476.091,HPITCH,N,1.7 cm (ad: 3712) mA=34 minV=26.1 (0,0)
+-619289471.791,HPITCH,N,-5.1 cm (ad: 1523) mA=22 minV=26.1 (0,0)MOTOR_DONE: ticks: 2 max 24v: 3.8mA avg 24v: 3.8mA minV 24v: 25.3V
+-619289467.831,SMOTOR,N,GC TICKS/TIME: 391/396061
+-619289467.931,HPITCH,N,done.
+-619289466.081,HPITCH,N,Pitch completed from 2.24 cm (3869) to -9.34 cm (166) took 9.6 sec 23 mA (236 mA peak) 25.2 Vmin 383.73 AD/sec 386 ticks
+-619289466.530,HPITCH,N,TRACK: b: 212/0 a: 208/0 d: 3 o: -42
+-619289466.649,SUSR,N,Backing off pitch mass
+-619289465.184,HPITCH,N,   Pitch control position = -9.34 cm, (AD#= 164 )
+-619289465.592,HPITCH,N,Pitch commanded from -9.34 cm (164) to -7.35 cm (803)...
+-619289462.648,HPITCH,N,-9.0 cm (ad: 280) mA=148 minV=26.4 (0,0)MOTOR_DONE: ticks: 1 max 24v: 3.8mA avg 24v: 3.8mA minV 24v: 23.0V
+-619289459.170,SMOTOR,N,GC TICKS/TIME: 100/106358
+-619289459.270,HPITCH,N,done.
+-619289459.421,HPITCH,N,Pitch completed from -9.34 cm (165) to -7.36 cm (797) took 2.4 sec 148 mA (277 mA peak) 22.3 Vmin 263.33 AD/sec 96 ticks
+-619289459.875,HPITCH,N,TRACK: b: 791/0 a: 793/0 d: -3 o: 4
+-619289459.994,SUSR,N,---- Checking roll motor ----
+-619289458.098,SUSR,N,Roll to port
+-619289458.420,HROLL,N,Roll commanded from -0.45 deg (2066) to -50.63 deg (291)...
+-619289455.339,HROLL,N,-6.7 deg (ad: 1844) mA=50 minV=26.3 (0,0)MOTOR_DONE: ticks: 19 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 25.1V
+-619289452.834,SMOTOR,N,GC TICKS/TIME: 141/146347
+-619289452.934,HROLL,N,done.
+-619289451.090,HROLL,N,Roll completed from -0.45 deg (2066) to -49.22 deg (341) took 3.0 sec 54 mA (213 mA peak) 24.1 Vmin 579.83 AD/sec 119 ticks
+-619289451.542,HROLL,N,TRACK: b: 363/0 a: 360/0 d: 0 o: -19
+-619289451.658,SUSR,N,Roll to starboard
+-619289451.992,HROLL,N,Roll commanded from -49.22 deg (341) to 50.63 deg (3873)...
+-619289448.911,HROLL,N,-43.2 deg (ad: 555) mA=41 minV=26.3 (0,0)
+-619289442.611,HROLL,N,49.5 deg (ad: 3833) mA=38 minV=24.3 (0,0)MOTOR_DONE: ticks: 28 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 25.4V
+-619289441.430,SMOTOR,N,GC TICKS/TIME: 262/267133
+-619289441.530,HROLL,N,done.
+-619289441.692,HROLL,N,Roll completed from -49.25 deg (340) to 49.50 deg (3833) took 5.8 sec 38 mA (207 mA peak) 24.3 Vmin 604.85 AD/sec 231 ticks
+-619289440.143,HROLL,N,TRACK: b: 3814/0 a: 3818/0 d: -1 o: 15
+-619289440.262,SUSR,N,Roll to neutral
+-619289440.567,HROLL,N,Roll commanded from 49.50 deg (3833) to 0.00 deg (2082)...
+-619289437.525,HROLL,N,43.4 deg (ad: 3617) mA=38 minV=26.3 (0,0)Updating parameter $R_PORT_OVSHOOT to 39
+-619289434.517,SMOTOR,N,MOTOR_DONE: ticks: 9 max 24v: 3.8mA avg 24v: 3.1mA minV 24v: 25.6V
+-619289434.678,SMOTOR,N,GC TICKS/TIME: 121/126167
+-619289434.779,HROLL,N,done.
+-619289434.935,HROLL,N,Roll completed from 49.50 deg (3833) to 0.76 deg (2109) took 2.7 sec 28 mA (208 mA peak) 25.3 Vmin 632.66 AD/sec 109 ticks
+-619289433.387,HROLL,N,TRACK: b: 2152/0 a: 2148/0 d: 3 o: -39
+-619289433.508,SUSR,N,---- Checking VBD and valve ----
+-619289433.892,HVBD,N,   VBD lin pot AD counts: 2031 1959
+-619289432.050,HVBD,N,   VBD bladder position = 17.17 cc, (AD#= 1995 )
+-619289432.457,HVBD,N,   VBD lin pot AD counts: 2031 1959
+-619289432.616,HVBD,N,   VBD bladder position = 17.17 cc, (AD#= 1995 )
+-619289432.751,SUSR,N,Pumping 100cc on boost alone
+-619289431.114,HVBD,N,Pump commanded from 17.17 cc (1995) to 117.25 cc (1587)...
+-619289428.046,HVBD,N,17.7 cc (ad: 1993 [2031,1954]) mA=71 minV=26.5 (0,0)
+-619289423.771,HVBD,N,29.2 cc (ad: 1946 [1980,1910]) mA=54 minV=26.5 (0,0)
+-619289417.471,HVBD,N,40.7 cc (ad: 1899 [1927,1868]) mA=54 minV=26.5 (0,0)
+-619289411.196,HVBD,N,51.8 cc (ad: 1854 [1882,1823]) mA=54 minV=26.5 (0,0)
+-619289406.921,HVBD,N,63.0 cc (ad: 1808 [1836,1777]) mA=54 minV=26.5 (0,0)
+-619289400.621,HVBD,N,74.6 cc (ad: 1761 [1792,1731]) mA=54 minV=26.5 (0,0)
+-619289394.321,HVBD,N,85.6 cc (ad: 1716 [1747,1683]) mA=54 minV=26.5 (0,0)
+-619289388.046,HVBD,N,96.9 cc (ad: 1670 [1705,1633]) mA=54 minV=26.5 (0,0)
+-619289383.771,HVBD,N,108.7 cc (ad: 1622 [1659,1584]) mA=54 minV=26.5 (0,0)MOTOR_DONE: ticks: 1 max 24v: 4.6mA avg 24v: 4.6mA minV 24v: 25.0V
+-619289378.390,SMOTOR,N,GC TICKS/TIME: 2015/2020363
+-619289378.493,HVBD,N,done.
+-619289378.658,HVBD,N,Pump completed from 17.17 cc (1995) to 117.50 cc (1586 [1626, 1546]) took 50.3 sec 54 mA (334 mA peak) 24.8 Vmin 8.14 AD/sec 2011 ticks
+-619289377.134,HVBD,N,TRACK: b: 1627/1548 a: 1627/1548 d: -40 o: -41
+-619289377.265,SUSR,N,Pumping up to maximum buoyancy
+-619289377.632,HVBD,N,Pump commanded from 117.99 cc (1584) to 414.56 cc (375)...
+-619289374.602,HVBD,N,118.2 cc (ad: 1583 [1623,1542]) mA=73 minV=26.4 (0,0)
+-619289368.327,HVBD,N,127.3 cc (ad: 1546 [1588,1504]) mA=487 minV=26.4 (0,0)
+-619289362.077,HVBD,N,135.9 cc (ad: 1511 [1555,1466]) mA=529 minV=26.4 (0,0)
+-619289357.802,HVBD,N,145.5 cc (ad: 1472 [1517,1426]) mA=548 minV=26.4 (0,0)
+-619289351.527,HVBD,N,155.5 cc (ad: 1431 [1477,1384]) mA=555 minV=26.4 (0,0)
+-619289345.252,HVBD,N,165.8 cc (ad: 1389 [1434,1342]) mA=557 minV=26.4 (0,0)
+-619289340.977,HVBD,N,176.1 cc (ad: 1347 [1395,1297]) mA=557 minV=26.4 (0,0)
+-619289334.702,HVBD,N,186.9 cc (ad: 1303 [1352,1253]) mA=561 minV=26.4 (0,0)
+-619289328.452,HVBD,N,197.0 cc (ad: 1262 [1311,1210]) mA=562 minV=26.4 (0,0)
+-619289322.202,HVBD,N,207.8 cc (ad: 1218 [1269,1166]) mA=562 minV=26.4 (0,0)
+-619289317.952,HVBD,N,218.6 cc (ad: 1174 [1225,1123]) mA=563 minV=26.4 (0,0)
+-619289311.702,HVBD,N,229.1 cc (ad: 1131 [1180,1080]) mA=565 minV=26.4 (0,0)
+-619289305.452,HVBD,N,239.7 cc (ad: 1088 [1137,1038]) mA=565 minV=26.4 (0,0)
+-619289299.202,HVBD,N,250.5 cc (ad: 1044 [1092,994]) mA=565 minV=26.4 (0,0)
+-619289294.927,HVBD,N,261.2 cc (ad: 1000 [1048,950]) mA=565 minV=26.4 (0,0)
+-619289288.652,HVBD,N,272.5 cc (ad: 955 [1001,906]) mA=565 minV=26.4 (0,0)
+-619289282.402,HVBD,N,283.3 cc (ad: 910 [956,864]) mA=564 minV=26.4 (0,0)
+-619289276.127,HVBD,N,294.1 cc (ad: 866 [911,820]) mA=563 minV=26.4 (0,0)
+-619289271.852,HVBD,N,305.2 cc (ad: 821 [865,776]) mA=563 minV=26.4 (0,0)
+-619289265.577,HVBD,N,316.2 cc (ad: 776 [820,732]) mA=563 minV=26.4 (0,0)
+-619289259.302,HVBD,N,327.0 cc (ad: 732 [773,690]) mA=562 minV=26.4 (0,0)
+-619289253.027,HVBD,N,338.0 cc (ad: 687 [725,647]) mA=562 minV=26.4 (0,0)
+-619289248.727,HVBD,N,349.3 cc (ad: 641 [678,602]) mA=563 minV=26.4 (0,0)
+-619289242.477,HVBD,N,360.1 cc (ad: 597 [632,562]) mA=575 minV=26.4 (0,0)
+-619289236.202,HVBD,N,370.6 cc (ad: 554 [585,521]) mA=575 minV=26.4 (0,0)
+-619289231.927,HVBD,N,381.7 cc (ad: 509 [533,482]) mA=575 minV=26.4 (0,0)
+-619289225.652,HVBD,N,392.7 cc (ad: 464 [483,443]) mA=575 minV=26.4 (0,0)
+-619289219.352,HVBD,N,404.0 cc (ad: 418 [429,404]) mA=575 minV=26.4 (0,0)
+-619289211.402,HVBD,N,415.3 cc (ad: 372 [375,370]) mA=575 minV=22.5 (0,0)MOTOR_DONE: ticks: 124 max 24v: 6.9mA avg 24v: 4.6mA minV 24v: 25.2V
+-619289210.333,SMOTOR,N,GC TICKS/TIME: 6548/6556695
+-619289210.436,HVBD,N,done.
+-619289210.604,HVBD,N,Pump completed from 117.74 cc (1585) to 415.29 cc (372 [376, 369]) took 160.5 sec 575 mA (1455 mA peak) 22.5 Vmin 7.56 AD/sec 6421 ticks
+-619289209.091,HVBD,N,TRACK: b: 379/372 a: 379/372 d: -4 o: -7
+-619289209.236,SUSR,N,$D_BOOST restored to 3.00
+0.530,SSURF,N,Initializing data file
+0.788,SSURF,N,Initializing log file
+2.656,SUSR,N,---- Checking sensors and data file creation ----
+3.944,SUSR,N,Measured conductivity zero frequency is acceptable.Changing to bin 20.0() at 0.00m: sec=5.0s gc=60.0s pressure=1 compass=1 timeout=10.00
+8.561,SSENSOR,N,Changing to bin 20.0() at 0.00m: sec=5.0s gc=60.0s pressure=1 compass=1 timeout=10.00
+0.763,SSURF,N,Dive started Fri Aug 20 15:23:31 2004
+ (1093015411)
+8.449,SSENSOR,N,P 6683ms -2.35m 99.3 #1
+13.457,SSENSOR,N,P 11690ms -2.35m 100.9 #2
+18.423,SSENSOR,N,P 16656ms -2.29m 100.5 #3
+23.402,SSENSOR,N,P 21635ms -2.36m 97.4 #4
+28.447,SSENSOR,N,P 26680ms -2.41m 100.3 #5
+33.335,SSENSOR,N,A 30949ms -2.39m 96.9 #6
+38.334,SSENSOR,N,A 35949ms -2.37m 92.4 #7
+43.334,SSENSOR,N,A 40950ms -2.41m 90.5 #8
+48.334,SSENSOR,N,A 45949ms -2.36m 94.1 #9
+53.335,SSENSOR,N,A 50950ms -2.38m 96.8 #10
+58.808,SSENSOR,N,P 56687ms -2.43m 102.1 #11
+62.768,SSENSOR,N,P 61000ms -2.40m 105.8 #12
+68.447,SSENSOR,N,P 66680ms -2.47m 104.8 #13
+73.453,SSENSOR,N,P 71685ms -2.48m 100.5 #14
+78.455,SSENSOR,N,P 76688ms -2.49m 103.8 #15
+79.910,SSENSOR,N,Average sampleData time: 46.966s/15 = 3.131s
+version: 66.14
+glider: 194
+mission: 12
+selftest: 18
+start: 8 20 104 15 23 23
+columns: rec,elaps_tms,depth,heading,pitch,roll,AD_pitch,AD_roll,AD_vbd,GC_phase,mag.x,mag.y,mag.z,sbect.TempFreq,sbect.CondFreq,aa4330.O2,aa4330.AirSat,aa4330.Temp,aa4330.CalPhase,aa4330.TCPhase,wlbb2fl.sig470nm,wlbb2fl.sig700nm,wlbb2fl.sig695nm,wlbb2fl.temp,
+data:
+0 6683 -235 993 -319 71 797 2109 372 6 220 -165 371 257335 348465 321192 86059 7639 33813 33813 246 60 64 569
+1 11690 -235 1009 -322 72 797 2109 372 6 218 -164 372 2571 923 -325 74 797 2109 372 6 242 -166 358 257024 348466 320540 85951 7670 33821 33821 254 59 64 568
+7 40950 -240 905 -327 72 797 2109 372 6 248 -167 353 257117 348463 320592 85973 7674 33817 33817 246 60 69 568
+8 45949 -235 941 -326 64 797 2109 372 6 238 -171 358 257049 348466 320429 85921 7670 33825 33825 252 60 69 568
+9 50950 -237 967 -322 76 797 2109 372 6 225 -173 365 256586 348467 320695 85975 7662 33820 33820 248 58 66 568
+10 56687 -242 1021 -322 66 797 2109 372 6 216 -164 373 256636 348467 320538 85967 7678 33817 33817 263 58 71 568
+11 61000 -240 1058 -326 72 797 2109 372 6 206 -166 378 256401 348464 320290 85918 7686 33822 33822 247 59 65 568
+12 66680 -247 1047 -322 66 797 2109 372 6 209 -163 377 256970 348464 320773 86027 7676 33809 33809 247 59 61 568
+13 71685 -248 1004 -326 67 797 2109 372 6 221 -168 368 256791 348465 320878 86045 7672 33807 33807 245 58 65 568
+14 76688 -249 1038 -324 74 797 2109 372 6 210 -165 376 256872 348466 320660 86030 7692 33804 33804 249 60 67 568
+93.504,SUSR,N,---- Writing internal sensors to log ----
+93.629,HTT8,N,TT8 state: Normal (2MHz); analog off; TPU TCR1 480000Hz, tick rate 40000Hz
+93.849,SPOWER,N,All devices are off.
+94.497,HTT8,N,TT8 milliamps 28.46
+94.749,SUSR,N,internal humidity 1805 counts (45.269974% RH)
+94.958,SUSR,N,internal pressure 8.693991 psia
+95.057,SUSR,N,---- Checking altimeter ----
+95.604,HXPDR,N,ping response: R006.421ms
+
+95.667,HXPDR,N,range 4.815750 m
+96.200,SUSR,N,---- Checking transponder ----
+96.495,HXPDR,N,Unexpected [] to $C1
+
+96.616,HXPDR,N,Tried 1 times cmd $C1
+
+96.882,SUSR,N,transponder reply ping count=0
+97.206,HTT8,N,Writing NVRAM...done.
+106.062,SUSR,N,---- Reporting targets and science specifications ----
+111.349,SNAV,N,      Target     Latitude  Longitude    Heading Radius Depth Finish Timeout Next target Escp target
+111.741,SNAV,N,      NW1        4738.657  -12253.412  -1.0    250.0m    0  60  0.0 NW2S none
+112.108,SNAV,N,  =>  NW2S       4738.117  -12254.800  -1.0    250.0m    0 240  0.0 NW3 none
+114.684,SNAV,N,      NW3        4737.577  -12256.188  -1.0    250.0m    0 240  0.0 NW2N none
+115.045,SNAV,N,      NW2N       4738.117  -12254.800  -1.0    250.0m    0  60  0.0 NW1 none
+117.520,SSENSOR,N,20.0 gc=60.0 seconds=5.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] WL_blue_red_Chl_old_fw=[1,pr=3,dv=1] 
+117.935,SSENSOR,N,50.0 gc=120.0 seconds=10.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] WL_blue_red_Chl_old_fw=[1,pr=3,dv=1] 
+118.368,SSENSOR,N,100.0 gc=120.0 seconds=10.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] WL_blue_red_Chl_old_fw=[1,pr=3,dv=1] 
+118.803,SSENSOR,N,250.0 gc=180.0 seconds=10.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] WL_blue_red_Chl_old_fw=[1,pr=3,dv=1] 
+119.231,SSENSOR,N,400.0 gc=300.0 seconds=20.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] WL_blue_red_Chl_old_fw=[1,pr=3,dv=1] 
+119.633,SUSR,N,---- Reporting battery status ----
+129.668,SPOWER,N,------ Fuel gauges (Cumulative Amp-secs) -------
+
+                           cumulative      / since power up
+129.962,SPOWER,N,             Pitch_motor:  2173.90 amp-sec /    23.45 sec
+130.185,SPOWER,N,              Roll_motor:  1014.04 amp-sec /    11.48 sec
+130.386,SPOWER,N,    VBD_pump_during_apogee: 176472.73 amp-sec /     0.00 sec
+130.619,SPOWER,N,    VBD_pump_during_surface: 10638.24 amp-sec /   210.80 sec
+130.777,SPOWER,N,               VBD_valve:     0.00 amp-sec /     0.00 sec
+130.929,SPOWER,N,     Iridium_during_init:     0.00 amp-sec /     0.00 sec
+131.080,SPOWER,N,    Iridium_during_connect:     0.00 amp-sec /     0.00 sec
+131.311,SPOWER,N,     Iridium_during_xfer: 13578.47 amp-sec /    22.67 sec
+131.521,SPOWER,N,        Transponder_ping:  2130.22 amp-sec /     1.00 sec
+131.675,SPOWER,N,             GUMSTIX_24V:     0.00 amp-sec /     0.00 sec
+131.864,SPOWER,N,      ------------- 24V/high bus total = 57.224 AmpHr -----------
+132.100,SPOWER,N,                     GPS:  1138.30 amp-sec /   123.25 sec
+134.476,SPOWER,N,                     TT8:  8864.80 amp-sec /   464.49 sec
+134.699,SPOWER,N,                 LPSleep:  2261.85 amp-sec /    21.28 sec
+134.927,SPOWER,N,              TT8_Active:  4975.55 amp-sec /   252.40 sec
+135.157,SPOWER,N,            TT8_Sampling: 28170.32 amp-sec /   177.39 sec
+135.386,SPOWER,N,                 TT8_CF8:  6676.07 amp-sec /   206.47 sec
+135.573,SPOWER,N,              TT8_Kalman:   403.09 amp-sec /     0.00 sec
+135.806,SPOWER,N,         Analog_circuits: 12042.47 amp-sec /   349.96 sec
+135.960,SPOWER,N,            GPS_charging:     0.00 amp-sec /     0.00 sec
+136.181,SPOWER,N,                 Compass:  3847.44 amp-sec /    27.15 sec
+136.335,SPOWER,N,                   RAFOS:     0.00 amp-sec /     0.00 sec
+136.552,SPOWER,N,             Transponder:  1284.84 amp-sec /     7.00 sec
+136.706,SPOWER,N,                Compass2:     0.00 amp-sec /     0.00 sec
+136.927,SPOWER,N,                  SBE_CT:  3736.11 amp-sec /    13.92 sec
+137.146,SPOWER,N,                  AA4330:   227.38 amp-sec /    20.40 sec
+137.365,SPOWER,N,    WL_blue_red_Chl_old_fw:   229.87 amp-sec /    21.58 sec
+137.558,SPOWER,N,      ------------- 10V/low bus total = 20.516 AmpHr ------------
+137.786,SPOWER,N,24V battery at 59.70 pct of 142.0 A-hr
+137.971,SPOWER,N,10V battery at 78.40 pct of 95.0 A-hr
+143.661,HBATT,N,24V voltage = 26.27 +/- NaNV n=6 [26.27V 26.27V]
+143.906,HBATT,N,10V voltage = 10.61 +/- NaNV n=6 [10.61V 10.61V]
+147.676,SUSR,N,---- Checking capture vector ----
+147.784,SUSR,N,all capture settings at default values
+147.893,SUSR,N,---- Checking flash ----
+No flash problems detected
+162.842,SUSR,N,---- Checking SMS ----
+162.931,SUSR,N,sms_email = ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+163.093,HPHONE,N,Testing SMS try: 0
+180.800,HPHONE,N,Phone registered
+180.850,HPHONE,N,Checking for SMS capability
+183.900,HPHONE,N,Phone can send sms and can receive sms (3)
+183.975,HPHONE,N,No valid SMS email address set - no SMS sent
+186.089,HPHONE,N,phone on 22750 ms, avg mA=21.4, max mA=55.1
+188.219,SUSR,N,*** EOTD ***
+188.469,SUSR,N,Saving to SG194PRM.TXT---- Self test PASSED! ----
+Compressing THISDIVE.LOG to st0018lz.x...
+Compressing THISDIVE.DAT to st0018dz.x...
+201.853,SUSR,N,---- Checking communications ----
+201.962,SUSR,N,Testing comms by transmitting self-test results:
+212.603,HCF8,N,'st0018dz.x00' opened
+212.890,HCF8,N,'st0018dz.x00' has 676 bytes
+223.360,HCF8,N,'st0018lz.x00' opened
+223.776,HCF8,N,'st0018lz.x00' has 2065 bytes
+229.760,SSURF,N,Collecting glider state
+230.271,HBATT,N,24V batt pack voltage = 26.39V
+230.407,HBATT,N,10V batt pack voltage = 10.68V
+230.760,SDIVE,N,Measuring depth & angle for 1 sec done.
+235.014,SDIVE,N,Measured depth: -2.88m angle: -32.17deg
+235.410,SGLMALLOC,N,glheap_walk: 335168 bytes free, 11 blocks free, 12032 bytes alloc, 29 blocks alloc
+235.552,SSURF,N,Trying call 0
+235.593,SSURF,N,Calling phone number: 88160000581
+237.753,HPHONE,N,init RUDICS
+253.203,HPHONE,N,Phone registered
+259.803,HPHONE,N,Iridium signal strength: 5 after 3 queries
+259.878,HPHONE,N,cnt_NoComm:0 callCycle:0 smsLastCallCycle:-1
+260.028,HPHONE,N,Iridium geolocation: 47.639545 -122.242470 Tue Apr  2 19:05:37 2024
+267.303,HPHONE,N,Dial success
+282.078,SSURF,N,Logged in
+283.253,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+287.428,SSURF,N,Receiving cmdfile...
+288.353,SSURF,N,S,0,1,128
+292.403,SSURF,N,E,3,1,128
+296.103,SSURF,N,Received cmdfile 306 bytes
+297.378,SSURF,N,Transmission succeeded
+297.478,HTT8,N,Updating parameter $D_TGT to 30
+297.553,HTT8,N,Updating parameter $D_ABORT to 1090
+297.603,HTT8,N,Updating parameter $T_DIVE to 10
+297.678,HTT8,N,Updating parameter $T_MISSION to 30
+297.753,HTT8,N,Updating parameter $T_SLOITER to 60
+297.828,HTT8,N,Updating parameter $MASS to 53536
+297.903,HTT8,N,Updating parameter $TGT_DEFAULT_LON to -12225
+297.978,SUSR,N,Unable to determine $parameter,value in '$NCOMM_ACTION, 0'!
+298.078,HTT8,N,Updating parameter $CALL_TRIES to 5
+298.153,HTT8,N,Updating parameter $CAPUPLOAD to 1
+298.203,HTT8,N,Updating parameter $CAPMAXSIZE to 200000
+298.303,HTT8,N,Updating parameter $T_GPS to 15
+300.553,HTT8,N,Updating parameter $T_RSLEEP to 2
+300.628,HTT8,N,Updating parameter $C_PITCH to 3285
+300.703,HTT8,N,Updating parameter $C_ROLL_DIVE to 2775
+300.778,HTT8,N,Updating parameter $C_ROLL_CLIMB to 2775
+300.853,HTT8,N,Updating parameter $ROLL_MAXERRORS to 2
+300.928,HTT8,N,Updating parameter $C_VBD to 3000
+301.003,HTT8,N,Updating parameter $CF8_MAXERRORS to 5
+301.053,SDIVE,N,Parsed command: $QUIT
+301.328,HTT8,N,Writing NVRAM...done.
+309.728,SUSR,N,$ID,194
+309.778,SUSR,N,$MISSION,12
+309.803,SUSR,N,$DIVE,0
+309.828,SUSR,N,$N_DIVES,0
+309.878,SUSR,N,$STOP_T,0
+309.903,SUSR,N,$D_SURF,3
+309.953,SUSR,N,$D_FLARE,2
+309.978,SUSR,N,$D_TGT,30
+310.028,SUSR,N,$D_ABORT,1090
+310.053,SUSR,N,$D_NO_BLEED,50
+310.103,SUSR,N,$D_BOOST,3
+310.128,SUSR,N,$T_BOOST,0
+310.178,SUSR,N,$D_FINISH,0
+310.203,SUSR,N,$D_PITCH,0
+310.253,SUSR,N,$D_SAFE,0
+310.278,SUSR,N,$D_CALL,0
+310.303,SUSR,N,$SURFACE_URGENCY,0
+310.353,SUSR,N,$SURFACE_URGENCY_TRY,0
+310.403,SUSR,N,$SURFACE_URGENCY_FORCE,0
+310.453,SUSR,N,$T_DIVE,10
+310.503,SUSR,N,$T_MISSION,30
+310.528,SUSR,N,$T_ABORT,1440
+310.578,SUSR,N,$T_TURN,290
+310.628,SUSR,N,$T_TURN_SAMPINT,5
+310.653,SUSR,N,$T_NO_W,120
+310.703,SUSR,N,$T_LOITER,0
+310.728,SUSR,N,$T_SLOITER,60
+310.778,SUSR,N,$T_EPIRB,0
+310.803,SUSR,N,$USE_BATHY,0
+310.853,SUSR,N,$USE_ICE,0
+310.878,SUSR,N,$ICE_FREEZE_MARGIN,0.30000001
+310.953,SUSR,N,$D_OFFGRID,100
+311.003,SUSR,N,$T_WATCHDOG,10
+311.028,SUSR,N,$RELAUNCH,1
+311.078,SUSR,N,$APOGEE_PITCH,-5
+311.128,SUSR,N,$MAX_BUOY,250
+311.153,SUSR,N,$COURSE_BIAS,0
+311.203,SUSR,N,$GLIDE_SLOPE,30
+311.228,SUSR,N,$SPEED_FACTOR,1
+311.278,SUSR,N,$RHO,1.023
+311.328,SUSR,N,$MASS,53536
+311.353,SUSR,N,$MASS_COMP,0
+311.403,SUSR,N,$NAV_MODE,2
+311.428,SUSR,N,$FERRY_MAX,45
+311.478,SUSR,N,$KALMAN_USE,2
+311.528,SUSR,N,$HD_A,0.003
+311.553,SUSR,N,$HD_B,0.0099999998
+311.628,SUSR,N,$HD_C,9.9999997e-06
+311.653,SUSR,N,$HEADING,-1
+311.703,SUSR,N,$ESCAPE_HEADING,0
+311.753,SUSR,N,$ESCAPE_HEADING_DELTA,10
+311.803,SUSR,N,$FIX_MISSING_TIMEOUT,0
+311.853,SUSR,N,$TGT_DEFAULT_LAT,4736
+311.903,SUSR,N,$TGT_DEFAULT_LON,-12225
+311.953,SUSR,N,$TGT_AUTO_DEFAULT,0
+314.128,SUSR,N,$SM_CC,414.55698
+314.178,SUSR,N,$N_FILEKB,4
+314.203,SUSR,N,$FILEMGR,0
+314.253,SUSR,N,$CALL_NDIVES,1
+314.278,SUSR,N,$COMM_SEQ,0
+314.328,SUSR,N,$PROTOCOL,9
+314.353,SUSR,N,$N_NOCOMM,1
+314.403,SUSR,N,$NOCOMM_ACTION,163
+314.453,SUSR,N,$N_NOSURFACE,0
+314.478,SUSR,N,$UPLOAD_DIVES_MAX,-1
+314.528,SUSR,N,$CALL_TRIES,5
+314.578,SUSR,N,$CALL_WAIT,60
+314.628,SUSR,N,$CAPUPLOAD,1
+314.653,SUSR,N,$CAPMAXSIZE,200000
+314.703,SUSR,N,$HEAPDBG,0
+314.753,SUSR,N,$T_GPS,15
+314.778,SUSR,N,$N_GPS,50840
+314.828,SUSR,N,$T_RSLEEP,2
+314.853,SUSR,N,$STROBE,0
+314.903,SUSR,N,$RAFOS_PEAK_OFFSET,1.5
+314.953,SUSR,N,$RAFOS_CORR_THRESH,60
+315.003,SUSR,N,$RAFOS_HIT_WINDOW,3600
+315.053,SUSR,N,$RAFOS_MMODEM,0
+315.103,SUSR,N,$PITCH_MIN,199
+315.128,SUSR,N,$PITCH_MAX,3894
+315.178,SUSR,N,$C_PITCH,3285
+315.228,SUSR,N,$PITCH_DBAND,0.1
+315.278,SUSR,N,$PITCH_CNV,0.003125763
+315.328,SUSR,N,$P_OVSHOOT,0.039999999
+315.378,SUSR,N,$P_OVSHOOT_WITHG,0.1
+315.428,SUSR,N,$PITCH_GAIN,23
+315.478,SUSR,N,$PITCH_TIMEOUT,17
+315.528,SUSR,N,$PITCH_AD_RATE,160
+315.578,SUSR,N,$PITCH_MAXERRORS,1
+315.628,SUSR,N,$PITCH_ADJ_GAIN,0.02
+315.678,SUSR,N,$PITCH_ADJ_DBAND,2.5
+315.728,SUSR,N,$ROLL_MIN,291
+315.753,SUSR,N,$ROLL_MAX,3873
+315.803,SUSR,N,$ROLL_DEG,40
+315.853,SUSR,N,$C_ROLL_DIVE,2775
+315.903,SUSR,N,$C_ROLL_CLIMB,2775
+315.953,SUSR,N,$HEAD_ERRBAND,10
+316.003,SUSR,N,$ROLL_CNV,0.028270001
+316.053,SUSR,N,$ROLL_TIMEOUT,15
+316.078,SUSR,N,$R_PORT_OVSHOOT,39
+316.128,SUSR,N,$R_STBD_OVSHOOT,56
+316.178,SUSR,N,$ROLL_AD_RATE,350
+316.228,SUSR,N,$ROLL_MAXERRORS,2
+316.278,SUSR,N,$ROLL_ADJ_GAIN,0
+316.303,SUSR,N,$ROLL_ADJ_DBAND,0
+316.353,SUSR,N,$VBD_MIN,375
+316.403,SUSR,N,$VBD_MAX,3900
+316.453,SUSR,N,$C_VBD,3000
+316.478,SUSR,N,$VBD_DBAND,2
+316.528,SUSR,N,$VBD_CNV,-0.24529999
+316.578,SUSR,N,$VBD_LP_IGNORE,0
+316.628,SUSR,N,$VBD_TIMEOUT,720
+316.653,SUSR,N,$PITCH_VBD_SHIFT,0.001
+316.728,SUSR,N,$VBD_PUMP_AD_RATE_SURFACE,5
+316.778,SUSR,N,$VBD_PUMP_AD_RATE_APOGEE,4
+316.828,SUSR,N,$VBD_BLEED_AD_RATE,8
+316.878,SUSR,N,$UNCOM_BLEED,60
+316.928,SUSR,N,$VBD_MAXERRORS,1
+316.978,SUSR,N,$W_ADJ_DBAND,2
+317.003,SUSR,N,$DBDW,0
+319.153,SUSR,N,$PITCH_W_GAIN,0
+319.203,SUSR,N,$PITCH_W_DBAND,1
+319.253,SUSR,N,$CF8_MAXERRORS,5
+319.303,SUSR,N,$AH0_24V,142
+319.328,SUSR,N,$AH0_10V,95
+319.378,SUSR,N,$MINV_24V,19
+319.428,SUSR,N,$MINV_10V,8
+319.453,SUSR,N,$MAXI_24V,0.80000001
+319.503,SUSR,N,$MAXI_10V,0.60000002
+319.553,SUSR,N,$FG_AHR_10V,0
+319.603,SUSR,N,$FG_AHR_24V,0
+319.628,SUSR,N,$PHONE_SUPPLY,-2
+319.678,SUSR,N,$PRESSURE_YINT,-60.529251
+319.728,SUSR,N,$PRESSURE_SLOPE,0.0001158091
+319.803,SUSR,N,$AD7714Ch0Gain,128
+319.853,SUSR,N,$TCM_PITCH_OFFSET,0
+319.878,SUSR,N,$TCM_ROLL_OFFSET,0
+319.928,SUSR,N,$COMPASS_USE,4
+319.978,SUSR,N,$ALTIM_BOTTOM_PING_RANGE,0
+320.028,SUSR,N,$ALTIM_TOP_PING_RANGE,20
+320.078,SUSR,N,$ALTIM_BOTTOM_TURN_MARGIN,15
+320.128,SUSR,N,$ALTIM_TOP_TURN_MARGIN,0
+320.203,SUSR,N,$ALTIM_TOP_MIN_OBSTACLE,1
+320.253,SUSR,N,$ALTIM_PING_DEPTH,100
+320.303,SUSR,N,$ALTIM_PING_DELTA,5
+320.353,SUSR,N,$ALTIM_FREQUENCY,13
+320.403,SUSR,N,$ALTIM_PULSE,3
+320.428,SUSR,N,$ALTIM_SENSITIVITY,3
+320.478,SUSR,N,$XPDR_VALID,3
+320.528,SUSR,N,$XPDR_INHIBIT,90
+320.578,SUSR,N,$INT_PRESSURE_SLOPE,0.0097660003
+320.653,SUSR,N,$INT_PRESSURE_YINT,1.223
+320.703,SUSR,N,$DEEPGLIDER,0
+320.728,SUSR,N,$MOTHERBOARD,4
+320.778,SUSR,N,$DEVICE1,2
+320.803,SUSR,N,$DEVICE2,101
+320.853,SUSR,N,$DEVICE3,35
+320.903,SUSR,N,$DEVICE4,-1
+320.928,SUSR,N,$DEVICE5,-1
+320.978,SUSR,N,$DEVICE6,-1
+321.003,SUSR,N,$LOGGERS,0
+321.053,SUSR,N,$LOGGERDEVICE1,-1
+321.078,SUSR,N,$LOGGERDEVICE2,-1
+321.128,SUSR,N,$LOGGERDEVICE3,-1
+321.178,SUSR,N,$LOGGERDEVICE4,-1
+321.228,SUSR,N,$COMPASS_DEVICE,33
+321.278,SUSR,N,$COMPASS2_DEVICE,-1
+321.328,SUSR,N,$PHONE_DEVICE,49
+321.378,SUSR,N,$GPS_DEVICE,32
+321.403,SUSR,N,$RAFOS_DEVICE,-1
+321.453,SUSR,N,$XPDR_DEVICE,24
+321.503,SUSR,N,$SIM_W,0
+321.528,SUSR,N,$SIM_PITCH,0
+321.578,SUSR,N,$SEABIRD_T_G,0.0044215675
+321.628,SUSR,N,$SEABIRD_T_H,0.0006537037
+321.678,SUSR,N,$SEABIRD_T_I,2.627974e-05
+321.753,SUSR,N,$SEABIRD_T_J,3.2246444e-06
+321.803,SUSR,N,$SEABIRD_C_G,-9.9031057
+321.853,SUSR,N,$SEABIRD_C_H,1.1588713
+321.903,SUSR,N,$SEABIRD_C_I,-0.0017133433
+321.978,SUSR,N,$SEABIRD_C_J,0.00020981402
+324.203,SUSR,N,$SEABIRD_C_Z,2927.3301
+325.353,SSURF,N,Sending cmd lsx -k -t150 targets
+329.528,SSURF,N,Receiving targets...
+330.478,SSURF,N,S,0,1,128
+333.178,SSURF,N,E,2,1,128
+336.828,SSURF,N,Received targets 165 bytes
+338.128,SSURF,N,Transmission succeeded
+340.078,SNAV,N,Using first target 'NORTH'
+343.978,SSURF,N,Sending cmd lsx -k -t150 science
+348.153,SSURF,N,Receiving science...
+349.103,SSURF,N,S,0,1,128
+353.253,SSURF,N,E,3,1,128
+356.953,SSURF,N,Received science 290 bytes
+358.203,SSURF,N,Transmission succeeded
+360.203,SSURF,N,Sending cmd lrx -y -c -t150 st0018lz.x00
+362.003,SSURF,N,Sending st0018lz.x00...
+369.903,SSURF,N,3,1 sz:17 blkSz:128
+371.328,SSURF,N,EOT sent
+373.328,SSURF,N,rcvd ACK (attempt 0)
+376.478,SSURF,N,Transmission succeeded
+377.153,SSURF,N,Sending cmd lrx -y -c -t150 st0018dz.x00
+379.028,SSURF,N,Sending st0018dz.x00...
+379.103,SSURF,N,1,1 sz:676 blkSz:1024
+383.028,SSURF,N,EOT sent
+385.028,SSURF,N,rcvd ACK (attempt 0)
+388.178,SSURF,N,Transmission succeeded
