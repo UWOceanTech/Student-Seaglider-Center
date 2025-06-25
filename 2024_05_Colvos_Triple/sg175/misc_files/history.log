@@ -1,0 +1,1194 @@
+#+1717165770
+echo logged in >> comm.log
+#+1717165773
+printf "0:0:1:0:5:160:0:758:1951:465:-31.68:0.03:10.63:26.17:8.80:37.51 GPS,310524,141722,4719.018,-12231.217,42,1.9,42,18.1\n" >> comm.log
+#+1717165774
+echo ver=66.11,rev=3836M,frag=8,launch=310524:071300 >> comm.log
+#+1717165775
+echo Iridium bars: 5 geolocation: 4703.867188,-12211.445312,280317,035502 >> comm.log
+#+1717165777
+echo READY
+#+1717165778
+rawsend cmdfile
+#+1717165800
+echo READY
+#+1717165801
+rawsend targets
+#+1717165807
+echo READY
+#+1717165808
+rawsend science
+#+1717165812
+echo READY
+#+1717165813
+rawrcv st0074lz.x00
+#+1717165822
+echo READY
+#+1717165823
+rawrcv st0074dz.x00
+#+1717165832
+echo READY
+#+1717165833
+rawrcv st0074kz.x
+#+1717165875
+echo 0:0:1:0:5:160:1 logout >> comm.log
+#+1717165876
+logout
+#+1717166334
+echo logged in >> comm.log
+#+1717166337
+printf "0:1:1:0:5:160:0:758:1951:465:-29.97:0.07:10.68:26.54:8.80:37.95 GPS,310524,143805,4728.416,-12230.318,10,1.7,10,18.1\n" >> comm.log
+#+1717166338
+echo ver=66.11,rev=3836M,frag=4,launch=310524:071300 >> comm.log
+#+1717166340
+echo Iridium bars: 4 geolocation: 4703.867188,-12213.140625,280317,035545 >> comm.log
+#+1717166341
+echo READY
+#+1717166342
+rawsend cmdfile
+#+1717166370
+echo READY
+#+1717166371
+rawrcv sg0000kl.x
+#+1717166387
+echo 0:1:1:0:5:160:1 logout >> comm.log
+#+1717166388
+logout
+#+1717166715
+echo logged in >> comm.log
+#+1717166717
+printf "0:2:1:0:6:160:0:137:2185:504:-19.84:0.03:10.67:26.53:8.80:38.10 GPS,310524,144410,4729.055,-12229.971,9,1.5,14,18.1\n" >> comm.log
+#+1717166719
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717166720
+echo Iridium bars: 5 geolocation: 4710.206055,-12219.232422,280317,040510 >> comm.log
+#+1717166722
+echo READY
+#+1717166723
+rawsend cmdfile
+#+1717166739
+echo READY
+#+1717166741
+rawrcv sg0000lz.x00
+#+1717166748
+echo READY
+#+1717166749
+rawrcv sg0000kz.x00
+#+1717166757
+echo 0:2:1:0:6:160:1 logout >> comm.log
+#+1717166758
+logout
+#+1717166872
+echo logged in >> comm.log
+#+1717166873
+printf "0:3:1:0:6:160:0:137:2185:505:-21.07:0.00:10.67:26.46:8.80:37.91 GPS,310524,144704,4729.079,-12229.937,10,1.3,33,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717166875
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717166876
+echo Iridium bars: 5 geolocation: 4710.206055,-12230.714844,280317,041129 >> comm.log
+#+1717166877
+echo READY
+#+1717166879
+rawsend cmdfile
+#+1717166895
+echo 0:3:1:0:6:160:1 logout >> comm.log
+#+1717166897
+logout
+#+1717167095
+echo logged in >> comm.log
+#+1717167097
+printf "0:4:1:0:6:160:0:137:2185:504:-21.47:0.03:10.66:26.50:8.80:37.79 GPS,310524,145035,4729.098,-12229.881,10,2.0,10,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717167099
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717167100
+echo Iridium bars: 5 geolocation: 4710.206055,-12223.627930,280317,041409 >> comm.log
+#+1717167101
+echo READY
+#+1717167102
+rawsend cmdfile
+#+1717167119
+echo 0:4:1:0:6:160:1 logout >> comm.log
+#+1717167120
+logout
+#+1717167334
+echo logged in >> comm.log
+#+1717167338
+printf "0:5:1:0:6:160:0:137:2185:504:-22.37:0.03:10.68:26.53:8.80:37.99 GPS,310524,145446,4729.125,-12229.826,10,1.8,33,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717167340
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717167342
+echo Iridium bars: 5 geolocation: 4710.206055,-12226.317383,280317,041748 >> comm.log
+#+1717167343
+echo READY
+#+1717167345
+rawsend cmdfile
+#+1717167361
+echo 0:5:1:0:6:160:1 logout >> comm.log
+#+1717167363
+logout
+#+1717167570
+echo logged in >> comm.log
+#+1717167572
+printf "0:6:1:0:6:160:0:137:2185:504:-21.67:0.12:10.69:26.53:8.80:37.79 GPS,310524,145841,4729.152,-12229.780,12,1.8,30,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717167578
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717167582
+echo Iridium bars: 3 geolocation: 4707.035156,-12230.714844,280317,042148 >> comm.log
+#+1717167588
+echo READY
+#+1717167592
+rawsend cmdfile
+#+1717167611
+echo 0:6:1:0:6:160:1 logout >> comm.log
+#+1717167612
+logout
+#+1717167929
+echo logged in >> comm.log
+#+1717167931
+printf "0:7:2:0:6:160:-2:137:2186:504:-19.18:0.00:10.69:26.52:8.80:38.10 GPS,310524,150252,4729.120,-12229.816,14,1.7,31,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717167932
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717167934
+echo Iridium bars: 5 geolocation: 4710.206055,-12228.027344,280317,042545 >> comm.log
+#+1717167935
+echo READY
+#+1717167936
+rawsend cmdfile
+#+1717167960
+echo READY
+#+1717167966
+rawsend science
+#+1717167972
+echo 0:7:2:0:6:160:1 logout >> comm.log
+#+1717167975
+logout
+#+1717168163
+echo logged in >> comm.log
+#+1717168165
+printf "0:8:1:0:6:160:0:137:2185:504:-23.77:0.02:10.68:26.51:8.80:38.10 GPS,310524,150835,4728.998,-12230.007,11,2.0,11,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717168166
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717168168
+echo Iridium bars: 5 geolocation: 4707.035156,-12233.399414,280317,043143 >> comm.log
+#+1717168170
+echo READY
+#+1717168171
+rawsend cmdfile
+#+1717168190
+echo 0:8:1:0:6:160:1 logout >> comm.log
+#+1717168192
+logout
+#+1717168478
+echo logged in >> comm.log
+#+1717168480
+printf "0:9:2:0:6:160:-2:137:2185:504:-24.48:-0.06:10.69:26.52:8.80:37.67 GPS,310524,151211,4728.998,-12230.025,9,2.0,9,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717168482
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717168483
+echo Iridium bars: 4 geolocation: 4710.206055,-12226.317383,280317,043536 >> comm.log
+#+1717168485
+echo READY
+#+1717168486
+rawsend cmdfile
+#+1717168503
+echo 0:9:2:0:6:160:1 logout >> comm.log
+#+1717168504
+logout
+#+1717168699
+echo logged in >> comm.log
+#+1717168701
+printf "0:10:1:0:6:160:0:137:2184:504:-21.47:0.10:10.70:26.53:8.80:38.02 GPS,310524,151729,4729.019,-12229.989,11,1.7,11,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717168703
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717168704
+echo Iridium bars: 2 geolocation: 4707.035156,-12233.399414,280317,044053 >> comm.log
+#+1717168706
+echo READY
+#+1717168707
+rawsend cmdfile
+#+1717168724
+echo 0:10:1:0:6:160:1 logout >> comm.log
+#+1717168725
+logout
+#+1717168914
+echo logged in >> comm.log
+#+1717168915
+printf "0:11:1:0:6:160:0:136:2185:506:-75.15:0.93:10.70:26.53:8.76:36.92 GPS,310524,152105,4729.047,-12229.982,10,1.4,10,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717168917
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717168918
+echo Iridium bars: 5 geolocation: 4710.206055,-12226.317383,280317,044431 >> comm.log
+#+1717168920
+echo READY
+#+1717168921
+rawsend cmdfile
+#+1717168938
+echo 0:11:1:0:6:160:1 logout >> comm.log
+#+1717168940
+logout
+#+1717169131
+echo logged in >> comm.log
+#+1717169133
+printf "0:12:1:0:6:160:0:136:2185:506:-72.25:0.98:10.70:26.52:8.75:37.51 GPS,310524,152439,4729.057,-12229.964,6,1.9,10,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717169136
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717169138
+echo Iridium bars: 5 geolocation: 4707.035156,-12229.003906,280317,044809 >> comm.log
+#+1717169139
+echo READY
+#+1717169141
+rawsend cmdfile
+#+1717169160
+echo 0:12:1:0:6:160:1 logout >> comm.log
+#+1717169168
+logout
+#+1717169362
+echo logged in >> comm.log
+#+1717169364
+printf "0:13:1:0:6:160:0:136:2185:506:-42.50:0.52:10.70:26.51:8.74:38.18 GPS,310524,152829,4729.067,-12229.948,12,1.6,12,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717169365
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717169367
+echo Iridium bars: 5 geolocation: 4710.206055,-12228.027344,280317,045144 >> comm.log
+#+1717169368
+echo READY
+#+1717169369
+rawsend cmdfile
+#+1717169386
+echo 0:13:1:0:6:160:1 logout >> comm.log
+#+1717169387
+logout
+#+1717169572
+echo logged in >> comm.log
+#+1717169574
+printf "0:14:1:0:6:160:0:136:2185:506:-68.97:0.95:10.69:26.49:8.73:38.30 GPS,310524,153205,4729.074,-12229.943,8,1.4,8,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717169575
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717169577
+echo Iridium bars: 5 geolocation: 4707.035156,-12226.317383,280317,045537 >> comm.log
+#+1717169578
+echo READY
+#+1717169579
+rawsend cmdfile
+#+1717169596
+echo 0:14:1:0:6:160:1 logout >> comm.log
+#+1717169597
+logout
+#+1717169789
+echo logged in >> comm.log
+#+1717169791
+printf "0:15:1:0:6:160:0:135:2185:506:-69.26:0.95:10.70:26.51:8.73:38.06 GPS,310524,153541,4729.074,-12229.936,10,1.4,10,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717169794
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717169796
+echo Iridium bars: 5 geolocation: 4710.206055,-12233.399414,280317,045907 >> comm.log
+#+1717169797
+echo READY
+#+1717169798
+rawsend cmdfile
+#+1717169815
+echo 0:15:1:0:6:160:1 logout >> comm.log
+#+1717169816
+logout
+#+1717170020
+echo logged in >> comm.log
+#+1717170022
+printf "0:16:1:0:6:160:0:135:2185:506:-68.33:0.88:10.69:25.77:8.73:38.34 GPS,310524,153911,4729.064,-12229.924,5,2.0,5,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717170023
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717170025
+echo Iridium bars: 5 geolocation: 4710.206055,-12226.317383,280317,050244 >> comm.log
+#+1717170026
+echo READY
+#+1717170028
+rawsend cmdfile
+#+1717170044
+echo 0:16:1:0:6:160:1 logout >> comm.log
+#+1717170046
+logout
+#+1717171701
+echo logged in >> comm.log
+#+1717171703
+printf "1:0:1:0:6:160:0:136:2136:507:-68.86:0.97:10.64:26.36:8.70:37.51 GPS,310524,160705,4729.216,-12229.737,11,1.6,11,18.1\n" >> comm.log
+#+1717171704
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717171706
+echo Iridium bars: 4 geolocation: 4707.035156,-12229.003906,280317,050634 >> comm.log
+#+1717171707
+echo READY
+#+1717171708
+rawsend cmdfile
+#+1717171721
+echo READY
+#+1717171723
+rawsend targets
+#+1717171729
+echo READY
+#+1717171730
+rawrcv sg0001lz.x00
+#+1717171887
+echo logged in >> comm.log
+#+1717171890
+printf "1:0:2:0:6:160:0:136:2136:507:-68.86:0.97:10.64:26.36:8.70:37.51 GPS,310524,160705,4729.216,-12229.737,11,1.6,11,18.1\n" >> comm.log
+#+1717171891
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717171892
+echo Iridium bars: 5 geolocation: 4710.206055,-12235.115234,280317,053437 >> comm.log
+#+1717171894
+echo READY
+#+1717171895
+rawsend cmdfile
+#+1717171912
+echo READY
+#+1717171913
+rawrcv sg0001dz.x00
+#+1717171923
+echo READY
+#+1717171924
+rawrcv sg0001kz.x00
+#+1717171938
+echo READY
+#+1717171940
+rawrcv sg0001kz.x01
+#+1717171954
+echo READY
+#+1717171955
+rawrcv sg0001kz.x02
+#+1717171970
+echo READY
+#+1717171971
+rawrcv sg0001kz.x03
+#+1717171985
+echo READY
+#+1717171987
+rawrcv sg0001kz.x04
+#+1717171992
+echo 1:0:2:0:6:160:1 logout >> comm.log
+#+1717171993
+logout
+#+1717172105
+echo logged in >> comm.log
+#+1717172107
+printf "1:1:1:0:6:160:0:135:2136:502:-67.46:0.90:10.64:26.20:8.71:39.21 GPS,310524,161359,4729.213,-12229.735,8,1.7,8,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717172108
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717172109
+echo Iridium bars: 5 geolocation: 4710.206055,-12233.399414,280317,053743 >> comm.log
+#+1717172111
+echo READY
+#+1717172112
+rawsend cmdfile
+#+1717172129
+echo 1:1:1:0:6:160:1 logout >> comm.log
+#+1717172130
+logout
+#+1717172320
+echo logged in >> comm.log
+#+1717172321
+printf "1:2:1:0:6:160:0:135:2137:501:-67.68:0.93:10.65:26.36:8.72:39.40 GPS,310524,161753,4729.212,-12229.741,9,1.8,9,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717172323
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717172324
+echo Iridium bars: 5 geolocation: 4713.379883,-12150.861328,280317,054120 >> comm.log
+#+1717172326
+echo READY
+#+1717172327
+rawsend cmdfile
+#+1717172346
+echo 1:2:1:0:6:160:1 logout >> comm.log
+#+1717172347
+logout
+#+1717174454
+echo logged in >> comm.log
+#+1717174455
+printf "2:0:1:0:6:160:0:134:2177:507:-68.03:0.91:10.63:26.32:8.69:38.14 GPS,310524,165303,4729.452,-12229.805,8,1.1,36,18.1\n" >> comm.log
+#+1717174457
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717174458
+echo Iridium bars: 5 geolocation: 4710.206055,-12248.329102,280317,054454 >> comm.log
+#+1717174459
+echo READY
+#+1717174461
+rawsend cmdfile
+#+1717174476
+echo READY
+#+1717174477
+rawrcv sg0002lz.x00
+#+1717174489
+echo READY
+#+1717174491
+rawrcv sg0002dz.x00
+#+1717174502
+echo READY
+#+1717174504
+rawrcv sg0002kz.x00
+#+1717174518
+echo READY
+#+1717174520
+rawrcv sg0002kz.x01
+#+1717174534
+echo READY
+#+1717174535
+rawrcv sg0002kz.x02
+#+1717174550
+echo READY
+#+1717174552
+rawrcv sg0002kz.x03
+#+1717174560
+echo 2:0:1:0:6:160:1 logout >> comm.log
+#+1717174561
+logout
+#+1717174679
+echo logged in >> comm.log
+#+1717174681
+printf "2:1:1:0:6:160:0:134:2177:502:-67.96:0.92:10.62:26.22:8.70:38.77 GPS,310524,165658,4729.454,-12229.804,10,1.1,27,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717174682
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717174684
+echo Iridium bars: 5 geolocation: 4710.206055,-12223.627930,280317,062028 >> comm.log
+#+1717174685
+echo READY
+#+1717174686
+rawsend cmdfile
+#+1717174702
+echo 2:1:1:0:6:160:1 logout >> comm.log
+#+1717174703
+logout
+#+1717174910
+echo logged in >> comm.log
+#+1717174911
+printf "2:2:1:0:6:160:0:133:2176:501:-67.06:0.84:10.64:26.35:8.71:39.28 GPS,310524,170058,4729.457,-12229.796,7,1.6,18,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717174913
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717174914
+echo Iridium bars: 5 geolocation: 4707.035156,-12229.003906,280317,062411 >> comm.log
+#+1717174915
+echo READY
+#+1717174917
+rawsend cmdfile
+#+1717174932
+echo 2:2:1:0:6:160:1 logout >> comm.log
+#+1717174933
+logout
+#+1717177339
+echo logged in >> comm.log
+#+1717177341
+printf "3:0:1:0:6:160:0:141:2179:506:-68.14:0.92:10.62:25.94:8.69:37.83 GPS,310524,174059,4729.778,-12229.590,8,3.2,38,18.1\n" >> comm.log
+#+1717177342
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717177343
+echo Iridium bars: 5 geolocation: 4710.206055,-12230.714844,280317,062803 >> comm.log
+#+1717177345
+echo READY
+#+1717177346
+rawsend cmdfile
+#+1717177361
+echo READY
+#+1717177363
+rawrcv sg0003lz.x00
+#+1717177375
+echo READY
+#+1717177376
+rawrcv sg0003dz.x00
+#+1717177388
+echo READY
+#+1717177390
+rawrcv sg0003kz.x00
+#+1717177404
+echo READY
+#+1717177405
+rawrcv sg0003kz.x01
+#+1717177420
+echo READY
+#+1717177421
+rawrcv sg0003kz.x02
+#+1717177435
+echo READY
+#+1717177437
+rawrcv sg0003kz.x03
+#+1717177445
+echo 3:0:1:0:6:160:1 logout >> comm.log
+#+1717177446
+logout
+#+1717177537
+echo logged in >> comm.log
+#+1717177538
+printf "3:1:1:0:6:160:0:140:2178:500:-67.72:0.85:10.61:26.05:8.70:38.50 GPS,310524,174447,4729.786,-12229.568,10,2.0,10,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717177540
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717177541
+echo Iridium bars: 5 geolocation: 4707.035156,-12224.610352,280317,070828 >> comm.log
+#+1717177542
+echo READY
+#+1717177544
+rawsend cmdfile
+#+1717177559
+echo 3:1:1:0:6:160:1 logout >> comm.log
+#+1717177560
+logout
+#+1717177751
+echo logged in >> comm.log
+#+1717177752
+printf "3:2:1:0:6:160:0:140:2178:500:-66.31:0.94:10.63:26.27:8.70:39.09 GPS,310524,174822,4729.787,-12229.550,9,2.0,9,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717177754
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717177755
+echo Iridium bars: 5 geolocation: 4710.206055,-12230.714844,280317,071154 >> comm.log
+#+1717177756
+echo READY
+#+1717177757
+rawsend cmdfile
+#+1717177773
+echo 3:2:1:0:6:160:1 logout >> comm.log
+#+1717177774
+logout
+#+1717180060
+echo logged in >> comm.log
+#+1717180062
+printf "4:0:1:0:6:160:0:139:2166:506:-68.31:0.89:10.61:25.83:8.68:37.12 GPS,310524,182617,4730.048,-12229.582,8,1.7,8,18.1\n" >> comm.log
+#+1717180063
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717180065
+echo Iridium bars: 3 geolocation: 4710.206055,-12228.027344,280317,071526 >> comm.log
+#+1717180066
+echo READY
+#+1717180067
+rawsend cmdfile
+#+1717180082
+echo READY
+#+1717180084
+rawrcv sg0004lz.x00
+#+1717180096
+echo READY
+#+1717180097
+rawrcv sg0004dz.x00
+#+1717180109
+echo READY
+#+1717180110
+rawrcv sg0004kz.x00
+#+1717180124
+echo READY
+#+1717180126
+rawrcv sg0004kz.x01
+#+1717180140
+echo READY
+#+1717180141
+rawrcv sg0004kz.x02
+#+1717180158
+echo READY
+#+1717180160
+rawrcv sg0004kz.x03
+#+1717180165
+echo 4:0:1:0:6:160:1 logout >> comm.log
+#+1717180166
+logout
+#+1717182461
+echo logged in >> comm.log
+#+1717182463
+printf "5:0:1:0:6:160:0:135:2181:507:-69.52:0.80:10.61:26.17:8.68:37.55 GPS,310524,190635,4730.429,-12229.354,11,1.5,11,18.1\n" >> comm.log
+#+1717182465
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717182466
+echo Iridium bars: 5 geolocation: 4707.035156,-12136.033203,280317,075355 >> comm.log
+#+1717182468
+echo READY
+#+1717182469
+rawsend cmdfile
+#+1717182484
+echo READY
+#+1717182486
+rawrcv sg0005lz.x00
+#+1717182499
+echo READY
+#+1717182500
+rawrcv sg0005dz.x00
+#+1717182512
+echo READY
+#+1717182514
+rawrcv sg0005kz.x00
+#+1717182529
+echo READY
+#+1717182530
+rawrcv sg0005kz.x01
+#+1717182545
+echo READY
+#+1717182547
+rawrcv sg0005kz.x02
+#+1717182561
+echo 5:0:1:0:6:160:1 logout >> comm.log
+#+1717182563
+logout
+#+1717184760
+echo logged in >> comm.log
+#+1717184762
+printf "6:0:1:0:6:160:0:134:2182:506:-69.70:0.76:10.61:25.81:8.68:37.16 GPS,310524,194452,4730.865,-12229.166,9,2.0,14,18.1\n" >> comm.log
+#+1717184768
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717184770
+echo Iridium bars: 5 geolocation: 4710.206055,-12225.336914,280317,083355 >> comm.log
+#+1717184771
+echo READY
+#+1717184773
+rawsend cmdfile
+#+1717184788
+echo READY
+#+1717184790
+rawrcv sg0006lz.x00
+#+1717184804
+echo READY
+#+1717184805
+rawrcv sg0006dz.x00
+#+1717184818
+echo READY
+#+1717184820
+rawrcv sg0006kz.x00
+#+1717184835
+echo READY
+#+1717184837
+rawrcv sg0006kz.x01
+#+1717184856
+echo READY
+#+1717184860
+rawrcv sg0006kz.x02
+#+1717184877
+echo 6:0:1:0:6:160:1 logout >> comm.log
+#+1717186741
+echo logged in >> comm.log
+#+1717186743
+printf "7:0:1:0:6:160:0:142:2178:506:-70.31:0.69:10.61:25.67:8.68:36.37 GPS,310524,201757,4731.044,-12228.950,39,1.2,39,18.1\n" >> comm.log
+#+1717186745
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717186746
+echo Iridium bars: 5 geolocation: 4710.206055,-12228.027344,280317,091214 >> comm.log
+#+1717186747
+echo READY
+#+1717186748
+rawsend cmdfile
+#+1717186764
+echo READY
+#+1717186765
+rawrcv sg0007lz.x00
+#+1717186777
+echo READY
+#+1717186778
+rawrcv sg0007dz.x00
+#+1717186788
+echo READY
+#+1717186790
+rawrcv sg0007kz.x00
+#+1717186805
+echo READY
+#+1717186806
+rawrcv sg0007kz.x01
+#+1717186820
+echo READY
+#+1717186822
+rawrcv sg0007kz.x02
+#+1717186832
+echo 7:0:1:0:6:160:1 logout >> comm.log
+#+1717186836
+logout
+#+1717188943
+echo logged in >> comm.log
+#+1717188945
+printf "8:0:1:0:6:160:0:135:2193:506:-71.30:0.66:10.61:25.77:8.67:36.45 GPS,310524,205435,4731.309,-12228.633,9,2.0,9,18.1\n" >> comm.log
+#+1717188946
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717188947
+echo Iridium bars: 5 geolocation: 4713.379883,-12225.336914,280317,094516 >> comm.log
+#+1717188949
+echo READY
+#+1717188950
+rawsend cmdfile
+#+1717188962
+echo READY
+#+1717188963
+rawsend targets
+#+1717188969
+echo READY
+#+1717188971
+rawrcv sg0008lz.x00
+#+1717188988
+echo READY
+#+1717188989
+rawrcv sg0008dz.x00
+#+1717189001
+echo READY
+#+1717189002
+rawrcv sg0008kz.x00
+#+1717189017
+echo READY
+#+1717189018
+rawrcv sg0008kz.x01
+#+1717189032
+echo READY
+#+1717189034
+rawrcv sg0008kz.x02
+#+1717189047
+echo 8:0:1:0:6:160:1 logout >> comm.log
+#+1717189048
+logout
+#+1717189145
+echo logged in >> comm.log
+#+1717189147
+printf "8:1:1:0:6:160:0:135:2193:501:-68.38:0.80:10.61:25.96:8.69:38.34 GPS,310524,205811,4731.333,-12228.594,12,1.9,12,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717189148
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717189149
+echo Iridium bars: 4 geolocation: 4713.379883,-12225.336914,280317,102156 >> comm.log
+#+1717189150
+echo READY
+#+1717189152
+rawsend cmdfile
+#+1717189167
+echo 8:1:1:0:6:160:1 logout >> comm.log
+#+1717189168
+logout
+#+1717190865
+echo logged in >> comm.log
+#+1717190867
+printf "9:0:1:0:6:160:0:140:2139:506:-66.25:0.66:10.61:25.74:8.67:36.57 GPS,310524,212635,4731.474,-12228.374,6,1.6,6,18.1\n" >> comm.log
+#+1717190868
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717190870
+echo Iridium bars: 4 geolocation: 4713.379883,-12229.739258,280317,102520 >> comm.log
+#+1717190871
+echo READY
+#+1717190872
+rawsend cmdfile
+#+1717190888
+echo READY
+#+1717190889
+rawrcv sg0009lz.x00
+#+1717190901
+echo READY
+#+1717190902
+rawrcv sg0009dz.x00
+#+1717190912
+echo READY
+#+1717190913
+rawrcv sg0009kz.x00
+#+1717190928
+echo READY
+#+1717190929
+rawrcv sg0009kz.x01
+#+1717190944
+echo READY
+#+1717190945
+rawrcv sg0009kz.x02
+#+1717190955
+echo 9:0:1:0:6:160:1 logout >> comm.log
+#+1717190957
+logout
+#+1717191050
+echo logged in >> comm.log
+#+1717191052
+printf "9:1:1:0:6:160:0:140:2139:501:-69.24:0.63:10.61:25.96:8.69:37.95 GPS,310524,212959,4731.500,-12228.322,10,1.4,10,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717191054
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717191055
+echo Iridium bars: 5 geolocation: 4713.379883,-12152.543945,280317,105401 >> comm.log
+#+1717191056
+echo READY
+#+1717191058
+rawsend cmdfile
+#+1717191073
+echo 9:1:1:0:6:160:1 logout >> comm.log
+#+1717191074
+logout
+#+1717192191
+echo logged in >> comm.log
+#+1717192193
+printf "10:0:1:0:6:160:0:140:2159:506:-69.94:0.63:10.60:25.77:8.68:35.70 GPS,310524,214847,4731.695,-12228.085,9,1.4,9,18.1\n" >> comm.log
+#+1717192195
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717192196
+echo Iridium bars: 5 geolocation: 4716.557129,-12154.230469,280317,105705 >> comm.log
+#+1717192197
+echo READY
+#+1717192199
+rawsend cmdfile
+#+1717192214
+echo READY
+#+1717192216
+rawrcv sg0010lz.x00
+#+1717192226
+echo READY
+#+1717192228
+rawrcv sg0010dz.x00
+#+1717192236
+echo READY
+#+1717192237
+rawrcv sg0010kz.x00
+#+1717192252
+echo READY
+#+1717192253
+rawrcv sg0010kz.x01
+#+1717192270
+echo READY
+#+1717192272
+rawrcv sg0010kz.x02
+#+1717192275
+echo 10:0:1:0:6:160:1 logout >> comm.log
+#+1717192277
+logout
+#+1717192369
+echo logged in >> comm.log
+#+1717192371
+printf "10:1:1:0:6:160:0:139:2158:501:-65.21:0.55:10.61:25.96:8.69:37.55 GPS,310524,215159,4731.722,-12228.035,7,2.0,7,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717192372
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717192374
+echo Iridium bars: 5 geolocation: 4713.379883,-12227.047852,280317,111606 >> comm.log
+#+1717192375
+echo READY
+#+1717192376
+rawsend cmdfile
+#+1717192388
+echo READY
+#+1717192389
+rawsend targets
+#+1717192395
+echo 10:1:1:0:6:160:1 logout >> comm.log
+#+1717192396
+logout
+#+1717192588
+echo logged in >> comm.log
+#+1717192590
+printf "10:2:1:0:6:160:0:139:2158:501:-64.71:0.63:10.63:26.19:8.70:38.22 GPS,310524,215535,4731.749,-12227.979,8,1.4,8,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717192591
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717192592
+echo Iridium bars: 5 geolocation: 4719.737305,-12303.306641,280317,111906 >> comm.log
+#+1717192593
+echo READY
+#+1717192595
+rawsend cmdfile
+#+1717192610
+echo 10:2:1:0:6:160:1 logout >> comm.log
+#+1717192611
+logout
+#+1717193893
+echo logged in >> comm.log
+#+1717193895
+printf "11:0:1:0:6:160:0:139:2183:506:-68.38:0.53:10.61:25.77:8.69:35.78 GPS,310524,221705,4731.822,-12227.909,9,2.0,9,18.1\n" >> comm.log
+#+1717193896
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717193898
+echo Iridium bars: 5 geolocation: 4713.379883,-12222.643555,280317,112245 >> comm.log
+#+1717193899
+echo READY
+#+1717193900
+rawsend cmdfile
+#+1717193915
+echo READY
+#+1717193917
+rawrcv sg0011lz.x00
+#+1717193928
+echo READY
+#+1717193929
+rawrcv sg0011dz.x00
+#+1717193938
+echo READY
+#+1717193939
+rawrcv sg0011kz.x00
+#+1717193954
+echo READY
+#+1717193955
+rawrcv sg0011kz.x01
+#+1717193970
+echo READY
+#+1717193972
+rawrcv sg0011kz.x02
+#+1717193981
+echo 11:0:1:0:6:160:1 logout >> comm.log
+#+1717193982
+logout
+#+1717195441
+echo logged in >> comm.log
+#+1717195443
+printf "12:0:1:0:6:160:0:130:2194:506:-67.72:0.45:10.62:26.17:8.69:35.62 GPS,310524,224253,4731.914,-12227.826,8,2.4,38,18.1\n" >> comm.log
+#+1717195444
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717195446
+echo Iridium bars: 5 geolocation: 4716.557129,-12227.047852,280317,114427 >> comm.log
+#+1717195447
+echo READY
+#+1717195448
+rawsend cmdfile
+#+1717195463
+echo READY
+#+1717195465
+rawrcv sg0012lz.x00
+#+1717195475
+echo READY
+#+1717195477
+rawrcv sg0012dz.x00
+#+1717195487
+echo READY
+#+1717195488
+rawrcv sg0012kz.x00
+#+1717195502
+echo READY
+#+1717195504
+rawrcv sg0012kz.x01
+#+1717195518
+echo READY
+#+1717195519
+rawrcv sg0012kz.x02
+#+1717195525
+echo 12:0:1:0:6:160:1 logout >> comm.log
+#+1717195526
+logout
+#+1717197024
+echo logged in >> comm.log
+#+1717197026
+printf "13:0:1:0:6:160:0:139:2181:506:-67.13:0.45:10.62:26.08:8.68:35.82 GPS,310524,230916,4732.044,-12227.637,11,1.5,16,18.1\n" >> comm.log
+#+1717197028
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717197029
+echo Iridium bars: 4 geolocation: 4713.379883,-12227.047852,280317,121015 >> comm.log
+#+1717197030
+echo READY
+#+1717197031
+rawsend cmdfile
+#+1717197047
+echo READY
+#+1717197048
+rawrcv sg0013lz.x00
+#+1717197060
+echo READY
+#+1717197062
+rawrcv sg0013dz.x00
+#+1717197072
+echo READY
+#+1717197074
+rawrcv sg0013kz.x00
+#+1717197090
+echo READY
+#+1717197092
+rawrcv sg0013kz.x01
+#+1717197106
+echo READY
+#+1717197108
+rawrcv sg0013kz.x02
+#+1717197115
+echo 13:0:1:0:6:160:1 logout >> comm.log
+#+1717197117
+logout
+#+1717198980
+echo logged in >> comm.log
+#+1717198983
+printf "14:0:1:0:6:160:0:140:2209:507:-68.01:0.38:10.63:25.77:8.69:36.37 GPS,310524,234147,4732.210,-12227.327,9,1.9,9,18.1\n" >> comm.log
+#+1717198984
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717198985
+echo Iridium bars: 5 geolocation: 4713.379883,-12228.027344,280317,123637 >> comm.log
+#+1717198986
+echo READY
+#+1717198988
+rawsend cmdfile
+#+1717199003
+echo READY
+#+1717199004
+rawrcv sg0014lz.x00
+#+1717199017
+echo READY
+#+1717199018
+rawrcv sg0014dz.x00
+#+1717199029
+echo READY
+#+1717199031
+rawrcv sg0014kz.x00
+#+1717199045
+echo READY
+#+1717199046
+rawrcv sg0014kz.x01
+#+1717199061
+echo READY
+#+1717199062
+rawrcv sg0014kz.x02
+#+1717199074
+echo 14:0:1:0:6:160:1 logout >> comm.log
+#+1717199075
+logout
+#+1717199184
+echo logged in >> comm.log
+#+1717199185
+printf "14:1:1:0:6:160:0:140:2209:500:-69.32:0.35:10.63:25.96:8.70:37.16 GPS,310524,234522,4732.214,-12227.333,7,1.8,12,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717199187
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717199188
+echo Iridium bars: 5 geolocation: 4716.557129,-12215.544922,280317,130914 >> comm.log
+#+1717199189
+echo READY
+#+1717199190
+rawsend cmdfile
+#+1717199205
+echo 14:1:1:0:6:160:1 logout >> comm.log
+#+1717199207
+logout
+#+1717199397
+echo logged in >> comm.log
+#+1717199399
+printf "14:2:1:0:6:160:0:140:2210:500:-66.69:0.40:10.65:26.24:8.71:37.71 GPS,310524,234910,4732.222,-12227.342,9,1.4,13,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717199401
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717199402
+echo Iridium bars: 5 geolocation: 4716.557129,-12336.091797,280317,131239 >> comm.log
+#+1717199403
+echo READY
+#+1717199404
+rawsend cmdfile
+#+1717199420
+echo 14:2:1:0:6:160:1 logout >> comm.log
+#+1717199422
+logout
+#+1717199615
+echo logged in >> comm.log
+#+1717199617
+printf "14:3:1:0:6:160:0:140:2209:500:-62.73:0.35:10.66:26.32:8.70:38.02 GPS,310524,235246,4732.228,-12227.349,8,1.4,13,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717199618
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717199620
+echo Iridium bars: 5 geolocation: 4713.379883,-12218.242188,280317,131612 >> comm.log
+#+1717199621
+echo READY
+#+1717199622
+rawsend cmdfile
+#+1717199638
+echo 14:3:1:0:6:160:1 logout >> comm.log
+#+1717199639
+logout
+#+1717199846
+echo logged in >> comm.log
+#+1717199848
+printf "14:4:1:0:6:160:0:140:2209:500:-67.85:0.37:10.68:26.38:8.71:37.83 GPS,310524,235640,4732.239,-12227.357,8,1.4,31,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717199850
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717199851
+echo Iridium bars: 5 geolocation: 4716.557129,-12227.047852,280317,131950 >> comm.log
+#+1717199853
+echo READY
+#+1717199854
+rawsend cmdfile
+#+1717199869
+echo 14:4:1:0:6:160:1 logout >> comm.log
+#+1717199870
+logout
+#+1717200090
+echo logged in >> comm.log
+#+1717200092
+printf "14:5:1:0:6:160:0:134:2209:499:-25.60:-0.55:10.68:26.41:8.71:37.83 GPS,010624,000033,4732.253,-12227.369,12,1.9,34,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717200094
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717200095
+echo Iridium bars: 0 geolocation: 4713.379883,-12225.336914,280317,132341 >> comm.log
+#+1717200096
+echo READY
+#+1717200098
+rawsend cmdfile
+#+1717200113
+echo 14:5:1:0:6:160:1 logout >> comm.log
+#+1717200115
+logout
+#+1717200304
+echo logged in >> comm.log
+#+1717200306
+printf "14:6:1:0:6:160:0:134:2209:499:-23.82:-0.50:10.67:26.41:8.72:37.95 GPS,010624,000417,4732.204,-12227.320,7,2.0,13,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717200307
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717200309
+echo Iridium bars: 5 geolocation: 4713.379883,-12222.643555,280317,132744 >> comm.log
+#+1717200310
+echo READY
+#+1717200311
+rawsend cmdfile
+#+1717200327
+echo 14:6:1:0:6:160:1 logout >> comm.log
+#+1717200328
+logout
+#+1717200521
+echo logged in >> comm.log
+#+1717200522
+printf "14:7:1:0:6:160:0:133:2207:499:-29.53:-0.48:10.68:26.41:8.72:38.34 GPS,010624,000753,4732.224,-12227.336,11,1.4,11,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717200524
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717200525
+echo Iridium bars: 5 geolocation: 4710.206055,-12223.627930,280317,133119 >> comm.log
+#+1717200526
+echo READY
+#+1717200527
+rawsend cmdfile
+#+1717200543
+echo 14:7:1:0:6:160:1 logout >> comm.log
+#+1717200544
+logout
+#+1717201129
+echo logged in >> comm.log
+#+1717201147
+echo Missing expected basestation prompt: check .cshrc >> comm.log
+#+1717201960
+echo logged in >> comm.log
+#+1717201962
+printf "14:9:3:1:6:160:-2:132:2050:499:-26.10:-0.57:10.68:26.45:8.74:37.67 GPS,010624,002802,4728.168,-12230.484,62,1.5,90,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717201963
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717201965
+echo Iridium bars: 0 geolocation: 4713.379883,-12225.336914,280317,134502 >> comm.log
+#+1717201966
+echo READY
+#+1717201967
+rawsend cmdfile
+#+1717201984
+echo 14:9:3:1:6:160:1 logout >> comm.log
+#+1717201986
+logout
+#+1717202484
+echo logged in >> comm.log
+#+1717202486
+printf "14:10:2:0:6:160:-2:132:1967:499:-25.71:-0.42:10.65:26.48:8.74:37.20 GPS,010624,003845,4724.550,-12231.771,197,2.0,209,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717202489
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717202491
+echo Iridium bars: 5 geolocation: 4710.206055,-12230.714844,280317,135856 >> comm.log
+#+1717202492
+echo READY
+#+1717202494
+rawsend cmdfile
+#+1717202509
+echo 14:10:2:0:6:160:1 logout >> comm.log
+#+1717202510
+logout
+#+1717202959
+echo logged in >> comm.log
+#+1717202960
+printf "14:11:3:0:6:160:-2:131:1906:499:-25.25:-0.51:10.68:26.46:8.75:36.92 GPS,010624,004459,4722.406,-12231.989,30,2.8,60,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717202962
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717202963
+echo Iridium bars: 5 geolocation: 4703.867188,-12234.369141,280317,140739 >> comm.log
+#+1717202964
+echo READY
+#+1717202966
+rawsend cmdfile
+#+1717202991
+echo 14:11:3:0:6:160:1 logout >> comm.log
+#+1717202992
+logout
+#+1717203392
+echo logged in >> comm.log
+#+1717203401
+printf "14:12:1:0:6:160:0:131:1854:499:-24.63:-0.57:10.66:26.48:8.75:37.00 GPS,010624,005501,4718.742,-12230.933,150,2.7,180,18.1\nEOP_CODE=CONTROL_FINISHED_OK\nRECOV_CODE=QUIT_COMMAND\n" >> comm.log
+#+1717203405
+echo ver=66.11,rev=3836M,frag=4,launch=310524:144336 >> comm.log
+#+1717203418
+echo Iridium bars: 0 geolocation: 4700.703125,-12232.658203,280317,141534 >> comm.log
+#+1717203419
+echo READY
+#+1717203420
+rawsend cmdfile
+#+1717203438
+echo 14:12:1:0:6:160:1 logout >> comm.log
+#+1717203446
+logout
