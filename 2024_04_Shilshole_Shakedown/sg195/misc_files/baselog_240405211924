@@ -1,0 +1,653 @@
+21:19:25 05 Apr 2024 UTC: INFO: BaseLog.py(108): Process id = 2380470
+21:19:25 05 Apr 2024 UTC: WARNING: BaseLog.py(111): Config file /home/jails/uwssc/gliderjail/home/sg195/sg195.conf was not found
+21:19:25 05 Apr 2024 UTC: INFO: Utils.py(1011): Basestation version: 3.0.2; QC version: 1.12
+21:19:25 05 Apr 2024 UTC: INFO: Utils.py(1017): Python version 3.10.10
+21:19:25 05 Apr 2024 UTC: INFO: Utils.py(1031): Numpy version 1.25.0
+21:19:25 05 Apr 2024 UTC: INFO: Utils.py(1046): Scipy version 1.10.1
+21:19:25 05 Apr 2024 UTC: INFO: Utils.py(1066): seawater version 3.3.4
+21:19:25 05 Apr 2024 UTC: INFO: Base.py(1474): Invoked with command line [/usr/local/basestation3/Base.py --mission_dir /home/jails/uwssc/gliderjail/home/sg195 --verbose --make_mission_timeseries --daemon --nice 10 --base_log /home/jails/uwssc/gliderjail/home/sg195/baselog_240405211924 --web_file_location=http://iop.apl.washington.edu/seaglider/sg195/current/data --reply_addr=gbs2@uw.edu --config /home/jails/uwssc/gliderjail/home/sg195/sg195.conf --delete_upload_files --magcalfile search --auxmagcalfile search ]
+21:19:25 05 Apr 2024 UTC: INFO: Base.py(1476): PID:2380867
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:25 05 Apr 2024 UTC: WARNING: CalibConst.py(122): temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1524): Started processing 21:19:26 05 Apr 2024 GMT
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1567): Instrument ID = 195
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /usr/local/basestation3/etc/.pagers for  lategps recov critical drift
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:26 05 Apr 2024 UTC: INFO: CommLog.py(113): prefix:dive:1 calls_made:1 call_cycle:0 
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /usr/local/basestation3/etc/.pagers
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers for  lategps recov critical drift
+21:19:26 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1618): Processing comm_merged.log
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1647): Finished processing comm_merged.log
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1765): Processing seaglider selftests
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1801): No new selftests to processed
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1803): Processing pdoscmd.bat logs
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1822): No pdos logfiles found to process
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1829): Processing dive(s)
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(541): Processing /home/jails/uwssc/gliderjail/home/sg195/sg0001lz
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1051): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/sg0001lz.1a.x00
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(709): Processing /home/jails/uwssc/gliderjail/home/sg195/sg0001lz.r in process_file_group
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(864): Removing secrets from /home/jails/uwssc/gliderjail/home/sg195/p1950001.log
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(541): Processing /home/jails/uwssc/gliderjail/home/sg195/sg0001dz
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1051): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/sg0001dz.1a.x00
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(709): Processing /home/jails/uwssc/gliderjail/home/sg195/sg0001dz.r in process_file_group
+21:19:26 05 Apr 2024 UTC: WARNING: DataFiles.py(265): No handler found for columns ['wlbb2fl.sig470nm', 'wlbb2fl.sig700nm', 'wlbb2fl.sig695nm'] - using default handler
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(541): Processing /home/jails/uwssc/gliderjail/home/sg195/sg0001kz
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1051): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/sg0001kz.1a.x00
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1051): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/sg0001kz.1a.x01
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1051): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/sg0001kz.1a.x02
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1051): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/sg0001kz.1a.x03
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(709): Processing /home/jails/uwssc/gliderjail/home/sg195/sg0001kz.r in process_file_group
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1862): Processed dive(s) [1]
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1932): Dives to process = [1]
+21:19:26 05 Apr 2024 UTC: INFO: Base.py(1961): Processing (/home/jails/uwssc/gliderjail/home/sg195/p1950001) for profiles
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(1624): Loading data from original files
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: volmax=52986
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: vbdbias=0
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: hd_a=0.00354813
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: hd_b=0.0112202
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: hd_c=5.7e-06
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: hd_s=-0.25
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: abs_compress=4.1e-06
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: therm_expan=7.05e-05
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: temp_ref=15
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: glider_length=1.8
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2586): FM: rho0=1027.5
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2606): auxcompass data not present, auxPressure data not present
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2764): Not using auxcompass Not using auxPressure
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2829): Directive: correct_thermal_inertia_effects
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2829): Directive: detect_conductivity_anomalies
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2829): Directive: no_interp_gc_temperatures
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(2829): Directive: no_interp_suspect_thermal_inertia_salinities
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(1443): Not correcting Truck compass heading
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(3724): ct_type:gun-style Seabird unpumped CTD
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT temperature coefficient t_g (0.00437815) differs from $SEABIRD_T_G (0.00441787) in log file (dive 1) -- using 0.00437815.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT temperature coefficient t_h (0.000631904) differs from $SEABIRD_T_H (0.000648181) in log file (dive 1) -- using 0.000631904.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT temperature coefficient t_i (2.54281e-05) differs from $SEABIRD_T_I (2.6779e-05) in log file (dive 1) -- using 2.54281e-05.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT temperature coefficient t_j (2.9111e-06) differs from $SEABIRD_T_J (3.36672e-06) in log file (dive 1) -- using 2.9111e-06.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT conductivity coefficient c_g (-9.71354) differs from $SEABIRD_C_G (-10.0982) in log file (dive 1) -- using -9.71354.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT conductivity coefficient c_h (1.11378) differs from $SEABIRD_C_H (1.1454) in log file (dive 1) -- using 1.11378.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT conductivity coefficient c_i (-0.0016462) differs from $SEABIRD_C_I (-0.00212763) in log file (dive 1) -- using -0.0016462.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(2434): SBECT conductivity coefficient c_j (0.000200081) differs from $SEABIRD_C_J (0.000255321) in log file (dive 1) -- using 0.000200081.
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(4778): Changed (1/163) 163 to QC_BAD because CT out of water
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(4803): CTD out of the water after climb (0.021m)
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(510): Changed (27/163) 2:6 8 10 13 15:19 21 22 26 28 29 86:88 90 92 93 ... to QC_PROBABLY_BAD because raw temperature spikes
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(592): Changed (4/163) 3 5 26 89 to QC_PROBABLY_BAD because raw conductivity spikes
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(4866): Changed (36/163) 1:36 to QC_BAD because uncorrectable 6.7m raw conductivity bubble on dive
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(4866): Changed (8/163) 153:160 to QC_BAD because uncorrectable 4.0m raw conductivity bubble on climb
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(247): Changed (27/163) 2:6 8 10 13 15:19 21 22 26 28 29 86:88 90 92 93 ... to QC_PROBABLY_BAD because changed raw temp implies changed raw salinity
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(247): Changed (1/163) 89 to QC_PROBABLY_BAD because changed raw cond implies changed raw salinity
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(247): Changed (45/163) 1:36 153:160 163 to QC_BAD because changed raw cond implies changed raw salinity
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(510): Changed (27/163) 2:6 8 10 13 15:19 21 22 26 28 29 86:88 90 92 93 ... to QC_INTERPOLATED because temperature spikes
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(592): Changed (4/163) 3 5 26 89 to QC_INTERPOLATED because conductivity spikes
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(4922): Changed (36/163) 1:36 to QC_BAD because uncorrectable 6.7m conductivity bubble on dive
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(4922): Changed (8/163) 153:160 to QC_BAD because uncorrectable 4.0m conductivity bubble on climb
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(5111): Changed (34/163) 70:103 to QC_BAD because slow apogee CT flow
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(5467): SUGGESTION: 1 interp_conductivity data_points between 145 159 % 7.2m SUSPECT unresolved strong conductivity anomaly
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(5487): Changed (79/163) 1:36 70:103 153:160 163 to QC_BAD because bad corrected temperature and conductivity suggests bad salinity
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(5652): Using 1-mode thermal-inertia correction.
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(247): Changed (79/163) 1:36 70:103 153:160 163 to QC_BAD because changed corrected salin implies changed speed
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1083): 0: max temp_c diff: 0.02C TI time: 0.003s loop: 0.003s
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1466): TSV:  0 51 stalled points 104:152 161 162
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(642): TSV: Eliminated start of climb point.
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1083): 1: max temp_c diff: 0.00C TI time: 0.001s loop: 0.001s
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1083): 2: max temp_c diff: 0.00C TI time: 0.001s loop: 0.001s
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1507): TSV exiting after 2 iterations
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1509): max_temp_c_diff = 0.00C
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1557): Changed (1/163) 69 to QC_PROBABLY_BAD because TS bad extrapolation
+21:19:26 05 Apr 2024 UTC: INFO: TempSalinityVelocity.py(1565): Changed (51/163) 104:152 161 162 to QC_PROBABLY_BAD because stalls avoid thermal-inertia salinity correction
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(6135): 0 (0.00%) HDM speeds are QC_BAD; 51 (31.29%) are stalled (163)
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(247): Changed (2/163) 161 162 to QC_INTERPOLATED because changed corrected temp implies changed speed
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(6345): Estimated total flight and drift time: 1589.2s (SM: 307.5s)
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(6376): Substantial unmodeled flight time (54.3% of total time); DAC is bad.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(6401): Large mis-match between predicted and observed w; significant up/downwelling or poor flight model. DAC suspect.
+21:19:26 05 Apr 2024 UTC: WARNING: MakeDiveProfiles.py(6453): Displacements under-estimate likely positions by 12.6%; DAC suspect
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(6631): Computing QC_BAD depth-average current.
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(6712): DAC east: -2.82 cm/s DAC north: -3.26 cm/s
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(6843): Starting sensor extensions data processing
+21:19:26 05 Apr 2024 UTC: INFO: aa4330_ext.py(971): Changed (163/163) 1:163 to QC_UNSAMPLED because unsampled optode oyxgen
+21:19:26 05 Apr 2024 UTC: INFO: QC.py(247): Changed (79/163) 1:36 70:103 153:160 163 to QC_BAD because changed salinity implies changed aa4330 oxygen
+21:19:26 05 Apr 2024 UTC: INFO: MakeDiveProfiles.py(6847): Finished sensor extensions data processing
+21:19:26 05 Apr 2024 UTC: INFO: BaseNetCDF.py(376): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+21:19:27 05 Apr 2024 UTC: WARNING: BaseNetCDF.py(3551): Missing metadata for sg_cal_use_adcppressure type should be 'i'
+21:19:28 05 Apr 2024 UTC: INFO: BaseNetCDF.py(376): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+21:19:28 05 Apr 2024 UTC: INFO: Base.py(2040): Backing up /home/jails/uwssc/gliderjail/home/sg195/cmdfile to /home/jails/uwssc/gliderjail/home/sg195/cmdfile.1
+21:19:28 05 Apr 2024 UTC: INFO: BaseDB.py(1336): logParameterChanges db opened
+21:19:28 05 Apr 2024 UTC: ERROR: could not check schema:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1032, in checkSchema
+    mycon.cursor().execute(f'PRAGMA user_version = {currentSchemaVersion}')
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:28 05 Apr 2024 UTC: INFO: BaseDB.py(1374): logParameterChanges db closed
+21:19:28 05 Apr 2024 UTC: INFO: Utils.py(1011): Basestation version: 3.0.2; QC version: 1.12
+21:19:28 05 Apr 2024 UTC: INFO: Utils.py(1017): Python version 3.10.10
+21:19:28 05 Apr 2024 UTC: INFO: Utils.py(1031): Numpy version 1.25.0
+21:19:28 05 Apr 2024 UTC: INFO: Utils.py(1046): Scipy version 1.10.1
+21:19:28 05 Apr 2024 UTC: INFO: Utils.py(1066): seawater version 3.3.4
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(3645): Exit is False
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(3913): Initial volmax estimate: 53323cc
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(4023): Flight model version: 1.11; glider_type=0
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(4026): CONTROL: reprocessing=True compare_velo=0 hd_a_scale=1.00 hd_b_scale=1.00
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(2252): Started FM cycle 1
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(2311): New dive 1 restarting from dive 0 (0.00354813,0.0112202)
+21:19:28 05 Apr 2024 UTC: INFO: FlightModel.py(2382): dives_to_update:[1]
+21:19:29 05 Apr 2024 UTC: INFO: FlightModel.py(2564): Early bias dives so far []
+21:19:29 05 Apr 2024 UTC: INFO: FlightModel.py(2566): <Dive 1 pitch_d: 13.0 p: 34.1dbar vbias: 67.7cc (0.0cc) abs_compress=7.55657e-06 RMS=0.7918cm/s>
+21:19:29 05 Apr 2024 UTC: INFO: FlightModel.py(3493):  Reprocess dive 1: (False, False, True, True, True)
+21:19:29 05 Apr 2024 UTC: INFO: FlightModel.py(3494):   v: 67.66 [67.66 0.00] ac: 0.843 [7.55657e-06 4.1e-06]
+21:19:29 05 Apr 2024 UTC: INFO: FlightModel.py(3540): Reprocess dives: [1]
+21:19:33 05 Apr 2024 UTC: INFO: FlightModel.py(3567): Back from Reprocess.py - see /home/jails/uwssc/gliderjail/home/sg195/flight/Reprocess_0001_1712351969.log for details
+21:19:33 05 Apr 2024 UTC: INFO: FlightModel.py(3580): Dive 1 sucesfully processed
+21:19:33 05 Apr 2024 UTC: INFO: FlightModel.py(2382): dives_to_update:[1]
+21:19:33 05 Apr 2024 UTC: INFO: FlightModel.py(2564): Early bias dives so far []
+21:19:33 05 Apr 2024 UTC: INFO: FlightModel.py(2566): <Dive 1 pitch_d: 13.0 p: 34.1dbar vbias: 67.7cc (67.7cc) abs_compress=7.55657e-06 RMS=0.7918cm/s>
+21:19:33 05 Apr 2024 UTC: INFO: Base.py(2167): FM files updated ['/home/jails/uwssc/gliderjail/home/sg195/p1950001.nc']
+21:19:33 05 Apr 2024 UTC: INFO: Base.py(1367): Extension script /home/jails/uwssc/gliderjail/home/sg195/.post_dive not found
+21:19:33 05 Apr 2024 UTC: INFO: Base.py(2192): Starting netcdf load to db
+21:19:33 05 Apr 2024 UTC: INFO: BaseDB.py(1088): loadDB db opened
+21:19:33 05 Apr 2024 UTC: ERROR: could not check schema:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1032, in checkSchema
+    mycon.cursor().execute(f'PRAGMA user_version = {currentSchemaVersion}')
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:33 05 Apr 2024 UTC: ERROR: Failed to add /home/jails/uwssc/gliderjail/home/sg195/p1950001.nc to mission sqlite db:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/Base.py", line 2201, in main
+    BaseDB.loadDB(base_opts, ncf, run_dive_plots=False)
+  File "/usr/local/basestation3/BaseDB.py", line 1098, in loadDB
+    loadFileToDB(base_opts, cur, filename, con, run_dive_plots=run_dive_plots)
+  File "/usr/local/basestation3/BaseDB.py", line 286, in loadFileToDB
+    cur.execute(f"DELETE FROM dives WHERE dive={dive};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:33 05 Apr 2024 UTC: INFO: BaseDB.py(1088): loadDB db opened
+21:19:33 05 Apr 2024 UTC: ERROR: could not check schema:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1032, in checkSchema
+    mycon.cursor().execute(f'PRAGMA user_version = {currentSchemaVersion}')
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:33 05 Apr 2024 UTC: ERROR: Failed to add /home/jails/uwssc/gliderjail/home/sg195/p1950001.nc to mission sqlite db:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/Base.py", line 2201, in main
+    BaseDB.loadDB(base_opts, ncf, run_dive_plots=False)
+  File "/usr/local/basestation3/BaseDB.py", line 1098, in loadDB
+    loadFileToDB(base_opts, cur, filename, con, run_dive_plots=run_dive_plots)
+  File "/usr/local/basestation3/BaseDB.py", line 286, in loadFileToDB
+    cur.execute(f"DELETE FROM dives WHERE dive={dive};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:33 05 Apr 2024 UTC: INFO: Base.py(2204): netcdf load to db done
+21:19:33 05 Apr 2024 UTC: INFO: Base.py(2217): Starting per-dive plots
+21:19:33 05 Apr 2024 UTC: INFO: BasePlot.py(96): plot_dives db opened
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(253): Starting dive_vert_vel
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(408): Basestation: hd_a:0.003548 hd_b:0.011220 hd_c:0.000006 mass:53.765 rho:1027.5
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(418): LogFile: hd_a:0.003000 hd_b:0.010000 hd_c:0.000016 mass:53.765 rho:1023.0
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(441): Using: hd_a:0.003548 hd_b:0.011220 hd_c:0.000006 mass:53.765 rho:1023.0
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(571): Search from -450.0 cc to 500.0 cc
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(574): vol range min:52375.18, max:53216.56, mean:52717.19
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 0 CC:-450.0 vert_v:-14.14
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 1 CC:500.0 vert_v:18.31
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 2 CC:0.0 vert_v:-0.02
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 3 CC:250.0 vert_v:12.77
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 4 CC:125.0 vert_v:6.16
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 5 CC:62.5 vert_v:2.94
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 6 CC:31.2 vert_v:1.55
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 7 CC:15.6 vert_v:0.81
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 8 CC:7.8 vert_v:0.45
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 9 CC:3.9 vert_v:0.25
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 10 CC:2.0 vert_v:0.05
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 11 CC:1.0 vert_v:0.02
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(657): implied_cvbd 3223, implied_volmax 53224.2, implied_max_smcc 668.0, implied_max_maxbuoy -184.9
+21:19:39 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(660): min SM_CC 396.4 based on density 1.01823 at 0.07m and 150cc to raise the antenna
+21:19:39 05 Apr 2024 UTC: ERROR: Error inserting column implied_C_VBD - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:39 05 Apr 2024 UTC: ERROR: Failed to add implied_volmax to dive 1:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1178, in addValToDB
+    insertColumn(dive_num, cur, var_n, val, db_type)
+  File "/usr/local/basestation3/BaseDB.py", line 142, in insertColumn
+    cur.execute(f"UPDATE dives SET {col} = {val} WHERE dive={dive};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:39 05 Apr 2024 UTC: ERROR: Error inserting column implied_C_VBD_GSM - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:39 05 Apr 2024 UTC: ERROR: Error inserting column implied_volmax_GSM - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:39 05 Apr 2024 UTC: ERROR: Error inserting column implied_max_MAX_BUOY - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:39 05 Apr 2024 UTC: ERROR: Error inserting column implied_max_SM_CC - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:39 05 Apr 2024 UTC: ERROR: Error inserting column min_SM_CC - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:40 05 Apr 2024 UTC: INFO: DivePitchRoll.py(84): Starting dive_pitch_roll
+21:19:40 05 Apr 2024 UTC: INFO: DivePitchRoll.py(272): implied_cpitch 2956.599836591179, implied_pitchgain 16.306549779461594
+21:19:40 05 Apr 2024 UTC: ERROR: Error inserting column implied_C_PITCH - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:40 05 Apr 2024 UTC: ERROR: Error inserting column implied_PITCH_GAIN - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:40 05 Apr 2024 UTC: ERROR: BaseDB.py(1220): Execution failed on sql 'SELECT dive, FROM dives WHERE dive <= 1 ORDER BY dive DESC LIMIT 10': near "FROM": syntax error could not fetch ['implied_C_PITCH'] for slope calculation
+21:19:40 05 Apr 2024 UTC: INFO: DivePitchRoll.py(471): c_roll_dive 2003.5502956328178, c_roll_climb 1964.1402360361644
+21:19:40 05 Apr 2024 UTC: ERROR: Error inserting column implied_roll_C_ROLL_DIVE - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:40 05 Apr 2024 UTC: ERROR: Error inserting column implied_roll_C_ROLL_CLIMB - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:41 05 Apr 2024 UTC: INFO: DiveMagCal.py(170): hard magcal PQR = [0.01,0.11,0.12], converged=1, it=4
+21:19:43 05 Apr 2024 UTC: INFO: DiveMagCal.py(306): hard+soft magcal PQR = [-18.61,57.52,21.17], converged=1, it=9
+21:19:43 05 Apr 2024 UTC: INFO: DiveMagCal.py(312): hard+soft magcal abc = 1.000,-0.002,0.005,0.015,1.066,-0.007,-0.008,-0.006,1.099
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(253): Starting dive_vert_vel
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(408): Basestation: hd_a:0.003548 hd_b:0.011220 hd_c:0.000006 mass:53.765 rho:1027.5
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(418): LogFile: hd_a:0.003000 hd_b:0.010000 hd_c:0.000016 mass:53.765 rho:1023.0
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(441): Using: hd_a:0.003548 hd_b:0.011220 hd_c:0.000006 mass:53.765 rho:1023.0
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(571): Search from -450.0 cc to 500.0 cc
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(574): vol range min:52375.18, max:53216.56, mean:52717.19
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 0 CC:-450.0 vert_v:-14.14
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 1 CC:500.0 vert_v:18.31
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 2 CC:0.0 vert_v:-0.02
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 3 CC:250.0 vert_v:12.77
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 4 CC:125.0 vert_v:6.16
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 5 CC:62.5 vert_v:2.94
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 6 CC:31.2 vert_v:1.55
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 7 CC:15.6 vert_v:0.81
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 8 CC:7.8 vert_v:0.45
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 9 CC:3.9 vert_v:0.25
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 10 CC:2.0 vert_v:0.05
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 11 CC:1.0 vert_v:0.02
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(657): implied_cvbd 3223, implied_volmax 53224.2, implied_max_smcc 668.0, implied_max_maxbuoy -184.9
+21:19:49 05 Apr 2024 UTC: INFO: DiveVertVelocity.py(660): min SM_CC 396.4 based on density 1.01823 at 0.07m and 150cc to raise the antenna
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_C_VBD - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Failed to add implied_volmax to dive 1:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1178, in addValToDB
+    insertColumn(dive_num, cur, var_n, val, db_type)
+  File "/usr/local/basestation3/BaseDB.py", line 142, in insertColumn
+    cur.execute(f"UPDATE dives SET {col} = {val} WHERE dive={dive};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_C_VBD_GSM - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_volmax_GSM - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_max_MAX_BUOY - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_max_SM_CC - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column min_SM_CC - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: INFO: DivePitchRoll.py(84): Starting dive_pitch_roll
+21:19:49 05 Apr 2024 UTC: INFO: DivePitchRoll.py(272): implied_cpitch 2956.599836591179, implied_pitchgain 16.306549779461594
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_C_PITCH - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: Error inserting column implied_PITCH_GAIN - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:49 05 Apr 2024 UTC: ERROR: BaseDB.py(1220): Execution failed on sql 'SELECT dive, FROM dives WHERE dive <= 1 ORDER BY dive DESC LIMIT 10': near "FROM": syntax error could not fetch ['implied_C_PITCH'] for slope calculation
+21:19:50 05 Apr 2024 UTC: INFO: DivePitchRoll.py(471): c_roll_dive 2003.5502956328178, c_roll_climb 1964.1402360361644
+21:19:50 05 Apr 2024 UTC: ERROR: Error inserting column implied_roll_C_ROLL_DIVE - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:50 05 Apr 2024 UTC: ERROR: Error inserting column implied_roll_C_ROLL_CLIMB - skipping:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 120, in addColumn
+    cur.execute(f"ALTER TABLE dives ADD COLUMN {col} {db_type};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:50 05 Apr 2024 UTC: INFO: DiveMagCal.py(170): hard magcal PQR = [0.01,0.11,0.12], converged=1, it=4
+21:19:53 05 Apr 2024 UTC: INFO: DiveMagCal.py(306): hard+soft magcal PQR = [-18.61,57.52,21.17], converged=1, it=9
+21:19:53 05 Apr 2024 UTC: INFO: DiveMagCal.py(312): hard+soft magcal abc = 1.000,-0.002,0.005,0.015,1.066,-0.007,-0.008,-0.006,1.099
+21:19:53 05 Apr 2024 UTC: INFO: BasePlot.py(130): plot_dives db closed
+21:19:53 05 Apr 2024 UTC: INFO: Base.py(2222): Per-dive plots complete
+21:19:53 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1477): No .extensions file /usr/local/basestation3/etc/.extensions found
+21:19:53 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1400): Starting processing on .extensions section(s):('dive',)
+21:19:53 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1468): Finished processing on .extensions
+21:19:53 05 Apr 2024 UTC: INFO: BaseDotFiles.py(317): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass 1
+21:19:53 05 Apr 2024 UTC: INFO: BaseDotFiles.py(245): Starting processing on .urls pass(1)
+21:19:53 05 Apr 2024 UTC: INFO: BaseDotFiles.py(310): Finished processing on .urls pass(1)
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-475-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14147-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14164-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14161-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14167-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14152-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-1807961-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14158-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=perdive","time":1712351993.6303084}
+21:19:53 05 Apr 2024 UTC: INFO: MakeMissionTimeSeries.py(231): Making mission timeseries /home/jails/uwssc/gliderjail/home/sg195/sg195_Shilshole_Shakedown_timeseries.nc from files found in /home/jails/uwssc/gliderjail/home/sg195/
+21:19:53 05 Apr 2024 UTC: INFO: BaseNetCDF.py(376): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+21:19:53 05 Apr 2024 UTC: INFO: BasePlot.py(156): plot_mission db opened
+21:19:53 05 Apr 2024 UTC: INFO: MissionEnergy.py(98): Starting mission_energy None
+21:19:54 05 Apr 2024 UTC: ERROR: Could not fetch needed columns:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/Plotting/MissionEnergy.py", line 149, in mission_energy
+    start = pd.read_sql_query(
+  File "/opt/basestation/lib/python3.10/site-packages/pandas/core/indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/opt/basestation/lib/python3.10/site-packages/pandas/core/indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/opt/basestation/lib/python3.10/site-packages/pandas/core/indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+21:19:54 05 Apr 2024 UTC: INFO: MissionMotors.py(73): Starting mission_motors
+21:19:54 05 Apr 2024 UTC: INFO: MissionIntSensors.py(63): Starting mission_int_sensors
+21:19:55 05 Apr 2024 UTC: INFO: MissionMap.py(130): Starting mission_map
+21:19:55 05 Apr 2024 UTC: ERROR: mission_map:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BasePlot.py", line 165, in plot_mission
+    fig_list, file_list = plot_func(
+  File "/usr/local/basestation3/Plotting/MissionMap.py", line 187, in mission_map
+    myProj = ccrs.Orthographic(central_longitude=ctrlon, central_latitude=ctrlat)
+  File "/opt/basestation/lib/python3.10/site-packages/cartopy/crs.py", line 2048, in __init__
+    super().__init__(proj4_params, globe=globe)
+  File "/opt/basestation/lib/python3.10/site-packages/cartopy/crs.py", line 658, in __init__
+    super().__init__(*args, **kwargs)
+  File "/opt/basestation/lib/python3.10/site-packages/cartopy/crs.py", line 189, in __init__
+    super().__init__(self.proj4_init)
+  File "/opt/basestation/lib/python3.10/site-packages/pyproj/crs/crs.py", line 348, in __init__
+    self._local.crs = _CRS(self.srs)
+  File "pyproj/_crs.pyx", line 2378, in pyproj._crs._CRS.__init__
+pyproj.exceptions.CRSError: Invalid projection: +proj=ortho +a=6378137.0 +lon_0=nan +lat_0=nan +no_defs +type=crs: (Internal Proj Error: proj_create: invalid value for lat_0)
+
+21:19:55 05 Apr 2024 UTC: WARNING: MissionProfiles.py(137): No dives found
+21:19:55 05 Apr 2024 UTC: INFO: MissionCallStats.py(140): File types found {'stk', 'std', 'sgd', 'stl', 'sgk', 'sgl'}
+21:19:56 05 Apr 2024 UTC: INFO: BasePlot.py(196): plot_mission db closed
+21:19:56 05 Apr 2024 UTC: INFO: MakeKML.py(1040): Started processing 21:19:56 05 Apr 2024 GMT
+21:19:56 05 Apr 2024 UTC: INFO: MakeKML.py(449): Opened /home/jails/uwssc/gliderjail/home/sg195/targets.0 for processing
+21:19:56 05 Apr 2024 UTC: INFO: MakeKML.py(463): ['NORTH', 'lat=4744.5', 'lon=-12223.75', 'radius=200', 'finish=000', 'goto=SOUTH']
+21:19:56 05 Apr 2024 UTC: INFO: MakeKML.py(463): ['SOUTH', 'lat=4743.0', 'lon=-12223.75', 'radius=200', 'finish=180', 'goto=NORTH']
+21:19:56 05 Apr 2024 UTC: INFO: MakeKML.py(1697): Finished processing 21:19:56 05 Apr 2024 GMT
+21:19:56 05 Apr 2024 UTC: INFO: MakeKML.py(1701): Run time 0.190724 seconds
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1477): No .extensions file /usr/local/basestation3/etc/.extensions found
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1400): Starting processing on .extensions section(s):('global', 'mission')
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1468): Finished processing on .extensions
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const volmax
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const rho0
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const hd_a
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const hd_b
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const hd_c
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const abs_compress
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const therm_expan
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing calib const temp_ref
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2538): Processing SBECT
+21:19:56 05 Apr 2024 UTC: WARNING: Base.py(2557): ALERT:calib const volmax
+    WARNING: CalibConst.py(122): volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const rho0
+    WARNING: CalibConst.py(122): rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const hd_a
+    WARNING: CalibConst.py(122): hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const hd_b
+    WARNING: CalibConst.py(122): hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const hd_c
+    WARNING: CalibConst.py(122): hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const abs_compress
+    WARNING: CalibConst.py(122): abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const therm_expan
+    WARNING: CalibConst.py(122): therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const temp_ref
+    WARNING: CalibConst.py(122): temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:SBECT
+    SBECT <class 'type'> coefficient(s) are mismatched between sgc and log (dive 1)!
+    SBECT <class 'type'> coefficient(s) are mismatched between sgc and log (dive 1)!
+Consult baselog_240405211924 for details.
+21:19:56 05 Apr 2024 UTC: INFO: BaseDB.py(1169): addValToDB db opened
+21:19:56 05 Apr 2024 UTC: ERROR: Failed to add alerts to dive 1:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1178, in addValToDB
+    insertColumn(dive_num, cur, var_n, val, db_type)
+  File "/usr/local/basestation3/BaseDB.py", line 142, in insertColumn
+    cur.execute(f"UPDATE dives SET {col} = {val} WHERE dive={dive};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:56 05 Apr 2024 UTC: INFO: BaseDB.py(1198): addValToDB db closed
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2609): Processed files msg:
+Processing complete as of 21:19:56 05 Apr 2024 GMT
+p1950001.log
+p1950001.eng
+p1950001.asc
+p1950001.cap
+plots/dv0001_diveplot.div
+plots/dv0001_diveplot.webp
+plots/dv0001_cog.div
+plots/dv0001_cog.webp
+plots/dv0001_ctw.div
+plots/dv0001_ctw.webp
+plots/dv0001_aa4330.div
+plots/dv0001_aa4330.webp
+plots/dv0001_wlbb2fl_Chlorophyll_fluorescence.div
+plots/dv0001_wlbb2fl_Chlorophyll_fluorescence.webp
+plots/dv0001_wlbb2fl_backscatter.div
+plots/dv0001_wlbb2fl_backscatter.webp
+plots/dv0001_ctd.div
+plots/dv0001_ctd.webp
+plots/dv0001_raw_ctd.div
+plots/dv0001_raw_ctd.webp
+plots/dv0001_ts.div
+plots/dv0001_ts.webp
+plots/dv0001_ts_raw.div
+plots/dv0001_ts_raw.webp
+plots/dv0001_vert_vel.div
+plots/dv0001_vert_vel.webp
+plots/dv0001_pitch.div
+plots/dv0001_pitch.webp
+plots/dv0001_roll.div
+plots/dv0001_roll.webp
+plots/dv0001_roll_rate.div
+plots/dv0001_roll_rate.webp
+plots/dv0001_magcal.div
+plots/dv0001_magcal.webp
+plots/dv0001_diveplot.div
+plots/dv0001_diveplot.webp
+plots/dv0001_cog.div
+plots/dv0001_cog.webp
+plots/dv0001_ctw.div
+plots/dv0001_ctw.webp
+plots/dv0001_aa4330.div
+plots/dv0001_aa4330.webp
+plots/dv0001_wlbb2fl_Chlorophyll_fluorescence.div
+plots/dv0001_wlbb2fl_Chlorophyll_fluorescence.webp
+plots/dv0001_wlbb2fl_backscatter.div
+plots/dv0001_wlbb2fl_backscatter.webp
+plots/dv0001_ctd.div
+plots/dv0001_ctd.webp
+plots/dv0001_raw_ctd.div
+plots/dv0001_raw_ctd.webp
+plots/dv0001_ts.div
+plots/dv0001_ts.webp
+plots/dv0001_ts_raw.div
+plots/dv0001_ts_raw.webp
+plots/dv0001_vert_vel.div
+plots/dv0001_vert_vel.webp
+plots/dv0001_pitch.div
+plots/dv0001_pitch.webp
+plots/dv0001_roll.div
+plots/dv0001_roll.webp
+plots/dv0001_roll_rate.div
+plots/dv0001_roll_rate.webp
+plots/dv0001_magcal.div
+plots/dv0001_magcal.webp
+plots/eng_mission_volmax.div
+plots/eng_mission_volmax.webp
+plots/eng_pitch_roll_motors.div
+plots/eng_pitch_roll_motors.webp
+plots/eng_vbd_motors.div
+plots/eng_vbd_motors.webp
+plots/eng_vbd_effic.div
+plots/eng_vbd_effic.webp
+plots/eng_mission_int_sensors.div
+plots/eng_mission_int_sensors.webp
+plots/eng_mission_depthangle.div
+plots/eng_mission_depthangle.webp
+plots/eng_mission_commlog.div
+plots/eng_mission_commlog.webp
+plots/eng_download_stats.div
+plots/eng_download_stats.webp
+sg195.kmz
+p1950001.nc
+sg195_Shilshole_Shakedown_timeseries.nc
+
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(1367): Extension script /home/jails/uwssc/gliderjail/home/sg195/.post_mission not found
+21:19:56 05 Apr 2024 UTC: INFO: BaseDB.py(1169): addValToDB db opened
+21:19:56 05 Apr 2024 UTC: ERROR: Failed to add capture to dive 1:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1178, in addValToDB
+    insertColumn(dive_num, cur, var_n, val, db_type)
+  File "/usr/local/basestation3/BaseDB.py", line 142, in insertColumn
+    cur.execute(f"UPDATE dives SET {col} = {val} WHERE dive={dive};")
+sqlite3.OperationalError: attempt to write a readonly database
+
+21:19:56 05 Apr 2024 UTC: INFO: BaseDB.py(1198): addValToDB db closed
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /usr/local/basestation3/etc/.pagers
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers for  alerts
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(599): Sending ALERTS FROM PROCESSING SG195 to https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go
+21:19:56 05 Apr 2024 UTC: INFO: SlackPost.py(59): instrument_id:195 slack_hook_url:https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go subject_line:ALERTS FROM PROCESSING SG195 message_body:ALERT:calib const volmax
+    WARNING: CalibConst.py(122): volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const rho0
+    WARNING: CalibConst.py(122): rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const hd_a
+    WARNING: CalibConst.py(122): hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const hd_b
+    WARNING: CalibConst.py(122): hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const hd_c
+    WARNING: CalibConst.py(122): hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const abs_compress
+    WARNING: CalibConst.py(122): abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const therm_expan
+    WARNING: CalibConst.py(122): therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:calib const temp_ref
+    WARNING: CalibConst.py(122): temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+ALERT:SBECT
+    SBECT <class 'type'> coefficient(s) are mismatched between sgc and log (dive 1)!
+    SBECT <class 'type'> coefficient(s) are mismatched between sgc and log (dive 1)!
+Consult baselog_240405211924 for details.
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /usr/local/basestation3/etc/.pagers
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers for  alerts
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts comp
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(388): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(393): Using sending function slack
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /usr/local/basestation3/etc/.pagers
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(380): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers for  alerts comp
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(632): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(990): Starting processing on .ftp
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1009): Finished processing on .ftp
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(987): No .sftp file found - skipping .sftp processing
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1026): Starting processing on .mailer
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(1377): Finished processing on .mailer
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(317): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass 2
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(245): Starting processing on .urls pass(2)
+21:19:56 05 Apr 2024 UTC: INFO: BaseDotFiles.py(310): Finished processing on .urls pass(2)
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-475-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14147-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14164-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14161-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14167-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14152-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-1807961-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-14158-notify.ipc:195-urls-files:{"glider":195,"dive":1,"content":"files=all","time":1712351996.6415615}
+21:19:56 05 Apr 2024 UTC: INFO: Base.py(2875): Finished processing 21:19:56 05 Apr 2024 GMT
