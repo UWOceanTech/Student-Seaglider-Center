@@ -4,7 +4,7 @@ The University of Washington Student Seaglider Center (SSC) manages a fleet of S
 
 Contents: 
 - Shilshole Shakedown (2024)
-- Carson Overnight(2024)
+- Carson Overnight (2024)
 - Colvos Passage Triple Glider Mission (2024)
 - Tropics Mission (2024-2025)
 - Shilshole Shakedown (2025)
