@@ -1,0 +1,696 @@
+153.580,HTT8,N,Updating parameter $RELAUNCH to 1
+153.909,HTT8,N,Writing NVRAM...done.
+162.902,SUSR,N,Beginning selftest #27 on glider SG195
+0.922,SUSR,N,Fri May 17 07:12:48 2024
+2.731,HPRES,N,20 samples mean depth = -0.05m noise = 0.0366m (0.0700m threshold)
+2.873,HPRES,N,enabled.
+2.940,SUSR,N,---- Audible pings to mark start of tests ----
+3.432,HXPDR,N,ping response: R011.408ms
+
+3.494,HXPDR,N,range 8.556000 m
+5.860,HXPDR,N,ping response: R---------
+
+5.921,HXPDR,N,range 999.000000 m
+8.054,HXPDR,N,ping response: R---------
+
+8.115,HXPDR,N,range 999.000000 m
+10.047,SUSR,N,clearing tranponder ping count, prev count=0
+10.169,SUSR,N,xpdr/ranging can be tested while other tests proceed
+10.296,SUSR,N,---- Checking GPS ----
+11.409,HGPS,N,Fetching GPS version - this may take one minute
+71.487,HGPS,N,timeout
+71.518,HGPS,N,reset GPS, flags=1
+73.840,HGPS,N,Obtaining GPS fix
+73.959,HGPS,N,reset GPS, flags=1
+76.022,HGPS,N,Acquiring GPS fix (5,8,40)
+77.413,HGPS,N,VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+-619289707.001,HGPS,N,sync sentence $GPRMC,141740,A,4737.6781,N,12223.6853,W,000.0,000.0,011004,016.3,E*64
+ (k=24241)set 2004/10/01 14:17:41
+-619289707.203,HGPS,N,011004 141739 4737.6782 -12223.6855 hdop=1.6 cog=0.0 sog=0.0 hpe=4.2 n=7 38/78 seconds
+-619289703.348,SUSR,N,---- Checking Iridium phone ----
+-619289693.612,HPHONE,N,model: 9523
+-619289693.687,HPHONE,N,IMEI: 300125010009280
+-619289693.762,HPHONE,N,NUM: +CNUM:"","",129
+-619289693.837,HPHONE,N,SIM: 8988169234005408091
+-619289692.587,HPHONE,N,signal strength 5
+-619289690.637,HPHONE,N,signal strength 5
+-619289685.237,HPHONE,N,signal strength 5
+-619289685.362,HPHONE,N,-MSGEO: -2300,-3636,4688,d147e077
+-619289685.437,HPHONE,N,lat: 47.647831, lon: -122.315941, time: Thu May 16 01:06:54 2024
+-619289685.562,HPHONE,N,WARNING: Phone reported 4 stat on CREG?
+-619289685.662,HPHONE,N,CREG failed - phone not registered
+-619289683.769,HPHONE,N,phone on 20175 ms, avg mA=22.9, max mA=56.6
+-619289683.897,SUSR,N,---- Checking bathymetry data ----
+-619289682.014,SUSR,N,Normal Heap: 0+28671 bytes
+-619289680.222,SGLMALLOC,N,glheap_walk: 345204 bytes free, 1 blocks free, 2836 bytes alloc, 4 blocks alloc
+-619289672.618,SBATHY,N,Loaded bathymap.004 [112 137] 100m (LL) 48.0667,-122.4833 (UR) 48.1675,-122.2988
+-619289661.292,SBATHY,N,Loaded bathymap.005 [112 137] 100m (LL) 47.8000,-122.5000 (UR) 47.9008,-122.3165
+-619289650.038,SBATHY,N,Loaded bathymap.006 [156 100] 100m (LL) 47.6800,-122.5000 (UR) 47.8204,-122.3663
+-619289645.238,SBATHY,N,Loaded bathymap.007 [ 56  75] 100m (LL) 47.6500,-122.5000 (UR) 47.7004,-122.3998
+-619289637.198,SBATHY,N,Loaded bathymap.001 [101 100] 100m (LL) 47.8833,-122.4000 (UR) 47.9742,-122.2658
+-619289629.824,SBATHY,N,Loaded bathymap.002 [102 112] 100m (LL) 47.9500,-122.3833 (UR) 48.0418,-122.2328
+-619289622.857,SBATHY,N,Loaded bathymap.003 [ 47 174] 100m (LL) 48.0333,-122.4667 (UR) 48.0756,-122.2325
+-619289621.222,SBATHY,N,WARNING: No bathymetry file covers the current location (4737.678223,-12223.685547)!
+-619289621.432,SGLMALLOC,N,glheap_walk: 328420 bytes free, 4 blocks free, 19500 bytes alloc, 6 blocks alloc
+-619289621.619,SUSR,N,---- Checking compass and calibration files ----
+-619289621.975,HCOMPASS,N,Reading compass coefficients: "SG195 dive compass cal using DiveMagFile.SG195 collected at 47.648,-122.877 on 2/4/2018 for SN XXX (IGRF = 537.430)"
+-619289620.236,HCOMPASS,N,Compass 1, SP3003
+-619289620.373,HCOMPASS,N,pitch A,B,C,D: 0.000000 1.000000 0.000000 0.000000
+-619289620.554,HCOMPASS,N,roll A,B,C,D:  0.000000 1.000000 0.000000 0.000000
+-619289620.846,HCOMPASS,N,hard iron P,Q,R: 61.094898 44.624199 44.852600
+-619289619.099,HCOMPASS,N,soft iron: 0.956200 0.005700 0.005500
+-619289619.336,HCOMPASS,N,           0.001600 1.014300 -0.002800
+-619289619.574,HCOMPASS,N,           -0.002000 -0.005700 1.014000
+-619289617.148,HCOMPASS,N,compass filter disabled ok
+-619289617.929,HCOMPASS,N,1, SP3003, Hdg: 335.80 deg Rol: 3.47 deg Pit: -52.19 deg Tmp: 16.40 C
+-619289615.635,SUSR,N,---- Reporting hardware configuration ----
+-619289615.781,SUSR,N,Sensor in slot 1 is SBE_CT on port 2, TPU04/TPU05, nominally 'CT'
+-619289612.025,SUSR,N,Sensor in slot 2 is WL_blue_red_Chl on port 3, TPU06/TPU07, nominally 'Optics 1'
+-619289612.226,SUSR,N,Sensor in slot 3 is AA4330 on port 5, TPU10/TPU11 (mux channel 0), nominally 'Optics 2'
+-619289612.415,SUSR,N,Sensor in slot 4 is not installed
+-619289612.530,SUSR,N,Sensor in slot 5 is not installed
+-619289612.646,SUSR,N,Sensor in slot 6 is not installed
+-619289612.765,SUSR,N,Logger Sensor in logger slot 1 is not installed
+-619289612.902,SUSR,N,Logger Sensor in logger slot 2 is not installed
+-619289611.040,SUSR,N,Logger Sensor in logger slot 3 is not installed
+-619289611.177,SUSR,N,Logger Sensor in logger slot 4 is not installed
+-619289611.309,SUSR,N,Motherboard is Rev.B.1
+-619289611.417,SUSR,N,Motherboard is not configured for high current detection (Deep Glider)
+-619289611.577,SUSR,N,Phone is Iridium9522
+-619289611.681,SUSR,N,    Phone is configured for flow control and carrier detect
+-619289611.839,SUSR,N,    Phone supply is battery 2 with real-time current measurement
+-619289611.991,SUSR,N,GPS is Garmin_GPS15H
+-619289610.085,SUSR,N,Compass is SP3003
+-619289610.176,SUSR,N,    Spare compass is not installed
+-619289610.288,SUSR,N,XPDR is AAE_955
+-619289610.377,SUSR,N,Glider is not a Deep Glider
+-619289610.542,SUSR,N,External pressure sensor gain (128.000000) consistent with Paine
+Iridium_during_init=0.01301
+Iridium_during_connect=0.16000
+Iridium_during_xfer=0.22300
+GPS=0.03071
+TT8=0.01521
+TT8_Active=0.01521
+TT8_Sampling=0.04367
+TT8_CF8=0.05341
+TT8_Kalman=0.06914
+Analog_circuits=0.01400
+Compass=0.00824
+SBE_CT=0.02247
+AA4330=0.01123
+WL_BB2F=0.04194
+-619289606.905,SUSR,N,---- Reporting software version ----
+-619289605.055,SUSR,N,Version: 66.14
+-619289605.143,SUSR,N,Compiled on: Nov  5 2017 10:24:15
+-619289605.255,SUSR,N,From SVN version 5179M
+-619289605.350,SUSR,N,Compiler: gcc
+-619289605.433,SUSR,N,x SCENARIO
+-619289605.512,SUSR,N,o ICE support
+-619289605.595,SUSR,N,o RAFOS
+-619289605.669,SUSR,N,o Kermit
+-619289605.745,SUSR,N,o ARS
+-619289605.816,SUSR,N,o PAAM
+-619289605.888,SUSR,N,o MIB
+-619289605.961,SUSR,N,o AQUADOPP
+-619289602.108,SUSR,N,o SAILCT
+-619289602.185,SUSR,N,o MicroModem
+-619289602.267,SUSR,N,x DeepGlider
+-619289602.349,SUSR,N,o Heap Recycle
+-619289602.433,SUSR,N,o LUA
+-619289602.519,SUSR,N,NVRAM: 194 parameters, 780 bytes, 250 bytes in utility storage
+-619289602.668,SUSR,N,Buffers: static
+-619289602.753,SUSR,N,Active (2Mhz)
+-619289602.839,SUSR,N,PicoDOS version: C82#2877-1.63b
+-619289602.948,SUSR,N,Launched as: MAIN
+-619289601.041,SUSR,N,Normal Heap: 0+28671 bytes
+-619289601.174,SGLMALLOC,N,glheap_walk: 328332 bytes free, 6 blocks free, 19516 bytes alloc, 7 blocks alloc
+-619289601.353,SUSR,N,Sensors: SBE_CT,WL_blue_red_Chl,AA4330
+-619289599.207,SUSR,N,MAIN.RUN: 544768 bytes
+-619289599.305,SUSR,N,---- Reporting directory contents ----
+WLBBFL2.CNF            237
+WLBB2FL.CNF            241
+WLBB2F.CNF             219
+THISDIVE.KAP          6247
+BG102513               515
+TARGETS                132
+BG101117               533
+MAIN.RUN            544768
+TANK.RUN            621568
+CMDFILE                114
+THISDIVE.LOG          7508
+BG100413               505
+BG121317               538
+IOTEST.RUN           49440
+PDOSLOG.GZ             201
+TCM2MAT.OLD            284
+RUN001.CFG             322
+BG101617               533
+CURRENTS               272
+BATTERY                505
+SCIENCE                295
+BG120417               533
+BG092904               488
+BG013118               539
+SG195PRM.TXT          3084
+BG092404               482
+BG102213               505
+BG101113               524
+BG052813               491
+PDOSLOG                  0
+SG0000KL.A            3572
+PNW.TAR             266240
+SG0000KZ.A            1990
+SG0000LZ.A            1490
+SG0008LZ.A            3306
+BG100713               505
+SG0001DZ.A            5769
+FRITZ                  408
+BG102113               505
+SG0002DZ.A            5499
+SG0003DZ.A            7570
+SG0004DZ.A            7487
+SG0001KZ.A           13418
+SG0001LZ.A            3269
+SG0002KZ.A           10265
+SG0002LZ.A            3255
+SG0005DZ.A            7361
+SG0006DZ.A            6371
+SG0003KZ.A           14114
+SG0003LZ.A            3492
+SG0007DZ.A            6174
+SG0004KZ.A           15392
+SG0004LZ.A            3485
+SG0008DZ.A            5189
+SG0005KZ.A           14621
+SG0005LZ.A            3431
+SG0006KZ.A           11912
+SG0006LZ.A            3284
+SG0007KZ.A           12032
+SG0007LZ.A            3339
+SG0008KZ.A           10848
+THISDIVE.WRK           114
+BG052113               490
+LOGGERS.CMD              0
+TEMP1A                 222
+TCM2MAT.NEW            282
+TCM2MAT.BAK            286
+TCM2MAT.195            282
+ALTIM.SAV              222
+THISDIVE.DAT             0
+WLFL3.CNF              256
+WLBB3.CNF              256
+BATHYMAP.004         48787
+BATHYMAP.005         54657
+BATHYMAP.006         54653
+BATHYMAP.007         14815
+BATHYMAP.001         33729
+BATHYMAP.002         38187
+BATHYMAP.003         26629
+BG081604               491
+BG070804               487
+BG071904               490
+BG081704               495
+BG082004               497
+1973543 bytes used; 84 files
+-619289591.675,SUSR,N,---- Checking pressure sensor ----
+-619289588.735,HPRES,N,                A/D         mVolts     Meters
+-619289588.991,HPRES,N, Mean:          408168.3   0.474220   -0.06   
+-619289587.255,HPRES,N, RMS:           408168.5   0.474220   -0.06   
+-619289587.472,HPRES,N, Min:           407575     0.473531   -0.11   
+-619289587.686,HPRES,N, Max:           409138     0.475347   0.02    
+-619289587.867,HPRES,N, Peak-to-peak:  1563       1.815932   uV
+
+-619289586.039,HPRES,N, Volts per bit: 1.161825e-09
+
+-619289586.207,HPRES,N,Current pressure y-intercept is -47.763615 (psig).
+-619289586.405,HPRES,N,If truly at sealevel, this data suggests it should be -47.675777 (psig).
+-619289586.627,HTT8,N,Updating parameter $PRESSURE_YINT to -47.675777
+-619289586.985,HTT8,N,Writing NVRAM...done.
+-619289577.847,HPRES,N,new value automatically accepted
+-619289576.633,HPRES,N,                A/D         mVolts     Meters
+-619289576.888,HPRES,N, Mean:          408343.1   0.474423   0.01    
+-619289575.150,HPRES,N, RMS:           408343.0   0.474423   0.01    
+-619289575.365,HPRES,N, Min:           407580     0.473537   -0.05   
+-619289573.682,HPRES,N, Max:           409058     0.475254   0.07    
+-619289573.863,HPRES,N, Peak-to-peak:  1478       1.717177   uV
+
+-619289572.035,HPRES,N, Volts per bit: 1.161825e-09
+
+-619289572.146,HPRES,N,Y-intercept is set correctly
+-619289572.327,SUSR,N,---- Checking pitch, roll, and VBD ----
+-619289572.447,SUSR,N,---- Checking pitch motor ----
+-619289572.552,SUSR,N,Pitching up
+-619289572.888,HPITCH,N,Pitch commanded from -8.76 cm (184) to 2.90 cm (3915)...
+-619289569.677,HPITCH,N,-8.4 cm (ad: 294) mA=213 minV=26.9 (0,0)
+-619289563.352,HPITCH,N,-3.6 cm (ad: 1838) mA=212 minV=26.9 (0,0)
+-619289557.052,HPITCH,N,1.2 cm (ad: 3358) mA=213 minV=26.9 (0,0)MOTOR_DONE: ticks: 17 max 24v: 3.8mA avg 24v: 3.1mA minV 24v: 26.7V
+-619289554.039,SMOTOR,N,GC TICKS/TIME: 576/581045
+-619289554.139,HPITCH,N,done.
+-619289554.290,HPITCH,N,Pitch completed from -8.76 cm (184) to 2.83 cm (3891) took 13.9 sec 215 mA (336 mA peak) 26.2 Vmin 266.69 AD/sec 556 ticks
+-619289554.748,HPITCH,N,TRACK: b: 3885/0 a: 3889/0 d: 0 o: 2
+-619289554.865,SUSR,N,Pitching down
+-619289553.203,HPITCH,N,Pitch commanded from 2.83 cm (3891) to -8.69 cm (207)...
+-619289551.993,HPITCH,N,2.3 cm (ad: 3736) mA=45 minV=26.8 (0,0)
+-619289545.718,HPITCH,N,-4.7 cm (ad: 1496) mA=31 minV=26.8 (0,0)MOTOR_DONE: ticks: 11 max 24v: 3.8mA avg 24v: 3.1mA minV 24v: 26.7V
+-619289541.713,SMOTOR,N,GC TICKS/TIME: 390/395309
+-619289541.813,HPITCH,N,done.
+-619289541.962,HPITCH,N,Pitch completed from 2.83 cm (3891) to -8.77 cm (181) took 9.4 sec 29 mA (241 mA peak) 26.6 Vmin 394.68 AD/sec 376 ticks
+-619289540.409,HPITCH,N,TRACK: b: 219/0 a: 215/0 d: 4 o: -34
+-619289540.528,SUSR,N,Backing off pitch mass
+-619289539.063,HPITCH,N,   Pitch control position = -8.77 cm, (AD#= 180 )
+-619289539.473,HPITCH,N,Pitch commanded from -8.77 cm (180) to -6.77 cm (819)...
+-619289536.237,HPITCH,N,-8.4 cm (ad: 285) mA=212 minV=26.8 (0,0)MOTOR_DONE: ticks: 1 max 24v: 3.1mA avg 24v: 3.1mA minV 24v: 26.5V
+-619289534.710,SMOTOR,N,GC TICKS/TIME: 98/104478
+-619289534.809,HPITCH,N,done.
+-619289534.961,HPITCH,N,Pitch completed from -8.77 cm (180) to -6.80 cm (809) took 2.3 sec 211 mA (299 mA peak) 26.2 Vmin 267.66 AD/sec 94 ticks
+-619289533.413,HPITCH,N,TRACK: b: 804/0 a: 807/0 d: -1 o: 2
+-619289533.531,SUSR,N,---- Checking roll motor ----
+-619289533.635,SUSR,N,Roll to port
+-619289533.957,HROLL,N,Roll commanded from 0.28 deg (2098) to -52.70 deg (224)...
+-619289530.751,HROLL,N,-6.3 deg (ad: 1864) mA=44 minV=26.8 (0,0)MOTOR_DONE: no ticks
+-619289527.525,SMOTOR,N,GC TICKS/TIME: 119/124206
+-619289527.625,HROLL,N,done.
+-619289527.780,HROLL,N,Roll completed from 0.28 deg (2098) to -51.88 deg (253) took 2.9 sec 44 mA (222 mA peak) 26.5 Vmin 636.21 AD/sec 116 ticks
+-619289526.228,HROLL,N,TRACK: b: 287/0 a: 283/0 d: 9 o: -30
+-619289526.344,SUSR,N,Roll to starboard
+-619289526.679,HROLL,N,Roll commanded from -51.88 deg (253) to 47.21 deg (3758)...
+-619289523.472,HROLL,N,-45.4 deg (ad: 482) mA=34 minV=26.8 (0,0)MOTOR_DONE: ticks: 8 max 24v: 3.8mA avg 24v: 3.1mA minV 24v: 26.6V
+-619289517.112,SMOTOR,N,GC TICKS/TIME: 227/232125
+-619289517.212,HROLL,N,done.
+-619289517.374,HROLL,N,Roll completed from -51.88 deg (253) to 46.70 deg (3740) took 5.4 sec 33 mA (210 mA peak) 26.5 Vmin 645.74 AD/sec 216 ticks
+-619289517.824,HROLL,N,TRACK: b: 3705/0 a: 3710/0 d: -2 o: 30
+-619289517.942,SUSR,N,Roll to neutral
+-619289516.247,HROLL,N,Roll commanded from 46.70 deg (3740) to 0.00 deg (2088)...
+-619289513.039,HROLL,N,40.3 deg (ad: 3514) mA=36 minV=26.8 (0,0)MOTOR_DONE: ticks: 18 max 24v: 3.8mA avg 24v: 3.1mA minV 24v: 26.7V
+-619289510.009,SMOTOR,N,GC TICKS/TIME: 120/125233
+-619289510.109,HROLL,N,done.
+-619289510.263,HROLL,N,Roll completed from 46.70 deg (3740) to -0.08 deg (2085) took 2.5 sec 26 mA (209 mA peak) 26.5 Vmin 668.69 AD/sec 99 ticks
+-619289510.711,HROLL,N,TRACK: b: 2156/0 a: 2152/0 d: 4 o: -67
+-619289510.832,SUSR,N,---- Checking VBD and valve ----
+-619289509.217,HVBD,N,   VBD lin pot AD counts: 564 506
+-619289509.376,HVBD,N,   VBD bladder position = 604.66 cc, (AD#= 535 )
+-619289508.376,HVBD,N,Bleed commanded from 604.66 cc (535) to 413.33 cc (1315)...
+-619289505.167,HVBD,N,604.4 cc (ad: 536 [569,508]) mA=85 minV=26.8 (0,0)
+-619289500.917,HVBD,N,571.5 cc (ad: 670 [727,621]) mA=11 minV=26.8 (0,0)
+-619289494.642,HVBD,N,538.9 cc (ad: 803 [876,740]) mA=7 minV=26.8 (0,0)
+-619289488.342,HVBD,N,507.5 cc (ad: 931 [1011,858]) mA=5 minV=26.8 (0,0)
+-619289482.042,HVBD,N,477.6 cc (ad: 1053 [1140,971]) mA=5 minV=26.8 (0,0)
+-619289477.742,HVBD,N,448.9 cc (ad: 1170 [1271,1074]) mA=5 minV=26.8 (0,0)
+-619289471.442,HVBD,N,420.7 cc (ad: 1285 [1391,1184]) mA=5 minV=26.8 (0,0)MOTOR_DONE: ticks: 19 max 24v: 1261.5mA avg 24v: 70.4mA minV 24v: 26.7V
+-619289469.874,SMOTOR,N,GC TICKS/TIME: 1469/1474268
+-619289469.977,HVBD,N,done.
+-619289468.144,HVBD,N,Bleed completed from 604.66 cc (535) to 412.84 cc (1317 [1421, 1214]) took 36.2 sec 0 mA (1112 mA peak) 26.8 Vmin 21.62 AD/sec 1447 ticks
+-619289468.605,HVBD,N,TRACK: b: 1420/1211 a: 1420/1211 d: -105 o: -103
+-619289467.009,HVBD,N,   VBD lin pot AD counts: 1421 1215
+-619289467.171,HVBD,N,   VBD bladder position = 412.59 cc, (AD#= 1318 )
+-619289467.308,SUSR,N,Pumping 100cc on boost alone
+-619289467.670,HVBD,N,Pump commanded from 412.84 cc (1317) to 512.68 cc (910)...
+-619289464.548,HVBD,N,412.8 cc (ad: 1317 [1418,1214]) mA=70 minV=26.8 (0,0)
+-619289458.248,HVBD,N,423.6 cc (ad: 1273 [1364,1179]) mA=57 minV=26.8 (0,0)
+-619289453.998,HVBD,N,435.2 cc (ad: 1226 [1317,1133]) mA=57 minV=26.8 (0,0)
+-619289447.723,HVBD,N,446.2 cc (ad: 1181 [1271,1088]) mA=57 minV=26.8 (0,0)
+-619289441.473,HVBD,N,458.0 cc (ad: 1133 [1221,1043]) mA=57 minV=26.8 (0,0)
+-619289435.198,HVBD,N,469.0 cc (ad: 1088 [1178,995]) mA=57 minV=26.8 (0,0)
+-619289430.948,HVBD,N,479.8 cc (ad: 1044 [1138,949]) mA=57 minV=26.8 (0,0)
+-619289424.673,HVBD,N,490.6 cc (ad: 1000 [1098,900]) mA=57 minV=26.8 (0,0)
+-619289418.373,HVBD,N,500.2 cc (ad: 961 [1056,865]) mA=57 minV=26.8 (0,0)
+-619289412.098,HVBD,N,509.7 cc (ad: 922 [1010,833]) mA=57 minV=26.8 (0,0)MOTOR_DONE: ticks: 12 max 24v: 3.8mA avg 24v: 3.1mA minV 24v: 26.6V
+-619289410.542,SMOTOR,N,GC TICKS/TIME: 2161/2166290
+-619289410.644,HVBD,N,done.
+-619289410.812,HVBD,N,Pump completed from 412.59 cc (1318) to 513.17 cc (908 [993, 824]) took 53.7 sec 57 mA (337 mA peak) 26.4 Vmin 7.64 AD/sec 2146 ticks
+-619289409.284,HVBD,N,TRACK: b: 996/825 a: 996/825 d: -86 o: -88
+-619289409.410,SUSR,N,Pumping up to maximum buoyancy
+-619289409.777,HVBD,N,Pump commanded from 513.17 cc (908) to 613.25 cc (500)...
+-619289406.618,HVBD,N,513.4 cc (ad: 907 [989,822]) mA=76 minV=26.7 (0,0)
+-619289400.368,HVBD,N,523.0 cc (ad: 868 [943,790]) mA=687 minV=26.7 (0,0)
+-619289394.093,HVBD,N,532.5 cc (ad: 829 [898,759]) mA=741 minV=26.7 (0,0)
+-619289389.843,HVBD,N,542.1 cc (ad: 790 [853,727]) mA=743 minV=26.7 (0,0)
+-619289383.568,HVBD,N,551.9 cc (ad: 750 [806,692]) mA=736 minV=26.7 (0,0)
+-619289377.293,HVBD,N,561.2 cc (ad: 712 [761,661]) mA=731 minV=26.7 (0,0)
+-619289371.018,HVBD,N,571.3 cc (ad: 671 [714,628]) mA=727 minV=26.7 (0,0)
+-619289366.743,HVBD,N,580.9 cc (ad: 632 [669,593]) mA=722 minV=26.7 (0,0)
+-619289360.468,HVBD,N,591.2 cc (ad: 590 [622,557]) mA=719 minV=26.7 (0,0)
+-619289354.193,HVBD,N,601.5 cc (ad: 548 [574,519]) mA=715 minV=26.7 (0,0)
+-619289349.943,HVBD,N,611.5 cc (ad: 507 [529,483]) mA=713 minV=26.7 (0,0)MOTOR_DONE: ticks: 19 max 24v: 5.4mA avg 24v: 3.8mA minV 24v: 25.7V
+-619289347.866,SMOTOR,N,GC TICKS/TIME: 2371/2376321
+-619289347.969,HVBD,N,done.
+-619289346.136,HVBD,N,Pump completed from 513.17 cc (908) to 613.99 cc (497 [521, 473]) took 58.7 sec 712 mA (2259 mA peak) 25.0 Vmin 7.00 AD/sec 2349 ticks
+-619289346.617,HVBD,N,TRACK: b: 524/477 a: 524/477 d: -24 o: -27
+-619289346.764,SUSR,N,$D_BOOST restored to 3.00
+1.941,SSURF,N,Initializing data file
+2.211,SSURF,N,Initializing log file
+4.180,SUSR,N,---- Checking sensors and data file creation ----
+5.401,SUSR,N,Measured conductivity zero frequency is acceptable.Changing to bin 20.0() at 0.00m: sec=5.0s gc=60.0s pressure=1 compass=1 timeout=10.00
+9.715,SSENSOR,N,Changing to bin 20.0() at 0.00m: sec=5.0s gc=60.0s pressure=1 compass=1 timeout=10.00
+0.917,SSURF,N,Dive started Fri Oct  1 14:23:51 2004
+ (1096640631)
+9.100,SSENSOR,N,P 6642ms 0.08m 335.3 #1
+13.478,SSENSOR,N,P 11019ms 0.11m 334.9 #2
+19.376,SSENSOR,N,P 16631ms 0.15m 335.3 #3
+23.481,SSENSOR,N,P 21022ms 0.15m 335.1 #4
+29.441,SSENSOR,N,P 26659ms 0.12m 335.6 #5
+34.022,SSENSOR,N,A 30944ms 0.06m 335.0 #6
+39.021,SSENSOR,N,A 35943ms 0.18m 335.6 #7
+44.022,SSENSOR,N,A 40946ms 0.08m 335.5 #8
+49.025,SSENSOR,N,A 45948ms 0.07m 335.4 #9
+55.395,SSENSOR,N,A 52318ms 0.13m 335.3 #10
+60.584,SSENSOR,N,P 58127ms 0.16m 335.4 #11
+65.904,SSENSOR,N,P 63123ms 0.12m 335.6 #12
+69.917,SSENSOR,N,P 67459ms 0.11m 334.9 #13
+75.572,SSENSOR,N,P 73113ms 0.13m 335.2 #14
+80.897,SSENSOR,N,P 78115ms 0.11m 335.6 #15
+82.654,SSENSOR,N,Average sampleData time: 57.948s/15 = 3.863s
+version: 66.14
+glider: 195
+mission: 17
+selftest: 27
+start: 10 1 104 14 23 42
+columns: rec,elaps_tms,depth,heading,pitch,roll,AD_pitch,AD_roll,AD_vbd,GC_phase,mag.x,mag.y,mag.z,sbect.TempFreq,sbect.CondFreq,wlbb2fl.sig470nm,wlbb2fl.sig700nm,wlbb2fl.sig695nm,wlbb2fl.temp,aa4330.O2,aa4330.AirSat,aa4330.Temp,aa4330.CalPhase,aa4330.TCPhase,
+data:
+0 6642 8 3352 -524 38 786 2085 497 6 121 32 -256 237599 342947 36 93 40 554 348186 99385 10271 31625 31625
+1 11019 10 3349 -523 42 786 2085 497 6 121 32 -256 237867 342926 40 91 46 554 348706 99534 10272 31607 31607
+2 16631 14 3353 -518 36 786 2085 497 6 121 32 -256 238109 342932 40 89 45 554 347018 99129 10305 31649 31649
+3 21022 14 3351 -522 39 786 2085 497 6 121 32 -256 238185 342935 43 85 40 554 347164 99132 10288 31652 31652
+4 26659 12 3355 -526 36 786 2085 497 6 122 32 -257 238678 342941 46 91 48 554 348320 99363 10246 31633 31633
+5 30944 6 3349 -524 41 786 2085 497 6 121 32 -256 238677 342939 47 93 39 554 347826 99339 10296 31626 31626
+6 35943 17 3355 -522 37 786 2085 497 6 121 31 -256 238603 342935 42 91 51 554 348576 99384 10223 31635 31635
+7 40946 7 3355 -520 35 786 2085 497 6 121 32 -256 238968 342923 38 84 48 554 346480 98850 10251 31694 31694
+8 45948 7 3353 -524 39 786 2085 497 6 121 31 -256 239508 342925 42 89 48 554 344663 98344 10256 31755 31755
+9 52318 12 3353 -521 39 786 2085 497 6 120 31 -256 239520 342939 41 83 46 554 343508 98095 10292 31778 31778
+10 58127 15 3354 -523 38 786 2085 497 6 120 31 -256 239714 342913 46 83 42 554 342339 97849 10330 31800 31800
+11 63123 11 3355 -522 36 786 2085 497 6 121 31 -255 239630 342927 39 84 44 554 342074 97800 10341 31804 31804
+12 67459 10 3348 -520 41 786 2085 497 6 121 32 -255 239439 342954 41 82 43 554 345435 98854 10382 31667 31667
+13 73113 13 3352 -518 39 786 2085---- Writing internal sensors to log ----
+95.867,HTT8,N,TT8 state: Normal (2MHz); analog off; TPU TCR1 480000Hz, tick rate 40000Hz
+96.087,SPOWER,N,All devices are off.
+96.731,HTT8,N,TT8 milliamps 28.46
+96.981,SUSR,N,internal humidity 1906 counts (49.247101% RH)
+97.191,SUSR,N,internal pressure 8.458636 psia
+97.290,SUSR,N,---- Checking altimeter ----
+97.839,HXPDR,N,ping response: R011.786ms
+
+97.901,HXPDR,N,range 8.839500 m
+98.069,SUSR,N,---- Checking transponder ----
+98.886,HXPDR,N,Tried 2 times cmd $C1
+
+99.150,SUSR,N,transponder reply ping count=0
+99.248,SUSR,N,---- Reporting targets and science specifications ----
+104.308,SNAV,N,      Target     Latitude  Longitude    Heading Radius Depth Finish Timeout Next target Escp target
+104.691,SNAV,N,  =>  NORTH      4744.500  -12224.820  -1.0    200.0m    0  -1  0.0 SOUTH none
+105.054,SNAV,N,      SOUTH      4743.000  -12223.750  -1.0    200.0m    0 180  0.0 NORTH none
+107.371,SSENSOR,N,20.0 gc=60.0 seconds=5.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] WL_blue_red_Chl=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] 
+107.777,SSENSOR,N,50.0 gc=120.0 seconds=10.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] WL_blue_red_Chl=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] 
+108.200,SSENSOR,N,100.0 gc=120.0 seconds=10.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] WL_blue_red_Chl=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] 
+108.626,SSENSOR,N,250.0 gc=180.0 seconds=10.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] WL_blue_red_Chl=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] 
+109.044,SSENSOR,N,400.0 gc=300.0 seconds=20.0 sensors=111 compass=1 pressure=1 // SBE_CT=[1,pr=3,dv=1] WL_blue_red_Chl=[1,pr=3,dv=1] AA4330=[1,pr=3,dv=1] 
+109.437,SUSR,N,---- Reporting battery status ----
+117.958,SPOWER,N,------ Fuel gauges (Cumulative Amp-secs) -------
+
+                           cumulative      / since power up
+118.245,SPOWER,N,             Pitch_motor:    32.98 amp-sec /    25.65 sec
+118.453,SPOWER,N,              Roll_motor:     1.16 amp-sec /    10.77 sec
+120.723,SPOWER,N,    VBD_pump_during_apogee:  3193.12 amp-sec /     0.00 sec
+120.957,SPOWER,N,    VBD_pump_during_surface:   254.35 amp-sec /   112.38 sec
+121.115,SPOWER,N,               VBD_valve:     0.00 amp-sec /     0.00 sec
+121.267,SPOWER,N,     Iridium_during_init:     0.00 amp-sec /     0.00 sec
+121.419,SPOWER,N,    Iridium_during_connect:     0.00 amp-sec /     0.00 sec
+121.639,SPOWER,N,     Iridium_during_xfer:   431.38 amp-sec /    20.17 sec
+121.837,SPOWER,N,        Transponder_ping:     3.15 amp-sec /     1.00 sec
+121.991,SPOWER,N,             GUMSTIX_24V:     0.00 amp-sec /     0.00 sec
+122.168,SPOWER,N,      ------------- 24V/high bus total = 1.088 AmpHr -----------
+122.399,SPOWER,N,                     GPS:   126.17 amp-sec /   144.84 sec
+122.619,SPOWER,N,                     TT8:    89.40 amp-sec /   287.77 sec
+122.835,SPOWER,N,                 LPSleep:    15.91 amp-sec /    16.32 sec
+123.056,SPOWER,N,              TT8_Active:    89.03 amp-sec /   191.44 sec
+123.280,SPOWER,N,            TT8_Sampling:   625.46 amp-sec /   204.96 sec
+123.503,SPOWER,N,                 TT8_CF8:   120.87 amp-sec /   112.90 sec
+123.657,SPOWER,N,              TT8_Kalman:     0.00 amp-sec /     0.00 sec
+123.879,SPOWER,N,         Analog_circuits:   216.04 amp-sec /   270.83 sec
+124.033,SPOWER,N,            GPS_charging:     0.00 amp-sec /     0.00 sec
+124.249,SPOWER,N,                 Compass:    23.92 amp-sec /    26.92 sec
+124.403,SPOWER,N,                   RAFOS:     0.00 amp-sec /     0.00 sec
+124.602,SPOWER,N,             Transponder:     1.36 amp-sec /     7.40 sec
+124.756,SPOWER,N,                Compass2:     0.00 amp-sec /     0.00 sec
+124.969,SPOWER,N,                  SBE_CT:    30.38 amp-sec /    13.82 sec
+125.190,SPOWER,N,         WL_blue_red_Chl:   392.65 amp-sec /    32.62 sec
+125.409,SPOWER,N,                  AA4330:    25.68 amp-sec /    21.23 sec
+125.591,SPOWER,N,      ------------- 10V/low bus total = 0.488 AmpHr ------------
+125.815,SPOWER,N,24V battery at 99.27 pct of 150.0 A-hr
+126.004,SPOWER,N,10V battery at 99.50 pct of 97.0 A-hr
+133.779,HBATT,N,24V voltage = 26.15 +/- 0.01V n=6 [26.15V 26.15V]
+134.028,HBATT,N,10V voltage = 10.84 +/- 0.00V n=6 [10.84V 10.84V]
+137.810,SUSR,N,---- Checking capture vector ----
+137.918,SUSR,N,all capture settings at default values
+138.028,SUSR,N,---- Checking flash ----
+No flash problems detected
+152.739,SUSR,N,---- Checking SMS ----
+152.827,SUSR,N,sms_email = ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+152.990,HPHONE,N,Testing SMS try: 0
+170.571,HPHONE,N,Phone registered
+170.621,HPHONE,N,Checking for SMS capability
+173.871,HPHONE,N,Phone can send sms and can receive sms (3)
+173.946,HPHONE,N,No valid SMS email address set - no SMS sent
+176.059,HPHONE,N,phone on 22825 ms, avg mA=20.7, max mA=57.4
+176.186,SUSR,N,*** EOTD ***
+176.448,SUSR,N,Saving to SG195PRM.TXT---- Self test PASSED! ----
+183.131,SUSR,N,2 warnings noted
+183.208,SUSR,N,--> Iridium registration
+183.295,SUSR,N,--> bathymetry maps
+Compressing THISDIVE.LOG to st0027lz.x...
+Compressing THISDIVE.DAT to st0027dz.x...
+189.122,SUSR,N,---- Checking communications ----
+189.230,SUSR,N,Testing comms by transmitting self-test results:
+194.322,HCF8,N,'st0027dz.x00' opened
+194.528,HCF8,N,'st0027dz.x00' has 684 bytes
+201.992,HCF8,N,'st0027lz.x00' opened
+202.273,HCF8,N,'st0027lz.x00' has 2055 bytes
+206.508,SSURF,N,Collecting glider state
+207.020,HBATT,N,24V batt pack voltage = 26.22V
+207.157,HBATT,N,10V batt pack voltage = 10.84V
+207.510,SDIVE,N,Measuring depth & angle for 1 sec done.
+211.598,SDIVE,N,Measured depth: 0.07m angle: -52.62deg
+211.989,SGLMALLOC,N,glheap_walk: 327340 bytes free, 10 blocks free, 19980 bytes alloc, 25 blocks alloc
+212.130,SSURF,N,Trying call 0
+212.171,SSURF,N,Calling phone number: 88160000581
+214.331,HPHONE,N,init RUDICS
+229.856,HPHONE,N,Phone registered
+235.431,HPHONE,N,Iridium signal strength: 5 after 3 queries
+235.506,HPHONE,N,cnt_NoComm:0 callCycle:0 smsLastCallCycle:-1
+235.656,HPHONE,N,Iridium geolocation: 47.647831 -122.315941 Thu May 16 01:06:54 2024
+247.806,HPHONE,N,Dial success
+263.106,SSURF,N,Logged in
+264.456,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+270.631,SSURF,N,Receiving cmdfile...
+271.631,SSURF,N,S,0,1,128
+274.531,SSURF,N,E,2,1,128
+277.906,SSURF,N,Received cmdfile 188 bytes
+279.306,SSURF,N,Transmission succeeded
+279.406,HTT8,N,Updating parameter $D_TGT to 30
+279.456,HTT8,N,Updating parameter $T_DIVE to 10
+279.531,HTT8,N,Updating parameter $T_MISSION to 25
+279.606,HTT8,N,Updating parameter $C_PITCH to 3035
+279.681,HTT8,N,Updating parameter $C_ROLL_DIVE to 2294
+279.756,HTT8,N,Updating parameter $C_ROLL_CLIMB to 2294
+279.831,HTT8,N,Updating parameter $ALTIM_PING_DEPTH to 90
+279.931,HTT8,N,Updating parameter $HEAD_ERRBAND to 10
+280.006,HTT8,N,Updating parameter $GLIDE_SLOPE to 30
+280.081,HTT8,N,Updating parameter $MAX_BUOY to 250
+280.156,HTT8,N,Updating parameter $ROLL_DEG to 40
+280.206,HTT8,N,Updating parameter $COMPASS_USE to 4
+280.281,HCOMPASS,N,Active SP3003
+280.331,SDIVE,N,Parsed command: $QUIT
+280.631,HTT8,N,Writing NVRAM...done.
+289.031,SUSR,N,$ID,195
+289.056,SUSR,N,$MISSION,17
+289.106,SUSR,N,$DIVE,0
+289.131,SUSR,N,$N_DIVES,0
+289.156,SUSR,N,$STOP_T,0
+289.206,SUSR,N,$D_SURF,3
+289.231,SUSR,N,$D_FLARE,2
+289.281,SUSR,N,$D_TGT,30
+289.306,SUSR,N,$D_ABORT,1090
+289.356,SUSR,N,$D_NO_BLEED,50
+289.406,SUSR,N,$D_BOOST,3
+289.431,SUSR,N,$T_BOOST,0
+289.456,SUSR,N,$D_FINISH,0
+289.506,SUSR,N,$D_PITCH,0
+289.531,SUSR,N,$D_SAFE,0
+289.556,SUSR,N,$D_CALL,0
+289.606,SUSR,N,$SURFACE_URGENCY,0
+289.631,SUSR,N,$SURFACE_URGENCY_TRY,0
+289.681,SUSR,N,$SURFACE_URGENCY_FORCE,0
+289.756,SUSR,N,$T_DIVE,10
+289.781,SUSR,N,$T_MISSION,25
+289.831,SUSR,N,$T_ABORT,1440
+289.856,SUSR,N,$T_TURN,500
+289.906,SUSR,N,$T_TURN_SAMPINT,5
+289.956,SUSR,N,$T_NO_W,120
+289.981,SUSR,N,$T_LOITER,0
+290.031,SUSR,N,$T_SLOITER,60
+290.056,SUSR,N,$T_EPIRB,0
+290.106,SUSR,N,$USE_BATHY,0
+290.131,SUSR,N,$USE_ICE,0
+290.181,SUSR,N,$ICE_FREEZE_MARGIN,0.30000001
+290.231,SUSR,N,$D_OFFGRID,100
+290.281,SUSR,N,$T_WATCHDOG,10
+290.331,SUSR,N,$RELAUNCH,1
+290.356,SUSR,N,$APOGEE_PITCH,-5
+290.406,SUSR,N,$MAX_BUOY,250
+290.431,SUSR,N,$COURSE_BIAS,0
+290.481,SUSR,N,$GLIDE_SLOPE,30
+290.531,SUSR,N,$SPEED_FACTOR,1
+290.581,SUSR,N,$RHO,1.023
+292.606,SUSR,N,$MASS,53765
+292.656,SUSR,N,$MASS_COMP,0
+292.681,SUSR,N,$NAV_MODE,2
+292.731,SUSR,N,$FERRY_MAX,45
+292.756,SUSR,N,$KALMAN_USE,2
+292.806,SUSR,N,$HD_A,0.0038000001
+292.856,SUSR,N,$HD_B,0.0099999998
+292.906,SUSR,N,$HD_C,9.8500004e-06
+292.956,SUSR,N,$HEADING,-1
+293.006,SUSR,N,$ESCAPE_HEADING,0
+293.031,SUSR,N,$ESCAPE_HEADING_DELTA,10
+293.081,SUSR,N,$FIX_MISSING_TIMEOUT,0
+293.156,SUSR,N,$TGT_DEFAULT_LAT,4736
+293.206,SUSR,N,$TGT_DEFAULT_LON,-12225
+293.256,SUSR,N,$TGT_AUTO_DEFAULT,0
+293.306,SUSR,N,$SM_CC,603.25
+293.331,SUSR,N,$N_FILEKB,4
+293.381,SUSR,N,$FILEMGR,0
+293.406,SUSR,N,$CALL_NDIVES,1
+293.456,SUSR,N,$COMM_SEQ,0
+293.481,SUSR,N,$PROTOCOL,9
+293.531,SUSR,N,$N_NOCOMM,1
+293.556,SUSR,N,$NOCOMM_ACTION,0
+293.606,SUSR,N,$N_NOSURFACE,0
+293.656,SUSR,N,$UPLOAD_DIVES_MAX,-1
+293.706,SUSR,N,$CALL_TRIES,5
+293.731,SUSR,N,$CALL_WAIT,60
+293.781,SUSR,N,$CAPUPLOAD,1
+293.831,SUSR,N,$CAPMAXSIZE,200000
+293.856,SUSR,N,$HEAPDBG,0
+293.906,SUSR,N,$T_GPS,15
+293.931,SUSR,N,$N_GPS,50840
+293.981,SUSR,N,$T_RSLEEP,2
+294.006,SUSR,N,$STROBE,0
+294.056,SUSR,N,$RAFOS_PEAK_OFFSET,1.5
+294.106,SUSR,N,$RAFOS_CORR_THRESH,60
+294.156,SUSR,N,$RAFOS_HIT_WINDOW,3600
+294.206,SUSR,N,$RAFOS_MMODEM,0
+294.256,SUSR,N,$PITCH_MIN,207
+294.306,SUSR,N,$PITCH_MAX,3915
+294.331,SUSR,N,$C_PITCH,3035
+294.381,SUSR,N,$PITCH_DBAND,0.1
+294.431,SUSR,N,$PITCH_CNV,0.003125763
+294.481,SUSR,N,$P_OVSHOOT,0.039999999
+294.531,SUSR,N,$P_OVSHOOT_WITHG,0.079999998
+294.606,SUSR,N,$PITCH_GAIN,24
+294.656,SUSR,N,$PITCH_TIMEOUT,17
+294.681,SUSR,N,$PITCH_AD_RATE,160
+294.731,SUSR,N,$PITCH_MAXERRORS,1
+294.781,SUSR,N,$PITCH_ADJ_GAIN,0.02
+294.831,SUSR,N,$PITCH_ADJ_DBAND,2.5
+294.881,SUSR,N,$ROLL_MIN,224
+294.931,SUSR,N,$ROLL_MAX,3758
+294.981,SUSR,N,$ROLL_DEG,40
+295.006,SUSR,N,$C_ROLL_DIVE,2294
+295.056,SUSR,N,$C_ROLL_CLIMB,2294
+295.106,SUSR,N,$HEAD_ERRBAND,10
+295.156,SUSR,N,$ROLL_CNV,0.028270001
+295.206,SUSR,N,$ROLL_TIMEOUT,15
+295.256,SUSR,N,$R_PORT_OVSHOOT,68
+295.306,SUSR,N,$R_STBD_OVSHOOT,50
+295.356,SUSR,N,$ROLL_AD_RATE,350
+295.406,SUSR,N,$ROLL_MAXERRORS,2
+295.431,SUSR,N,$ROLL_ADJ_GAIN,0
+295.481,SUSR,N,$ROLL_ADJ_DBAND,0
+297.581,SUSR,N,$VBD_MIN,500
+297.606,SUSR,N,$VBD_MAX,3960
+297.656,SUSR,N,$C_VBD,3000
+297.706,SUSR,N,$VBD_DBAND,2
+297.731,SUSR,N,$VBD_CNV,-0.24529999
+297.781,SUSR,N,$VBD_LP_IGNORE,0
+297.831,SUSR,N,$VBD_TIMEOUT,720
+297.881,SUSR,N,$PITCH_VBD_SHIFT,0.001
+297.931,SUSR,N,$VBD_PUMP_AD_RATE_SURFACE,5
+297.981,SUSR,N,$VBD_PUMP_AD_RATE_APOGEE,4
+298.056,SUSR,N,$VBD_BLEED_AD_RATE,8
+298.106,SUSR,N,$UNCOM_BLEED,60
+298.131,SUSR,N,$VBD_MAXERRORS,1
+298.181,SUSR,N,$W_ADJ_DBAND,2
+298.231,SUSR,N,$DBDW,0
+298.256,SUSR,N,$PITCH_W_GAIN,0
+298.306,SUSR,N,$PITCH_W_DBAND,1
+298.331,SUSR,N,$CF8_MAXERRORS,5
+298.381,SUSR,N,$AH0_24V,150
+298.431,SUSR,N,$AH0_10V,97
+298.456,SUSR,N,$MINV_24V,19
+298.506,SUSR,N,$MINV_10V,8
+298.556,SUSR,N,$MAXI_24V,0.80000001
+298.606,SUSR,N,$MAXI_10V,0.60000002
+298.656,SUSR,N,$FG_AHR_10V,0
+298.681,SUSR,N,$FG_AHR_24V,0
+298.731,SUSR,N,$PHONE_SUPPLY,-2
+298.781,SUSR,N,$PRESSURE_YINT,-47.675777
+298.831,SUSR,N,$PRESSURE_SLOPE,0.0001168043
+298.881,SUSR,N,$AD7714Ch0Gain,128
+298.931,SUSR,N,$TCM_PITCH_OFFSET,0
+298.981,SUSR,N,$TCM_ROLL_OFFSET,0
+299.031,SUSR,N,$COMPASS_USE,4
+299.056,SUSR,N,$ALTIM_BOTTOM_PING_RANGE,0
+299.131,SUSR,N,$ALTIM_TOP_PING_RANGE,20
+299.181,SUSR,N,$ALTIM_BOTTOM_TURN_MARGIN,15
+299.231,SUSR,N,$ALTIM_TOP_TURN_MARGIN,0
+299.281,SUSR,N,$ALTIM_TOP_MIN_OBSTACLE,1
+299.331,SUSR,N,$ALTIM_PING_DEPTH,90
+299.381,SUSR,N,$ALTIM_PING_DELTA,5
+299.431,SUSR,N,$ALTIM_FREQUENCY,13
+299.481,SUSR,N,$ALTIM_PULSE,3
+299.531,SUSR,N,$ALTIM_SENSITIVITY,3
+299.581,SUSR,N,$XPDR_VALID,5
+299.606,SUSR,N,$XPDR_INHIBIT,90
+299.656,SUSR,N,$INT_PRESSURE_SLOPE,0.0097660003
+299.731,SUSR,N,$INT_PRESSURE_YINT,-0.77999997
+299.781,SUSR,N,$DEEPGLIDER,0
+299.831,SUSR,N,$MOTHERBOARD,4
+299.881,SUSR,N,$DEVICE1,2
+299.906,SUSR,N,$DEVICE2,115
+299.956,SUSR,N,$DEVICE3,101
+300.006,SUSR,N,$DEVICE4,-1
+300.031,SUSR,N,$DEVICE5,-1
+300.081,SUSR,N,$DEVICE6,-1
+300.106,SUSR,N,$LOGGERS,0
+300.131,SUSR,N,$LOGGERDEVICE1,-1
+300.181,SUSR,N,$LOGGERDEVICE2,-1
+300.231,SUSR,N,$LOGGERDEVICE3,-1
+300.281,SUSR,N,$LOGGERDEVICE4,-1
+300.331,SUSR,N,$COMPASS_DEVICE,33
+300.381,SUSR,N,$COMPASS2_DEVICE,-1
+302.456,SUSR,N,$PHONE_DEVICE,49
+302.506,SUSR,N,$GPS_DEVICE,32
+302.531,SUSR,N,$RAFOS_DEVICE,-1
+302.581,SUSR,N,$XPDR_DEVICE,24
+302.631,SUSR,N,$SIM_W,0
+302.656,SUSR,N,$SIM_PITCH,0
+302.706,SUSR,N,$SEABIRD_T_G,0.0044178674
+302.756,SUSR,N,$SEABIRD_T_H,0.00064818078
+302.806,SUSR,N,$SEABIRD_T_I,2.6779007e-05
+302.881,SUSR,N,$SEABIRD_T_J,3.3667231e-06
+302.931,SUSR,N,$SEABIRD_C_G,-10.098215
+302.981,SUSR,N,$SEABIRD_C_H,1.1454017
+303.056,SUSR,N,$SEABIRD_C_I,-0.0021276253
+303.106,SUSR,N,$SEABIRD_C_J,0.00025532115
+303.156,SUSR,N,$SEABIRD_C_Z,2974.52
+309.406,SSURF,N,Sending cmd lrx -y -c -t150 st0027lz.x00
+310.731,SSURF,N,Sending st0027lz.x00...
+318.631,SSURF,N,3,1 sz:7 blkSz:128
+319.981,SSURF,N,EOT sent
+321.856,SSURF,N,rcvd ACK (attempt 0)
+324.856,SSURF,N,Transmission succeeded
+324.981,SSURF,N,Sending cmd lrx -y -c -t150 st0027dz.x00
+326.206,SSURF,N,Sending st0027dz.x00...
+326.306,SSURF,N,1,1 sz:684 blkSz:1024
+330.231,SSURF,N,EOT sent
+332.131,SSURF,N,rcvd ACK (attempt 0)
+335.106,SSURF,N,Transmission succeeded
