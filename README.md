@@ -13,11 +13,11 @@ Contents:
 - Time Series Mission (2025)
 
 Folder Structure: 
-- cleaned_data: netcdf & csv files with variables renamed for clarity and the time adjusted, the code used to clean the data is in this folder as well
+- clean_data: netcdf & csv files with variables renamed for clarity and the time adjusted, the code used to clean the data is in this folder as well
 - misc_files: the rest of the files sorted by file type
 - meta_data: mission, glider, and sensor details
 - mission_plan (if applicable): detailed account of the mission objectives and plan
 
 Downloading & Plotting: 
-- In each mission there is a netcdf and a csv file for plotting in the cleaned_data folder. These files have data throughout the entire mission and are cleaned up for ease of data analysis and plotting.
+- In each mission there is a netcdf and a csv file for plotting in the clean_data folder. These files have data throughout the entire mission and are cleaned up for ease of data analysis and plotting.
 - After downloading one of these files, you can download the corresponding python script in the python_scripts folder.
