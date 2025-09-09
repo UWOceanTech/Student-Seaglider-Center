@@ -20,4 +20,4 @@ Folder Structure:
 
 Downloading & Plotting: 
 - In each mission there is a netcdf and a csv file for plotting in the clean_data folder. These files have data throughout the entire mission and are cleaned up for ease of data analysis and plotting.
-- After downloading one of these files, you can download the corresponding python script named general_plotting in the python_scripts folder.
+- After downloading one of these files, you can download the corresponding python script named plotting_(csv or nc) in the python_scripts folder.
