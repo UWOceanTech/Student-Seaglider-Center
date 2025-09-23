@@ -1,0 +1,15 @@
+This is the folder for the Student Seaglider Center's Spring 2025 Time Series Mission. 
+Gliders 194 & 175 were deployed in the Puget Sound on May 30th, 2025 and recovered on June 13th, 2025.
+
+A CTD cast was completed during the deployment and recovery: RBR_05302025_Edmonds.xlsx (deployment) & RBR_06132025_Edmonds.xlsx (recovery).
+The mission plan details all parts of deployment and recovery including personale logistics, sensor details, tidal cycles, science questions, mission targets, boat traffic, mission prepation, budget, and safety procedures.
+
+Inside each subfolder, sg175 & sg194, there is the respective meta data file and a post-mission report.
+The post mission provides a map where each glider was deployed and the path that it took. There are also a number of plots in the report, each of which can be made by using the plotting_nc or plotting_csv in the python_scripts folder.
+
+The clean_data folder has csv and netCDF files that are corrected for the time offset and fewer renamed variables for simplicity in plotting. The raw data can still be found in misc_files > nc_files > the last file titled glider_name_May_2025_UW_OTTER_(glider_name)_timeseries.nc
+The clean_data folder also has csv and netCDF files for the depth averaged currents and finally a python script detailing the process for cleaning the data.
+
+The misc_files folder has all the raw files that come off the basestation. These are sorted by file type. 
+
+For any questions about this mission please contact the Mission PI, William Menapace (arnold64@uw.edu), or the Data Manager, Lydia Kelley (lydiagk@uw.edu).
