@@ -13,6 +13,7 @@ Contents:
 - Time Series Mission (2025)
 
 Naming Conventions:
+- Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and either their location or vessel of deployment.
 - Missions named "shilshole_shakedown" are training deployments and do not aim to answer a scientific question. 
 
 Folder Structure: 
