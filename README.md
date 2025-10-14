@@ -12,6 +12,8 @@ Contents:
 - Time Series Test Mission (2025)
 - Time Series Mission (2025)
 
+Naming Conventions:
+- Missions named "shilshole_shakedown" are training deployments and do not aim to answer a scientific question. 
 Folder Structure: 
 - clean_data: netcdf & csv files with variables renamed for clarity and the time adjusted and the code used to clean and produce these files
 - misc_files: the rest of the files sorted by file type
