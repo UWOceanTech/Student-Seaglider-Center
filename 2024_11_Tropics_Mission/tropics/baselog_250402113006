@@ -1,0 +1,574 @@
+11:30:08 02 Apr 2025 UTC: INFO: BaseLog.py(119): Process id = 1457685
+11:30:08 02 Apr 2025 UTC: WARNING: BaseLog.py(122): Config file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg195.conf was not found
+11:30:08 02 Apr 2025 UTC: INFO: Utils.py(965): Basestation version: 3.0.2; QC version: 1.12
+11:30:08 02 Apr 2025 UTC: INFO: Utils.py(971): Python version 3.10.10
+11:30:08 02 Apr 2025 UTC: INFO: Utils.py(985): Numpy version 1.26.4
+11:30:08 02 Apr 2025 UTC: INFO: Utils.py(994): Scipy version 1.14.1
+11:30:08 02 Apr 2025 UTC: INFO: Utils.py(1008): seawater version 3.3.4
+11:30:08 02 Apr 2025 UTC: INFO: Base.py(1562): Invoked with command line [/usr/local/basestation3/Base.py --mission_dir /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE --verbose --make_mission_timeseries --nice 10 --base_log /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/baselog_250402113006 --config /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg195.conf --delete_upload_files --vis_base_url=https://seaglider.pub/uwssc --group_etc=/home/jails/uwssc/gliderjail/home/etc --vis_base_url=https://seaglider.pub/uwssc --group_etc=/home/jails/uwssc/gliderjail/home/etc --job_id 4763d493-ca22-4349-a54c-36f115e724bc ]
+11:30:08 02 Apr 2025 UTC: INFO: Base.py(1564): PID:1457685 job_id:4763d493-ca22-4349-a54c-36f115e724bc
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: WARNING: CalibConst.py(119): temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /usr/local/basestation3/etc/.extensions section(s):('init_extension',)
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1541): Running /usr/local/basestation3/adcp/BaseADCP.py
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1545): Calling init_extension on /usr/local/basestation3/adcp/BaseADCP.py
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1541): Running /usr/local/basestation3/adcp/BaseADCPMission.py
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /usr/local/basestation3/etc/.extensions
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions section(s):('init_extension',)
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1541): Running /usr/local/basestation3/MakePositions.py
+11:30:08 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions
+11:30:08 02 Apr 2025 UTC: INFO: Base.py(1630): Started processing 11:30:08 02 Apr 2025 GMT
+11:30:09 02 Apr 2025 UTC: INFO: Base.py(1673): Instrument ID = 195
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  lategps recov critical drift
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:30:09 02 Apr 2025 UTC: INFO: CommLog.py(116): prefix:dive:509 calls_made:1 call_cycle:0 
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(675): No .pagers file /home/jails/uwssc/gliderjail/home/etc/.pagers found - skipping ('lategps', 'recov', 'critical', 'drift')
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers for  lategps recov critical drift
+11:30:09 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers
+11:30:09 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+11:30:09 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/etc/pagers.yml found - skipping
+11:30:09 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/pagers.yml found - skipping
+11:30:09 02 Apr 2025 UTC: INFO: Base.py(1739): Processing comm_merged.log
+11:30:10 02 Apr 2025 UTC: INFO: Base.py(1768): Finished processing comm_merged.log
+11:30:15 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"dive_files","glider":195,"action":"start","time":1743593415.059,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":9.0,"red":18.0}
+11:30:15 02 Apr 2025 UTC: INFO: Base.py(1890): Processing seaglider selftests
+11:30:15 02 Apr 2025 UTC: INFO: Base.py(1926): No new selftests to processed
+11:30:15 02 Apr 2025 UTC: INFO: Base.py(1928): Processing pdoscmd.bat logs
+11:30:15 02 Apr 2025 UTC: INFO: Base.py(1946): No pdos logfiles found to process
+11:30:15 02 Apr 2025 UTC: INFO: Base.py(1953): Processing dive(s)
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x00
+11:30:17 02 Apr 2025 UTC: WARNING: Base.py(1100): Fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x00 file size (3200) not equal to expected size (4096)
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x01
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x02
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r in process_file_group
+11:30:17 02 Apr 2025 UTC: ERROR: BaseGZip.py(252): CRC check failed on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r - expected 0x1298652482, generated 0x94a97e6c
+11:30:17 02 Apr 2025 UTC: ERROR: BaseGZip.py(258): Incorrect length of data produced from /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r - expected 0x7aa9, generated 0x6c1b
+11:30:17 02 Apr 2025 UTC: ERROR: Base.py(837): Problem gzip decompressing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r - skipping
+11:30:17 02 Apr 2025 UTC: ERROR: Base.py(355): Could not process sg0503lz - skipping
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz.1a.x00
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz.1a.x01
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz.1a.x02
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz.1a.x03
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz.1a.x04
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503dz.r in process_file_group
+11:30:17 02 Apr 2025 UTC: ERROR: LogFile.py(210): Could not open /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950503.log for reading
+11:30:17 02 Apr 2025 UTC: ERROR: Base.py(921): Could not parse /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950503.log, skipping eng file creation
+11:30:17 02 Apr 2025 UTC: ERROR: Base.py(400): Could not process sg0503dz - skipping
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x00
+11:30:17 02 Apr 2025 UTC: WARNING: Base.py(1100): Fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x00 file size (3200) not equal to expected size (4096)
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x01
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x02
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r in process_file_group
+11:30:17 02 Apr 2025 UTC: ERROR: BaseGZip.py(252): CRC check failed on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r - expected 0x1298652482, generated 0x94a97e6c
+11:30:17 02 Apr 2025 UTC: ERROR: BaseGZip.py(258): Incorrect length of data produced from /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r - expected 0x7aa9, generated 0x6c1b
+11:30:17 02 Apr 2025 UTC: ERROR: Base.py(837): Problem gzip decompressing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r - skipping
+11:30:17 02 Apr 2025 UTC: ERROR: Base.py(400): Could not process sg0503lz - skipping
+11:30:17 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.1a.x00
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.1a.x01
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.1a.x02
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r in process_file_group
+11:30:18 02 Apr 2025 UTC: ERROR: BaseGZip.py(252): CRC check failed on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r - expected 0x1533832707, generated 0xf4b81f95
+11:30:18 02 Apr 2025 UTC: ERROR: BaseGZip.py(258): Incorrect length of data produced from /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r - expected 0x780d, generated 0x7f43
+11:30:18 02 Apr 2025 UTC: ERROR: Base.py(837): Problem gzip decompressing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r - skipping
+11:30:18 02 Apr 2025 UTC: ERROR: Base.py(355): Could not process sg0506lz - skipping
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz.1a.x00
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz.1a.x01
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz.1a.x02
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz.1a.x03
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz.1a.x04
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506dz.r in process_file_group
+11:30:18 02 Apr 2025 UTC: ERROR: LogFile.py(210): Could not open /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950506.log for reading
+11:30:18 02 Apr 2025 UTC: ERROR: Base.py(921): Could not parse /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950506.log, skipping eng file creation
+11:30:18 02 Apr 2025 UTC: ERROR: Base.py(400): Could not process sg0506dz - skipping
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.1a.x00
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.1a.x01
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.1a.x02
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r in process_file_group
+11:30:18 02 Apr 2025 UTC: ERROR: BaseGZip.py(252): CRC check failed on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r - expected 0x1533832707, generated 0xf4b81f95
+11:30:18 02 Apr 2025 UTC: ERROR: BaseGZip.py(258): Incorrect length of data produced from /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r - expected 0x780d, generated 0x7f43
+11:30:18 02 Apr 2025 UTC: ERROR: Base.py(837): Problem gzip decompressing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r - skipping
+11:30:18 02 Apr 2025 UTC: ERROR: Base.py(400): Could not process sg0506lz - skipping
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509lz
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509lz.1a.x00
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509lz.1a.x01
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509lz.1a.x02
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509lz.r in process_file_group
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(882): Removing secrets from /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509.log
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(551): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz.1a.x00
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz.1a.x01
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz.1a.x02
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz.1a.x03
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1069): Checking fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz.1a.x04
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(721): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0509dz.r in process_file_group
+11:30:18 02 Apr 2025 UTC: WARNING: DataFiles.py(264): No handler found for columns ['wlbb2fl.sig470nm', 'wlbb2fl.sig700nm', 'wlbb2fl.sig695nm'] - using default handler
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(1986): Processed dive(s) [509]
+11:30:18 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"dive_files","glider":195,"action":"stop","time":1743593418.989,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":9.0,"red":18.0}
+11:30:18 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"per_dive_netcdfs","glider":195,"action":"start","time":1743593418.991,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":14.0,"red":29.0}
+11:30:18 02 Apr 2025 UTC: INFO: Base.py(2064): Dives to process = [503, 506, 509]
+11:30:22 02 Apr 2025 UTC: INFO: Base.py(2093): Processing (/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509) for profiles
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(1622): Loading data from original files
+11:30:22 02 Apr 2025 UTC: INFO: FlightModel.py(917): Updating FM parameters using per-dive estimations for dive 508 (1.00,1.00)
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: volmax=53184.2
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: abs_compress=8.63627e-07
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: hd_a=0.00251189
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: hd_b=0.0494026
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: vbdbias=-19.4933
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: rho0=1027.5
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: glider_length=1.8
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: hd_c=5.7e-06
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: hd_s=-0.25
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: therm_expan=7.05e-05
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2594): FM: temp_ref=15
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2614): auxcompass data not present, auxPressure data not present
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2777): Not using auxcompass Not using auxPressure
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2852): Directive: correct_thermal_inertia_effects
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2852): Directive: detect_conductivity_anomalies
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2852): Directive: no_interp_gc_temperatures
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2852): Directive: no_interp_suspect_thermal_inertia_salinities
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2852): Directive: detect_vbd_bleed
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(2852): Directive: detect_slow_apogee_flow
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(3752): ct_type:gun-style Seabird unpumped CTD
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(4863): Changed (9/718) 1:9 to QC_BAD because CT out of water
+11:30:22 02 Apr 2025 UTC: WARNING: MakeDiveProfiles.py(4879): CTD out of the water before dive (0.501m)
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(515): Changed (6/718) 3 4 7:10 to QC_PROBABLY_BAD because raw temperature spikes
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(4951): Changed (610/718) 51:660 to QC_BAD because uncorrectable 1845.3m raw conductivity anomaly
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(252): Changed (6/718) 3 4 7:10 to QC_PROBABLY_BAD because changed raw temp implies changed raw salinity
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(252): Changed (619/718) 1:9 51:660 to QC_BAD because changed raw cond implies changed raw salinity
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(515): Changed (6/718) 3 4 7:10 to QC_INTERPOLATED because temperature spikes
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(5007): Changed (610/718) 51:660 to QC_BAD because uncorrectable 1845.3m conductivity anomaly
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(5389): Changed (5/718) 10:14 to QC_BAD because during VBD bleed
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(5577): Changed (624/718) 1:14 51:660 to QC_BAD because bad corrected temperature and conductivity suggests bad salinity
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(5750): Using 1-mode thermal-inertia correction.
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(252): Changed (624/718) 1:14 51:660 to QC_BAD because changed corrected salin implies changed speed
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1078): 0: max temp_c diff: 0.42C TI time: 0.041s loop: 0.040s
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1461): TSV:  0 58 stalled points 661:718
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(637): TSV: Eliminated start of climb point.
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1078): 1: max temp_c diff: 0.34C TI time: 0.002s loop: 0.002s
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1078): 2: max temp_c diff: 0.35C TI time: 0.002s loop: 0.001s
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1502): TSV exiting after 2 iterations
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1504): max_temp_c_diff = 0.35C
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1552): Changed (1/718) 50 to QC_PROBABLY_BAD because TS bad extrapolation
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1560): Changed (58/718) 661:718 to QC_PROBABLY_BAD because stalls avoid thermal-inertia salinity correction
+11:30:22 02 Apr 2025 UTC: INFO: TempSalinityVelocity.py(1581): SUGGESTION: 509 interp_salinity data_points in_between 49 49 % suspect thermal-inertia points 49
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(6237): 0 (0.00%) HDM speeds are QC_BAD; 58 (8.08%) are stalled (718)
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(6447): Estimated total flight and drift time: 23085.8s (SM: 227.1s)
+11:30:22 02 Apr 2025 UTC: WARNING: MakeDiveProfiles.py(6555): Displacements under-estimate likely positions by 96.4%; DAC suspect
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(6733): Computing QC_BAD depth-average current.
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(6814): DAC east: -2.98 cm/s DAC north: 0.29 cm/s
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(6945): Starting sensor extensions data processing
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(252): Changed (6/718) 3 4 7:10 to QC_INTERPOLATED because changed temperature implies changed aa4330 oxygen
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(252): Changed (59/718) 50 661:718 to QC_PROBABLY_BAD because changed salinity implies changed aa4330 oxygen
+11:30:22 02 Apr 2025 UTC: INFO: QC.py(252): Changed (624/718) 1:14 51:660 to QC_BAD because changed salinity implies changed aa4330 oxygen
+11:30:22 02 Apr 2025 UTC: INFO: MakeDiveProfiles.py(6949): Finished sensor extensions data processing
+11:30:22 02 Apr 2025 UTC: INFO: BaseNetCDF.py(364): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+11:30:22 02 Apr 2025 UTC: INFO: BaseNetCDF.py(364): /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/NODC.yml does not exist - skipping
+11:30:24 02 Apr 2025 UTC: INFO: BaseNetCDF.py(364): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+11:30:24 02 Apr 2025 UTC: INFO: BaseNetCDF.py(364): /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/NODC.yml does not exist - skipping
+11:30:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /usr/local/basestation3/etc/.extensions section(s):('postnetcdf',)
+11:30:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1510): Processing:/usr/local/basestation3/etc/.extensions section:postnetcdf line:adcp/BaseADCP.py
+11:30:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1541): Running /usr/local/basestation3/adcp/BaseADCP.py
+11:30:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /usr/local/basestation3/etc/.extensions
+11:30:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions section(s):('postnetcdf',)
+11:30:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"per_dive_netcdfs","glider":195,"action":"stop","time":1743593424.6,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":14.0,"red":29.0}
+11:30:24 02 Apr 2025 UTC: INFO: Base.py(2183): Backing up /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/cmdfile to /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/cmdfile.0509.0000
+11:30:24 02 Apr 2025 UTC: INFO: BaseDB.py(1379): logParameterChanges db opened
+11:30:24 02 Apr 2025 UTC: INFO: BaseDB.py(1417): logParameterChanges db closed
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"flight_model","glider":195,"action":"start","time":1743593424.771,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":22.0,"red":45.0}
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(965): Basestation version: 3.0.2; QC version: 1.12
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(971): Python version 3.10.10
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(985): Numpy version 1.26.4
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(994): Scipy version 1.14.1
+11:30:24 02 Apr 2025 UTC: INFO: Utils.py(1008): seawater version 3.3.4
+11:30:24 02 Apr 2025 UTC: INFO: FlightModel.py(3787): Exit is False
+11:30:26 02 Apr 2025 UTC: INFO: FlightModel.py(2370): Started FM cycle 509
+11:30:26 02 Apr 2025 UTC: INFO: FlightModel.py(2429): New dive 509 restarting from dive 508 (0.00251189,0.0494026)
+11:30:26 02 Apr 2025 UTC: INFO: FlightModel.py(2500): dives_to_update:[509]
+11:30:26 02 Apr 2025 UTC: INFO: FlightModel.py(2684): <Dive 509 pitch_d: 18.0 p: 71.6dbar vbias: 40.1cc (-19.5cc) abs_compress=8.63627e-07 RMSt=2.0303cm/s>
+11:30:26 02 Apr 2025 UTC: INFO: FlightModel.py(2723): New mean abs_compress = 8.98073e-07 (0.000,468)
+11:30:28 02 Apr 2025 UTC: INFO: FlightModel.py(1870): 509 n=190/True 1s hd_a=0.00224(17) hd_b=0.05788(14) 0.868045
+11:30:28 02 Apr 2025 UTC: INFO: FlightModel.py(2919): Assuming hd_a=0.002512 rather than 0.002239
+11:30:29 02 Apr 2025 UTC: INFO: FlightModel.py(3115):  [495, 501, 507]: (0.868045,11, 491:0.07) new hd_a=0.00251 hd_b=0.05788
+11:30:56 02 Apr 2025 UTC: INFO: FlightModel.py(3609):  Reprocess dive 509: (False, False, False, True, False)
+11:30:56 02 Apr 2025 UTC: INFO: FlightModel.py(3610):   v: 59.62 [40.13 -19.49] ac: 0.000 [8.63627e-07 8.63627e-07]
+11:30:56 02 Apr 2025 UTC: INFO: FlightModel.py(3656): Reprocess dives: [509]
+11:31:03 02 Apr 2025 UTC: INFO: FlightModel.py(3683): Back from Reprocess.py - see /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/flight/Reprocess_0509_1743593456.log for details
+11:31:03 02 Apr 2025 UTC: INFO: FlightModel.py(3696): Dive 509 sucesfully processed
+11:31:03 02 Apr 2025 UTC: INFO: FlightModel.py(2500): dives_to_update:[509]
+11:31:03 02 Apr 2025 UTC: INFO: FlightModel.py(2684): <Dive 509 pitch_d: 18.0 p: 71.6dbar vbias: 40.1cc (40.1cc) abs_compress=8.63627e-07 RMSt=2.0303cm/s>
+11:31:03 02 Apr 2025 UTC: INFO: FlightModel.py(2723): New mean abs_compress = 8.98073e-07 (0.000,468)
+11:31:30 02 Apr 2025 UTC: INFO: Base.py(2315): FM files updated ['/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509.nc']
+11:31:30 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"flight_model","glider":195,"action":"stop","time":1743593490.848,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":22.0,"red":45.0}
+11:31:30 02 Apr 2025 UTC: INFO: Base.py(1393): Extension script /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.post_dive not found
+11:31:32 02 Apr 2025 UTC: INFO: Base.py(2347): Starting netcdf load to db
+11:31:32 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"update_db","glider":195,"action":"start","time":1743593492.03,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":3.0,"red":6.0}
+11:31:32 02 Apr 2025 UTC: INFO: BaseDB.py(1119): loadDB db opened - adding:/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509.nc
+11:31:34 02 Apr 2025 UTC: INFO: MissionEnergy.py(95): Starting mission_energy 509
+11:31:34 02 Apr 2025 UTC: INFO: Utils.py(1699): m:-0.0011027443435315423 b:0.9665648363468482
+11:31:34 02 Apr 2025 UTC: INFO: Utils.py(1699): m:-0.0013098065148175616 b:1.0761316189076788
+11:31:34 02 Apr 2025 UTC: INFO: MissionIntSensors.py(61): Starting mission_int_sensors
+11:31:34 02 Apr 2025 UTC: INFO: MissionIntSensors.py(124): Returning
+11:31:34 02 Apr 2025 UTC: INFO: BaseDB.py(1138): loadDB db closed
+11:31:34 02 Apr 2025 UTC: INFO: BaseDB.py(1119): loadDB db opened - adding:/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509.nc
+11:31:36 02 Apr 2025 UTC: INFO: MissionEnergy.py(95): Starting mission_energy 509
+11:31:36 02 Apr 2025 UTC: INFO: Utils.py(1699): m:-0.0011027443435315423 b:0.9665648363468482
+11:31:36 02 Apr 2025 UTC: INFO: Utils.py(1699): m:-0.0013098065148175616 b:1.0761316189076788
+11:31:36 02 Apr 2025 UTC: INFO: MissionIntSensors.py(61): Starting mission_int_sensors
+11:31:36 02 Apr 2025 UTC: INFO: MissionIntSensors.py(124): Returning
+11:31:36 02 Apr 2025 UTC: INFO: BaseDB.py(1138): loadDB db closed
+11:31:36 02 Apr 2025 UTC: INFO: Base.py(2361): netcdf load to db done
+11:31:36 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"update_db","glider":195,"action":"stop","time":1743593496.908,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":3.0,"red":6.0}
+11:31:36 02 Apr 2025 UTC: INFO: Base.py(2378): Starting per-dive plots
+11:31:36 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"per_dive_plots","glider":195,"action":"start","time":1743593496.91,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":182.0,"red":364.0}
+11:31:36 02 Apr 2025 UTC: INFO: BasePlot.py(101): plot_dives db opened
+11:31:36 02 Apr 2025 UTC: INFO: BasePlot.py(106): Plotting /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509.nc
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m raw conductivity anomaly
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m conductivity anomaly
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed temperature implies changed aa4330 oxygen
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m raw conductivity anomaly
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m conductivity anomaly
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed temperature implies changed aa4330 oxygen
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:31:39 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:31:43 02 Apr 2025 UTC: INFO: Magcal.py(257): hard magcal PQR = [-10.17,59.80,36.88], converged=1, it=2
+11:31:50 02 Apr 2025 UTC: INFO: Magcal.py(392): hard+soft magcal PQR = [2.13,43.57,37.18], converged=1, it=6
+11:31:50 02 Apr 2025 UTC: INFO: Magcal.py(398): hard+soft magcal abc = 1.000,0.007,-0.119,0.006,1.061,0.111,0.120,-0.112,1.038
+11:31:52 02 Apr 2025 UTC: INFO: DivePitchRoll.py(87): Starting dive_pitch_roll
+11:31:52 02 Apr 2025 UTC: INFO: DivePitchRoll.py(313): implied_cpitch 2910.7295163322065, implied_pitchgain 15.65457172796673, RMS=3.844023223622254
+11:31:54 02 Apr 2025 UTC: INFO: DivePitchRoll.py(622): c_roll_dive 2116.2787616219052, c_roll_climb 1890.2111664433787
+11:31:58 02 Apr 2025 UTC: INFO: DiveVertVelocityNew.py(81): Starting dive_vert_vel
+11:32:02 02 Apr 2025 UTC: INFO: DiveVertVelocityNew.py(280): implied_cvbd 2098, implied_volmax 53179.9, implied_max_smcc 392.0, implied_max_maxbuoy -467.2
+11:32:02 02 Apr 2025 UTC: INFO: DiveVertVelocityNew.py(283): min SM_CC 179.5 based on density 1.02243 at 1.61m and 150cc to raise the antenna
+11:32:03 02 Apr 2025 UTC: INFO: BasePlot.py(106): Plotting /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/p1950509.nc
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m raw conductivity anomaly
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m conductivity anomaly
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed temperature implies changed aa4330 oxygen
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m raw conductivity anomaly
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str uncorrectable 1845.3m conductivity anomaly
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed temperature implies changed aa4330 oxygen
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:32:05 02 Apr 2025 UTC: WARNING: QC.py(1397): Unclassified qc_str changed salinity implies changed aa4330 oxygen
+11:32:08 02 Apr 2025 UTC: INFO: Magcal.py(257): hard magcal PQR = [-10.17,59.80,36.88], converged=1, it=2
+11:32:16 02 Apr 2025 UTC: INFO: Magcal.py(392): hard+soft magcal PQR = [2.13,43.57,37.18], converged=1, it=6
+11:32:16 02 Apr 2025 UTC: INFO: Magcal.py(398): hard+soft magcal abc = 1.000,0.007,-0.119,0.006,1.061,0.111,0.120,-0.112,1.038
+11:32:17 02 Apr 2025 UTC: INFO: DivePitchRoll.py(87): Starting dive_pitch_roll
+11:32:17 02 Apr 2025 UTC: INFO: DivePitchRoll.py(313): implied_cpitch 2910.7295163322065, implied_pitchgain 15.65457172796673, RMS=3.844023223622254
+11:32:18 02 Apr 2025 UTC: INFO: DivePitchRoll.py(622): c_roll_dive 2116.2787616219052, c_roll_climb 1890.2111664433787
+11:32:22 02 Apr 2025 UTC: INFO: DiveVertVelocityNew.py(81): Starting dive_vert_vel
+11:32:26 02 Apr 2025 UTC: INFO: DiveVertVelocityNew.py(280): implied_cvbd 2098, implied_volmax 53179.9, implied_max_smcc 392.0, implied_max_maxbuoy -467.2
+11:32:26 02 Apr 2025 UTC: INFO: DiveVertVelocityNew.py(283): min SM_CC 179.5 based on density 1.02243 at 1.61m and 150cc to raise the antenna
+11:32:28 02 Apr 2025 UTC: INFO: BasePlot.py(147): plot_dives db closed
+11:32:28 02 Apr 2025 UTC: INFO: Base.py(2387): Per-dive plots complete
+11:32:28 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"per_dive_plots","glider":195,"action":"stop","time":1743593548.23,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":182.0,"red":364.0}
+11:32:28 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"per_dive_extensions","glider":195,"action":"start","time":1743593548.232,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":5.0,"red":10.0}
+11:32:28 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /usr/local/basestation3/etc/.extensions section(s):('dive',)
+11:32:28 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /usr/local/basestation3/etc/.extensions
+11:32:28 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions section(s):('dive',)
+11:32:28 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1510): Processing:/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions section:dive line:MakePositions.py
+11:32:28 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1541): Running /usr/local/basestation3/MakePositions.py
+11:32:28 02 Apr 2025 UTC: INFO: MakePositions.py(73): Started processing 11:32:28 02 Apr 2025 GMT
+11:32:29 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions
+11:32:29 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"per_dive_extensions","glider":195,"action":"stop","time":1743593549.637,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":5.0,"red":10.0}
+11:32:29 02 Apr 2025 UTC: INFO: BaseDotFiles.py(334): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass 1
+11:32:29 02 Apr 2025 UTC: INFO: BaseDotFiles.py(334): No .urls file /home/jails/uwssc/gliderjail/home/etc/.urls found - skipping pass 1
+11:32:29 02 Apr 2025 UTC: INFO: BaseDotFiles.py(259): Starting processing on .urls pass(1)
+11:32:29 02 Apr 2025 UTC: INFO: BaseDotFiles.py(324): Finished processing on .urls pass(1)
+11:32:29 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-urls-files:{"glider":195,"dive":509,"content":"files=perdive","time":1743593549.6424654}
+11:32:29 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_profile","glider":195,"action":"skip","time":1743593549.644,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":125.0,"red":250.0,"reason":"By option setting"}
+11:32:29 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_timeseries","glider":195,"action":"start","time":1743593549.645,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":125.0,"red":250.0}
+11:34:49 02 Apr 2025 UTC: INFO: BaseNetCDF.py(364): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+11:34:49 02 Apr 2025 UTC: INFO: BaseNetCDF.py(364): /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/NODC.yml does not exist - skipping
+11:34:55 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_timeseries","glider":195,"action":"stop","time":1743593695.189,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":125.0,"red":250.0}
+11:34:55 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_plots","glider":195,"action":"start","time":1743593695.192,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":90.0,"red":180.0}
+11:34:55 02 Apr 2025 UTC: INFO: BasePlot.py(173): plot_mission db opened
+11:34:59 02 Apr 2025 UTC: INFO: MissionEnergy.py(95): Starting mission_energy None
+11:34:59 02 Apr 2025 UTC: INFO: Utils.py(1699): m:-0.0011027443435315423 b:0.9665648363468482
+11:34:59 02 Apr 2025 UTC: INFO: Utils.py(1699): m:-0.0013098065148175616 b:1.0761316189076788
+11:35:00 02 Apr 2025 UTC: INFO: MissionIntSensors.py(61): Starting mission_int_sensors
+11:35:00 02 Apr 2025 UTC: INFO: MissionMap.py(124): Starting mission_map
+11:35:06 02 Apr 2025 UTC: INFO: MissionMotors.py(99): Starting mission_motors
+11:35:42 02 Apr 2025 UTC: INFO: BasePlot.py(227): plot_mission db closed
+11:35:42 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_plots","glider":195,"action":"stop","time":1743593742.93,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":90.0,"red":180.0}
+11:35:42 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_kml","glider":195,"action":"start","time":1743593742.931,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":128.0,"red":256.0}
+11:35:42 02 Apr 2025 UTC: INFO: MakeKML.py(1070): Started processing 11:35:42 02 Apr 2025 GMT
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(468): Opened /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/targets.0426.0000 for processing
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(482): ['TX2', 'lat=1145', 'lon=-14800', 'radius=10000', 'finish=315', 'goto=TX3']
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(482): ['TX3', 'lat=1515', 'lon=-15200', 'radius=10000', 'finish=315', 'goto=SPT']
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(482): ['SPT', 'lat=1845', 'lon=-15600', 'radius=10000', 'finish=315', 'goto=HNL']
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(482): ['HNL', 'lat=2115', 'lon=-15752', 'radius=200', 'goto=HNL']
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(1954): Finished processing 11:38:24 02 Apr 2025 GMT
+11:38:24 02 Apr 2025 UTC: INFO: MakeKML.py(1958): Run time 161.863797 seconds
+11:38:24 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_kml","glider":195,"action":"stop","time":1743593904.815,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":128.0,"red":256.0}
+11:38:24 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_extensions","glider":195,"action":"start","time":1743593904.816,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":60.0,"red":120.0}
+11:38:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /usr/local/basestation3/etc/.extensions section(s):('global', 'mission')
+11:38:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1510): Processing:/usr/local/basestation3/etc/.extensions section:mission line:adcp/BaseADCPMission.py
+11:38:24 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1541): Running /usr/local/basestation3/adcp/BaseADCPMission.py
+11:38:25 02 Apr 2025 UTC: INFO: BaseADCPMission.py(225): Started processing
+11:39:41 02 Apr 2025 UTC: INFO: BaseADCPMission.py(301): No ADCP found - finished processing
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /usr/local/basestation3/etc/.extensions
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1480): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions section(s):('global', 'mission')
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1593): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.extensions
+11:39:41 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-proc-progress:{"section":"mission_extensions","glider":195,"action":"stop","time":1743593981.329,"id":"4763d493-ca22-4349-a54c-36f115e724bc","yellow":60.0,"red":120.0}
+11:39:41 02 Apr 2025 UTC: INFO: Base.py(2613): File sg0503lz.x00, sector_num 3 is a repeat - recommend resend_dive /l 503 0
+11:39:41 02 Apr 2025 UTC: INFO: CommLog.py(116): prefix:
+11:39:41 02 Apr 2025 UTC: INFO: Base.py(2788): Processing FM_IGNORE
+11:39:41 02 Apr 2025 UTC: INFO: Base.py(2788): Processing /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r
+11:39:41 02 Apr 2025 UTC: WARNING: Base.py(2819): ALERT:FM_IGNORE
+    WARNING: rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+ALERT:/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r
+    INFO: File sg0503lz.x00, sector_num 3 is a repeat - recommend resend_dive /l 503 0
+Consult baselog_250402113006 for details.
+11:39:41 02 Apr 2025 UTC: ERROR: Base.py(2826): Dive [503, 506] failed to process completely.
+
+The following files were not processed completely:
+    /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r
+        Fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x00 file size (3200) not equal to expected size (4096) - consider resend_dive /l 503 0
+
+    /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r
+Glider logout seen - transmissions from glider complete
+
+11:39:41 02 Apr 2025 UTC: INFO: BaseDB.py(1200): addValToDB db opened
+11:39:41 02 Apr 2025 UTC: INFO: BaseDB.py(1229): addValToDB db closed
+11:39:41 02 Apr 2025 UTC: INFO: Base.py(2865): Processed files msg:
+Processing complete as of 11:39:41 02 Apr 2025 GMT
+p1950503.eng
+p1950506.eng
+p1950509.log
+p1950509.eng
+p1950503.asc
+p1950506.asc
+p1950509.asc
+plots/dv0509_ctd.div
+plots/dv0509_ctd.webp
+plots/dv0509_raw_ctd.div
+plots/dv0509_raw_ctd.webp
+plots/dv0509_seabird_corr_compare.div
+plots/dv0509_seabird_corr_compare.webp
+plots/dv0509_ctw.div
+plots/dv0509_ctw.webp
+plots/dv0509_magcal.div
+plots/dv0509_magcal.webp
+plots/dv0509_aa4330.div
+plots/dv0509_aa4330.webp
+plots/dv0509_pitch.div
+plots/dv0509_pitch.webp
+plots/dv0509_roll.div
+plots/dv0509_roll.webp
+plots/dv0509_roll_rate.div
+plots/dv0509_roll_rate.webp
+plots/dv0509_diveplot.div
+plots/dv0509_diveplot.webp
+plots/dv0509_ts.div
+plots/dv0509_ts.webp
+plots/dv0509_ts_raw.div
+plots/dv0509_ts_raw.webp
+plots/dv0509_vert_vel_new.div
+plots/dv0509_vert_vel_new.webp
+plots/dv0509_vert_vel_regression.div
+plots/dv0509_vert_vel_regression.webp
+plots/dv0509_wlbb2fl_Chlorophyll_fluorescence.div
+plots/dv0509_wlbb2fl_Chlorophyll_fluorescence.webp
+plots/dv0509_wlbb2fl_backscatter.div
+plots/dv0509_wlbb2fl_backscatter.webp
+plots/dv0509_ctd.div
+plots/dv0509_ctd.webp
+plots/dv0509_raw_ctd.div
+plots/dv0509_raw_ctd.webp
+plots/dv0509_seabird_corr_compare.div
+plots/dv0509_seabird_corr_compare.webp
+plots/dv0509_ctw.div
+plots/dv0509_ctw.webp
+plots/dv0509_magcal.div
+plots/dv0509_magcal.webp
+plots/dv0509_aa4330.div
+plots/dv0509_aa4330.webp
+plots/dv0509_pitch.div
+plots/dv0509_pitch.webp
+plots/dv0509_roll.div
+plots/dv0509_roll.webp
+plots/dv0509_roll_rate.div
+plots/dv0509_roll_rate.webp
+plots/dv0509_diveplot.div
+plots/dv0509_diveplot.webp
+plots/dv0509_ts.div
+plots/dv0509_ts.webp
+plots/dv0509_ts_raw.div
+plots/dv0509_ts_raw.webp
+plots/dv0509_vert_vel_new.div
+plots/dv0509_vert_vel_new.webp
+plots/dv0509_vert_vel_regression.div
+plots/dv0509_vert_vel_regression.webp
+plots/dv0509_wlbb2fl_Chlorophyll_fluorescence.div
+plots/dv0509_wlbb2fl_Chlorophyll_fluorescence.webp
+plots/dv0509_wlbb2fl_backscatter.div
+plots/dv0509_wlbb2fl_backscatter.webp
+SG_195_positions.txt
+predict_position.txt
+plots/eng_download_stats.div
+plots/eng_download_stats.webp
+plots/eng_mission_commlog.div
+plots/eng_mission_commlog.webp
+plots/eng_mission_depthangle.div
+plots/eng_mission_depthangle.webp
+plots/eng_mission_energy.div
+plots/eng_mission_energy.webp
+plots/eng_mission_int_sensors.div
+plots/eng_mission_int_sensors.webp
+plots/eng_mission_map.webp
+plots/eng_pitch_roll_motors.div
+plots/eng_pitch_roll_motors.webp
+plots/eng_vbd_motors.div
+plots/eng_vbd_motors.webp
+plots/eng_vbd_effic.div
+plots/eng_vbd_effic.webp
+plots/eng_mission_volmax.div
+plots/eng_mission_volmax.webp
+sg195.kmz
+p1950509.nc
+sg195_MOTIVE_2024_timeseries.nc
+
+11:39:41 02 Apr 2025 UTC: INFO: Base.py(1393): Extension script /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.post_mission not found
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(675): No .pagers file /home/jails/uwssc/gliderjail/home/etc/.pagers found - skipping ('alerts',)
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers for  alerts
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(614): Sending ALERTS FROM PROCESSING SG195 to https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go
+11:39:41 02 Apr 2025 UTC: INFO: BaseDotFiles.py(101): instrument_id:195 slack_hook_url:https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go subject_line:ALERTS FROM PROCESSING SG195 message_body:ALERT:FM_IGNORE
+    WARNING: rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+ALERT:/home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r
+    INFO: File sg0503lz.x00, sector_num 3 is a repeat - recommend resend_dive /l 503 0
+Consult baselog_250402113006 for details.
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(675): No .pagers file /home/jails/uwssc/gliderjail/home/etc/.pagers found - skipping ('alerts',)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers for  alerts
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts comp
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(590): Sending CONVERSION PROBLEMS SG195  to https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(101): instrument_id:195 slack_hook_url:https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go subject_line:CONVERSION PROBLEMS SG195  message_body:Dive [503, 506] failed to process completely.
+
+The following files were not processed completely:
+    /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.r
+        Fragment /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0503lz.1a.x00 file size (3200) not equal to expected size (4096) - consider resend_dive /l 503 0
+
+    /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/sg0506lz.r
+Glider logout seen - transmissions from glider complete
+
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(675): No .pagers file /home/jails/uwssc/gliderjail/home/etc/.pagers found - skipping ('alerts', 'comp')
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers for  alerts comp
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1045): Starting processing on .ftp
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1055): No .ftp file /usr/local/basestation3/etc/.ftp file found - skipping .ftp processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1055): No .ftp file /home/jails/uwssc/gliderjail/home/etc/.ftp file found - skipping .ftp processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1065): Finished processing on .ftp
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1045): Starting processing on .sftp
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1055): No .sftp file /usr/local/basestation3/etc/.sftp file found - skipping .sftp processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1055): No .sftp file /home/jails/uwssc/gliderjail/home/etc/.sftp file found - skipping .sftp processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1055): No .sftp file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.sftp file found - skipping .sftp processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1065): Finished processing on .sftp
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1430): Started processing on .mailer
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1442): No .mailer file /usr/local/basestation3/etc/.mailer file found - skipping .mailer processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1442): No .mailer file /home/jails/uwssc/gliderjail/home/etc/.mailer file found - skipping .mailer processing
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(1455): Finished processing on .mailer
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(334): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass 2
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(334): No .urls file /home/jails/uwssc/gliderjail/home/etc/.urls found - skipping pass 2
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(259): Starting processing on .urls pass(2)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(324): Finished processing on .urls pass(2)
+11:39:42 02 Apr 2025 UTC: INFO: Utils.py(1727): notifying /tmp/sanic-1578507-notify.ipc:195-urls-files:{"glider":195,"dive":509,"content":"files=all","time":1743593982.422636}
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  errors
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(675): No .pagers file /home/jails/uwssc/gliderjail/home/etc/.pagers found - skipping ('errors',)
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers for  errors
+11:39:42 02 Apr 2025 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/.pagers
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/etc/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: BaseCtrlFiles.py(441): No ctrl file /home/jails/uwssc/gliderjail/home/sg195/2024_11_MOTIVE/pagers.yml found - skipping
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1448): Base.py::main() stats
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): setup:6.628
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): dive_files:3.929
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): per_dive_netcdfs:5.609
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): backup_files:0.169
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): flight_model:66.077
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): per_dive_scripts:0.001
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): update_db:4.878
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): per_dive_plots:51.321
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): per_dive_extensions:1.405
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): mission_profile:0.000
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): mission_timeseries:145.545
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): mission_plots:47.738
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): mission_kml:161.884
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): mission_extensions:76.513
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(1450): notifications:1.102
+11:39:42 02 Apr 2025 UTC: INFO: Base.py(3170): Finished processing 11:39:42 02 Apr 2025 GMT
