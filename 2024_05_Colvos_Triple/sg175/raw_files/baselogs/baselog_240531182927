@@ -1,0 +1,668 @@
+18:29:28 31 May 2024 UTC: INFO: BaseLog.py(120): Process id = 3212943
+18:29:28 31 May 2024 UTC: WARNING: BaseLog.py(123): Config file /home/sg175/sg175.conf was not found
+18:29:28 31 May 2024 UTC: INFO: Utils.py(1029): Basestation version: 3.0.2; QC version: 1.12
+18:29:28 31 May 2024 UTC: INFO: Utils.py(1035): Python version 3.10.10
+18:29:28 31 May 2024 UTC: INFO: Utils.py(1049): Numpy version 1.25.0
+18:29:28 31 May 2024 UTC: INFO: Utils.py(1064): Scipy version 1.10.1
+18:29:28 31 May 2024 UTC: INFO: Utils.py(1084): seawater version 3.3.4
+18:29:28 31 May 2024 UTC: INFO: Base.py(1479): Invoked with command line [/usr/local/basestation3/Base.py --mission_dir /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple --verbose --make_mission_timeseries --daemon --nice 10 --base_log /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/baselog_240531182927 --config /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg175.conf --config /home/sg175/sg175.conf --delete_upload_files --vis_base_url=https://seaglider.pub/uwssc --vis_base_url=https://seaglider.pub/uwssc ]
+18:29:28 31 May 2024 UTC: INFO: Base.py(1481): PID:3213021
+18:29:28 31 May 2024 UTC: WARNING: CalibConst.py(120): volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:28 31 May 2024 UTC: WARNING: CalibConst.py(120): vbdbias value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: WARNING: CalibConst.py(120): hd_s value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning. (Max message count exceeded)
+18:29:29 31 May 2024 UTC: INFO: Base.py(1529): Started processing 18:29:29 31 May 2024 GMT
+18:29:29 31 May 2024 UTC: INFO: Base.py(1572): Instrument ID = 175
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  lategps recov critical drift
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:29:29 31 May 2024 UTC: INFO: CommLog.py(114): prefix:dive:4 calls_made:1 call_cycle:0 
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers for  lategps recov critical drift
+18:29:29 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers
+18:29:29 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+18:29:29 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/pagers.yml found - skipping
+18:29:29 31 May 2024 UTC: INFO: Base.py(1635): Processing comm_merged.log
+18:29:29 31 May 2024 UTC: INFO: Base.py(1664): Finished processing comm_merged.log
+18:29:29 31 May 2024 UTC: INFO: Base.py(1784): Processing seaglider selftests
+18:29:29 31 May 2024 UTC: INFO: Base.py(1820): No new selftests to processed
+18:29:29 31 May 2024 UTC: INFO: Base.py(1822): Processing pdoscmd.bat logs
+18:29:29 31 May 2024 UTC: INFO: Base.py(1841): No pdos logfiles found to process
+18:29:29 31 May 2024 UTC: INFO: Base.py(1848): Processing dive(s)
+18:29:29 31 May 2024 UTC: INFO: Base.py(536): Processing /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004lz
+18:29:29 31 May 2024 UTC: INFO: Base.py(1048): Checking fragment /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004lz.x00
+18:29:29 31 May 2024 UTC: INFO: Base.py(706): Processing /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004lz.r in process_file_group
+18:29:29 31 May 2024 UTC: INFO: Base.py(861): Removing secrets from /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750004.log
+18:29:29 31 May 2024 UTC: INFO: Base.py(536): Processing /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004dz
+18:29:29 31 May 2024 UTC: INFO: Base.py(1048): Checking fragment /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004dz.x00
+18:29:29 31 May 2024 UTC: INFO: Base.py(706): Processing /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004dz.r in process_file_group
+18:29:29 31 May 2024 UTC: INFO: Base.py(536): Processing /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004kz
+18:29:29 31 May 2024 UTC: INFO: Base.py(1048): Checking fragment /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004kz.x00
+18:29:29 31 May 2024 UTC: INFO: Base.py(1048): Checking fragment /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004kz.x01
+18:29:29 31 May 2024 UTC: INFO: Base.py(1048): Checking fragment /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004kz.x02
+18:29:29 31 May 2024 UTC: INFO: Base.py(1048): Checking fragment /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004kz.x03
+18:29:29 31 May 2024 UTC: INFO: Base.py(706): Processing /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg0004kz.r in process_file_group
+18:29:29 31 May 2024 UTC: INFO: Base.py(1881): Processed dive(s) [4]
+18:29:29 31 May 2024 UTC: INFO: Base.py(1957): Dives to process = [4]
+18:29:29 31 May 2024 UTC: INFO: Base.py(1986): Processing (/home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750004) for profiles
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(1624): Loading data from original files
+18:29:29 31 May 2024 UTC: INFO: FlightModel.py(844): Updating FM parameters using per-dive estimations for dive 3 (1.00,1.00)
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: volmax=51218.1
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: vbdbias=17.395
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: hd_a=0.00354813
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: hd_b=0.0112202
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: hd_c=5.7e-06
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: hd_s=-0.25
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: abs_compress=3.91401e-06
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: therm_expan=7.05e-05
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: temp_ref=15
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: glider_length=1.8
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2593): FM: rho0=1027.5
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2613): auxcompass data not present, auxPressure data not present
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2771): Not using auxcompass Not using auxPressure
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2846): Directive: correct_thermal_inertia_effects
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2846): Directive: detect_conductivity_anomalies
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2846): Directive: no_interp_gc_temperatures
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2846): Directive: no_interp_suspect_thermal_inertia_salinities
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2846): Directive: detect_vbd_bleed
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(2846): Directive: detect_slow_apogee_flow
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(3741): ct_type:gun-style Seabird unpumped CTD
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(4827): Changed (2/195) 194 195 to QC_BAD because CT out of water
+18:29:29 31 May 2024 UTC: WARNING: MakeDiveProfiles.py(4852): CTD out of the water after climb (0.030m)
+18:29:29 31 May 2024 UTC: INFO: QC.py(517): Changed (5/195) 2 4:6 8 to QC_PROBABLY_BAD because raw temperature spikes
+18:29:29 31 May 2024 UTC: INFO: QC.py(538): Changed (1/195) 195 to QC_BAD because raw salinity below bound
+18:29:29 31 May 2024 UTC: INFO: QC.py(599): Changed (9/195) 2 3 5:9 11 12 to QC_PROBABLY_BAD because raw conductivity spikes
+18:29:29 31 May 2024 UTC: INFO: QC.py(254): Changed (5/195) 2 4:6 8 to QC_PROBABLY_BAD because changed raw temp implies changed raw salinity
+18:29:29 31 May 2024 UTC: INFO: QC.py(254): Changed (5/195) 3 7 9 11 12 to QC_PROBABLY_BAD because changed raw cond implies changed raw salinity
+18:29:29 31 May 2024 UTC: INFO: QC.py(254): Changed (1/195) 194 to QC_BAD because changed raw cond implies changed raw salinity
+18:29:29 31 May 2024 UTC: INFO: QC.py(517): Changed (5/195) 2 4:6 8 to QC_INTERPOLATED because temperature spikes
+18:29:29 31 May 2024 UTC: INFO: QC.py(538): Changed (1/195) 195 to QC_BAD because salinity below bound
+18:29:29 31 May 2024 UTC: INFO: QC.py(599): Changed (9/195) 2 3 5:9 11 12 to QC_INTERPOLATED because conductivity spikes
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(5162): Changed (16/195) 110:125 to QC_BAD because slow apogee CT flow
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(5351): Changed (19/195) 1:19 to QC_BAD because during VBD bleed
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(5539): Changed (37/195) 1:19 110:125 194 195 to QC_BAD because bad corrected temperature and conductivity suggests bad salinity
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(5708): Using 1-mode thermal-inertia correction.
+18:29:29 31 May 2024 UTC: INFO: QC.py(254): Changed (37/195) 1:19 110:125 194 195 to QC_BAD because changed corrected salin implies changed speed
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1081): 0: max temp_c diff: 0.02C TI time: 0.005s loop: 0.004s
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1464): TSV:  0 2 stalled points 20 21
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1081): 1: max temp_c diff: 0.04C TI time: 0.005s loop: 0.004s
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1081): 2: max temp_c diff: 0.04C TI time: 0.005s loop: 0.004s
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1505): TSV exiting after 2 iterations
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1507): max_temp_c_diff = 0.04C
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1555): Changed (1/195) 193 to QC_PROBABLY_BAD because TS bad extrapolation
+18:29:29 31 May 2024 UTC: INFO: TempSalinityVelocity.py(1563): Changed (2/195) 20 21 to QC_PROBABLY_BAD because stalls avoid thermal-inertia salinity correction
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(6195): 8 (4.10%) HDM speeds are QC_BAD; 2 (1.03%) are stalled (195)
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(6405): Estimated total flight and drift time: 1986.6s (SM: 422.3s)
+18:29:29 31 May 2024 UTC: WARNING: MakeDiveProfiles.py(6436): Substantial unmodeled flight time (35.1% of total time); DAC is bad.
+18:29:29 31 May 2024 UTC: WARNING: MakeDiveProfiles.py(6461): Large mis-match between predicted and observed w; significant up/downwelling or poor flight model. DAC suspect.
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(6691): Computing QC_BAD depth-average current.
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(6772): DAC east: -3.03 cm/s DAC north: 13.41 cm/s
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(6903): Starting sensor extensions data processing
+18:29:29 31 May 2024 UTC: INFO: sbe43_ext.py(427): Changed (195/195) 1:195 to QC_UNSAMPLED because unsampled SBE43 oyxgen
+18:29:29 31 May 2024 UTC: WARNING: sbe43_ext.py(532): SBE43 O2 data found but calibration constant(s) missing - skipping SBE43 O2 corrections
+18:29:29 31 May 2024 UTC: INFO: MakeDiveProfiles.py(6907): Finished sensor extensions data processing
+18:29:29 31 May 2024 UTC: INFO: BaseNetCDF.py(368): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+18:29:29 31 May 2024 UTC: INFO: BaseNetCDF.py(368): /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/NODC.yml does not exist - skipping
+18:29:30 31 May 2024 UTC: INFO: BaseNetCDF.py(368): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+18:29:30 31 May 2024 UTC: INFO: BaseNetCDF.py(368): /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/NODC.yml does not exist - skipping
+18:29:30 31 May 2024 UTC: INFO: BaseDotFiles.py(1550): No .extensions file /usr/local/basestation3/etc/.extensions found
+18:29:30 31 May 2024 UTC: INFO: BaseDotFiles.py(1467): Starting processing on .extensions section(s):('postnetcdf',)
+18:29:31 31 May 2024 UTC: INFO: BaseDotFiles.py(1536): Finished processing on .extensions
+18:29:31 31 May 2024 UTC: INFO: Base.py(2072): Backing up /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/cmdfile to /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/cmdfile.4.0
+18:29:31 31 May 2024 UTC: INFO: BaseDB.py(1368): logParameterChanges db opened
+18:29:31 31 May 2024 UTC: INFO: BaseDB.py(1406): logParameterChanges db closed
+18:29:31 31 May 2024 UTC: INFO: Utils.py(1029): Basestation version: 3.0.2; QC version: 1.12
+18:29:31 31 May 2024 UTC: INFO: Utils.py(1035): Python version 3.10.10
+18:29:31 31 May 2024 UTC: INFO: Utils.py(1049): Numpy version 1.25.0
+18:29:31 31 May 2024 UTC: INFO: Utils.py(1064): Scipy version 1.10.1
+18:29:31 31 May 2024 UTC: INFO: Utils.py(1084): seawater version 3.3.4
+18:29:31 31 May 2024 UTC: INFO: FlightModel.py(3712): Exit is False
+18:29:31 31 May 2024 UTC: INFO: FlightModel.py(2297): Started FM cycle 4
+18:29:31 31 May 2024 UTC: INFO: FlightModel.py(2356): New dive 4 restarting from dive 3 (0.00354813,0.0112202)
+18:29:31 31 May 2024 UTC: INFO: FlightModel.py(2427): dives_to_update:[4]
+18:29:31 31 May 2024 UTC: INFO: FlightModel.py(2609): Early bias dives so far [2, 3, 4]
+18:29:31 31 May 2024 UTC: INFO: FlightModel.py(2611): <Dive 4 pitch_d: 27.0 p: 87.3dbar vbias: 49.1cc (17.4cc) abs_compress=3.38658e-06 RMS=1.7849cm/s>
+18:29:33 31 May 2024 UTC: INFO: FlightModel.py(1797): 4 n=226/True 1s hd_a=0.00251(18) hd_b=0.01014(3) 1.578925
+18:29:33 31 May 2024 UTC: INFO: FlightModel.py(2847): Assuming hd_a=0.003981 rather than 0.002512
+18:29:34 31 May 2024 UTC: INFO: FlightModel.py(3043):  [1, 2, 3, 4]: (1.578925,12, 0:0.40) new hd_a=0.00398 hd_b=0.01014
+18:29:34 31 May 2024 UTC: INFO: FlightModel.py(3135): up: Dive 2 RMS=2.3502 -> 2.1824t
+18:29:35 31 May 2024 UTC: INFO: FlightModel.py(3135): up: Dive 3 RMS=2.1681 -> 2.0433t
+18:29:35 31 May 2024 UTC: INFO: FlightModel.py(3135): up: Dive 4 RMS=1.7849 -> 1.4734t
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3534):  Reprocess dive 2: (True, True, False, False, True)
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3535):   v: 6.08 [77.62 83.69] ac: 0.275 [8.13637e-06 6.38355e-06]
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3534):  Reprocess dive 3: (True, True, False, False, False)
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3535):   v: 3.47 [20.87 17.39] ac: 0.004 [3.89863e-06 3.91401e-06]
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3534):  Reprocess dive 4: (True, True, False, True, True)
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3535):   v: 32.38 [49.78 17.39] ac: 0.287 [2.78936e-06 3.91401e-06]
+18:29:36 31 May 2024 UTC: INFO: FlightModel.py(3581): Reprocess dives: [2, 3, 4]
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(3608): Back from Reprocess.py - see /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/flight/Reprocess_0004_1717180177.log for details
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(3621): Dive 2 sucesfully processed
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(3621): Dive 3 sucesfully processed
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(3621): Dive 4 sucesfully processed
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(2427): dives_to_update:[2, 3, 4]
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(2609): Early bias dives so far [2, 3, 4]
+18:29:43 31 May 2024 UTC: INFO: FlightModel.py(2611): <Dive 2 pitch_d: 17.0 p: 68.9dbar vbias: 73.3cc (77.6cc) abs_compress=8.13637e-06 RMSt=2.1748cm/s>
+18:29:44 31 May 2024 UTC: INFO: FlightModel.py(2609): Early bias dives so far [2, 3, 4]
+18:29:44 31 May 2024 UTC: INFO: FlightModel.py(2611): <Dive 3 pitch_d: 17.0 p: 79.1dbar vbias: 20.9cc (20.9cc) abs_compress=3.88471e-06 RMSt=2.0433cm/s>
+18:29:44 31 May 2024 UTC: INFO: FlightModel.py(2609): Early bias dives so far [2, 3, 4]
+18:29:44 31 May 2024 UTC: INFO: FlightModel.py(2611): <Dive 4 pitch_d: 27.0 p: 87.3dbar vbias: 51.2cc (49.8cc) abs_compress=2.29928e-06 RMSt=1.4637cm/s>
+18:29:46 31 May 2024 UTC: INFO: FlightModel.py(1797): 4 n=226/True 1s hd_a=0.00251(18) hd_b=0.01014(3) 1.541462
+18:29:46 31 May 2024 UTC: INFO: FlightModel.py(2847): Assuming hd_a=0.003981 rather than 0.002512
+18:29:46 31 May 2024 UTC: INFO: FlightModel.py(3043):  [1, 2, 3, 4]: (1.541462,12, 0:0.40) new hd_a=0.00398 hd_b=0.01014
+18:29:47 31 May 2024 UTC: INFO: FlightModel.py(3534):  Reprocess dive 4: (False, False, False, False, True)
+18:29:47 31 May 2024 UTC: INFO: FlightModel.py(3535):   v: 1.45 [51.22 49.78] ac: 0.176 [2.29928e-06 2.78936e-06]
+18:29:47 31 May 2024 UTC: INFO: FlightModel.py(3581): Reprocess dives: [4]
+18:29:51 31 May 2024 UTC: INFO: FlightModel.py(3608): Back from Reprocess.py - see /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/flight/Reprocess_0004_1717180188.log for details
+18:29:51 31 May 2024 UTC: INFO: FlightModel.py(3621): Dive 4 sucesfully processed
+18:29:51 31 May 2024 UTC: INFO: FlightModel.py(2427): dives_to_update:[4]
+18:29:51 31 May 2024 UTC: INFO: FlightModel.py(2609): Early bias dives so far [2, 3, 4]
+18:29:51 31 May 2024 UTC: INFO: FlightModel.py(2611): <Dive 4 pitch_d: 27.0 p: 87.3dbar vbias: 51.2cc (51.2cc) abs_compress=2.29928e-06 RMSt=1.4637cm/s>
+18:29:53 31 May 2024 UTC: INFO: FlightModel.py(1797): 4 n=226/True 1s hd_a=0.00251(18) hd_b=0.01014(3) 1.541462
+18:29:53 31 May 2024 UTC: INFO: FlightModel.py(2847): Assuming hd_a=0.003981 rather than 0.002512
+18:29:54 31 May 2024 UTC: INFO: FlightModel.py(3043):  [1, 2, 3, 4]: (1.541462,12, 0:0.40) new hd_a=0.00398 hd_b=0.01014
+18:29:55 31 May 2024 UTC: INFO: FlightModel.py(3646): FMS_ALERT: Update glider parameters:
+$HD_A,0.00398107
+$HD_B,0.010145
+$HD_C,5.7e-06
+$RHO,1.0275
+
+18:29:55 31 May 2024 UTC: INFO: Base.py(2196): FM files updated ['/home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750002.nc', '/home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750003.nc', '/home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750004.nc']
+18:29:55 31 May 2024 UTC: INFO: Base.py(1363): Extension script /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.post_dive not found
+18:29:55 31 May 2024 UTC: INFO: Base.py(2221): Starting netcdf load to db
+18:29:55 31 May 2024 UTC: INFO: BaseDB.py(1112): loadDB db opened
+18:29:55 31 May 2024 UTC: INFO: MissionEnergy.py(98): Starting mission_energy 2
+18:29:55 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.00021052631578937612 b:0.8655684210526313
+18:29:55 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.00040689655172420963 b:0.803848275862069
+18:29:55 31 May 2024 UTC: INFO: MissionIntSensors.py(63): Starting mission_int_sensors
+18:29:55 31 May 2024 UTC: INFO: MissionIntSensors.py(126): Returning
+18:29:55 31 May 2024 UTC: INFO: BaseDB.py(1131): loadDB db closed
+18:29:55 31 May 2024 UTC: INFO: BaseDB.py(1112): loadDB db opened
+18:29:56 31 May 2024 UTC: INFO: MissionEnergy.py(98): Starting mission_energy 3
+18:29:56 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.00021578947368434137 b:0.8655754385964914
+18:29:56 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.0004827586206897872 b:0.8039494252873568
+18:29:56 31 May 2024 UTC: INFO: MissionIntSensors.py(63): Starting mission_int_sensors
+18:29:56 31 May 2024 UTC: INFO: MissionIntSensors.py(126): Returning
+18:29:56 31 May 2024 UTC: INFO: BaseDB.py(1131): loadDB db closed
+18:29:56 31 May 2024 UTC: INFO: BaseDB.py(1112): loadDB db opened
+18:29:56 31 May 2024 UTC: INFO: MissionEnergy.py(98): Starting mission_energy 4
+18:29:56 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.00021473684210529244 b:0.865573684210526
+18:29:56 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.000496551724137937 b:0.8039724137931031
+18:29:56 31 May 2024 UTC: INFO: MissionIntSensors.py(63): Starting mission_int_sensors
+18:29:56 31 May 2024 UTC: INFO: MissionIntSensors.py(126): Returning
+18:29:57 31 May 2024 UTC: INFO: BaseDB.py(1131): loadDB db closed
+18:29:57 31 May 2024 UTC: INFO: BaseDB.py(1112): loadDB db opened
+18:29:57 31 May 2024 UTC: INFO: MissionEnergy.py(98): Starting mission_energy 4
+18:29:57 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.00021473684210529244 b:0.865573684210526
+18:29:57 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.000496551724137937 b:0.8039724137931031
+18:29:57 31 May 2024 UTC: INFO: MissionIntSensors.py(63): Starting mission_int_sensors
+18:29:57 31 May 2024 UTC: INFO: MissionIntSensors.py(126): Returning
+18:29:57 31 May 2024 UTC: INFO: BaseDB.py(1131): loadDB db closed
+18:29:57 31 May 2024 UTC: INFO: Base.py(2233): netcdf load to db done
+18:29:57 31 May 2024 UTC: INFO: Base.py(2247): Starting per-dive plots
+18:29:57 31 May 2024 UTC: INFO: BasePlot.py(96): plot_dives db opened
+18:29:57 31 May 2024 UTC: INFO: BasePlot.py(101): Plotting /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750002.nc
+18:30:02 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:02 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:02 31 May 2024 UTC: INFO: DiveVertVelocity.py(253): Starting dive_vert_vel
+18:30:02 31 May 2024 UTC: INFO: DiveVertVelocity.py(408): Basestation: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1027.5
+18:30:02 31 May 2024 UTC: INFO: DiveVertVelocity.py(418): LogFile: hd_a:0.003000 hd_b:0.010000 hd_c:0.000010 mass:51.682 rho:1023.0
+18:30:02 31 May 2024 UTC: INFO: DiveVertVelocity.py(441): Using: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1023.0
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(571): Search from -450.0 cc to 500.0 cc
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(574): vol range min:50371.08, max:51056.35, mean:50535.41
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 0 CC:-450.0 vert_v:-13.06
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 1 CC:500.0 vert_v:15.78
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 2 CC:0.0 vert_v:1.79
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 3 CC:-225.0 vert_v:-6.09
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 4 CC:-112.5 vert_v:-3.90
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 5 CC:-56.2 vert_v:-1.02
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 6 CC:-28.1 vert_v:0.38
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 7 CC:-42.2 vert_v:-0.31
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 8 CC:-35.2 vert_v:0.02
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 9 CC:-38.7 vert_v:-0.14
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 10 CC:-36.9 vert_v:-0.05
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 11 CC:-36.0 vert_v:-0.01
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(657): implied_cvbd 2843, implied_volmax 51117.3, implied_max_smcc 597.3, implied_max_maxbuoy -287.1
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocity.py(660): min SM_CC 176.3 based on density 1.02247 at 0.86m and 150cc to raise the antenna
+18:30:03 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(87): Starting dive_vert_vel
+18:30:06 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(232): implied_cvbd 2813, implied_volmax 51109.9, implied_max_smcc 589.8, implied_max_maxbuoy -294.7
+18:30:06 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(235): min SM_CC 176.3 based on density 1.02247 at 0.86m and 150cc to raise the antenna
+18:30:07 31 May 2024 UTC: INFO: DivePitchRoll.py(87): Starting dive_pitch_roll
+18:30:07 31 May 2024 UTC: INFO: DivePitchRoll.py(284): implied_cpitch 2952.4942871127537, implied_pitchgain 23.360275330758782, RMS=5.2211689459044655
+18:30:07 31 May 2024 UTC: INFO: DivePitchRoll.py(544): c_roll_dive 1946.904139590484, c_roll_climb 1831.5646796452572
+18:30:08 31 May 2024 UTC: INFO: Magcal.py(254): hard magcal PQR = [147.99,59.16,113.73], converged=1, it=3
+18:30:10 31 May 2024 UTC: INFO: Magcal.py(388): hard+soft magcal PQR = [122.65,45.44,100.35], converged=1, it=7
+18:30:10 31 May 2024 UTC: INFO: Magcal.py(394): hard+soft magcal abc = 1.000,-0.021,0.001,-0.002,1.084,0.045,0.010,-0.020,1.048
+18:30:11 31 May 2024 UTC: WARNING: DiveSBE43.py(108): Did not find corrected sbe43 O2
+18:30:11 31 May 2024 UTC: INFO: BasePlot.py(101): Plotting /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750003.nc
+18:30:14 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:14 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(253): Starting dive_vert_vel
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(408): Basestation: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1027.5
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(418): LogFile: hd_a:0.003000 hd_b:0.010000 hd_c:0.000010 mass:51.682 rho:1023.0
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(441): Using: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1023.0
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(571): Search from -450.0 cc to 500.0 cc
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(574): vol range min:50371.08, max:51053.84, mean:50530.70
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 0 CC:-450.0 vert_v:-12.04
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 1 CC:500.0 vert_v:16.33
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 2 CC:0.0 vert_v:2.37
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 3 CC:-225.0 vert_v:-5.44
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 4 CC:-112.5 vert_v:-3.06
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 5 CC:-56.2 vert_v:-0.26
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 6 CC:-28.1 vert_v:1.05
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 7 CC:-42.2 vert_v:0.38
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 8 CC:-49.2 vert_v:0.04
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 9 CC:-52.7 vert_v:-0.11
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 10 CC:-51.0 vert_v:-0.05
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 11 CC:-50.1 vert_v:-0.00
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(657): implied_cvbd 2899, implied_volmax 51131.4, implied_max_smcc 611.3, implied_max_maxbuoy -272.7
+18:30:15 31 May 2024 UTC: INFO: DiveVertVelocity.py(660): min SM_CC 175.2 based on density 1.02249 at 1.12m and 150cc to raise the antenna
+18:30:16 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(87): Starting dive_vert_vel
+18:30:19 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(232): implied_cvbd 2833, implied_volmax 51114.9, implied_max_smcc 594.8, implied_max_maxbuoy -289.6
+18:30:19 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(235): min SM_CC 175.2 based on density 1.02249 at 1.12m and 150cc to raise the antenna
+18:30:19 31 May 2024 UTC: INFO: DivePitchRoll.py(87): Starting dive_pitch_roll
+18:30:19 31 May 2024 UTC: INFO: DivePitchRoll.py(284): implied_cpitch 2956.681304935037, implied_pitchgain 24.248138448702644, RMS=4.880753656338853
+18:30:20 31 May 2024 UTC: INFO: DivePitchRoll.py(544): c_roll_dive 1945.5101894542836, c_roll_climb 1705.9277478955037
+18:30:20 31 May 2024 UTC: INFO: Magcal.py(254): hard magcal PQR = [164.86,68.52,119.80], converged=1, it=4
+18:30:23 31 May 2024 UTC: INFO: Magcal.py(388): hard+soft magcal PQR = [75.69,45.42,88.25], converged=1, it=8
+18:30:23 31 May 2024 UTC: INFO: Magcal.py(394): hard+soft magcal abc = 1.000,-0.024,0.066,-0.014,1.090,0.037,-0.023,-0.011,1.096
+18:30:23 31 May 2024 UTC: WARNING: DiveSBE43.py(108): Did not find corrected sbe43 O2
+18:30:24 31 May 2024 UTC: INFO: BasePlot.py(101): Plotting /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750004.nc
+18:30:27 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:27 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:27 31 May 2024 UTC: INFO: DiveVertVelocity.py(253): Starting dive_vert_vel
+18:30:27 31 May 2024 UTC: INFO: DiveVertVelocity.py(408): Basestation: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1027.5
+18:30:27 31 May 2024 UTC: INFO: DiveVertVelocity.py(418): LogFile: hd_a:0.003000 hd_b:0.010000 hd_c:0.000010 mass:51.682 rho:1023.0
+18:30:27 31 May 2024 UTC: INFO: DiveVertVelocity.py(441): Using: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1023.0
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(571): Search from -450.0 cc to 500.0 cc
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(574): vol range min:50428.35, max:51053.34, mean:50530.92
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 0 CC:-450.0 vert_v:-24.38
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 1 CC:500.0 vert_v:30.31
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 2 CC:0.0 vert_v:3.45
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 3 CC:-225.0 vert_v:-12.55
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 4 CC:-112.5 vert_v:-5.40
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 5 CC:-56.2 vert_v:-1.70
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 6 CC:-28.1 vert_v:0.94
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 7 CC:-42.2 vert_v:-0.37
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 8 CC:-35.2 vert_v:0.28
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 9 CC:-38.7 vert_v:-0.04
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 10 CC:-36.9 vert_v:0.12
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 11 CC:-37.8 vert_v:0.04
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(657): implied_cvbd 2853, implied_volmax 51120.0, implied_max_smcc 599.9, implied_max_maxbuoy -284.4
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocity.py(660): min SM_CC 177.1 based on density 1.02245 at 0.96m and 150cc to raise the antenna
+18:30:28 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(87): Starting dive_vert_vel
+18:30:34 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(232): implied_cvbd 2856, implied_volmax 51120.8, implied_max_smcc 600.7, implied_max_maxbuoy -283.6
+18:30:34 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(235): min SM_CC 177.1 based on density 1.02245 at 0.96m and 150cc to raise the antenna
+18:30:34 31 May 2024 UTC: INFO: DivePitchRoll.py(87): Starting dive_pitch_roll
+18:30:34 31 May 2024 UTC: INFO: DivePitchRoll.py(284): implied_cpitch 2960.0280660728326, implied_pitchgain 27.160526596875428, RMS=3.11337024120042
+18:30:34 31 May 2024 UTC: WARNING: /usr/local/basestation3/Plotting/DivePitchRoll.py:322: RuntimeWarning:
+
+Maximum number of iterations has been exceeded.
+
+
+18:30:35 31 May 2024 UTC: INFO: DivePitchRoll.py(544): c_roll_dive 1905.8032588812675, c_roll_climb 1846.8297885234188
+18:30:35 31 May 2024 UTC: INFO: Magcal.py(254): hard magcal PQR = [156.75,59.10,118.54], converged=1, it=4
+18:30:38 31 May 2024 UTC: INFO: Magcal.py(388): hard+soft magcal PQR = [126.30,80.05,91.74], converged=1, it=6
+18:30:38 31 May 2024 UTC: INFO: Magcal.py(394): hard+soft magcal abc = 1.000,-0.006,-0.016,0.012,1.063,-0.025,0.023,0.005,1.060
+18:30:38 31 May 2024 UTC: WARNING: DiveSBE43.py(108): Did not find corrected sbe43 O2
+18:30:38 31 May 2024 UTC: INFO: BasePlot.py(101): Plotting /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/p1750004.nc
+18:30:41 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:41 31 May 2024 UTC: WARNING: QC.py(1344): Unclassified qc_str unsampled SBE43 oyxgen
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(253): Starting dive_vert_vel
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(408): Basestation: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1027.5
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(418): LogFile: hd_a:0.003000 hd_b:0.010000 hd_c:0.000010 mass:51.682 rho:1023.0
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(441): Using: hd_a:0.003981 hd_b:0.010145 hd_c:0.000006 mass:51.682 rho:1023.0
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(571): Search from -450.0 cc to 500.0 cc
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(574): vol range min:50428.35, max:51053.34, mean:50530.92
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 0 CC:-450.0 vert_v:-24.38
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 1 CC:500.0 vert_v:30.31
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 2 CC:0.0 vert_v:3.45
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 3 CC:-225.0 vert_v:-12.55
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 4 CC:-112.5 vert_v:-5.40
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 5 CC:-56.2 vert_v:-1.70
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 6 CC:-28.1 vert_v:0.94
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 7 CC:-42.2 vert_v:-0.37
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 8 CC:-35.2 vert_v:0.28
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 9 CC:-38.7 vert_v:-0.04
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 10 CC:-36.9 vert_v:0.12
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(617): Bias HDM 11 CC:-37.8 vert_v:0.04
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(657): implied_cvbd 2853, implied_volmax 51120.0, implied_max_smcc 599.9, implied_max_maxbuoy -284.4
+18:30:42 31 May 2024 UTC: INFO: DiveVertVelocity.py(660): min SM_CC 177.1 based on density 1.02245 at 0.96m and 150cc to raise the antenna
+18:30:43 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(87): Starting dive_vert_vel
+18:30:48 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(232): implied_cvbd 2856, implied_volmax 51120.8, implied_max_smcc 600.7, implied_max_maxbuoy -283.6
+18:30:48 31 May 2024 UTC: INFO: DiveVertVelocityNew.py(235): min SM_CC 177.1 based on density 1.02245 at 0.96m and 150cc to raise the antenna
+18:30:49 31 May 2024 UTC: INFO: DivePitchRoll.py(87): Starting dive_pitch_roll
+18:30:49 31 May 2024 UTC: INFO: DivePitchRoll.py(284): implied_cpitch 2960.0280660728326, implied_pitchgain 27.160526596875428, RMS=3.11337024120042
+18:30:49 31 May 2024 UTC: WARNING: /usr/local/basestation3/Plotting/DivePitchRoll.py:322: RuntimeWarning:
+
+Maximum number of iterations has been exceeded.
+
+
+18:30:49 31 May 2024 UTC: INFO: DivePitchRoll.py(544): c_roll_dive 1905.8032588812675, c_roll_climb 1846.8297885234188
+18:30:50 31 May 2024 UTC: INFO: Magcal.py(254): hard magcal PQR = [156.75,59.10,118.54], converged=1, it=4
+18:30:52 31 May 2024 UTC: INFO: Magcal.py(388): hard+soft magcal PQR = [126.30,80.05,91.74], converged=1, it=6
+18:30:52 31 May 2024 UTC: INFO: Magcal.py(394): hard+soft magcal abc = 1.000,-0.006,-0.016,0.012,1.063,-0.025,0.023,0.005,1.060
+18:30:52 31 May 2024 UTC: WARNING: DiveSBE43.py(108): Did not find corrected sbe43 O2
+18:30:53 31 May 2024 UTC: INFO: BasePlot.py(133): plot_dives db closed
+18:30:53 31 May 2024 UTC: INFO: Base.py(2252): Per-dive plots complete
+18:30:53 31 May 2024 UTC: INFO: BaseDotFiles.py(1550): No .extensions file /usr/local/basestation3/etc/.extensions found
+18:30:53 31 May 2024 UTC: INFO: BaseDotFiles.py(1467): Starting processing on .extensions section(s):('dive',)
+18:30:53 31 May 2024 UTC: INFO: BaseDotFiles.py(1536): Finished processing on .extensions
+18:30:53 31 May 2024 UTC: INFO: BaseDotFiles.py(334): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass 1
+18:30:53 31 May 2024 UTC: INFO: BaseDotFiles.py(259): Starting processing on .urls pass(1)
+18:30:53 31 May 2024 UTC: INFO: BaseDotFiles.py(324): Finished processing on .urls pass(1)
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-887278-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-766373-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-873662-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-877770-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-884928-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-879967-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-578649-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-875629-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=perdive","time":1717180253.2058284}
+18:30:53 31 May 2024 UTC: INFO: MakeMissionTimeSeries.py(231): Making mission timeseries /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg175_UWSSC_Mission_003-first_deployment_timeseries.nc from files found in /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/
+18:30:53 31 May 2024 UTC: INFO: BaseNetCDF.py(368): /usr/local/basestation3/etc/NODC.yml does not exist - skipping
+18:30:53 31 May 2024 UTC: INFO: BaseNetCDF.py(368): /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/NODC.yml does not exist - skipping
+18:30:54 31 May 2024 UTC: INFO: BasePlot.py(159): plot_mission db opened
+18:30:54 31 May 2024 UTC: INFO: MissionEnergy.py(98): Starting mission_energy None
+18:30:54 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.00021473684210529244 b:0.865573684210526
+18:30:54 31 May 2024 UTC: INFO: Utils.py(1772): m:-0.000496551724137937 b:0.8039724137931031
+18:30:54 31 May 2024 UTC: INFO: MissionMotors.py(77): Starting mission_motors
+18:30:55 31 May 2024 UTC: INFO: MissionIntSensors.py(63): Starting mission_int_sensors
+18:30:56 31 May 2024 UTC: INFO: MissionMap.py(130): Starting mission_map
+18:31:07 31 May 2024 UTC: ERROR: Unable to open /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg175_ColvosTripleGlider_timeseries.nc:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/Plotting/MissionProfiles.py", line 159, in mission_profiles
+    nci = Utils.open_netcdf_file(ncname, "r")
+  File "/usr/local/basestation3/Utils.py", line 97, in open_netcdf_file
+    ds = netCDF4.Dataset(filename, mode)
+  File "src/netCDF4/_netCDF4.pyx", line 2464, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2027, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/sg175_ColvosTripleGlider_timeseries.nc'
+
+18:31:08 31 May 2024 UTC: INFO: BasePlot.py(204): plot_mission db closed
+18:31:08 31 May 2024 UTC: INFO: MakeKML.py(1056): Started processing 18:31:08 31 May 2024 GMT
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(460): Opened /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/targets.1.0 for processing
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(474): ['start_175', 'lat=4730', 'lon=-12229.5', 'radius=200', 'goto=1_175']
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(474): ['1_175', 'lat=4731', 'lon=-12229', 'radius=200', 'goto=2_175']
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(474): ['2_175', 'lat=4732', 'lon=-12228', 'radius=200', 'goto=end_175']
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(474): ['end_175', 'lat=4733', 'lon=-12225', 'radius=200', 'goto=end_175']
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(1888): Finished processing 18:31:09 31 May 2024 GMT
+18:31:09 31 May 2024 UTC: INFO: MakeKML.py(1892): Run time 1.020501 seconds
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1550): No .extensions file /usr/local/basestation3/etc/.extensions found
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1467): Starting processing on .extensions section(s):('global', 'mission')
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1536): Finished processing on .extensions
+18:31:09 31 May 2024 UTC: INFO: CommLog.py(114): prefix:
+18:31:09 31 May 2024 UTC: INFO: Base.py(2615): Processing FM_IGNORE
+18:31:09 31 May 2024 UTC: INFO: Base.py(2615): Processing FMS
+18:31:09 31 May 2024 UTC: WARNING: Base.py(2646): ALERT:FM_IGNORE
+    WARNING: volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: vbdbias value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_s value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+ALERT:FMS
+    INFO: FMS_ALERT: Update glider parameters:
+$HD_A,0.00398107
+$HD_B,0.010145
+$HD_C,5.7e-06
+$RHO,1.0275
+
+Consult baselog_240531182927 for details.
+18:31:09 31 May 2024 UTC: INFO: BaseDB.py(1193): addValToDB db opened
+18:31:09 31 May 2024 UTC: INFO: BaseDB.py(1222): addValToDB db closed
+18:31:09 31 May 2024 UTC: INFO: Base.py(2692): Processed files msg:
+Processing complete as of 18:31:09 31 May 2024 GMT
+p1750004.log
+p1750004.eng
+p1750004.asc
+p1750004.cap
+plots/dv0002_diveplot.div
+plots/dv0002_diveplot.webp
+plots/dv0002_ctw.div
+plots/dv0002_ctw.webp
+plots/dv0002_ctd.div
+plots/dv0002_ctd.webp
+plots/dv0002_raw_ctd.div
+plots/dv0002_raw_ctd.webp
+plots/dv0002_ts.div
+plots/dv0002_ts.webp
+plots/dv0002_ts_raw.div
+plots/dv0002_ts_raw.webp
+plots/dv0002_seabird_corr_compare.div
+plots/dv0002_seabird_corr_compare.webp
+plots/dv0002_vert_vel.div
+plots/dv0002_vert_vel.webp
+plots/dv0002_vert_vel_new.div
+plots/dv0002_vert_vel_new.webp
+plots/dv0002_vert_vel_regression.div
+plots/dv0002_vert_vel_regression.webp
+plots/dv0002_pitch.div
+plots/dv0002_pitch.webp
+plots/dv0002_roll.div
+plots/dv0002_roll.webp
+plots/dv0002_roll_rate.div
+plots/dv0002_roll_rate.webp
+plots/dv0002_magcal.div
+plots/dv0002_magcal.webp
+plots/dv0002_sbe43.div
+plots/dv0002_sbe43.webp
+plots/dv0003_diveplot.div
+plots/dv0003_diveplot.webp
+plots/dv0003_ctw.div
+plots/dv0003_ctw.webp
+plots/dv0003_ctd.div
+plots/dv0003_ctd.webp
+plots/dv0003_raw_ctd.div
+plots/dv0003_raw_ctd.webp
+plots/dv0003_ts.div
+plots/dv0003_ts.webp
+plots/dv0003_ts_raw.div
+plots/dv0003_ts_raw.webp
+plots/dv0003_seabird_corr_compare.div
+plots/dv0003_seabird_corr_compare.webp
+plots/dv0003_vert_vel.div
+plots/dv0003_vert_vel.webp
+plots/dv0003_vert_vel_new.div
+plots/dv0003_vert_vel_new.webp
+plots/dv0003_vert_vel_regression.div
+plots/dv0003_vert_vel_regression.webp
+plots/dv0003_pitch.div
+plots/dv0003_pitch.webp
+plots/dv0003_roll.div
+plots/dv0003_roll.webp
+plots/dv0003_roll_rate.div
+plots/dv0003_roll_rate.webp
+plots/dv0003_magcal.div
+plots/dv0003_magcal.webp
+plots/dv0003_sbe43.div
+plots/dv0003_sbe43.webp
+plots/dv0004_diveplot.div
+plots/dv0004_diveplot.webp
+plots/dv0004_ctw.div
+plots/dv0004_ctw.webp
+plots/dv0004_ctd.div
+plots/dv0004_ctd.webp
+plots/dv0004_raw_ctd.div
+plots/dv0004_raw_ctd.webp
+plots/dv0004_ts.div
+plots/dv0004_ts.webp
+plots/dv0004_ts_raw.div
+plots/dv0004_ts_raw.webp
+plots/dv0004_seabird_corr_compare.div
+plots/dv0004_seabird_corr_compare.webp
+plots/dv0004_vert_vel.div
+plots/dv0004_vert_vel.webp
+plots/dv0004_vert_vel_new.div
+plots/dv0004_vert_vel_new.webp
+plots/dv0004_vert_vel_regression.div
+plots/dv0004_vert_vel_regression.webp
+plots/dv0004_pitch.div
+plots/dv0004_pitch.webp
+plots/dv0004_roll.div
+plots/dv0004_roll.webp
+plots/dv0004_roll_rate.div
+plots/dv0004_roll_rate.webp
+plots/dv0004_magcal.div
+plots/dv0004_magcal.webp
+plots/dv0004_sbe43.div
+plots/dv0004_sbe43.webp
+plots/dv0004_diveplot.div
+plots/dv0004_diveplot.webp
+plots/dv0004_ctw.div
+plots/dv0004_ctw.webp
+plots/dv0004_ctd.div
+plots/dv0004_ctd.webp
+plots/dv0004_raw_ctd.div
+plots/dv0004_raw_ctd.webp
+plots/dv0004_ts.div
+plots/dv0004_ts.webp
+plots/dv0004_ts_raw.div
+plots/dv0004_ts_raw.webp
+plots/dv0004_seabird_corr_compare.div
+plots/dv0004_seabird_corr_compare.webp
+plots/dv0004_vert_vel.div
+plots/dv0004_vert_vel.webp
+plots/dv0004_vert_vel_new.div
+plots/dv0004_vert_vel_new.webp
+plots/dv0004_vert_vel_regression.div
+plots/dv0004_vert_vel_regression.webp
+plots/dv0004_pitch.div
+plots/dv0004_pitch.webp
+plots/dv0004_roll.div
+plots/dv0004_roll.webp
+plots/dv0004_roll_rate.div
+plots/dv0004_roll_rate.webp
+plots/dv0004_magcal.div
+plots/dv0004_magcal.webp
+plots/dv0004_sbe43.div
+plots/dv0004_sbe43.webp
+plots/eng_mission_energy.div
+plots/eng_mission_energy.webp
+plots/eng_mission_volmax.div
+plots/eng_mission_volmax.webp
+plots/eng_pitch_roll_motors.div
+plots/eng_pitch_roll_motors.webp
+plots/eng_vbd_motors.div
+plots/eng_vbd_motors.webp
+plots/eng_vbd_effic.div
+plots/eng_vbd_effic.webp
+plots/eng_mission_int_sensors.div
+plots/eng_mission_int_sensors.webp
+plots/eng_mission_depthangle.div
+plots/eng_mission_depthangle.webp
+plots/eng_mission_map.webp
+plots/eng_mission_commlog.div
+plots/eng_mission_commlog.webp
+plots/eng_download_stats.div
+plots/eng_download_stats.webp
+sg175.kmz
+p1750004.nc
+sg175_UWSSC_Mission_003-first_deployment_timeseries.nc
+
+18:31:09 31 May 2024 UTC: INFO: Base.py(1363): Extension script /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.post_mission not found
+18:31:09 31 May 2024 UTC: INFO: BaseDB.py(1193): addValToDB db opened
+18:31:09 31 May 2024 UTC: INFO: BaseDB.py(1222): addValToDB db closed
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers for  alerts
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(614): Sending ALERTS FROM PROCESSING SG175 to https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(101): instrument_id:175 slack_hook_url:https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go subject_line:ALERTS FROM PROCESSING SG175 message_body:ALERT:FM_IGNORE
+    WARNING: volmax value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: vbdbias value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: rho0 value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: abs_compress value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: therm_expan value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: temp_ref value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_a value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_b value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_c value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+    WARNING: hd_s value ignored. v3 Flight Model does not use this value. Add '% FM_ignore' to sg_calib_constants.m to suppress this warning.
+ALERT:FMS
+    INFO: FMS_ALERT: Update glider parameters:
+$HD_A,0.00398107
+$HD_B,0.010145
+$HD_C,5.7e-06
+$RHO,1.0275
+
+Consult baselog_240531182927 for details.
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers for  alerts
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  alerts comp
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers for  alerts comp
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1034): Starting processing on .ftp
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1044): No .ftp file /usr/local/basestation3/etc/.ftp file found - skipping .ftp processing
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1054): Finished processing on .ftp
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1034): Starting processing on .sftp
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1044): No .sftp file /usr/local/basestation3/etc/.sftp file found - skipping .sftp processing
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1044): No .sftp file /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.sftp file found - skipping .sftp processing
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1054): Finished processing on .sftp
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1419): Started processing on .mailer
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1431): No .mailer file /usr/local/basestation3/etc/.mailer file found - skipping .mailer processing
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(1444): Finished processing on .mailer
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(334): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass 2
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(259): Starting processing on .urls pass(2)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(324): Finished processing on .urls pass(2)
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-887278-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-766373-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-873662-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-877770-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-884928-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-879967-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-578649-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: Utils.py(1863): notifying /tmp/sanic-875629-notify.ipc:175-urls-files:{"glider":175,"dive":4,"content":"files=all","time":1717180269.5492465}
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /usr/local/basestation3/etc/.pagers for  errors
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(402): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(407): Using sending function slack
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /usr/local/basestation3/etc/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers for  errors
+18:31:09 31 May 2024 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/.pagers
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: BaseCtrlFiles.py(390): No ctrl file /home/jails/uwssc/gliderjail/home/sg175/2024_05_31_colvos_triple/pagers.yml found - skipping
+18:31:09 31 May 2024 UTC: INFO: Base.py(2995): Finished processing 18:31:09 31 May 2024 GMT
