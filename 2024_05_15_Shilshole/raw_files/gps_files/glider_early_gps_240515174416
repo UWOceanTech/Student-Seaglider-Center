@@ -1,0 +1,78 @@
+17:44:18 15 May 2024 UTC: INFO: BaseLog.py(120): Process id = 1118517
+17:44:18 15 May 2024 UTC: INFO: GliderEarlyGPS.py(424): Started processing 17:44:18 15 May 2024 GMT
+17:44:18 15 May 2024 UTC: INFO: GliderEarlyGPS.py(446): PID:1118552
+17:44:18 15 May 2024 UTC: INFO: GliderEarlyGPS.py(447): login_shell PID:1118505
+17:44:18 15 May 2024 UTC: INFO: GliderEarlyGPS.py(492): Starting the GliderEarlyGPS client....
+17:44:18 15 May 2024 UTC: INFO: CommLog.py(1168): Scan back found connected line pos:65615 Connected at 2024-05-15T17:44:18Z (sg195)
+
+17:44:18 15 May 2024 UTC: INFO: GliderEarlyGPS.py(95): First time finished - start_pos:65657
+17:44:18 15 May 2024 UTC: INFO: GliderEarlyGPS.py(116): Setting instrument_id from session object 195
+17:44:23 15 May 2024 UTC: INFO: GliderEarlyGPS.py(370): Adding session to basestation (sg195)
+17:44:23 15 May 2024 UTC: INFO: BaseDB.py(1392): addSession db opened
+17:44:23 15 May 2024 UTC: INFO: BaseDB.py(1006): version not set, checking table existence
+17:44:23 15 May 2024 UTC: INFO: BaseDB.py(1017): stepping DB schema from 0 to 1
+17:44:23 15 May 2024 UTC: ERROR: could not check schema:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1023, in checkSchema
+    mycon.cursor().execute(f"ALTER TABLE calls ADD COLUMN sms INTEGER;")
+sqlite3.OperationalError: no such table: calls
+
+17:44:23 15 May 2024 UTC: ERROR: BaseDB.py(1407): no such table: calls inserting comm.log session
+17:44:23 15 May 2024 UTC: INFO: BaseDB.py(1417): addSession db closed
+17:44:23 15 May 2024 UTC: INFO: BaseDotFiles.py(341): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass "N47 42.4490 W122 24.8520 2004-09-29T17:43:13Z"
+17:44:23 15 May 2024 UTC: INFO: BaseDotFiles.py(266): Starting processing on .urls pass("N47 42.4490 W122 24.8520 2004-09-29T17:43:13Z")
+17:44:23 15 May 2024 UTC: INFO: BaseDotFiles.py(331): Finished processing on .urls pass("N47 42.4490 W122 24.8520 2004-09-29T17:43:13Z")
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-2963492-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-15566-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-766373-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-19345-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-20485-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-2961317-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-766476-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-16884-notify.ipc:195-urls-gpsstr:{"connected":1715795058.0,"dive":2,"cycle":2,"call":1,"lat":47.70748333333333,"lon":-122.41420000000001,"epoch":1096479793.0,"RH":51.0,"intP":8.48,"temp":null,"volts10":10.82,"volts24":26.36,"pitch":-53.1,"depth":1.01,"pitchAD":179,"rollAD":2098,"vbdAD":530,"iridLat":0,"iridLon":0,"irid_t":0}
+17:44:23 15 May 2024 UTC: INFO: GliderEarlyGPS.py(314): In Recovery: QUIT_COMMAND:CONTROL_FINISHED_OK
+17:44:27 15 May 2024 UTC: INFO: BaseDotFiles.py(401): Starting processing on /usr/local/basestation3/etc/.pagers for  gps
+17:44:27 15 May 2024 UTC: INFO: BaseDotFiles.py(409): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w,slack,gpsddmm)
+17:44:27 15 May 2024 UTC: INFO: BaseDotFiles.py(414): Using sending function slack
+17:44:27 15 May 2024 UTC: INFO: CommLog.py(113): prefix:dive:2 calls_made:1 call_cycle:2 
+17:44:27 15 May 2024 UTC: INFO: BaseDotFiles.py(582): Sending GPS SG195 dive:2 calls_made:1 call_cycle:2  (N47 42.4490 W122 24.8520 09/29/04 17:43:13 UTC QUIT_COMMAND D=1.01,pit=-53.10,RH=51.00,P=8.48,24V=26.36,10V=10.82) to https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w
+17:44:27 15 May 2024 UTC: INFO: BaseDotFiles.py(108): instrument_id:195 slack_hook_url:https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w subject_line:GPS SG195 dive:2 calls_made:1 call_cycle:2  message_body:N47 42.4490 W122 24.8520 09/29/04 17:43:13 UTC QUIT_COMMAND D=1.01,pit=-53.10,RH=51.00,P=8.48,24V=26.36,10V=10.82
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(409): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/71kp13t63ifummqbhxzniw18go,slack,alerts)
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(414): Using sending function slack
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(409): Processing .pagers line (https://sahale.apl.washington.edu/mattermost/hooks/5t1u7ab147dstbh5iq79h48spy,slack,critical)
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(414): Using sending function slack
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(672): Finished processing on /usr/local/basestation3/etc/.pagers
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(401): Starting processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers for  gps
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(409): Processing .pagers line (7247147343@vtext.com,gps,alerts,recov)
+17:44:28 15 May 2024 UTC: INFO: CommLog.py(113): prefix:dive:2 calls_made:1 call_cycle:2 
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(582): Sending GPS SG195 dive:2 calls_made:1 call_cycle:2  (N47 42.4490 W122 24.8520 09/29/04 17:43:13 UTC QUIT_COMMAND D=1.01,pit=-53.10,RH=51.00,P=8.48,24V=26.36,10V=10.82) to 7247147343@vtext.com
+17:44:28 15 May 2024 UTC: INFO: BaseDotFiles.py(672): Finished processing on /home/jails/uwssc/gliderjail/home/sg195/.pagers
+17:44:28 15 May 2024 UTC: INFO: BaseCtrlFiles.py(262): No ctrl file /usr/local/basestation3/etc/pagers.yml found - skipping
+17:44:28 15 May 2024 UTC: INFO: BaseCtrlFiles.py(262): No ctrl file /home/jails/uwssc/gliderjail/home/sg195/pagers.yml found - skipping
+17:44:29 15 May 2024 UTC: INFO: BaseDB.py(1392): addSession db opened
+17:44:29 15 May 2024 UTC: INFO: BaseDB.py(1006): version not set, checking table existence
+17:44:29 15 May 2024 UTC: INFO: BaseDB.py(1017): stepping DB schema from 0 to 1
+17:44:29 15 May 2024 UTC: ERROR: could not check schema:
+Traceback (most recent call last):
+  File "/usr/local/basestation3/BaseDB.py", line 1023, in checkSchema
+    mycon.cursor().execute(f"ALTER TABLE calls ADD COLUMN sms INTEGER;")
+sqlite3.OperationalError: no such table: calls
+
+17:44:29 15 May 2024 UTC: ERROR: BaseDB.py(1407): no such table: calls inserting comm.log session
+17:44:29 15 May 2024 UTC: INFO: BaseDB.py(1417): addSession db closed
+17:44:38 15 May 2024 UTC: INFO: GliderEarlyGPS.py(307): Received file cmdfile (256 bytes)
+17:44:42 15 May 2024 UTC: INFO: GliderEarlyGPS.py(307): Received file cmdfile (162 bytes)
+17:45:00 15 May 2024 UTC: INFO: GliderEarlyGPS.py(269): Disconnected:2024-05-15T17:44:59Z Logout received
+17:45:00 15 May 2024 UTC: INFO: GliderEarlyGPS.py(277): status=disconnected+-+logout+seen
+17:45:00 15 May 2024 UTC: INFO: BaseDotFiles.py(341): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass status=disconnected+-+logout+seen
+17:45:00 15 May 2024 UTC: INFO: BaseDotFiles.py(266): Starting processing on .urls pass(status=disconnected+-+logout+seen)
+17:45:00 15 May 2024 UTC: INFO: BaseDotFiles.py(331): Finished processing on .urls pass(status=disconnected+-+logout+seen)
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-2963492-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-15566-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-766373-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-19345-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-20485-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-2961317-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-766476-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: Utils.py(1845): notifying /tmp/sanic-16884-notify.ipc:195-urls-status:{"glider":195,"dive":2,"content":"status=disconnected","time":1715795100.4381547}
+17:45:00 15 May 2024 UTC: INFO: GliderEarlyGPS.py(226): Ended processing 2024-05-15T17:45:00Z
