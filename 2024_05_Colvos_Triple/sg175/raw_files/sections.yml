@@ -1,0 +1,69 @@
+---
+
+# inheritance priority order (highest to lowest) is 
+# sections, variables, defaults
+#
+# available colormaps (from cmocean): 
+#   thermal, haline, solar, ice, gray, oxy, deep, dense, algae, 
+#   matter, turbid, speed, amp, tempo, phase, balance, delta, curl
+
+# basics for all section 0-990m, every dive (step=1) and 5m bins
+
+defaults:
+  top: 0
+  bottom: 990
+  bin: 5
+  step: 1
+
+# specifying min and max will clamp the colorscale 
+# for easier comparison across sections
+
+# only plot 0-400m for optical sections (sensor is generally
+# turned off below that)
+#
+# units should be in ' single quotes for YAML escaping reasons
+# You can se mathjax $...$ for latex style formatting or
+# HTML codes (which look much better)
+
+variables: 
+  temperature: { colormap: thermal, min: 3, max: 20, units: '&#8451;' }
+  salinity: { colormap: haline, min: 31.5, max: 34.5  }
+#  wlbb2fl_sig470nm_adjusted: { top: 0, bottom: 400, colormap: algae, units: 'm<sup>-1</sup>sr<sup>-1</sup>' }
+#  wlbb2fl_sig695nm_adjusted: { top: 0, bottom: 400, colormap: algae, units: '&mu;g&#183;l<sup>-1</sup>' }
+#  wlbb2fl_sig700nm_adjusted: { top: 0, bottom: 400, colormap: algae, units: 'm<sup>-1</sup>sr<sup>-1</sup>' }
+#  aanderaa4831_dissolved_oxygen: { top: 0, bottom: 1000, colormap: oxy, units: '&mu;mol&#183;kg<sup>-1</sup>' }
+
+# Section name 000 is special for vis. All 000 sections
+# are presented ahead of the rest of the sections
+# in the ribbon.
+#
+# section numbers are quoted below because we need them
+# to be a name for sorting and yaml will strip leading
+# zeros off a plain integer and the alpha sort won't
+# come out right
+#
+# start: 1, stop -1 = dive 1 - latest
+#
+# flip: true means the section x axis is reversed
+# so that when comparison multiple repeat back-and-forth
+# sections they are oriented the same geographically
+
+sections:
+  "000": {start: 1, stop: -1, step: 5}
+  # "001": {start: 1, stop: 34 }
+  # "002": {start: 35, stop: 72, flip: true }
+  # "003": {start: 73, stop: 121 }
+  # "004": {start: 122, stop: 163, flip: true }
+  # "005": {start: 164, stop: 211 }
+  # "006": {start: 212, stop: 254, flip: true }
+  # "007": {start: 255, stop: 306 }
+  # "008": {start: 307, stop: 371, flip: true }
+  # "009": {start: 372, stop: 414 }
+  # "010": {start: 415, stop: 457, flip: true }
+  # "011": {start: 458, stop: 510 }
+  # "012": {start: 511, stop: 566, flip: true }
+  # "013": {start: 567, stop: 626 }
+  # "014": {start: 627, stop: 663, flip: true }
+  # "015": {start: 664, stop: 722 }
+  # "016": {start: 723, stop: 756, flip: true }
+  # "017": {start: 757, stop: 999 }
