@@ -1,6 +1,6 @@
-lat_north = 17;
+lat_north = 7;
 lat_south = -1;
-lon_west = -152;
+lon_west = -142;
 lon_east = -137;
 
 vector_start = 3;
