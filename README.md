@@ -10,7 +10,8 @@ Contents:
 - Tropics Mission (2024-2025)
 - Shilshole Shakedown (2025)
 - Time Series Test Mission (2025)
-- Time Series Mission (2025)
+- Summer Time Series Mission (2025)
+- Winter Time Series Mission (2026)
 
 Naming Conventions:
 - Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and either their location or vessel of deployment.
