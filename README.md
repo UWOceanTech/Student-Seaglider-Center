@@ -14,6 +14,9 @@ Contents:
 - Summer Time Series Mission (2025)
 - Winter Time Series Mission (2026)
 
+Sensors:
+- All missions have temperature, conductivity (salinity), and depth data at minimum. If there is oxygen and wetlabs data it will be in the clean data file as well as the raw data. Oxygen is named dissolved_oxygen when cleaned and aanderaa4330_dissolved_oxygen in the raw data. 
+
 Naming Conventions:
 - Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and either their location or vessel of deployment.
 - Missions named "shilshole_shakedown" are training deployments and do not aim to answer a scientific question. 
