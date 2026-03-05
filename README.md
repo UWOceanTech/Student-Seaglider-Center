@@ -15,7 +15,9 @@ Contents:
 - Winter Time Series Mission (2026)
 
 Sensors:
-- All missions have temperature, conductivity (salinity), and depth data at minimum. If there is oxygen and wetlabs data it will be in the clean data file as well as the raw data. Oxygen is named dissolved_oxygen when cleaned and aanderaa4330_dissolved_oxygen in the raw data. 
+- All missions have temperature, conductivity (salinity), and depth data at minimum. If there is oxygen and wetlabs data it will be in the clean data file as well as the raw data.
+- Oxygen corrected for salinity and depth is named dissolved_oxygen when cleaned and aanderaa4330_dissolved_oxygen in the raw data. Oxygen corrected for salinity is named instrument_dissolved_oxygen when cleaned and aanderaa4330_instrument_dissolved_oxygen in the raw data.
+- Blue light scattering is named when PAR_470nm cleaned and eng_wlbb2fl_sig470nm in the raw data. Red light scattering is named particle_concentration_700nm when cleaned and eng_wlbb2fl_sig700nm in the raw data. Chlorophyll fluorescence is named chlorophyll_695nm when cleaned and eng_wlbb2fl_sig695nm in the raw data.
 
 Naming Conventions:
 - Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and either their location or vessel of deployment.
