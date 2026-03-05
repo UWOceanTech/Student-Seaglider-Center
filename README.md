@@ -20,7 +20,7 @@ Sensors:
 - Blue light scattering is named when PAR_470nm cleaned and eng_wlbb2fl_sig470nm in the raw data. Red light scattering is named particle_concentration_700nm when cleaned and eng_wlbb2fl_sig700nm in the raw data. Chlorophyll fluorescence is named chlorophyll_695nm when cleaned and eng_wlbb2fl_sig695nm in the raw data.
 
 Naming Conventions:
-- Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and either their location or vessel of deployment.
+- Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and their mission name.
 - Missions named "shilshole_shakedown" are training deployments and do not aim to answer a scientific question. 
 
 Folder Structure: 
