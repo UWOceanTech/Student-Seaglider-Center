@@ -1,0 +1,52 @@
+01:31:26 25 Jan 2026 UTC: INFO: BaseLog.py(144): Process id = 3437460
+01:31:26 25 Jan 2026 UTC: WARNING: BaseLog.py(147): Config file /home/jails/uwssc/gliderjail/home/sg175/2026_01_23_timeseries/sg175.conf was not found
+01:31:26 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(456): Started processing 01:31:26 25 Jan 2026 GMT
+01:31:26 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(477): PID:3437498
+01:31:26 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(478): login_shell PID:3437445
+01:31:26 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(523): Starting the GliderEarlyGPS client....
+01:31:26 25 Jan 2026 UTC: INFO: CommLog.py(1216): Scan back found connected line pos:111424 Connected at 2026-01-25T01:31:26Z (sg175)
+
+01:31:26 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(96): First time finished - start_pos:111466
+01:31:26 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(117): Setting instrument_id from session object 175
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(1481): Starting processing on /usr/local/basestation3/etc/.extensions section(s):('commloggps',)
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(1594): Finished processing on /usr/local/basestation3/etc/.extensions
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(1481): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2026_01_23_timeseries/.extensions section(s):('commloggps',)
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(1594): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2026_01_23_timeseries/.extensions
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(675): No .pagers file /usr/local/basestation3/etc/.pagers found - skipping ('gps',)
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(675): No .pagers file /home/jails/uwssc/gliderjail/home/etc/.pagers found - skipping ('gps',)
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(394): Starting processing on /home/jails/uwssc/gliderjail/home/sg175/2026_01_23_timeseries/.pagers for  gps
+01:31:32 25 Jan 2026 UTC: INFO: BaseDotFiles.py(665): Finished processing on /home/jails/uwssc/gliderjail/home/sg175/2026_01_23_timeseries/.pagers
+01:31:32 25 Jan 2026 UTC: INFO: BaseCtrlFiles.py(445): ctrl file /usr/local/basestation3/etc/pagers.yml found
+01:31:32 25 Jan 2026 UTC: INFO: BaseCtrlFiles.py(442): No ctrl file /home/jails/uwssc/gliderjail/home/etc/pagers.yml found - skipping
+01:31:32 25 Jan 2026 UTC: INFO: BaseCtrlFiles.py(442): No ctrl file /home/jails/uwssc/gliderjail/home/sg175/2026_01_23_timeseries/pagers.yml found - skipping
+01:31:32 25 Jan 2026 UTC: INFO: CommLog.py(116): prefix:dive:47 calls_made:1 call_cycle:0 
+01:31:32 25 Jan 2026 UTC: INFO: BaseCtrlFiles.py(170): Sending mattermost GPS SG175 dive:47 calls_made:1 call_cycle:0  N47 50.5920 W122 25.7800 01/25/26 01:29:53 UTC D=-1.43,pit=-64.34,RH=41.37,P=8.07,24V=25.89,10V=10.77 https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w to global
+01:31:32 25 Jan 2026 UTC: INFO: BaseCtrlFiles.py(187): mattermost_hook_url:https://sahale.apl.washington.edu/mattermost/hooks/sg1i1w4wpibg9m8s77e19st14w msg:{'text': 'GPS SG175 dive:47 calls_made:1 call_cycle:0 :N47 50.5920 W122 25.7800 01/25/26 01:29:53 UTC D=-1.43,pit=-64.34,RH=41.37,P=8.07,24V=25.89,10V=10.77'}
+01:31:33 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(391): Adding session to basestation (sg175)
+01:31:33 25 Jan 2026 UTC: INFO: BaseDB.py(1528): addSession db opened
+01:31:33 25 Jan 2026 UTC: INFO: BaseDB.py(1553): addSession db closed
+01:31:33 25 Jan 2026 UTC: INFO: BaseDotFiles.py(334): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass "N47 50.5920 W122 25.7800 2026-01-25T01:29:53Z"
+01:31:33 25 Jan 2026 UTC: INFO: BaseDotFiles.py(334): No .urls file /home/jails/uwssc/gliderjail/home/etc/.urls found - skipping pass "N47 50.5920 W122 25.7800 2026-01-25T01:29:53Z"
+01:31:33 25 Jan 2026 UTC: INFO: BaseDotFiles.py(259): Starting processing on .urls pass("N47 50.5920 W122 25.7800 2026-01-25T01:29:53Z")
+01:31:33 25 Jan 2026 UTC: INFO: BaseDotFiles.py(324): Finished processing on .urls pass("N47 50.5920 W122 25.7800 2026-01-25T01:29:53Z")
+01:31:33 25 Jan 2026 UTC: INFO: Utils.py(1752): notifying /tmp/sanic-1233717-notify.ipc:175-urls-gpsstr:{"glider":175,"connected":1769304686.0,"dive":47,"cycle":0,"call":1,"lat":47.843199999999996,"lon":-122.42966666666668,"epoch":1769304593.0,"RH":41.37,"intP":8.07,"temp":null,"volts10":10.77,"volts24":25.89,"pitch":-64.34,"depth":-1.43,"pitchAD":243,"rollAD":2324,"vbdAD":465,"sst":null,"sss":null,"density":null,"iridLat":0,"iridLon":0,"irid_t":0}
+01:31:33 25 Jan 2026 UTC: INFO: Utils.py(1752): notifying /tmp/sanic-2301460-notify.ipc:175-urls-gpsstr:{"glider":175,"connected":1769304686.0,"dive":47,"cycle":0,"call":1,"lat":47.843199999999996,"lon":-122.42966666666668,"epoch":1769304593.0,"RH":41.37,"intP":8.07,"temp":null,"volts10":10.77,"volts24":25.89,"pitch":-64.34,"depth":-1.43,"pitchAD":243,"rollAD":2324,"vbdAD":465,"sst":null,"sss":null,"density":null,"iridLat":0,"iridLon":0,"irid_t":0}
+01:31:36 25 Jan 2026 UTC: INFO: BaseDB.py(1528): addSession db opened
+01:31:36 25 Jan 2026 UTC: INFO: BaseDB.py(1553): addSession db closed
+01:31:39 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(328): Received file cmdfile (70 bytes)
+01:32:10 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 3528 bytes of sg0047lz.x00
+01:32:27 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 4096 bytes of sg0047dz.x00
+01:32:33 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 360 bytes of sg0047dz.x01
+01:32:50 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 4096 bytes of sg0047kz.x00
+01:33:07 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 4096 bytes of sg0047kz.x01
+01:33:24 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 4096 bytes of sg0047kz.x02
+01:33:33 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(322): Transfered 1324 bytes of sg0047kz.x03
+01:33:36 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(290): Disconnected:2026-01-25T01:33:35Z Logout received
+01:33:36 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(298): status=disconnected+-+logout+seen
+01:33:36 25 Jan 2026 UTC: INFO: BaseDotFiles.py(334): No .urls file /usr/local/basestation3/etc/.urls found - skipping pass status=disconnected+-+logout+seen
+01:33:36 25 Jan 2026 UTC: INFO: BaseDotFiles.py(334): No .urls file /home/jails/uwssc/gliderjail/home/etc/.urls found - skipping pass status=disconnected+-+logout+seen
+01:33:36 25 Jan 2026 UTC: INFO: BaseDotFiles.py(259): Starting processing on .urls pass(status=disconnected+-+logout+seen)
+01:33:36 25 Jan 2026 UTC: INFO: BaseDotFiles.py(324): Finished processing on .urls pass(status=disconnected+-+logout+seen)
+01:33:36 25 Jan 2026 UTC: INFO: Utils.py(1752): notifying /tmp/sanic-1233717-notify.ipc:175-urls-status:{"glider":175,"dive":47,"content":"status=disconnected","time":1769304816.2354538}
+01:33:36 25 Jan 2026 UTC: INFO: Utils.py(1752): notifying /tmp/sanic-2301460-notify.ipc:175-urls-status:{"glider":175,"dive":47,"content":"status=disconnected","time":1769304816.2354538}
+01:33:36 25 Jan 2026 UTC: INFO: GliderEarlyGPS.py(247): Ended processing 2026-01-25T01:33:36Z
