@@ -1,0 +1,84 @@
+Compressing THISDIVE.KAP to sg0000kl.x...
+1267.109,SSURF,N,Sending cmd lrx -y -c -t150 sg0000kl.x
+1268.584,SSURF,N,Sending sg0000kl.x...
+1295.309,SSURF,N,7,1 sz:627 blkSz:1024
+1299.434,SSURF,N,EOT sent
+1301.509,SSURF,N,rcvd ACK (attempt 0)
+1304.484,SSURF,N,Transmission succeeded
+1310.084,SSURF,N,logout
+1313.603,HPHONE,N,phone on 138250 ms, avg mA=76.5, max mA=360.3
+1313.687,SSURF,N,Total NAK's: 0, timeouts: 0
+1313.817,SGLMALLOC,N,glheap_walk: 335276 bytes free, 12 blocks free, 12092 bytes alloc, 21 blocks alloc
+1322.093,SSURF,N,Resetting $SM_CC to max - 10.0cc
+1322.251,HTT8,N,Updating parameter $SM_CC to 457.54178
+1322.588,HTT8,N,Writing NVRAM...done.
+1331.450,SUSR,N,
+
+Setting glider to pre-launch state ...
+1331.679,HROLL,N,Roll commanded from 25.87 deg (2997) to 0.00 deg (2082)...
+1334.139,HROLL,N,19.6 deg (ad: 2775) mA=37 minV=26.5 (0,0)Updating parameter $R_PORT_OVSHOOT to 36
+1335.940,SMOTOR,N,MOTOR_DONE: ticks: 18 max 24v: 5.4mA avg 24v: 3.8mA minV 24v: 26.3V
+1336.094,SMOTOR,N,GC TICKS/TIME: 77/80119
+1336.184,HROLL,N,done.
+1336.330,HROLL,N,Roll completed from 25.90 deg (2998) to 0.45 deg (2098) took 1.4 sec 37 mA (210 mA peak) 26.0 Vmin 642.86 AD/sec 56 ticks
+1336.762,HROLL,N,TRACK: b: 2138/0 a: 2134/0 d: 9 o: -36
+1337.039,HPITCH,N,Pitch commanded from -7.91 cm (810) to -9.82 cm (199)...
+1339.477,HPITCH,N,-8.4 cm (ad: 656) mA=31 minV=26.5 (0,0)MOTOR_DONE: ticks: 12 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.2V
+1341.288,SMOTOR,N,GC TICKS/TIME: 76/79965
+1341.377,HPITCH,N,done.
+1341.519,HPITCH,N,Pitch completed from -7.92 cm (809) to -9.74 cm (227) took 1.5 sec 33 mA (360 mA peak) 25.7 Vmin 381.64 AD/sec 61 ticks
+1341.952,HPITCH,N,TRACK: b: 230/0 a: 228/0 d: 2 o: -1
+1342.714,HVBD,N,Bleed commanded from 468.52 cc (371) to 457.73 cc (415)...
+1345.177,HVBD,N,466.6 cc (ad: 379 [400,368]) mA=85 minV=26.5 (0,0)MOTOR_DONE: ticks: 9 max 24v: 1193.4mA avg 24v: 138.5mA minV 24v: 26.0V
+1347.036,SMOTOR,N,GC TICKS/TIME: 79/82258
+1347.126,HVBD,N,done.
+1347.284,HVBD,N,Bleed completed from 468.52 cc (371) to 457.24 cc (417 [433, 401]) took 1.7 sec 0 mA (1063 mA peak) 26.4 Vmin 27.46 AD/sec 67 ticks
+1347.721,HVBD,N,TRACK: b: 432/399 a: 432/400 d: -17 o: -15
+1347.839,SUSR,N,query timeout lengthened to one hour
+1425.208,SUSR,N,Updating MISSION counter to 17
+1425.343,HTT8,N,Updating parameter $MISSION to 17
+1425.674,HTT8,N,Writing NVRAM...done.
+1434.530,SUSR,N,Resetting to dive 1
+1434.643,HTT8,N,Updating parameter $DIVE to 1
+1434.968,HTT8,N,Writing NVRAM...done.
+1443.926,SSURF,N,Initializing data file
+1444.110,SSURF,N,Initializing log file
+1446.004,SUSR,N,
+Now wait for the phone call and confirm that QUIT is parsed and RECOVERY
+is entered before disconnecting comms cable and placing the glider in the
+water. If possible, confirm positive buoyancy and surface position
+before releasing.
+
+0.959,SSYS,N,Dive started Fri Apr 17 15:17:59 2026
+ (1776439079)
+1.084,SSURF,N,Entering surface state
+1.172,SSURF,N,Starting surface maneuver
+3.033,SSURF,N,disabling surface maneuver aborts
+4.260,SSURF,N,d= -0.16m
+4.437,HROLL,N,Roll commanded from 0.42 deg (2097) to 0.00 deg (2082)...
+6.842,HROLL,N,0.5 deg (ad: 2098) mA=0 minV=26.6 (0,0)MOTOR_DONE: ticks: 27 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.6V
+7.450,SMOTOR,N,GC TICKS/TIME: 30/32650
+7.535,HROLL,N,done.
+7.599,HROLL,N,Roll: No motion occurred.
+7.854,HPITCH,N,Pitch commanded from -9.74 cm (227) to -9.82 cm (199)...
+10.257,HPITCH,N,-9.7 cm (ad: 227) mA=0 minV=26.5 (0,0)MOTOR_DONE: ticks: 27 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.5V
+10.868,SMOTOR,N,GC TICKS/TIME: 30/32740
+10.954,HPITCH,N,done.
+11.021,HPITCH,N,Pitch: No motion occurred.
+11.274,HVBD,N,Pump commanded from 457.24 cc (417) to 457.73 cc (415)...
+13.704,HVBD,N,457.5 cc (ad: 416 [433,397]) mA=84 minV=25.8 (0,0)MOTOR_DONE: ticks: 14 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.3V
+14.441,SMOTOR,N,GC TICKS/TIME: 35/38106
+14.527,HVBD,N,done.
+14.684,HVBD,N,Pump completed from 457.48 cc (416) to 458.22 cc (413 [432, 395]) took 0.4 sec 84 mA (344 mA peak) 25.8 Vmin 6.67 AD/sec 18 ticks
+15.134,HVBD,N,TRACK: b: 433/398 a: 433/398 d: -18 o: -20
+16.375,SSURF,N,Depth at end of surface maneuver = -0.150709
+17.867,SSURF,N,Finished surface maneuver
+20.273,HGPS,N,reset GPS, flags=1
+22.336,HGPS,N,Acquiring GPS fix (5,8,40)
+24.394,HGPS,N,VGPS timeout (0) - no data received
+24.459,HGPS,N,reset GPS, flags=1
+26.936,HGPS,N,AAAAAAAAAAAAAAAAAAAAAA
+50.001,HGPS,N,sync sentence $GPRMC,151848,A,4749.7960,N,12224.1022,W,000.4,243.0,170426,016.3,E*66
+ (k=20774)set 2026/04/17 15:18:49
+50.198,HGPS,N,170426 151847 4749.7959 -12224.1016 hdop=0.8 cog=243.0 sog=0.0 hpe=5.0 n=10 4/26 seconds
+54.284,SSYS,N,Capture closed

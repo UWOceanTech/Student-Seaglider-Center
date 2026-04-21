@@ -1,0 +1,555 @@
+57.752,SSYS,N,uploading complete capture due to CAPUPLOAD
+Compressing THISDIVE.KAP to sg0000kz.x...
+60.744,SSYS,N,Capture file opened
+Compressing THISDIVE.LOG to sg0000lz.x...
+69.747,HCF8,N,'sg0000kz.x00' opened
+69.902,HCF8,N,'sg0000kz.x00' has 2022 bytes
+78.574,HCF8,N,'sg0000lz.x00' opened
+78.689,HCF8,N,'sg0000lz.x00' has 1480 bytes
+82.687,SSURF,N,Collecting glider state
+82.984,HBATT,N,24V batt pack voltage = 26.53V
+83.118,HBATT,N,10V batt pack voltage = 10.74V
+83.364,SDIVE,N,Measuring depth & angle for 1 sec done.
+85.689,SDIVE,N,Measured depth: -0.16m angle: -22.87deg
+86.027,SGLMALLOC,N,glheap_walk: 335128 bytes free, 11 blocks free, 12216 bytes alloc, 23 blocks alloc
+86.155,SSURF,N,Trying call 0
+86.194,SSURF,N,Calling phone number: 88160000581
+88.327,HPHONE,N,init RUDICS
+103.852,HPHONE,N,Phone registered
+111.752,HPHONE,N,Iridium signal strength: 5 after 3 queries
+111.827,HPHONE,N,cnt_NoComm:0 callCycle:2 smsLastCallCycle:-1
+111.977,HPHONE,N,Iridium geolocation: 47.857117 -122.458885 Sun Jul 12 11:23:26 2015
+118.202,HPHONE,N,Dial success
+132.402,SSURF,N,Logged in
+133.852,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+138.027,SSURF,N,Receiving cmdfile...
+139.252,SSURF,N,S,0,1,128
+140.777,SSURF,N,E,1,1,128
+144.027,SSURF,N,Received cmdfile 41 bytes
+145.552,SSURF,N,Transmission succeeded
+145.627,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+145.727,HTT8,N,Updating parameter $D_TGT to 30
+145.777,HTT8,N,Updating parameter $T_DIVE to 10
+145.852,HTT8,N,Updating parameter $T_MISSION to 25
+145.902,SDIVE,N,Parsed command: $QUIT
+146.077,HTT8,N,Writing NVRAM...done.
+160.527,SSURF,N,Sending cmd lrx -y -c -t150 sg0000lz.x00
+162.027,SSURF,N,Sending sg0000lz.x00...
+166.327,SSURF,N,2,1 sz:456 blkSz:1024
+170.552,SSURF,N,EOT sent
+172.727,SSURF,N,rcvd ACK (attempt 0)
+175.802,SSURF,N,Transmission succeeded
+175.952,SSURF,N,Sending cmd lrx -y -c -t150 sg0000kz.x00
+177.527,SSURF,N,Sending sg0000kz.x00...
+181.802,SSURF,N,2,1 sz:998 blkSz:1024
+187.027,SSURF,N,EOT sent
+189.202,SSURF,N,rcvd ACK (attempt 0)
+192.352,SSURF,N,Transmission succeeded
+195.777,SSURF,N,logout
+204.396,HPHONE,N,phone on 118100 ms, avg mA=67.3, max mA=343.5
+204.478,SSURF,N,Total NAK's: 0, timeouts: 0
+204.614,SGLMALLOC,N,glheap_walk: 335128 bytes free, 19 blocks free, 12072 bytes alloc, 21 blocks alloc
+204.928,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+205.090,HTT8,N,Updating parameter $D_TGT to 30
+205.238,HTT8,N,Updating parameter $T_DIVE to 10
+205.390,HTT8,N,Updating parameter $T_MISSION to 25
+205.497,SDIVE,N,Parsed command: $QUIT
+206.018,HTT8,N,Writing NVRAM...done.
+216.499,SDIVE,N,Will not dive!
+216.581,SDIVE,N,Will enter recovery due to QUIT_COMMAND
+216.703,SSURF,N,Entering recovery state, force_to_surface=0, flush_data=0
+216.871,HTT8,N,Updating parameter $RELAUNCH to 5
+217.200,HTT8,N,Writing NVRAM...done.
+226.072,SPOWER,N,powerOFF (23,SBE_CT) without corresponding powerON!
+226.216,SPOWER,N,powerOFF (24,AA4330) without corresponding powerON!
+226.361,SPOWER,N,powerOFF (25,WL_blue_red_Chl_old_fw) without corresponding powerON!
+226.521,SSURF,N,in recovery because of CONTROL_FINISHED_OK/QUIT_COMMAND after 0 profiles
+226.702,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 0
+226.940,HGPS,N,reset GPS, flags=1
+229.005,HGPS,N,Acquiring GPS fix (5,8,40)
+231.065,HGPS,N,VGPS timeout (0) - no data received
+231.131,HGPS,N,reset GPS, flags=1
+233.574,HGPS,N,AAAAAAAAAAAAAAAAAAAA
+252.826,HGPS,N,170426 152211 4749.8027 -12224.1289 hdop=1.0 cog=0.0 sog=0.2 hpe=5.0 n=8 4/23 seconds
+258.592,SSURF,N,Collecting glider state
+258.892,HBATT,N,24V batt pack voltage = 26.44V
+259.029,HBATT,N,10V batt pack voltage = 10.72V
+259.277,SDIVE,N,Measuring depth & angle for 1 sec done.
+261.639,SDIVE,N,Measured depth: 1.08m angle: -81.54deg
+261.977,SGLMALLOC,N,glheap_walk: 335232 bytes free, 11 blocks free, 12136 bytes alloc, 22 blocks alloc
+262.106,SSURF,N,Trying call 0
+262.147,SSURF,N,Calling phone number: 88160000581
+264.281,HPHONE,N,init RUDICS
+279.731,HPHONE,N,Phone registered
+285.181,HPHONE,N,Iridium signal strength: 5 after 3 queries
+285.256,HPHONE,N,cnt_NoComm:0 callCycle:3 smsLastCallCycle:-1
+287.231,HPHONE,N,Iridium geolocation: 47.863190 -122.339912 Sun Jul 12 11:29:30 2015
+294.956,HPHONE,N,Dial success
+308.381,SSURF,N,Logged in
+309.631,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+313.831,SSURF,N,Receiving cmdfile...
+314.831,SSURF,N,S,0,1,128
+316.256,SSURF,N,E,1,1,128
+319.506,SSURF,N,Received cmdfile 41 bytes
+320.856,SSURF,N,Transmission succeeded
+320.956,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+321.031,HTT8,N,Updating parameter $D_TGT to 30
+321.106,HTT8,N,Updating parameter $T_DIVE to 10
+321.181,HTT8,N,Updating parameter $T_MISSION to 25
+321.231,SDIVE,N,Parsed command: $QUIT
+321.406,HTT8,N,Writing NVRAM...done.
+337.156,SSURF,N,logout
+340.597,HPHONE,N,phone on 78350 ms, avg mA=56.6, max mA=357.3
+340.678,SSURF,N,Total NAK's: 0, timeouts: 0
+340.814,SGLMALLOC,N,glheap_walk: 335084 bytes free, 19 blocks free, 12116 bytes alloc, 21 blocks alloc
+340.993,SSURF,N,in recovery, lpsleep
+341.174,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 1
+341.412,HGPS,N,reset GPS, flags=1
+343.476,HGPS,N,Acquiring GPS fix (5,8,40)
+345.537,HGPS,N,VGPS timeout (0) - no data received
+345.602,HGPS,N,reset GPS, flags=1
+348.057,HGPS,N,AAAAAAAAAAAAAAAAAAA
+366.830,HGPS,N,170426 152405 4749.8013 -12224.1416 hdop=0.9 cog=0.0 sog=0.0 hpe=5.0 n=9 5/23 seconds
+372.604,SSURF,N,Collecting glider state
+372.903,HBATT,N,24V batt pack voltage = 26.42V
+373.039,HBATT,N,10V batt pack voltage = 10.71V
+373.286,SDIVE,N,Measuring depth & angle for 1 sec done.
+375.651,SDIVE,N,Measured depth: 1.11m angle: -56.27deg
+375.987,SGLMALLOC,N,glheap_walk: 335188 bytes free, 11 blocks free, 12180 bytes alloc, 22 blocks alloc
+376.116,SSURF,N,Trying call 0
+376.156,SSURF,N,Calling phone number: 88160000581
+378.290,HPHONE,N,init RUDICS
+393.715,HPHONE,N,Phone registered
+399.015,HPHONE,N,Iridium signal strength: 5 after 3 queries
+399.090,HPHONE,N,cnt_NoComm:0 callCycle:4 smsLastCallCycle:-1
+399.240,HPHONE,N,Iridium geolocation: 47.871429 -122.413742 Sun Jul 12 11:32:26 2015
+406.890,HPHONE,N,Dial success
+423.715,SSURF,N,Logged in
+426.965,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+431.190,SSURF,N,Receiving cmdfile...
+432.440,SSURF,N,S,0,1,128
+433.990,SSURF,N,E,1,1,128
+437.215,SSURF,N,Received cmdfile 41 bytes
+438.665,SSURF,N,Transmission succeeded
+438.740,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+438.840,HTT8,N,Updating parameter $D_TGT to 30
+438.890,HTT8,N,Updating parameter $T_DIVE to 10
+438.965,HTT8,N,Updating parameter $T_MISSION to 25
+439.040,SDIVE,N,Parsed command: $QUIT
+439.215,HTT8,N,Writing NVRAM...done.
+455.040,SSURF,N,logout
+458.583,HPHONE,N,phone on 82325 ms, avg mA=61.2, max mA=339.7
+458.664,SSURF,N,Total NAK's: 0, timeouts: 0
+458.799,SGLMALLOC,N,glheap_walk: 335104 bytes free, 18 blocks free, 12120 bytes alloc, 21 blocks alloc
+458.978,SSURF,N,in recovery, lpsleep
+459.158,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 2
+459.396,HGPS,N,reset GPS, flags=1
+461.463,HGPS,N,Acquiring GPS fix (5,8,40)
+463.523,HGPS,N,VGPS timeout (0) - no data received
+463.589,HGPS,N,reset GPS, flags=1
+466.042,HGPS,N,AAAAAAAAAAAAAAAAAAA
+484.827,HGPS,N,170426 152603 4749.8032 -12224.1543 hdop=0.9 cog=0.0 sog=0.0 hpe=4.9 n=9 5/23 seconds
+490.584,SSURF,N,Collecting glider state
+490.883,HBATT,N,24V batt pack voltage = 26.39V
+491.018,HBATT,N,10V batt pack voltage = 10.71V
+491.266,SDIVE,N,Measuring depth & angle for 1 sec done.
+493.627,SDIVE,N,Measured depth: 1.24m angle: -61.94deg
+493.965,SGLMALLOC,N,glheap_walk: 335184 bytes free, 11 blocks free, 12184 bytes alloc, 22 blocks alloc
+494.094,SSURF,N,Trying call 0
+494.134,SSURF,N,Calling phone number: 88160000581
+496.268,HPHONE,N,init RUDICS
+511.643,HPHONE,N,Phone registered
+517.543,HPHONE,N,Iridium signal strength: 5 after 3 queries
+517.618,HPHONE,N,cnt_NoComm:0 callCycle:5 smsLastCallCycle:-1
+517.768,HPHONE,N,Iridium geolocation: 47.857117 -122.458885 Sun Jul 12 11:34:18 2015
+528.918,HPHONE,N,Dial success
+543.068,SSURF,N,Logged in
+544.518,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+548.668,SSURF,N,Receiving cmdfile...
+549.893,SSURF,N,S,0,1,128
+551.418,SSURF,N,E,1,1,128
+554.668,SSURF,N,Received cmdfile 41 bytes
+557.918,SSURF,N,Transmission succeeded
+557.993,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+558.093,HTT8,N,Updating parameter $D_TGT to 30
+558.143,HTT8,N,Updating parameter $T_DIVE to 10
+558.218,HTT8,N,Updating parameter $T_MISSION to 25
+558.268,SDIVE,N,Parsed command: $QUIT
+558.443,HTT8,N,Writing NVRAM...done.
+574.293,SSURF,N,logout
+578.007,HPHONE,N,phone on 83750 ms, avg mA=56.6, max mA=338.9
+578.089,SSURF,N,Total NAK's: 0, timeouts: 0
+578.224,SGLMALLOC,N,glheap_walk: 335108 bytes free, 19 blocks free, 12092 bytes alloc, 21 blocks alloc
+578.403,SSURF,N,in recovery, lpsleep
+578.584,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 3
+578.822,HGPS,N,reset GPS, flags=1
+580.888,HGPS,N,Acquiring GPS fix (5,8,40)
+582.948,HGPS,N,VGPS timeout (0) - no data received
+583.014,HGPS,N,reset GPS, flags=1
+585.466,HGPS,N,AAAAAAAAAAAAAAAAAA
+602.857,HGPS,N,170426 152801 4749.8062 -12224.1650 hdop=0.9 cog=0.0 sog=0.0 hpe=5.0 n=9 5/22 seconds
+608.610,SSURF,N,Collecting glider state
+608.908,HBATT,N,24V batt pack voltage = 26.38V
+609.043,HBATT,N,10V batt pack voltage = 10.71V
+609.291,SDIVE,N,Measuring depth & angle for 1 sec done.
+611.652,SDIVE,N,Measured depth: 1.09m angle: -54.69deg
+611.988,SGLMALLOC,N,glheap_walk: 335212 bytes free, 11 blocks free, 12156 bytes alloc, 22 blocks alloc
+612.117,SSURF,N,Trying call 0
+612.158,SSURF,N,Calling phone number: 88160000581
+614.291,HPHONE,N,init RUDICS
+629.491,HPHONE,N,Phone registered
+634.441,HPHONE,N,Iridium signal strength: 5 after 3 queries
+634.541,HPHONE,N,cnt_NoComm:0 callCycle:6 smsLastCallCycle:-1
+634.691,HPHONE,N,Iridium geolocation: 47.816486 -122.311325 Sun Jul 12 11:36:20 2015
+641.441,HPHONE,N,Dial success
+657.566,SSURF,N,Logged in
+658.916,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+663.091,SSURF,N,Receiving cmdfile...
+664.266,SSURF,N,S,0,1,128
+667.966,SSURF,N,E,1,1,128
+671.266,SSURF,N,Received cmdfile 41 bytes
+672.566,SSURF,N,Transmission succeeded
+672.641,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+672.716,HTT8,N,Updating parameter $D_TGT to 30
+674.666,HTT8,N,Updating parameter $T_DIVE to 10
+674.741,HTT8,N,Updating parameter $T_MISSION to 25
+674.791,SDIVE,N,Parsed command: $QUIT
+674.966,HTT8,N,Writing NVRAM...done.
+690.741,SSURF,N,logout
+694.283,HPHONE,N,phone on 82025 ms, avg mA=59.7, max mA=346.5
+694.364,SSURF,N,Total NAK's: 0, timeouts: 0
+694.499,SGLMALLOC,N,glheap_walk: 335136 bytes free, 18 blocks free, 12088 bytes alloc, 21 blocks alloc
+694.678,SSURF,N,in recovery, lpsleep
+694.859,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 4
+695.096,HGPS,N,reset GPS, flags=1
+697.161,HGPS,N,Acquiring GPS fix (5,8,40)
+699.220,HGPS,N,VGPS timeout (0) - no data received
+699.286,HGPS,N,reset GPS, flags=1
+701.736,HGPS,N,AAAAAAAAAAAAAAAAAA
+718.826,HGPS,N,170426 152957 4749.8096 -12224.1738 hdop=0.9 cog=0.0 sog=0.0 hpe=5.0 n=9 4/21 seconds
+724.574,SSURF,N,Collecting glider state
+724.873,HBATT,N,24V batt pack voltage = 26.36V
+725.010,HBATT,N,10V batt pack voltage = 10.70V
+725.257,SDIVE,N,Measuring depth & angle for 1 sec done.
+727.618,SDIVE,N,Measured depth: 1.24m angle: -68.25deg
+727.956,SGLMALLOC,N,glheap_walk: 335216 bytes free, 11 blocks free, 12152 bytes alloc, 22 blocks alloc
+728.084,SSURF,N,Trying call 0
+728.125,SSURF,N,Calling phone number: 88160000581
+730.259,HPHONE,N,init RUDICS
+745.609,HPHONE,N,Phone registered
+750.109,HPHONE,N,Iridium signal strength: 5 after 3 queries
+750.184,HPHONE,N,cnt_NoComm:0 callCycle:7 smsLastCallCycle:-1
+750.334,HPHONE,N,Iridium geolocation: 47.863190 -122.339912 Sun Jul 12 11:38:14 2015
+757.684,HPHONE,N,Dial success
+772.209,SSURF,N,Logged in
+773.659,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+777.834,SSURF,N,Receiving cmdfile...
+778.959,SSURF,N,S,0,1,128
+780.484,SSURF,N,E,1,1,128
+783.709,SSURF,N,Received cmdfile 41 bytes
+785.159,SSURF,N,Transmission succeeded
+785.259,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+785.334,HTT8,N,Updating parameter $D_TGT to 30
+785.409,HTT8,N,Updating parameter $T_DIVE to 10
+785.459,HTT8,N,Updating parameter $T_MISSION to 25
+785.534,SDIVE,N,Parsed command: $QUIT
+787.559,HTT8,N,Writing NVRAM...done.
+803.334,SSURF,N,logout
+806.867,HPHONE,N,phone on 78625 ms, avg mA=60.4, max mA=350.4
+806.949,SSURF,N,Total NAK's: 0, timeouts: 0
+807.085,SGLMALLOC,N,glheap_walk: 335064 bytes free, 20 blocks free, 12112 bytes alloc, 21 blocks alloc
+807.265,SSURF,N,in recovery, lpsleep
+807.445,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 5
+807.683,HGPS,N,reset GPS, flags=1
+809.749,HGPS,N,Acquiring GPS fix (5,8,40)
+811.809,HGPS,N,VGPS timeout (0) - no data received
+811.875,HGPS,N,reset GPS, flags=1
+814.324,HGPS,N,AAAAAAAAAAAAAAAA
+829.831,HGPS,N,170426 153148 4749.8120 -12224.1816 hdop=0.9 cog=0.0 sog=0.0 hpe=5.0 n=10 5/20 seconds
+835.587,SSURF,N,Collecting glider state
+835.885,HBATT,N,24V batt pack voltage = 26.35V
+836.022,HBATT,N,10V batt pack voltage = 10.70V
+836.270,SDIVE,N,Measuring depth & angle for 1 sec done.
+838.628,SDIVE,N,Measured depth: 1.21m angle: -66.07deg
+838.965,SGLMALLOC,N,glheap_walk: 335192 bytes free, 11 blocks free, 12176 bytes alloc, 22 blocks alloc
+839.094,SSURF,N,Trying call 0
+839.134,SSURF,N,Calling phone number: 88160000581
+841.268,HPHONE,N,init RUDICS
+856.493,HPHONE,N,Phone registered
+862.943,HPHONE,N,Iridium signal strength: 4 after 3 queries
+863.018,HPHONE,N,cnt_NoComm:0 callCycle:8 smsLastCallCycle:-1
+863.193,HPHONE,N,Iridium geolocation: 47.857117 -122.458885 Sun Jul 12 11:40:08 2015
+876.318,HPHONE,N,Dial success
+890.368,SSURF,N,Logged in
+891.718,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+895.918,SSURF,N,Receiving cmdfile...
+897.018,SSURF,N,S,0,1,128
+898.443,SSURF,N,E,1,1,128
+901.718,SSURF,N,Received cmdfile 41 bytes
+905.568,SSURF,N,Transmission succeeded
+905.643,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+905.743,HTT8,N,Updating parameter $D_TGT to 30
+905.793,HTT8,N,Updating parameter $T_DIVE to 10
+905.868,HTT8,N,Updating parameter $T_MISSION to 25
+905.918,SDIVE,N,Parsed command: $QUIT
+906.093,HTT8,N,Writing NVRAM...done.
+921.843,SSURF,N,logout
+925.304,HPHONE,N,phone on 86050 ms, avg mA=56.6, max mA=346.5
+925.385,SSURF,N,Total NAK's: 0, timeouts: 0
+927.327,SGLMALLOC,N,glheap_walk: 335124 bytes free, 19 blocks free, 12076 bytes alloc, 21 blocks alloc
+927.506,SSURF,N,in recovery, lpsleep
+927.686,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 6
+927.924,HGPS,N,reset GPS, flags=1
+929.989,HGPS,N,Acquiring GPS fix (5,8,40)
+932.049,HGPS,N,VGPS timeout (0) - no data received
+932.115,HGPS,N,reset GPS, flags=1
+934.585,HGPS,N,AAAAAAAAA
+942.847,HGPS,N,170426 153341 4749.8198 -12224.1914 hdop=0.9 cog=0.0 sog=0.0 hpe=4.5 n=10 4/12 seconds
+948.600,SSURF,N,Collecting glider state
+948.899,HBATT,N,24V batt pack voltage = 26.34V
+949.035,HBATT,N,10V batt pack voltage = 10.70V
+949.283,SDIVE,N,Measuring depth & angle for 1 sec done.
+951.646,SDIVE,N,Measured depth: 1.26m angle: -81.23deg
+951.986,SGLMALLOC,N,glheap_walk: 335228 bytes free, 11 blocks free, 12140 bytes alloc, 22 blocks alloc
+952.114,SSURF,N,Trying call 0
+952.155,SSURF,N,Calling phone number: 88160000581
+954.289,HPHONE,N,init RUDICS
+969.664,HPHONE,N,Phone registered
+976.964,HPHONE,N,Iridium signal strength: 5 after 3 queries
+977.039,HPHONE,N,cnt_NoComm:0 callCycle:9 smsLastCallCycle:-1
+977.214,HPHONE,N,Iridium geolocation: 47.857117 -122.458885 Sun Jul 12 11:42:06 2015
+984.139,HPHONE,N,Dial success
+998.364,SSURF,N,Logged in
+999.789,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+1003.964,SSURF,N,Receiving cmdfile...
+1005.189,SSURF,N,S,0,1,128
+1006.714,SSURF,N,E,1,1,128
+1009.964,SSURF,N,Received cmdfile 41 bytes
+1011.414,SSURF,N,Transmission succeeded
+1011.489,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+1011.589,HTT8,N,Updating parameter $D_TGT to 30
+1011.639,HTT8,N,Updating parameter $T_DIVE to 10
+1011.714,HTT8,N,Updating parameter $T_MISSION to 25
+1011.789,SDIVE,N,Parsed command: $QUIT
+1011.964,HTT8,N,Writing NVRAM...done.
+1027.789,SSURF,N,logout
+1031.410,HPHONE,N,phone on 79150 ms, avg mA=58.9, max mA=353.4
+1031.493,SSURF,N,Total NAK's: 0, timeouts: 0
+1031.628,SGLMALLOC,N,glheap_walk: 335144 bytes free, 18 blocks free, 12080 bytes alloc, 21 blocks alloc
+1031.809,SSURF,N,in recovery, lpsleep
+1033.876,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 7
+1034.115,HGPS,N,reset GPS, flags=1
+1036.181,HGPS,N,Acquiring GPS fix (5,8,40)
+1038.241,HGPS,N,VGPS timeout (0) - no data received
+1038.308,HGPS,N,reset GPS, flags=1
+1040.784,HGPS,N,AAAAAAAA
+1047.849,HGPS,N,170426 153526 4749.8193 -12224.1953 hdop=0.9 cog=0.0 sog=0.0 hpe=4.7 n=10 4/11 seconds
+1053.609,SSURF,N,Collecting glider state
+1053.907,HBATT,N,24V batt pack voltage = 26.33V
+1054.045,HBATT,N,10V batt pack voltage = 10.70V
+1054.294,SDIVE,N,Measuring depth & angle for 1 sec done.
+1056.653,SDIVE,N,Measured depth: 1.30m angle: -75.37deg
+1056.991,SGLMALLOC,N,glheap_walk: 335224 bytes free, 11 blocks free, 12144 bytes alloc, 22 blocks alloc
+1057.121,SSURF,N,Trying call 0
+1057.163,SSURF,N,Calling phone number: 88160000581
+1059.298,HPHONE,N,init RUDICS
+1074.773,HPHONE,N,Phone registered
+1080.573,HPHONE,N,Iridium signal strength: 5 after 3 queries
+1080.648,HPHONE,N,cnt_NoComm:0 callCycle:10 smsLastCallCycle:-1
+1080.798,HPHONE,N,Iridium geolocation: 47.857117 -122.458885 Sun Jul 12 11:43:55 2015
+1092.573,HPHONE,N,Dial success
+1113.298,SSURF,N,Logged in
+1114.723,SSURF,N,Sending cmd lsx -k -t150 cmdfile
+1118.873,SSURF,N,Receiving cmdfile...
+1120.098,SSURF,N,S,0,1,128
+1121.623,SSURF,N,E,1,1,128
+1124.898,SSURF,N,Received cmdfile 43 bytes
+1126.398,SSURF,N,Transmission succeeded
+1126.473,SUSR,N,WARNING! $D_TGT,30.0000: Must be less than $D_ABORT!
+1126.573,HTT8,N,Updating parameter $D_TGT to 30
+1126.623,HTT8,N,Updating parameter $T_DIVE to 10
+1126.698,HTT8,N,Updating parameter $T_MISSION to 25
+1126.773,SDIVE,N,Parsed command: $RESUME
+1126.948,HTT8,N,Writing NVRAM...done.
+1142.798,SSURF,N,logout
+1151.417,HPHONE,N,phone on 94150 ms, avg mA=55.1, max mA=338.9
+1151.500,SSURF,N,Total NAK's: 0, timeouts: 0
+1151.636,SGLMALLOC,N,glheap_walk: 335104 bytes free, 18 blocks free, 12120 bytes alloc, 21 blocks alloc
+1151.843,HTT8,N,Updating parameter $RELAUNCH to 1
+1152.173,HTT8,N,Writing NVRAM...done.
+1161.030,SSURF,N,Leaving recovery state
+1161.120,SSURF,N,Entering surface state
+1163.119,SSURF,N,Starting surface maneuver
+1164.965,SSURF,N,disabling surface maneuver aborts
+1166.194,SSURF,N,d= 1.22m
+1166.373,HROLL,N,Roll commanded from 0.31 deg (2093) to 0.00 deg (2082)...
+1168.808,HROLL,N,0.3 deg (ad: 2093) mA=0 minV=26.4 (0,0)MOTOR_DONE: ticks: 28 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.4V
+1169.429,SMOTOR,N,GC TICKS/TIME: 31/33142
+1169.517,HROLL,N,done.
+1169.586,HROLL,N,Roll: No motion occurred.
+1169.846,HPITCH,N,Pitch commanded from -9.73 cm (229) to -9.82 cm (199)...
+1172.285,HPITCH,N,-9.7 cm (ad: 228) mA=0 minV=26.3 (0,0)MOTOR_DONE: ticks: 28 max 24v: 5.4mA avg 24v: 3.8mA minV 24v: 26.4V
+1172.910,SMOTOR,N,GC TICKS/TIME: 31/33347
+1173.002,HPITCH,N,done.
+1173.070,HPITCH,N,Pitch: No motion occurred.
+1173.173,SSURF,N,Waiting 60 seconds for oscillations to dampen
+1234.676,SSURF,N,Depth at end of surface maneuver = 1.338497
+1236.182,SSURF,N,Finished surface maneuver
+1240.146,SDIVE,N,Measuring depth & angle for 10 sec done.
+1256.360,SDIVE,N,Measured depth: 1.21m angle: -74.98deg
+1256.514,HGPS,N,Acquiring GPS fix (5,8,40)
+1258.117,HGPS,N,VVGPS timeout (0) - no data received
+1260.192,HGPS,N,reset GPS, flags=1
+1263.167,HGPS,N,AAAAAAAA
+1272.001,HGPS,N,sync sentence $GPRMC,153910,A,4749.8233,N,12224.2063,W,000.0,000.0,170426,016.3,E*6D
+ (k=22014)set 2026/04/17 15:39:11
+1272.197,HGPS,N,170426 153909 4749.8232 -12224.2070 hdop=0.9 cog=0.0 sog=0.0 hpe=4.8 n=9 7/14 seconds
+1276.213,SNAV,N,NORTH_194 achieved (by radius), switching to SOUTH_194 at 1776440317
+1276.637,SDIVE,N,Target [SOUTH_194] bearing 227.44 degT, range 2637.93 meters
+1276.837,SDIVE,N,Grid depth = 30.0, target depth = 30.0
+1276.964,SDIVE,C,Target depth exceeds abort depth, setting to abort depth - 5 (0.000000 m)!
+1277.153,SDIVE,N,wDesired = -1.000
+1277.811,HXPDR,N,max range = 100.000000 m, timeout = 133 ms
+1278.920,SDIVE,N,speed limits = 1.73, 1.73
+1279.025,SNAV,N,skipping set correction due to lack of current data
+1279.192,SKALMAN,N,Kalman logic old:0(0/0) new:2(0/2) 0
+1279.306,SKALMAN,N,Avoiding Kalman computation (2).
+1279.525,SDIVE,N,DesiredHead = 211.14, range = 2637.9, glide angle -2.00
+1280.457,HROLL,N,Roll commanded from 0.28 deg (2092) to 0.00 deg (2082)...
+1282.993,HROLL,N,0.3 deg (ad: 2093) mA=0 minV=26.5 (0,0)MOTOR_DONE: ticks: 28 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.5V
+1283.614,SMOTOR,N,GC TICKS/TIME: 31/33142
+1283.702,HROLL,N,done.
+1283.771,HROLL,N,Roll: No motion occurred.
+1283.989,SDIVE,N,pitch angle=-1.8deg (pitch -0.1cm), force=-150.0gm (VBD -146.6cc)
+1285.792,HTT8,N,Updating parameter $DIVE to 1
+1286.117,HTT8,N,Writing NVRAM...done.
+1.007,SSURF,N,Dive 1 started Fri Apr 17 15:39:33 2026
+ (1776440373)
+1.269,SSENSOR,N,Changing to bin 20.0() at 0.00m: sec=5.0s gc=60.0s pressure=1 compass=1 timeout=10.00
+1.446,SUSR,N,Normal Heap: 0+28671 bytes
+1.589,SGLMALLOC,N,glheap_walk: 335104 bytes free, 18 blocks free, 12120 bytes alloc, 21 blocks alloc
+1.938,SSURF,N,Initializing data file
+2.117,SSURF,N,Initializing log file
+5.295,SSURF,N,Starting dive at 5s
+5.376,SSURF,N,Leaving surface state
+5.478,SDIVE,N,Entering dive state
+6.292,SSENSOR,N,Changing to bin 20.0() at 0.00m: sec=5.0s gc=60.0s pressure=1 compass=1 timeout=10.00
+6.464,SDIVE,N,Surface loiter
+12.182,SSENSOR,N,P 10316ms 1.24m 42.4 #1
+14.338,SDIVE,N,Exiting passive after 1 samples, ret=TARGET_DEPTH_EXCEEDED
+14.481,SDIVE,N,Surface loiter finished: TARGET_DEPTH_EXCEEDED next state: 2
+14.619,SMOTOR,N,Start active
+17.158,SDIVE,N,start $GC,17,-0.23,-146.6,228,2093,428,401,1.2,0.0,1
+18.863,SSENSOR,N,A 16549ms 1.28m 46.2 #2
+25.043,SMOTOR,N,MOTOR_DONE: no ticks
+25.132,SMOTOR,N,GC TICKS/TIME: 277/281835
+25.337,HVBD,N,Bleed completed from 457.98 cc (414) to 412.59 cc (599 [610, 589]) took 6.9 sec 0 mA (1079 mA peak) 26.5 Vmin 26.91 AD/sec 275 ticks
+25.771,HVBD,N,TRACK: b: 597/0 a: 597/0 d: 2281 o: 2
+26.174,SDIVE,N,end $GC ,25,0.00,0.00,-6.88,0.000,16386,0.000,0.000,229,2093,599,610,589,0,0,0,0,0,0,26.50,28.83,26.51,8.25,42.28
+26.528,SDIVE,N,Exiting active in GCPHASE_VBD (2) after 1 samples, ret=TARGET_DEPTH_EXCEEDED
+26.691,SDIVE,N,Leaving dive state due to TARGET_DEPTH_EXCEEDED
+26.830,SDIVE,N,Entering apogee state
+26.965,SDIVE,N,Going neutral at apogee at 1.28 meters
+27.178,HROLL,N,Roll commanded from 0.31 deg (2093) to 0.00 deg (2082)...
+29.614,HROLL,N,0.3 deg (ad: 2093) mA=0 minV=26.5 (0,0)MOTOR_DONE: ticks: 28 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.5V
+30.234,SMOTOR,N,GC TICKS/TIME: 31/33144
+30.320,HROLL,N,done.
+30.386,HROLL,N,Roll: No motion occurred.
+30.479,SDIVE,N,entering active for apogee pump
+30.576,SMOTOR,N,Start active
+33.046,SDIVE,N,start $GC,32,-0.35,0.0,229,2093,610,590,1.3,-0.7,2
+34.698,SSENSOR,N,A 32406ms 1.25m 46.5 #3
+39.681,SMOTOR,N,MOTOR_DONE: no ticks
+39.769,SMOTOR,N,GC TICKS/TIME: 228/234030
+39.955,HPITCH,N,Pitch completed from -9.73 cm (229) to -5.53 cm (1574) took 5.7 sec 250 mA (273 mA peak) 26.5 Vmin 237.00 AD/sec 227 ticks
+40.395,HPITCH,N,TRACK: b: 1566/0 a: 1566/0 d: 1651 o: 8
+40.828,SDIVE,N,end $GC ,40,5.68,0.00,0.00,0.000,2049,0.250,0.000,1574,2093,601,612,590,0,0,0,0,0,0,26.46,28.83,28.83,8.27,42.40
+41.181,SDIVE,N,Exiting active in GCPHASE_PITCH (1) after 1 samples, ret=SURFACE_DEPTH_REACHED
+41.349,SDIVE,N,Leaving Apogee state due to SURFACE_DEPTH_REACHED
+41.492,SDIVE,N,Entering surface coast state
+41.640,SDIVE,N,Reached SD, Wo = -0.000008, 50 more points
+43.307,SSENSOR,N,P 41441ms 1.03m 44.0 #4
+48.920,SSENSOR,N,P 47060ms 0.71m 41.5 #5
+53.340,SSENSOR,N,P 51479ms 0.56m 41.6 #6
+58.923,SSENSOR,N,P 57063ms 0.55m 40.2 #7
+63.342,SSENSOR,N,P 61483ms 0.69m 40.3 #8
+68.921,SSENSOR,N,P 67060ms 0.81m 39.9 #9
+73.344,SSENSOR,N,P 71483ms 0.91m 37.7 #10
+78.343,SSENSOR,N,P 76479ms 0.99m 37.1 #11
+83.921,SSENSOR,N,P 82061ms 0.93m 37.3 #12
+88.339,SSENSOR,N,P 86479ms 0.89m 36.8 #13
+93.921,SSENSOR,N,P 92061ms 0.76m 38.8 #14
+98.339,SSENSOR,N,P 96479ms 0.74m 39.0 #15
+103.921,SSENSOR,N,P 102060ms 0.76m 37.7 #16
+108.341,SSENSOR,N,P 106480ms 0.84m 41.7 #17
+113.920,SSENSOR,N,P 112060ms 0.92m 40.3 #18
+118.556,SSENSOR,N,P 116697ms 0.92m 40.5 #19
+124.176,SSENSOR,N,P 122316ms 0.88m 43.8 #20
+129.175,SSENSOR,N,P 127316ms 0.87m 44.1 #21
+134.175,SSENSOR,N,P 132316ms 0.78m 46.1 #22
+139.234,SSENSOR,N,P 137373ms 0.77m 49.3 #23
+144.178,SSENSOR,N,P 142316ms 0.83m 51.3 #24
+149.177,SSENSOR,N,P 147317ms 0.86m 52.6 #25
+154.176,SSENSOR,N,P 152317ms 0.84m 54.8 #26
+159.204,SSENSOR,N,P 157019ms 0.90m 57.1 #27
+164.501,SSENSOR,N,P 162639ms 0.95m 60.8 #28
+169.500,SSENSOR,N,P 167639ms 0.90m 63.6 #29
+174.497,SSENSOR,N,P 172638ms 0.79m 66.9 #30
+178.923,SSENSOR,N,P 177062ms 0.81m 69.4 #31
+184.501,SSENSOR,N,P 182640ms 0.85m 72.9 #32
+189.502,SSENSOR,N,P 187641ms 0.88m 77.2 #33
+195.156,SSENSOR,N,P 193296ms 0.92m 80.4 #34
+200.199,SSENSOR,N,P 198338ms 0.89m 83.6 #35
+205.773,SSENSOR,N,P 203914ms 0.91m 84.6 #36
+210.199,SSENSOR,N,P 208339ms 0.85m 89.6 #37
+215.776,SSENSOR,N,P 213915ms 0.81m 91.2 #38
+220.197,SSENSOR,N,P 218337ms 0.83m 93.7 #39
+225.773,SSENSOR,N,P 223914ms 0.90m 93.9 #40
+230.520,SSENSOR,N,P 228334ms 0.79m 94.7 #41
+235.773,SSENSOR,N,P 233914ms 0.86m 96.5 #42
+241.068,SSENSOR,N,P 239207ms 0.93m 96.5 #43
+246.689,SSENSOR,N,P 244829ms 0.85m 96.6 #44
+248.878,SDIVE,N,Exiting passive after 41 samples, ret=NO_VERTICAL_VELOCITY
+250.040,SSURF,N,D_SURF: T=10.0604, S=27.6037, rho=1021.17
+250.233,SDIVE,N,Leaving coast to surface state
+250.353,SSURF,N,Entering surface state
+250.463,SSURF,N,Starting surface maneuver
+252.310,SSURF,N,disabling surface maneuver aborts
+253.541,SSURF,N,d= 0.83m
+253.719,HROLL,N,Roll commanded from 0.31 deg (2093) to 0.00 deg (2082)...
+256.154,HROLL,N,0.3 deg (ad: 2092) mA=0 minV=26.6 (0,0)MOTOR_DONE: ticks: 27 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.6V
+256.766,SMOTOR,N,GC TICKS/TIME: 30/32786
+256.853,HROLL,N,done.
+256.920,HROLL,N,Roll: No motion occurred.
+257.179,HPITCH,N,Pitch commanded from -5.53 cm (1574) to -9.82 cm (199)...
+259.614,HPITCH,N,-6.0 cm (ad: 1423) mA=31 minV=26.5 (0,0)MOTOR_DONE: ticks: 18 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.3V
+263.526,SMOTOR,N,GC TICKS/TIME: 160/164067
+263.616,HPITCH,N,done.
+263.756,HPITCH,N,Pitch completed from -5.53 cm (1574) to -9.74 cm (226) took 3.5 sec 26 mA (262 mA peak) 25.9 Vmin 387.91 AD/sec 139 ticks
+264.196,HPITCH,N,TRACK: b: 230/0 a: 227/0 d: 3 o: -1
+264.465,HVBD,N,Pump commanded from 412.10 cc (601) to 457.73 cc (415)...
+266.925,HVBD,N,412.6 cc (ad: 599 [616,580]) mA=83 minV=26.5 (0,0)
+272.625,HVBD,N,422.9 cc (ad: 557 [570,543]) mA=67 minV=26.5 (0,0)
+278.300,HVBD,N,433.0 cc (ad: 516 [528,502]) mA=65 minV=26.5 (0,0)
+284.025,HVBD,N,443.3 cc (ad: 474 [484,462]) mA=65 minV=26.5 (0,0)
+289.725,HVBD,N,453.8 cc (ad: 431 [435,426]) mA=65 minV=26.5 (0,0)MOTOR_DONE: ticks: 18 max 24v: 4.6mA avg 24v: 3.8mA minV 24v: 26.3V
+292.589,SMOTOR,N,GC TICKS/TIME: 1032/1035151
+292.681,HVBD,N,done.
+292.839,HVBD,N,Pump completed from 412.10 cc (601) to 458.47 cc (412 [420, 405]) took 25.3 sec 65 mA (340 mA peak) 25.8 Vmin 7.48 AD/sec 1011 ticks
+293.298,HVBD,N,TRACK: b: 423/408 a: 423/408 d: -8 o: -11
+294.615,SSURF,N,Depth at end of surface maneuver = 1.197132
+296.140,SSURF,N,Finished surface maneuver
+298.622,HTT8,N,TT8 state: Normal (2MHz); analog off; TPU TCR1 480000Hz, tick rate 40000Hz
+298.791,SPOWER,N,All devices are off.
+303.976,HBATT,N,24V voltage = 26.47 +/- NaNV n=6 [26.46V 26.48V]
+304.244,HBATT,N,10V voltage = 10.71 +/- 0.01V n=6 [10.70V 10.71V]
+322.569,HGPS,N,reset GPS, flags=1
+324.634,HGPS,N,Acquiring GPS fix (5,8,40)
+326.694,HGPS,N,VGPS timeout (0) - no data received
+326.760,HGPS,N,reset GPS, flags=1
+329.209,HGPS,N,AAAAAAAAAA
+340.001,HGPS,N,sync sentence $GPRMC,154512,A,4749.8271,N,12224.2319,W,000.0,307.0,170426,016.3,E*68
+ (k=22907)set 2026/04/17 15:45:13
+340.201,HGPS,N,170426 154511 4749.8267 -12224.2314 hdop=0.9 cog=307.0 sog=0.2 hpe=4.6 n=8 5/14 seconds
+344.689,SNAV,N,depth averaged current valid = 0.098 @ 279.64 deg
+345.451,SSYS,N,Capture closed
