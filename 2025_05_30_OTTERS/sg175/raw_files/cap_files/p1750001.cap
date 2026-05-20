@@ -1,0 +1,621 @@
+67.161,SSYS,N,uploading complete capture due to CAPUPLOAD
+Compressing THISDIVE.KAP to sg0000kz.x...
+68.359,SSYS,N,Capture file opened
+Compressing THISDIVE.LOG to sg0000lz.x...
+71.106,HCF8,N,file 'sg0000kz.x00' opened...
+71.271,HCF8,N,file 'sg0000kz.x00' has 2196 bytes, closed...
+72.581,HCF8,N,file 'sg0000lz.x00' opened...
+72.706,HCF8,N,file 'sg0000lz.x00' has 1452 bytes, closed...
+73.423,SSURF,N,Collecting glider state
+73.719,HBATT,N,24V batt pack voltage = 26.76V
+73.855,HBATT,N,10V batt pack voltage = 10.97V
+74.102,SDIVE,N,Measuring depth & angle for 1 sec... done.
+76.414,SDIVE,N,Measured depth: -0.00m angle: -21.95deg
+76.755,SGLMALLOC,N,glheap_walk: 354716 bytes free, 11 blocks free, 2964 bytes alloc, 19 blocks alloc
+76.881,SSURF,N,Trying call 0...
+76.924,SSURF,N,Calling phone number: 88160000581
+79.061,HPHONE,N,initializing RUDICS connection
+94.382,HPHONE,N,Phone registered
+94.427,HPHONE,N,cnt_NoComm:0 callCycle:2 smsLastCallCycle:-1
+101.063,HPHONE,N,Iridium signal strength: 5 after 3 queries
+101.248,HPHONE,N,Iridium geolocation: 47.488293 -122.430206 Tue Mar 27 08:38:49 2018
+111.218,HPHONE,N,Dialing succeeded
+132.599,SSURF,N,Logged in...
+134.091,SSURF,N,Receiving cmdfile...
+134.140,SSURF,N,Sending cmd rawsend cmdfile
+136.150,SSURF,N,received 180 of 180 for cmdfile
+136.628,SSURF,N,Transmission succeeded...
+136.710,HTT8,N,Updating parameter $COMPASS_USE to 4
+136.776,HCOMPASS,N,Active compass is SP3003
+136.841,HTT8,N,Updating parameter $HEAD_ERRBAND to 10
+136.920,HTT8,N,Updating parameter $C_ROLL_DIVE to 1947
+137.000,HTT8,N,Updating parameter $C_ROLL_CLIMB to 1947
+137.079,HTT8,N,Updating parameter $ROLL_DEG to 40
+137.158,HTT8,N,Updating parameter $GLIDE_SLOPE to 30
+137.231,HTT8,N,Updating parameter $MAX_BUOY to 150
+137.306,HTT8,N,Updating parameter $C_VBD to 2475
+137.379,HTT8,N,Updating parameter $C_PITCH to 3042
+137.449,HTT8,N,Updating parameter $D_TGT to 30
+137.515,HTT8,N,Updating parameter $T_DIVE to 10
+137.583,HTT8,N,Updating parameter $T_MISSION to 25
+137.648,SDIVE,N,Parsed command: $QUIT
+137.777,HTT8,N,Writing NVRAM...done.
+149.002,SSENSOR,N,Impossible depth bin:     20.0m      0.0s      0.0s; ignored!
+149.109,SSENSOR,N,Impossible depth bin:     50.0m      0.0s      0.0s; ignored!
+149.215,SSENSOR,N,Impossible depth bin:    100.0m      0.0s      0.0s; ignored!
+149.322,SSENSOR,N,Impossible depth bin:    250.0m      0.0s      0.0s; ignored!
+149.428,SSENSOR,N,Impossible depth bin:    400.0m      0.0s      0.0s; ignored!
+151.048,SSURF,N,Sending cmd rawrcv sg0000lz.x00
+ (1452 bytes)(Receiving sg0000lz.x00 on basestation)
+155.059,SSURF,N,sent 1452 of 1452 of sg0000lz.x00
+158.169,SSURF,N,Transmission succeeded...
+159.781,SSURF,N,Sending cmd rawrcv sg0000kz.x00
+ (2196 bytes)(Receiving sg0000kz.x00 on basestation)
+165.049,SSURF,N,sent 2196 of 2196 of sg0000kz.x00
+169.057,SSURF,N,Transmission succeeded...
+170.587,SSURF,N,logout...
+179.222,SSURF,N,Total NAK's: 0, timeouts: 0
+179.359,SGLMALLOC,N,glheap_walk: 354612 bytes free, 24 blocks free, 2804 bytes alloc, 17 blocks alloc
+179.693,HTT8,N,Updating parameter $COMPASS_USE to 4
+179.800,HCOMPASS,N,Active compass is SP3003
+179.966,HTT8,N,Updating parameter $HEAD_ERRBAND to 10
+180.160,HTT8,N,Updating parameter $C_ROLL_DIVE to 1947
+180.356,HTT8,N,Updating parameter $C_ROLL_CLIMB to 1947
+180.533,HTT8,N,Updating parameter $ROLL_DEG to 40
+180.763,HTT8,N,Updating parameter $GLIDE_SLOPE to 30
+180.924,HTT8,N,Updating parameter $MAX_BUOY to 150
+181.114,HTT8,N,Updating parameter $C_VBD to 2475
+181.300,HTT8,N,Updating parameter $C_PITCH to 3042
+181.448,HTT8,N,Updating parameter $D_TGT to 30
+181.597,HTT8,N,Updating parameter $T_DIVE to 10
+181.748,HTT8,N,Updating parameter $T_MISSION to 25
+181.855,SDIVE,N,Parsed command: $QUIT
+182.327,HTT8,N,Writing NVRAM...done.
+191.014,SDIVE,N,Will not dive!
+191.095,SDIVE,N,Will enter recovery due to QUIT_COMMAND
+191.218,SSURF,N,Entering recovery state, force_to_surface=0, flush_data=0
+191.386,HTT8,N,Updating parameter $RELAUNCH to 5
+191.705,HTT8,N,Writing NVRAM...done.
+200.220,SPOWER,N,powerOFF (23,SBE_CT) without corresponding powerON!
+200.364,SPOWER,N,powerOFF (24,SBE_O2) without corresponding powerON!
+200.923,SSURF,N,in recovery because of CONTROL_FINISHED_OK/QUIT_COMMAND after 0 profiles...
+201.109,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 0
+205.380,HGPS,N,Acquiring GPS fix ...
+206.203,HGPS,N,VVVVVVVVVVA
+216.467,HGPS,N,300525, 191853, 4750.208496, -12225.072266 1.700000 11/11 seconds
+217.080,HTT8,N,Updating parameter $T_GPS_CHARGE to -34096.922
+220.716,SSURF,N,Collecting glider state
+221.012,HBATT,N,24V batt pack voltage = 26.65V
+221.148,HBATT,N,10V batt pack voltage = 10.96V
+221.395,SDIVE,N,Measuring depth & angle for 1 sec... done.
+223.764,SDIVE,N,Measured depth: 0.96m angle: -58.45deg
+224.112,SGLMALLOC,N,glheap_walk: 354836 bytes free, 11 blocks free, 2868 bytes alloc, 18 blocks alloc
+224.239,SSURF,N,Trying call 0...
+224.283,SSURF,N,Calling phone number: 88160000581
+226.480,HPHONE,N,initializing RUDICS connection
+241.716,HPHONE,N,Phone registered
+241.762,HPHONE,N,cnt_NoComm:0 callCycle:3 smsLastCallCycle:-1
+242.033,HPHONE,N,Iridium signal strength: 1 after 3 queries
+242.218,HPHONE,N,Iridium geolocation: 47.541512 -122.413742 Tue Mar 27 08:43:28 2018
+260.311,HPHONE,N,Dialing succeeded
+286.150,SSURF,N,Logged in...
+287.467,SSURF,N,Receiving cmdfile...
+287.516,SSURF,N,Sending cmd rawsend cmdfile
+289.348,SSURF,N,received 180 of 180 for cmdfile
+289.827,SSURF,N,Transmission succeeded...
+289.908,HTT8,N,Updating parameter $COMPASS_USE to 4
+289.974,HCOMPASS,N,Active compass is SP3003
+290.039,HTT8,N,Updating parameter $HEAD_ERRBAND to 10
+290.118,HTT8,N,Updating parameter $C_ROLL_DIVE to 1947
+290.198,HTT8,N,Updating parameter $C_ROLL_CLIMB to 1947
+290.277,HTT8,N,Updating parameter $ROLL_DEG to 40
+290.355,HTT8,N,Updating parameter $GLIDE_SLOPE to 30
+290.429,HTT8,N,Updating parameter $MAX_BUOY to 150
+290.504,HTT8,N,Updating parameter $C_VBD to 2475
+290.577,HTT8,N,Updating parameter $C_PITCH to 3042
+290.647,HTT8,N,Updating parameter $D_TGT to 30
+290.713,HTT8,N,Updating parameter $T_DIVE to 10
+290.781,HTT8,N,Updating parameter $T_MISSION to 25
+290.846,SDIVE,N,Parsed command: $QUIT
+290.974,HTT8,N,Writing NVRAM...done.
+302.233,SSENSOR,N,Impossible depth bin:     20.0m      0.0s      0.0s; ignored!
+302.340,SSENSOR,N,Impossible depth bin:     50.0m      0.0s      0.0s; ignored!
+302.446,SSENSOR,N,Impossible depth bin:    100.0m      0.0s      0.0s; ignored!
+302.553,SSENSOR,N,Impossible depth bin:    250.0m      0.0s      0.0s; ignored!
+302.660,SSENSOR,N,Impossible depth bin:    400.0m      0.0s      0.0s; ignored!
+304.133,SSURF,N,logout...
+308.847,SSURF,N,Total NAK's: 0, timeouts: 0
+308.981,SGLMALLOC,N,glheap_walk: 354632 bytes free, 22 blocks free, 2832 bytes alloc, 17 blocks alloc
+309.160,SSURF,N,in recovery, lpsleep...
+429.657,SSURF,N,in recovery (CONTROL_FINISHED_OK/QUIT_COMMAND) after 0 profiles, cycle 1
+433.938,HGPS,N,Acquiring GPS fix ...
+434.782,HGPS,N,VVVVVVVVVA
+444.467,HGPS,N,300525, 192241, 4750.174316, -12225.201172 1.300000 11/11 seconds
+445.079,HTT8,N,Updating parameter $T_GPS_CHARGE to -34112.102
+448.717,SSURF,N,Collecting glider state
+449.014,HBATT,N,24V batt pack voltage = 26.68V
+449.150,HBATT,N,10V batt pack voltage = 10.99V
+449.397,SDIVE,N,Measuring depth & angle for 1 sec... done.
+451.756,SDIVE,N,Measured depth: 1.04m angle: -67.90deg
+452.102,SGLMALLOC,N,glheap_walk: 354808 bytes free, 11 blocks free, 2896 bytes alloc, 18 blocks alloc
+452.229,SSURF,N,Trying call 0...
+452.273,SSURF,N,Calling phone number: 88160000581
+454.469,HPHONE,N,initializing RUDICS connection
+469.705,HPHONE,N,Phone registered
+469.751,HPHONE,N,cnt_NoComm:0 callCycle:4 smsLastCallCycle:-1
+477.703,HPHONE,N,Iridium signal strength: 5 after 3 queries
+477.888,HPHONE,N,Iridium geolocation: 47.488293 -122.503990 Tue Mar 27 08:45:59 2018
+489.350,HPHONE,N,Dialing succeeded
+501.852,SSURF,N,Logged in...
+503.078,SSURF,N,Receiving cmdfile...
+503.127,SSURF,N,Sending cmd rawsend cmdfile
+504.872,SSURF,N,received 182 of 182 for cmdfile
+505.353,SSURF,N,Transmission succeeded...
+505.434,HTT8,N,Updating parameter $COMPASS_USE to 4
+505.500,HCOMPASS,N,Active compass is SP3003
+505.566,HTT8,N,Updating parameter $HEAD_ERRBAND to 10
+505.644,HTT8,N,Updating parameter $C_ROLL_DIVE to 1947
+506.076,HTT8,N,Updating parameter $C_ROLL_CLIMB to 1947
+506.154,HTT8,N,Updating parameter $ROLL_DEG to 40
+506.233,HTT8,N,Updating parameter $GLIDE_SLOPE to 30
+506.307,HTT8,N,Updating parameter $MAX_BUOY to 150
+506.382,HTT8,N,Updating parameter $C_VBD to 2475
+506.454,HTT8,N,Updating parameter $C_PITCH to 3042
+506.525,HTT8,N,Updating parameter $D_TGT to 30
+506.591,HTT8,N,Updating parameter $T_DIVE to 10
+506.658,HTT8,N,Updating parameter $T_MISSION to 25
+506.723,SDIVE,N,Parsed command: $RESUME
+506.854,HTT8,N,Writing NVRAM...done.
+517.823,SSENSOR,N,Impossible depth bin:     20.0m      0.0s      0.0s; ignored!
+517.929,SSENSOR,N,Impossible depth bin:     50.0m      0.0s      0.0s; ignored!
+518.036,SSENSOR,N,Impossible depth bin:    100.0m      0.0s      0.0s; ignored!
+518.142,SSENSOR,N,Impossible depth bin:    250.0m      0.0s      0.0s; ignored!
+518.249,SSENSOR,N,Impossible depth bin:    400.0m      0.0s      0.0s; ignored!
+519.506,SSURF,N,logout...
+528.077,SSURF,N,Total NAK's: 0, timeouts: 0
+528.212,SGLMALLOC,N,glheap_walk: 354660 bytes free, 22 blocks free, 2804 bytes alloc, 17 blocks alloc
+528.418,HTT8,N,Updating parameter $RELAUNCH to 1
+528.738,HTT8,N,Writing NVRAM...done.
+537.237,SSURF,N,Leaving recovery state
+537.325,SSURF,N,Entering surface state
+537.418,SSURF,N,Starting surface maneuver...
+537.845,SSURF,N,disabling surface maneuver aborts
+539.072,SSURF,N,d= 0.99m
+539.150,SSURF,N,pitching away from full forward before roll
+539.405,HPITCH,N,Pitch commanded from -8.79 cm (229) to -6.71 cm (894)...
+540.434,HPITCH,N,-8.5 cm (ad: 338) MOTOR_DONE: ticks: 4 max 24v: 3.8mA avg 24v: 2.3mA minV 24v: 26.4V
+543.021,SMOTOR,N,GC TICKS/TIME: 111/113149
+543.111,HPITCH,N,done.
+543.254,HPITCH,N,Pitch completed from -8.79 cm (229) to -6.74 cm (885) took 2.6 sec 223mA (311mA peak) 26.0Vmin 252.31 AD/sec 104 ticks
+543.689,HPITCH,N,TRACK: b: 880/0 a: 883/0 d: -2 o: 2
+543.898,HROLL,N,Roll commanded from -2.83 deg (1847) to 0.00 deg (1947)...
+544.905,HROLL,N,2.2 deg (ad: 2026) MOTOR_DONE: ticks: 16 max 24v: 2.3mA avg 24v: 2.3mA minV 24v: 26.6V
+545.394,SMOTOR,N,GC TICKS/TIME: 26/28269
+545.481,HROLL,N,done.
+545.621,HROLL,N,Roll completed from -2.80 deg (1848) to 2.26 deg (2027) took 0.2 sec 59mA (226mA peak) 26.4Vmin 1022.86 AD/sec 7 ticks
+546.055,HROLL,N,TRACK: b: 1934/0 a: 1940/0 d: -15 o: 87
+546.304,HPITCH,N,Pitch commanded from -6.75 cm (884) to -8.71 cm (255)...
+547.331,HPITCH,N,-7.2 cm (ad: 727) MOTOR_DONE: ticks: 1 max 24v: 2.3mA avg 24v: 2.3mA minV 24v: 26.4V
+548.911,SMOTOR,N,GC TICKS/TIME: 71/72921
+548.998,HPITCH,N,done.
+549.140,HPITCH,N,Pitch completed from -6.74 cm (885) to -8.75 cm (243) took 1.7 sec 43mA (248mA peak) 26.4Vmin 383.28 AD/sec 67 ticks
+549.567,HPITCH,N,TRACK: b: 265/0 a: 261/0 d: 6 o: -18
+549.834,HVBD,N,Pump commanded from 494.36 cc (507) to 495.12 cc (504)...
+550.878,HVBD,N,494.9 cc (ad: 505 [556, 455]) MOTOR_DONE: ticks: 6 max 24v: 3.8mA avg 24v: 2.3mA minV 24v: 26.5V
+552.466,SMOTOR,N,GC TICKS/TIME: 71/73253
+552.553,HVBD,N,done.
+552.712,HVBD,N,Pump completed from 494.36 cc (507) to 495.12 cc (504 [554, 455]) took 1.5 sec 71mA (332mA peak) 26.3Vmin 1.94 AD/sec 62 ticks
+553.153,HVBD,N,TRACK: b: 554/455 a: 554/455 d: -50 o: -50
+554.498,SSURF,N,Depth at end of surface maneuver = 1.037111
+555.726,SSURF,N,Finished surface maneuver...
+557.919,SDIVE,N,Measuring depth & angle for 10 sec... done.
+574.169,SDIVE,N,Measured depth: 1.02m angle: -64.42deg
+576.102,HGPS,N,Acquiring GPS fix ...
+577.232,HGPS,N,VVVVVVVVVVVA
+590.001,HGPS,N,sync sentence $GPRMC,192506,A,4750.1527,N,12225.2741,W,001.1,257.7,300525,018.2,E*61
+590.126,HGPS,N,set 2025/05/30 19:25:07
+590.424,HGPS,N,confirm $GPRMC,192507,A,4750.1521,N,12225.2745,W,001.6,245.0,300525,018.2,E*61
+590.566,HGPS,N,300525, 192505, 4750.153809, -12225.274414 1.700000 12/12 seconds
+591.177,HTT8,N,Updating parameter $T_GPS_CHARGE to -34112.73
+594.688,SDIVE,N,Target [NORTH_175] bearing 115.77 degT, range 655.31 meters
+594.887,SDIVE,N,Grid depth = 30.0, target depth = 30.0
+595.042,SDIVE,N,wDesired = -0.100
+595.704,HXPDR,N,max range = 75.000000 m, timeout = 100 ms
+611.123,SDIVE,N,speed limits = 0.17, 0.26
+611.280,SNAV,N,skipping set correction due to lack of current data
+611.522,SDIVE,N,DesiredHead = 97.57, range = 655.3, glide angle -21.04
+612.540,HROLL,N,Roll commanded from 2.35 deg (2030) to 0.00 deg (1947)...
+613.581,HROLL,N,-1.6 deg (ad: 1891) MOTOR_DONE: ticks: 18 max 24v: 3.1mA avg 24v: 2.3mA minV 24v: 26.6V
+614.091,SMOTOR,N,GC TICKS/TIME: 26/28012
+614.178,HROLL,N,done.
+614.315,HROLL,N,Roll completed from 2.35 deg (2030) to -1.58 deg (1891) took 0.1 sec 85mA (223mA peak) 26.4Vmin 1112.00 AD/sec 5 ticks
+614.749,HROLL,N,TRACK: b: 1981/0 a: 1976/0 d: 7 o: -85
+614.995,SDIVE,N,pitch angle=-17.5deg (pitch -0.6cm), force=-150.0gm (VBD -146.6cc)
+0.177,SSURF,N,Dive 0 started Fri May 30 19:25:32 2025
+ (1748633132)
+0.313,SUSR,N,Normal Heap: 0+40959 bytes
+0.457,SGLMALLOC,N,glheap_walk: 354660 bytes free, 22 blocks free, 2804 bytes alloc, 17 blocks alloc
+0.740,HTT8,N,Updating parameter $DIVE to 1
+1.051,HTT8,N,Writing NVRAM...done.
+9.621,SSURF,N,Initializing data file
+9.772,SSURF,N,Initializing log file
+12.619,SSURF,N,Starting dive at 12s
+12.703,SSURF,N,Leaving surface state
+12.805,SDIVE,N,Entering dive state
+13.487,SMOTOR,N,Start active
+14.496,SDIVE,N,start $GC,14,-0.76,-146.6,242,1891,555,455,0.0,0.0,0, ...
+18.582,SSENSOR,N,A 16951ms 0.94m 52.2 T
+24.682,SSENSOR,N,A 21949ms 1.11m 52.6 #1
+29.907,SSENSOR,N,A 28377ms 1.07m 49.1 T
+34.382,SSENSOR,N,A 31971ms 1.11m 52.5 #2
+40.257,SSENSOR,N,A 38819ms 1.14m 53.2 T
+44.282,SSENSOR,N,A 41963ms 1.06m 50.7 #3
+49.732,SSENSOR,N,A 48156ms 1.14m 41.5 T
+54.182,SSENSOR,N,A 51963ms 1.27m 43.3 #4
+59.407,SSENSOR,N,A 58177ms 1.45m 52.2 T
+59.582,HTT8,N,Spurious interrupts recorded: 1
+59.832,HTT8,N,  0,58.15,0x233ccc,0,24
+59.982,HTT8,N,Last interrupt call stack:
+60.132,HTT8,N,Call stack (6 entries):
+60.282,HTT8,N,  0: 0x0021e9b2
+60.407,HTT8,N,  1: 0x0020bd50
+60.532,HTT8,N,  2: 0x002084c2
+60.657,HTT8,N,  3: 0x00209cd2
+60.782,HTT8,N,  4: 0x0020a8b6
+60.907,HTT8,N,  5: 0x0020b250
+63.957,SSENSOR,N,A 61940ms 1.76m 51.0 #5
+69.207,SSENSOR,N,A 68165ms 2.14m 53.5 T
+73.857,SSENSOR,N,A 71940ms 2.30m 48.2 #6
+80.582,SSENSOR,N,A 79632ms 2.72m 35.7 T
+83.782,SSENSOR,N,A 81957ms 2.95m 33.9 #7
+89.032,SSENSOR,N,A 88174ms 3.66m 40.0 T
+93.682,SSENSOR,N,A 91949ms 4.24m 49.0 #8
+98.905,SMOTOR,N,MOTOR_DONE: no ticks
+98.993,SMOTOR,N,GC TICKS/TIME: 3307/3342617
+99.201,HVBD,N,Bleed completed from 494.86 cc (505) to -130.12 cc (2993 [3101, 2885]) took 82.6 sec 0mA (1043mA peak) 28.8Vmin 30.11 AD/sec 3305 ticks
+99.649,HVBD,N,TRACK: b: 2990/0 a: 2990/0 d: 68 o: 3
+99.986,SDIVE,N,end $GC ,99,0.00,0.00,-82.62,0.000,16386,0.000,0.000,243,1892,2993,3101,2885,0,0,0,0,0,0,28.83,28.83,28.83
+100.340,SDIVE,N,Exiting active in GCPHASE_VBD (2) after 16 samples, ret=FLARE_DEPTH_REACHED
+100.577,HVBD,N,wObserved = -0.071 (8) pitchObserved = -71.855
+100.802,SDIVE,N,wObs=-0.071, wDes_adj=-0.080, changing VBD -146.6 -> -209.2, actual=-146.6 (MAX_BUOY)
+101.079,SMOTOR,N,Start active
+102.151,SDIVE,N,start $GC,101,-0.76,-146.6,242,1892,3102,2886,4.2,-7.1,8, ...
+104.219,SSENSOR,N,A 102341ms 6.65m 51.0 T
+106.969,SSENSOR,N,A 104451ms 7.33m 49.5 #9
+112.544,SSENSOR,N,A 111023ms 9.55m 48.3 T
+115.319,SSENSOR,N,A 112897ms 10.18m 49.0 #10
+119.974,SMOTOR,N,MOTOR_DONE: ticks: 154 max 24v: 3.1mA avg 24v: 2.3mA minV 24v: 26.7V
+120.128,SMOTOR,N,GC TICKS/TIME: 686/696180
+120.313,HPITCH,N,Pitch completed from -8.75 cm (242) to -0.81 cm (2784) took 9.9 sec 226mA (291mA peak) 26.1Vmin 255.48 AD/sec 398 ticks
+120.752,HPITCH,N,TRACK: b: 2780/0 a: 2781/0 d: 3 o: 3
+120.955,HVBD,N,Bleed completed from -131.38 cc (2998) to -147.71 cc (3063 [3180, 2947]) took 1.2 sec 0mA (1330mA peak) 26.7Vmin 52.00 AD/sec 50 ticks
+121.397,HVBD,N,TRACK: b: 3173/2945 a: 3173/2945 d: -115 o: -110
+121.598,HROLL,N,Roll completed from -1.64 deg (1889) to -40.17 deg (526) took 2.0 sec 53mA (1252mA peak) 26.4Vmin 673.09 AD/sec 81 ticks
+122.035,HROLL,N,TRACK: b: 561/0 a: 557/0 d: 11 o: -31
+122.467,SDIVE,N,end $GC ,122,9.95,2.03,-1.25,0.000,18948,0.226,0.053,2784,526,3063,3180,2947,0,0,0,0,0,0,26.07,26.40,26.65
+122.793,SDIVE,N,Exiting active in GCPHASE_TURNING (4) after 4 samples, ret=CONTROL_FINISHED_OK
+122.955,SDIVE,N,Passive turn...
+124.802,SSENSOR,N,P 123543ms 13.16m 52.9 T
+131.260,SSENSOR,N,P 129168ms 14.23m 56.2 #11
+134.872,SSENSOR,N,P 133828ms 14.99m 60.6 T
+141.542,SSENSOR,N,P 139449ms 15.88m 65.7 #12
+145.151,SSENSOR,N,P 144106ms 16.64m 69.6 T
+151.823,SSENSOR,N,P 149728ms 17.40m 72.6 #13
+155.436,SSENSOR,N,P 154390ms 18.09m 75.9 T
+162.111,SSENSOR,N,P 160016ms 18.79m 78.8 #14
+166.564,SSENSOR,N,P 165305ms 19.66m 83.4 T
+173.029,SSENSOR,N,P 170931ms 20.61m 84.8 #15
+176.649,SSENSOR,N,P 175605ms 21.25m 92.2 T
+183.327,SSENSOR,N,P 181229ms 22.02m 89.8 #16
+186.935,SSENSOR,N,P 185891ms 22.80m 91.7 T
+193.614,SSENSOR,N,P 191515ms 23.59m 96.4 #17
+197.227,SSENSOR,N,P 196180ms 24.31m 104.2 T
+197.364,SDIVE,N,Exiting passive after 15 samples, ret=CONTROL_FINISHED_OK
+197.499,SDIVE,N,Done passive turn...
+197.662,HVBD,N,wObserved = -0.149 (17) pitchObserved = -19.569
+198.205,SMOTOR,N,Start active
+199.268,SDIVE,N,start $GC,199,-0.76,-146.6,2783,525,3189,2947,23.6,-14.9,17, ...
+203.415,SSENSOR,N,A 200640ms 25.07m 102.8 #18
+207.760,HTT8,N,Updating parameter $R_STBD_OVSHOOT to 53
+207.985,SMOTOR,N,MOTOR_DONE: ticks: 235 max 24v: 4.6mA avg 24v: 2.3mA minV 24v: 26.8V
+208.139,SMOTOR,N,GC TICKS/TIME: 323/326127
+208.332,HROLL,N,Roll completed from -40.23 deg (524) to 0.93 deg (1980) took 2.1 sec 25mA (220mA peak) 26.5Vmin 685.18 AD/sec 85 ticks
+208.765,HROLL,N,TRACK: b: 1926/0 a: 1927/0 d: -2 o: 53
+209.125,SDIVE,N,end $GC ,208,0.00,2.12,0.00,0.000,3078,0.000,0.025,2782,1980,3069,3191,2947,0,0,0,0,0,0,28.83,26.50,28.83
+209.450,SDIVE,N,Exiting active in GCPHASE_DONE (6) after 1 samples, ret=CONTROL_FINISHED_OK
+213.900,SSENSOR,N,P 211804ms 26.61m 104.6 #19
+223.901,SSENSOR,N,P 221802ms 28.20m 107.8 #20
+233.905,SSENSOR,N,P 231803ms 29.78m 114.5 #21
+236.017,SDIVE,N,turn rate during steady passive flight = 0.659 deg/s
+236.153,SDIVE,N,Exiting passive after 3 samples, ret=CONTROL_FINISHED_OK
+236.368,HVBD,N,wObserved = -0.153 (21) pitchObserved = -19.749
+236.493,SMOTOR,N,Start active
+237.614,SDIVE,N,start $GC,237,-0.76,-146.6,2781,1980,3192,2947,29.8,-15.3,21, ...
+239.488,SSENSOR,N,A 237888ms 30.86m 119.3 T
+242.338,SSENSOR,N,A 239890ms 31.13m 117.9 #22
+246.716,SMOTOR,N,MOTOR_DONE: ticks: 258 max 24v: 4.6mA avg 24v: 2.3mA minV 24v: 26.8V
+246.870,SMOTOR,N,GC TICKS/TIME: 341/348002
+247.062,HROLL,N,Roll completed from 0.93 deg (1980) to 39.61 deg (3348) took 2.0 sec 36mA (226mA peak) 26.5Vmin 684.00 AD/sec 80 ticks
+247.492,HROLL,N,TRACK: b: 3305/0 a: 3309/0 d: -1 o: 39
+247.840,SDIVE,N,end $GC ,247,0.00,2.00,0.00,0.000,2308,0.000,0.036,2781,3348,3070,3193,2947,0,0,0,0,0,0,28.83,26.48,28.83
+248.165,SDIVE,N,Exiting active in GCPHASE_TURNING (4) after 2 samples, ret=CONTROL_FINISHED_OK
+248.327,SDIVE,N,Passive turn...
+249.964,SSENSOR,N,P 248916ms 32.46m 110.4 T
+250.090,SDIVE,N,Exiting passive after 1 samples, ret=TARGET_DEPTH_EXCEEDED
+250.227,SDIVE,N,Done passive turn...
+250.315,SDIVE,N,Leaving dive state due to TARGET_DEPTH_EXCEEDED
+250.455,SDIVE,N,Entering apogee state
+250.600,SDIVE,N,Going neutral at apogee at 31.13 meters
+250.820,HROLL,N,Roll commanded from 39.58 deg (3347) to 0.00 deg (1947)...
+251.883,HROLL,N,32.4 deg (ad: 3094) MOTOR_DONE: ticks: 5 max 24v: 2.3mA avg 24v: 2.3mA minV 24v: 26.6V
+253.970,SMOTOR,N,GC TICKS/TIME: 91/93228
+254.057,HROLL,N,done.
+254.200,HROLL,N,Roll completed from 39.61 deg (3348) to -1.44 deg (1896) took 2.1 sec 19mA (219mA peak) 26.5Vmin 699.76 AD/sec 83 ticks
+254.633,HROLL,N,TRACK: b: 1979/0 a: 1974/0 d: 9 o: -78
+254.745,SDIVE,N,entering active for apogee pump
+254.844,SMOTOR,N,Start active
+255.877,SDIVE,N,start $GC,255,-0.27,0.0,2781,1896,3194,2947,31.1,-15.6,22, ...
+258.621,SSENSOR,N,A 256054ms 33.73m 106.3 #23
+263.896,SSENSOR,N,A 262326ms 34.45m 102.0 T
+266.646,SSENSOR,N,A 264188ms 34.75m 99.0 #24
+271.896,SSENSOR,N,A 270437ms 35.05m 98.5 T
+275.721,SSENSOR,N,A 273372ms 35.12m 99.0 #25
+280.971,SSENSOR,N,A 279617ms 35.38m 100.8 T
+285.596,SSENSOR,N,A 283359ms 35.46m 100.0 #26
+292.446,SSENSOR,N,A 290949ms 35.78m 101.4 T
+295.521,SSENSOR,N,A 293379ms 35.85m 100.5 #27
+300.771,SSENSOR,N,A 299630ms 36.13m 102.8 T
+305.396,SSENSOR,N,A 303366ms 36.33m 102.2 #28
+310.671,SSENSOR,N,A 309633ms 36.47m 103.1 T
+315.571,SSENSOR,N,A 313368ms 36.55m 104.7 #29
+320.821,SSENSOR,N,A 319881ms 36.85m 106.3 T
+325.196,SSENSOR,N,A 323365ms 37.06m 107.4 #30
+330.996,SSENSOR,N,A 330163ms 37.31m 109.6 T
+335.096,SSENSOR,N,A 333373ms 37.46m 111.2 #31
+340.571,SSENSOR,N,A 339601ms 37.64m 113.8 T
+344.971,SSENSOR,N,A 343355ms 37.77m 116.7 #32
+350.221,SSENSOR,N,A 349598ms 37.94m 117.1 T
+354.871,SSENSOR,N,A 353363ms 38.14m 118.5 #33
+360.146,SSENSOR,N,A 359630ms 38.27m 117.7 T
+364.746,SSENSOR,N,A 363349ms 38.39m 119.8 #34
+370.101,SMOTOR,N,MOTOR_DONE: ticks: 104 max 24v: 5.4mA avg 24v: 3.1mA minV 24v: 26.0V
+370.256,SMOTOR,N,GC TICKS/TIME: 4501/4552476
+370.442,HPITCH,N,Pitch completed from -0.82 cm (2781) to -0.28 cm (2953) took 0.5 sec 122mA (255mA peak) 26.3Vmin 327.62 AD/sec 21 ticks
+370.880,HPITCH,N,TRACK: b: 2947/0 a: 2947/0 d: -4 o: 6
+371.074,HVBD,N,Pump completed from -149.72 cc (3071) to 0.25 cc (2474 [2573, 2376]) took 109.3 sec 460mA (1242mA peak) 25.3Vmin 5.46 AD/sec 4373 ticks
+371.552,HVBD,N,TRACK: b: 2575/2376 a: 2574/2377 d: -99 o: -100
+371.990,SDIVE,N,end $GC ,371,0.52,0.00,109.32,0.460,10246,0.122,0.000,2953,1894,2474,2573,2376,0,0,0,0,0,0,26.29,28.83,25.30
+372.324,SDIVE,N,Exiting active in GCPHASE_DONE (6) after 23 samples, ret=CONTROL_FINISHED_OK
+372.491,SDIVE,N,Leaving Apogee state due to CONTROL_FINISHED_OK
+372.631,SDIVE,N,Entering climb state
+372.805,SDIVE,N,Going up from 38.39 meters ... VBDctl=147
+372.919,SMOTOR,N,Start active
+374.069,SDIVE,N,start $GC,373,0.76,146.6,2954,1894,2572,2376,38.4,0.0,34, ...
+376.138,SSENSOR,N,A 374263ms 38.83m 119.8 T
+378.888,SSENSOR,N,A 376373ms 38.77m 116.4 #35
+384.088,SSENSOR,N,A 382566ms 38.57m 112.7 T
+386.838,SSENSOR,N,A 384436ms 38.42m 110.5 #36
+392.063,SSENSOR,N,A 390662ms 38.13m 108.5 T
+395.638,SSENSOR,N,A 393358ms 38.01m 110.3 #37
+401.113,SSENSOR,N,A 399576ms 37.89m 109.1 T
+405.538,SSENSOR,N,A 403363ms 37.80m 109.1 #38
+412.113,SSENSOR,N,A 410944ms 37.62m 107.1 T
+415.413,SSENSOR,N,A 413360ms 37.42m 107.0 #39
+425.363,SSENSOR,N,A 423362ms 37.24m 105.0 #40
+435.338,SSENSOR,N,A 433381ms 36.92m 98.6 #41
+445.263,SSENSOR,N,A 443362ms 36.50m 89.7 #42
+455.213,SSENSOR,N,A 453357ms 35.89m 79.5 #43
+460.713,SSENSOR,N,A 459610ms 35.58m 76.4 T
+465.113,SSENSOR,N,A 463360ms 35.33m 75.1 #44
+470.388,SSENSOR,N,A 469627ms 34.86m 70.8 T
+475.013,SSENSOR,N,A 473367ms 34.62m 70.9 #45
+480.263,SSENSOR,N,A 479617ms 33.98m 68.8 T
+484.888,SSENSOR,N,A 483363ms 33.72m 67.3 #46
+490.416,SMOTOR,N,MOTOR_DONE: ticks: 154 max 24v: 3.8mA avg 24v: 2.3mA minV 24v: 26.0V
+490.570,SMOTOR,N,GC TICKS/TIME: 4591/4636646
+490.756,HPITCH,N,Pitch completed from -0.28 cm (2953) to 0.77 cm (3287) took 0.9 sec 80mA (257mA peak) 25.8Vmin 351.58 AD/sec 38 ticks
+491.189,HPITCH,N,TRACK: b: 3276/0 a: 3276/0 d: -3 o: 11
+491.386,HVBD,N,Pump completed from 0.25 cc (2474) to 147.45 cc (1888 [2003, 1774]) took 107.7 sec 441mA (3036mA peak) 25.3Vmin 5.44 AD/sec 4308 ticks
+491.859,HVBD,N,TRACK: b: 2007/1773 a: 2007/1776 d: -116 o: -119
+492.060,HROLL,N,Roll completed from -1.50 deg (1894) to 39.80 deg (3355) took 2.2 sec 33mA (371mA peak) 25.7Vmin 664.09 AD/sec 88 ticks
+492.497,HROLL,N,TRACK: b: 3310/0 a: 3314/0 d: -6 o: 41
+492.974,SDIVE,N,end $GC ,492,0.95,2.20,107.70,0.441,11012,0.080,0.033,3287,3355,1888,2003,1774,0,0,0,0,0,0,25.75,25.72,25.27
+493.305,SDIVE,N,Exiting active in GCPHASE_TURNING (4) after 20 samples, ret=CONTROL_FINISHED_OK
+493.468,SDIVE,N,Passive turn...
+495.319,SSENSOR,N,P 494056ms 32.64m 80.0 T
+501.778,SSENSOR,N,P 499681ms 31.88m 85.2 #47
+505.377,SSENSOR,N,P 504334ms 31.40m 90.6 T
+512.059,SSENSOR,N,P 509962ms 30.60m 97.5 #48
+515.667,SSENSOR,N,P 514621ms 30.07m 101.4 T
+515.798,SDIVE,N,Exiting passive after 5 samples, ret=CONTROL_FINISHED_OK
+515.932,SDIVE,N,Done passive turn...
+516.095,HVBD,N,wObserved = 0.104 (14) pitchObserved = 26.323
+516.333,SDIVE,N,pitch desired=17.47, observed=26.32, adj=-0.177 cm
+516.534,SDIVE,N,new pitch ctl position=0.405 (nominal=0.582 cm)
+516.656,SMOTOR,N,Start active
+517.770,SDIVE,N,start $GC,517,0.59,146.6,3287,3355,2002,1771,30.6,10.4,48, ...
+521.639,SSENSOR,N,A 519089ms 29.64m 102.2 #49
+525.017,HTT8,N,Updating parameter $R_PORT_OVSHOOT to 69
+525.252,SMOTOR,N,MOTOR_DONE: ticks: 178 max 24v: 12.2mA avg 24v: 2.3mA minV 24v: 26.2V
+525.408,SMOTOR,N,GC TICKS/TIME: 273/275917
+525.592,HPITCH,N,Pitch completed from 0.79 cm (3295) to 0.61 cm (3236) took 0.2 sec 150mA (212mA peak) 25.8Vmin 295.00 AD/sec 8 ticks
+526.027,HPITCH,N,TRACK: b: 3239/0 a: 3239/0 d: 2 o: -3
+526.220,HROLL,N,Roll completed from 39.80 deg (3355) to -0.93 deg (1914) took 2.1 sec 18mA (214mA peak) 26.0Vmin 686.19 AD/sec 84 ticks
+526.655,HROLL,N,TRACK: b: 1985/0 a: 1983/0 d: 0 o: -69
+527.064,SDIVE,N,end $GC ,526,0.20,2.10,0.00,0.000,5126,0.150,0.018,3236,1914,1886,2002,1771,0,0,0,0,0,0,25.80,26.02,28.83
+527.426,SDIVE,N,Exiting active in GCPHASE_DONE (6) after 1 samples, ret=CONTROL_FINISHED_OK
+532.343,SSENSOR,N,P 530248ms 28.37m 96.9 #50
+542.339,SSENSOR,N,P 540247ms 27.60m 90.6 #51
+552.343,SSENSOR,N,P 550247ms 26.71m 84.2 #52
+554.455,SDIVE,N,turn rate during steady passive flight = -0.845 deg/s
+554.592,SDIVE,N,Exiting passive after 3 samples, ret=CONTROL_FINISHED_OK
+554.803,HVBD,N,wObserved = 0.095 (18) pitchObserved = 22.988
+555.039,SDIVE,N,pitch desired=17.47, observed=22.99, adj=-0.110 cm
+555.241,SDIVE,N,new pitch ctl position=0.295 (nominal=0.582 cm)
+555.363,SMOTOR,N,Start active
+556.518,SDIVE,N,start $GC,556,0.48,146.6,3235,1913,2002,1769,26.7,9.5,52, ...
+558.336,SSENSOR,N,A 556708ms 26.32m 81.1 T
+561.486,SSENSOR,N,A 559013ms 26.14m 81.3 #53
+565.015,SMOTOR,N,MOTOR_DONE: ticks: 224 max 24v: 3.8mA avg 24v: 2.3mA minV 24v: 26.4V
+565.170,SMOTOR,N,GC TICKS/TIME: 317/323276
+565.355,HPITCH,N,Pitch completed from 0.60 cm (3235) to 0.49 cm (3199) took 0.1 sec 162mA (264mA peak) 26.0Vmin 288.00 AD/sec 5 ticks
+565.789,HPITCH,N,TRACK: b: 3204/0 a: 3203/0 d: 3 o: -4
+565.980,HROLL,N,Roll completed from -0.96 deg (1913) to 39.89 deg (3358) took 2.1 sec 28mA (80mA peak) 26.1Vmin 680.00 AD/sec 85 ticks
+566.412,HROLL,N,TRACK: b: 3311/0 a: 3316/0 d: -8 o: 42
+566.836,SDIVE,N,end $GC ,566,0.12,2.12,0.00,0.000,4356,0.162,0.028,3199,3358,1885,2002,1768,0,0,0,0,0,0,25.97,26.12,28.83
+567.159,SDIVE,N,Exiting active in GCPHASE_TURNING (4) after 2 samples, ret=CONTROL_FINISHED_OK
+567.322,SDIVE,N,Passive turn...
+569.173,SSENSOR,N,P 567910ms 25.35m 85.2 T
+575.630,SSENSOR,N,P 573533ms 24.91m 89.2 #54
+579.986,SSENSOR,N,P 578942ms 24.57m 90.9 T
+586.657,SSENSOR,N,P 584564ms 24.19m 92.8 #55
+590.255,SSENSOR,N,P 589215ms 23.90m 95.1 T
+596.938,SSENSOR,N,P 594840ms 23.39m 97.5 #56
+600.548,SSENSOR,N,P 599504ms 23.10m 99.6 T
+600.677,SDIVE,N,Exiting passive after 7 samples, ret=CONTROL_FINISHED_OK
+600.811,SDIVE,N,Done passive turn...
+600.972,HVBD,N,wObserved = 0.076 (22) pitchObserved = 18.835
+601.195,SDIVE,N,wObs=0.076, wDes_adj=0.080, changing VBD 146.6 -> 198.4
+601.385,SMOTOR,N,Start active
+602.527,SDIVE,N,start $GC,602,0.54,198.4,3199,3357,2002,1767,23.4,7.6,56, ...
+606.545,SSENSOR,N,A 603972ms 22.84m 101.1 #57
+611.820,SSENSOR,N,A 610254ms 22.38m 100.1 T
+616.420,SSENSOR,N,A 613965ms 22.18m 99.7 #58
+623.020,SSENSOR,N,A 621556ms 21.69m 98.7 T
+626.320,SSENSOR,N,A 623968ms 21.54m 98.1 #59
+631.845,SSENSOR,N,A 630211ms 21.23m 98.1 T
+636.220,SSENSOR,N,A 633964ms 20.95m 97.6 #60
+641.495,SSENSOR,N,A 640231ms 20.61m 97.2 T
+642.420,SDIVE,N,exiting active w/o sampling due to early MOTOR_DONE
+643.228,HTT8,N,Updating parameter $R_PORT_OVSHOOT to 75
+643.454,SMOTOR,N,MOTOR_DONE: ticks: 7 max 24v: 6.9mA avg 24v: 4.6mA minV 24v: 26.0V
+643.606,SMOTOR,N,GC TICKS/TIME: 1596/1614657
+643.814,HVBD,N,Pump completed from 148.21 cc (1885) to 198.70 cc (1684 [1814, 1555]) took 37.6 sec 430mA (1235mA peak) 25.5Vmin 5.35 AD/sec 1504 ticks
+644.283,HVBD,N,TRACK: b: 1815/1556 a: 1814/1556 d: -129 o: -130
+644.485,HROLL,N,Roll completed from 39.89 deg (3358) to -0.45 deg (1931) took 2.0 sec 18mA (220mA peak) 26.3Vmin 696.10 AD/sec 82 ticks
+644.917,HROLL,N,TRACK: b: 2007/0 a: 2006/0 d: 10 o: -75
+645.333,SDIVE,N,end $GC ,645,0.00,2.05,37.60,0.430,11270,0.000,0.018,3199,1931,1684,1814,1555,0,0,0,0,0,0,28.83,26.26,25.48
+645.658,SDIVE,N,Exiting active in GCPHASE_DONE (6) after 9 samples, ret=CONTROL_FINISHED_OK
+652.228,SSENSOR,N,P 650128ms 19.94m 93.2 #61
+662.226,SSENSOR,N,P 660127ms 19.28m 92.3 #62
+672.223,SSENSOR,N,P 670127ms 18.56m 92.9 #63
+674.331,SDIVE,N,turn rate during steady passive flight = -0.019 deg/s
+674.468,SDIVE,N,Exiting passive after 3 samples, ret=CONTROL_FINISHED_OK
+674.676,HVBD,N,wObserved = 0.063 (29) pitchObserved = 15.456
+674.898,SDIVE,N,wObs=0.063, wDes_adj=0.080, changing VBD 198.4 -> 279.3
+675.087,SMOTOR,N,Start active
+676.262,SDIVE,N,start $GC,676,0.64,279.3,3199,1930,1813,1551,18.6,6.3,63, ...
+681.506,SSENSOR,N,A 678951ms 18.13m 96.7 #64
+691.381,SSENSOR,N,A 688940ms 17.26m 98.3 #65
+701.331,SSENSOR,N,A 698949ms 16.24m 98.2 #66
+711.281,SSENSOR,N,A 708952ms 15.24m 99.2 #67
+721.231,SSENSOR,N,A 718958ms 14.21m 99.8 #68
+731.156,SSENSOR,N,A 728939ms 13.16m 106.0 #69
+735.371,SMOTOR,N,MOTOR_DONE: ticks: 29 max 24v: 5.4mA avg 24v: 3.1mA minV 24v: 26.0V
+735.524,SMOTOR,N,GC TICKS/TIME: 2330/2347898
+735.711,HPITCH,N,Pitch completed from 0.49 cm (3199) to 0.67 cm (3255) took 0.2 sec 84mA (237mA peak) 26.1Vmin 373.33 AD/sec 6 ticks
+736.140,HPITCH,N,TRACK: b: 3235/0 a: 3239/0 d: -6 o: 16
+736.347,HVBD,N,Pump completed from 199.20 cc (1682) to 279.84 cc (1361 [1498, 1225]) took 57.3 sec 428mA (1204mA peak) 25.3Vmin 5.60 AD/sec 2292 ticks
+736.818,HVBD,N,TRACK: b: 1500/1227 a: 1500/1227 d: -137 o: -139
+737.249,SDIVE,N,end $GC ,736,0.15,0.00,57.30,0.428,10246,0.084,0.000,3255,1929,1361,1498,1225,0,0,0,0,0,0,26.07,28.83,25.34
+737.577,SDIVE,N,Exiting active in GCPHASE_DONE (6) after 6 samples, ret=CONTROL_FINISHED_OK
+742.231,SSENSOR,N,P 740128ms 11.95m 111.9 #70
+743.294,HXPDR,N,ranging to surface at 11.951299 meters
+743.864,HXPDR,N,ping response: R---------
+
+743.928,HXPDR,N,range = 999.000000
+752.226,SSENSOR,N,P 750126ms 10.76m 114.7 #71
+762.221,SSENSOR,N,P 760127ms 9.79m 118.1 #72
+764.329,SDIVE,N,turn rate during steady passive flight = 0.412 deg/s
+764.465,SDIVE,N,Exiting passive after 3 samples, ret=CONTROL_FINISHED_OK
+764.677,HVBD,N,wObserved = 0.106 (30) pitchObserved = 16.893
+764.800,SMOTOR,N,Start active
+765.964,SDIVE,N,start $GC,765,0.64,279.3,3254,1928,1497,1223,9.8,10.6,72, ...
+767.808,SSENSOR,N,A 766211ms 9.10m 120.4 T
+770.708,SSENSOR,N,A 768270ms 8.92m 121.4 #73
+774.250,SMOTOR,N,MOTOR_DONE: ticks: 224 max 24v: 12.2mA avg 24v: 2.3mA minV 24v: 26.3V
+774.406,SMOTOR,N,GC TICKS/TIME: 308/315405
+774.598,HROLL,N,Roll completed from -0.54 deg (1928) to -39.04 deg (566) took 2.0 sec 36mA (215mA peak) 26.0Vmin 672.59 AD/sec 81 ticks
+775.032,HROLL,N,TRACK: b: 607/0 a: 602/0 d: 5 o: -36
+775.383,SDIVE,N,end $GC ,775,0.00,2.03,0.00,0.000,4612,0.000,0.036,3256,566,1359,1496,1222,0,0,0,0,0,0,28.83,25.98,28.83
+775.707,SDIVE,N,Exiting active in GCPHASE_TURNING (4) after 2 samples, ret=CONTROL_FINISHED_OK
+775.870,SDIVE,N,Passive turn...
+777.717,SSENSOR,N,P 776456ms 8.12m 121.3 T
+784.173,SSENSOR,N,P 782082ms 7.48m 121.0 #74
+788.541,SSENSOR,N,P 787501ms 7.00m 125.4 T
+795.220,SSENSOR,N,P 793127ms 6.48m 122.6 #75
+798.819,SSENSOR,N,P 797778ms 6.01m 125.4 T
+805.494,SSENSOR,N,P 803399ms 5.43m 135.2 #76
+809.105,SSENSOR,N,P 808064ms 4.96m 138.6 T
+815.781,SSENSOR,N,P 813685ms 4.38m 140.5 #77
+819.603,SSENSOR,N,P 818344ms 3.99m 143.2 T
+826.065,SSENSOR,N,P 823968ms 3.48m 144.2 #78
+830.226,SSENSOR,N,P 829185ms 3.03m 145.5 T
+836.904,SSENSOR,N,P 834808ms 2.58m 148.8 #79
+838.956,SDIVE,N,Exiting passive after 12 samples, ret=SURFACE_DEPTH_REACHED
+839.094,SDIVE,N,Done passive turn...
+839.183,SDIVE,N,Leaving climb state due to SURFACE_DEPTH_REACHED
+839.326,SDIVE,N,Entering surface coast state
+839.490,SDIVE,N,Reached SD, Wo = 0.095660, 3 more points
+841.153,SSENSOR,N,P 840112ms 2.29m 152.2 T
+847.825,SSENSOR,N,P 845734ms 1.77m 156.3 #80
+851.418,SSENSOR,N,P 850382ms 1.55m 159.7 T
+858.092,SSENSOR,N,P 856004ms 1.08m 170.4 #81
+861.906,SSENSOR,N,P 860647ms 0.74m 181.9 T
+868.361,SSENSOR,N,P 866270ms 0.41m 186.5 #82
+870.967,SDIVE,N,Exiting passive after 6 samples, ret=CONTROL_FINISHED_OK
+872.125,SSURF,N,D_SURF: T = 13.0811, S = 26.6817, rho = 1019.94
+872.325,SDIVE,N,Leaving coast to surface state
+872.445,SSURF,N,Entering surface state
+872.556,SSURF,N,Starting surface maneuver...
+873.067,SSURF,N,disabling surface maneuver aborts
+874.294,SSURF,N,d= 0.23m
+874.474,HROLL,N,Roll commanded from -39.07 deg (565) to 0.00 deg (1947)...
+875.502,HROLL,N,-31.7 deg (ad: 824) Updating parameter $R_STBD_OVSHOOT to 81
+877.607,SMOTOR,N,MOTOR_DONE: ticks: 7 max 24v: 2.3mA avg 24v: 2.3mA minV 24v: 26.4V
+877.759,SMOTOR,N,GC TICKS/TIME: 91/93215
+877.847,HROLL,N,done.
+877.992,HROLL,N,Roll completed from -39.07 deg (565) to 0.79 deg (1975) took 2.0 sec 18mA (221mA peak) 26.3Vmin 696.30 AD/sec 81 ticks
+878.426,HROLL,N,TRACK: b: 1888/0 a: 1894/0 d: 0 o: 81
+878.670,HPITCH,N,Pitch commanded from 0.67 cm (3255) to -8.71 cm (255)...
+879.700,HPITCH,N,0.2 cm (ad: 3104) MOTOR_DONE: ticks: 1 max 24v: 2.3mA avg 24v: 2.3mA minV 24v: 26.4V
+887.584,SMOTOR,N,GC TICKS/TIME: 323/325117
+887.674,HPITCH,N,done.
+887.813,HPITCH,N,Pitch completed from 0.67 cm (3255) to -8.74 cm (247) took 8.0 sec 42mA (243mA peak) 26.3Vmin 377.18 AD/sec 319 ticks
+888.244,HPITCH,N,TRACK: b: 267/0 a: 263/0 d: 4 o: -16
+888.510,HVBD,N,Pump commanded from 281.85 cc (1353) to 495.12 cc (504)...
+889.540,HVBD,N,282.1 cc (ad: 1352 [1478, 1226]) 
+900.290,HVBD,N,284.6 cc (ad: 1342 [1459, 1226]) 
+911.040,HVBD,N,293.2 cc (ad: 1308 [1413, 1203]) 
+921.740,HVBD,N,308.5 cc (ad: 1247 [1356, 1139]) 
+932.515,HVBD,N,324.8 cc (ad: 1182 [1283, 1080]) 
+943.265,HVBD,N,341.4 cc (ad: 1116 [1211, 1021]) 
+954.040,HVBD,N,357.2 cc (ad: 1053 [1146, 958]) 
+964.790,HVBD,N,373.8 cc (ad: 987 [1074, 899]) 
+975.540,HVBD,N,389.9 cc (ad: 923 [1008, 837]) 
+986.265,HVBD,N,406.2 cc (ad: 858 [938, 777]) 
+997.040,HVBD,N,422.3 cc (ad: 794 [868, 718]) 
+1007.765,HVBD,N,438.3 cc (ad: 730 [799, 661]) 
+1018.465,HVBD,N,454.7 cc (ad: 665 [725, 604]) 
+1029.215,HVBD,N,470.5 cc (ad: 602 [658, 546]) 
+1039.990,HVBD,N,486.1 cc (ad: 540 [591, 487]) MOTOR_DONE: ticks: 19 max 24v: 5.4mA avg 24v: 3.1mA minV 24v: 25.9V
+1046.879,SMOTOR,N,GC TICKS/TIME: 6300/6303317
+1046.973,HVBD,N,done.
+1047.130,HVBD,N,Pump completed from 282.10 cc (1352) to 495.37 cc (503 [553, 453]) took 151.9 sec 406mA (1229mA peak) 25.3Vmin 5.59 AD/sec 6077 ticks; 1 retries
+1047.629,HVBD,N,TRACK: b: 554/455 a: 554/455 d: -50 o: -51
+1049.012,SSURF,N,Depth at end of surface maneuver = 0.929614
+1050.305,SSURF,N,Finished surface maneuver...
+1051.521,HTT8,N,Writing NVRAM...done.
+1060.176,HTT8,N,TT8 state: Normal (2MHz); analog off; TPU TCR1 480000Hz, tick rate 40000Hz
+1060.345,SPOWER,N,All devices are off.
+1061.844,HBATT,N,24V batt pack voltage = 26.04V
+1061.982,HBATT,N,10V batt pack voltage = 10.91V
+1081.544,HGPS,N,Acquiring GPS fix ...
+1082.423,HGPS,N,VVVVVVVAAAAAA
+1096.001,HGPS,N,sync sentence $GPRMC,194347,A,4750.1700,N,12225.3222,W,001.3,246.1,300525,018.2,E*66
+1096.128,HGPS,N,set 2025/05/30 19:43:48
+1096.426,HGPS,N,confirm $GPRMC,194348,A,4750.1703,N,12225.3214,W,001.4,252.3,300525,018.2,E*6F
+1096.569,HGPS,N,300525, 194346, 4750.169434, -12225.324219 1.600000 8/13 seconds
+1097.182,HTT8,N,Updating parameter $T_GPS_CHARGE to -34113.359
+1100.986,SNAV,N,depth averaged current valid = 0.222 @ 302.40 deg
+1101.521,SSYS,N,Capture file closed
