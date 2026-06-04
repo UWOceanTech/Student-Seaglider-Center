@@ -1,16 +1,19 @@
 # Student-Seaglider-Center
 SSC Seaglider Data Mission: 
-The University of Washington Student Seaglider Center (SSC) manages a fleet of Seagliders for student-directed research. Assisted by experienced mentors, students conduct technical testing, dive planning, and piloting. The goal of the project is to create an opportunity for students to get hands-on experience with producing meaningful, accessible data that contributes both to local environmental research and to the worldwide oceanography community.
+The University of Washington Student Seaglider Center (SSC) manages a fleet of Seagliders for student-directed research. Assisted by experienced mentors, students conduct technical testing, dive planning, and piloting. The goal of the Center is to create an opportunity for students to get hands-on experience with producing meaningful, accessible data that contributes both to local environmental research and to the worldwide oceanography community.
+
+In this repository, each folder is a mission. Test missions are conducted in Puget Sound, WA and are labled as such. If the mission had multiple gliders, each glider has a subfolder.
 
 Contents: 
-- Carson Overnight (04/2024)
-- Shilshole Shakedown (2024)
-- Colvos Passage Triple Glider Mission (2024)
-- Shilshole Shakedown (10/2024)
-- Tropics Mission (2024-2025)
-- Shilshole Shakedown (2025)
-- Time Series Test Mission (2025)
-- Elliot Bay (2024)
+- Shilshole Test (04/05/2024)
+- Shilshole Test (04/30/2024)
+- Shilshole Test (04/30/2024)
+- Colvos, Colvos Passage Triple Glider Mission (05/31/2024)
+- Shilshole Test (10/11/2024)
+- Tropics, Tropics Mission (11/19/2024-06/05/2025)
+- Shilshole Test (02/21/2025)
+- Edmonds Test (04/18/2025)
+- Elliot Bay, BIG 10 Commerical (05/17/2024)
 - Summer Time Series Mission (2025)
 - Winter Time Series Mission (2026)
 
@@ -20,8 +23,8 @@ Sensors:
 - Blue light scattering is named when PAR_470nm cleaned and eng_wlbb2fl_sig470nm in the raw data. Red light scattering is named particle_concentration_700nm when cleaned and eng_wlbb2fl_sig700nm in the raw data. Chlorophyll fluorescence is named chlorophyll_695nm when cleaned and eng_wlbb2fl_sig695nm in the raw data.
 
 Naming Conventions:
-- Missions are named with their date of deployment YYYY_MM_DD (if multi-day mission only month is noted) and their mission name.
-- Missions named "shilshole_shakedown" are training deployments and do not aim to answer a scientific question. 
+- Missions are named with their date of deployment YYYY_MM_DD and their mission name.
+- Missions named " Test" are training deployments and do not aim to answer a scientific question. 
 
 Folder Structure: 
 - clean_data: netcdf & csv files with variables renamed for clarity and the time adjusted and the code used to clean and produce these files
