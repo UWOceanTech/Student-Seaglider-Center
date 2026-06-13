@@ -1,0 +1,95 @@
+Pitch_motor 253.520
+Roll_motor 101.871
+VBD_pump_during_apogee 9017.742
+VBD_pump_during_surface 6949.250
+VBD_valve 0.000
+Iridium_during_init 80.754
+Iridium_during_connect 127.866
+Iridium_during_xfer 2643.458
+Transponder_ping 87.885
+GUMSTIX_24V 0.000
+GPS 208.864
+TT8 1088.696
+LPSleep 1445.496
+TT8_Active 574.774
+TT8_Sampling 5212.900
+TT8_CF8 372.999
+TT8_Kalman 0.000
+Analog_circuits 1283.672
+GPS_charging 0.000
+Compass 424.117
+RAFOS 0.000
+Transponder 41.159
+Compass2 0.000
+SBE_CT 122.471
+SBE_O2 40.137
+AA4330 338.568
+WL_BB2FLVMG 1398.729
+70.52m 117.5 #75
+784.345,SSENSOR,N,P 782691ms 70.89m 122.6 #76
+786.777,SDIVE,N,Exiting passive after 3 samples, ret=LOITER_COMPLETE
+786.910,SDIVE,N,Leaving loiter state due to LOITER_COMPLETE
+787.044,SDIVE,N,Entering climb state
+787.220,SDIVE,N,Going up from 70.89 meters ... VBDctl=244
+787.334,SMOTOR,N,Start active
+g neutral at apogee at 60.47 meters
+569.198,HROLL,N,Roll commanded from 0.11 deg (1942) to 0.00 deg (1938)...
+OTOR,N,Start active
+ÚFÃ7–5Èzù(|8216F‘u¯`ê+Hn’”ZDÝd#òN2830.137,HCF8,N,file 'sg0005lz.x00' has 4096 bytes, closed...
+2830.487,HCF8,N,file 'sg0005lz.x01' opened...
+2830.597,HCF8,N,file 'sg0005lz.x01' has 165 bytes, closed...
+2831.712,SSURF,N,Collecting glider state
+2832.008,HBATT,N,24V batt pack voltage = 26.10V
+2832.146,HBATT,N,10V batt pack voltage = 10.88V
+2832.394,SDIVE,N,Measuring depth & angle for 1 sec... done.
+2834.825,SDIVE,N,Measured depth: 1.18m angle: -69.37deg
+2835.170,SGLMALLOC,N,glheap_walk: 334380 bytes free, 12 blocks free, 23372 bytes alloc, 15 blocks alloc
+2835.300,SSURF,N,Trying call 0...
+2835.345,SSURF,N,Calling phone number: 88160000581
+2837.479,HPHONE,N,initializing RUDICS connection
+2852.854,HPHONE,N,Phone registered
+2852.904,HPHONE,N,cnt_NoComm:0 callCycle:0 smsLastCallCycle:-1
+2858.754,HPHONE,N,Iridium signal strength: 5 after 3 queries
+2858.879,HPHONE,N,Iridium geolocation: 47.382011 -122.372986 Sat Jun 28 03:43:54 2008
+2867.004,HPHONE,N,Dialing succeeded
+2881.854,SSURF,N,Logged in...
+2883.254,SSURF,N,Receiving cmdfile...
+2883.304,SSURF,N,Sending cmd rawsend cmdfile
+2885.529,SSURF,N,received 135 of 135 for cmdfile
+2886.254,SSURF,N,Transmission succeeded...
+2886.329,HTT8,N,Updating parameter $D_TGT to 150
+2886.404,HTT8,N,Updating parameter $T_DIVE to 65
+2886.454,HTT8,N,Updating parameter $T_MISSION to 70
+2886.529,HTT8,N,Updating parameter $COMPASS_USE to 4
+2886.604,HCOMPASS,N,Active compass is SP3003
+2886.679,HTT8,N,Updating parameter $HEAD_ERRBAND to 180
+2886.754,SUSR,N,WARNING! $C_ROLL_DIVE,5000.0000: Value must be between 50.0000 and 4045.0000!
+2886.879,HTT8,N,Updating parameter $C_ROLL_DIVE to 5000
+2886.954,HTT8,N,Updating parameter $ROLL_DEG to 0
+2887.029,HTT8,N,Updating parameter $GLIDE_SLOPE to 15
+2887.104,HTT8,N,Updating parameter $MAX_BUOY to 250
+2887.179,SDIVE,N,Parsed command: $QUIT
+2887.579,HTT8,N,Writing NVRAM...done.
+2898.954,SSENSOR,N,Impossible depth bin:     20.0m      0.0s      0.0s; ignored!
+2899.054,SSENSOR,N,Impossible depth bin:     50.0m      0.0s      0.0s; ignored!
+2899.154,SSENSOR,N,Impossible depth bin:    100.0m      0.0s      0.0s; ignored!
+2899.279,SSENSOR,N,Impossible depth bin:    200.0m      0.0s      0.0s; ignored!
+2901.029,SSURF,N,Sending cmd rawrcv sg0005lz.x00
+ (4096 bytes)(Receiving sg0005lz.x00 on basestation)
+2911.754,SSURF,N,sent 4096 of 4096 of sg0005lz.x00
+2918.104,SSURF,N,Transmission succeeded...
+2919.854,SSURF,N,Sending cmd rawrcv sg0005lz.x01
+ (165 bytes)(Receiving sg0005lz.x01 on basestation)
+2921.554,SSURF,N,sent 165 of 165 of sg0005lz.x01
+2923.054,SSURF,N,Transmission succeeded...
+2924.804,SSURF,N,Sending cmd rawrcv sg0005dz.x00
+ (4096 bytes)(Receiving sg0005dz.x00 on basestation)
+2933.079,SSURF,N,sent 4096 of 4096 of sg0005dz.x00
+2939.429,SSURF,N,Transmission succeeded...
+2941.179,SSURF,N,Sending cmd rawrcv sg0005dz.x01
+ (3138 bytes)(Receiving sg0005dz.x01 on basestation)
+2947.854,SSURF,N,sent 3138 of 3138 of sg0005dz.x01
+2953.104,SSURF,N,Transmission succeeded...
+2954.854,SSURF,N,Sending cmd rawrcv sg0005kz.x00
+ (4096 bytes)(Receiving sg0005kz.x00 on basestation)
+2963.229,SSURF,N,sent 4096 of 40
