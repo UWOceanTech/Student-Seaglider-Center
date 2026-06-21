@@ -5,7 +5,7 @@ Data Management Lab Manual
 **Written and Compiled by Lydia Kelley**  
 Data Manager   
 (March 2023 \- June 2026\)  
-Version 1.0
+Version 2.0
 
 **Table of Contents**
 
