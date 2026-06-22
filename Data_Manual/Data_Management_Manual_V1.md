@@ -511,7 +511,7 @@ The Mission Plan should be completed by the Mission PI and should follow the for
 
 | `Dimensions` |  |
 | :---- | :---- |
-| `Power (battery packs and their voltage` |  |
+| `Power (battery packs and their voltage)` |  |
 | `Hull material` |  |
 | `Weight` |  |
 | `Shipping crate dimensions` |  |
