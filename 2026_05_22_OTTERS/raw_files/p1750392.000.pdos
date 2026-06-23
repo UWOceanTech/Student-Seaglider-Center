@@ -1,0 +1,40 @@
+2638.215,SSURF,N,Executing commands in pdoscmds.bat
+Executing 'menu hw/compass/coeff'...
+2638.392,HCOMPASS,N,Reading compass coefficients tagged: %"SG175 dive compass cal using DiveMagFile.SG175 collected at 47.735,-122.397 on 5/12/2023 for SN XXX (IGRF = 533.010)"
+2638.622,HCOMPASS,N,Compass 1, SP3003
+2638.676,HCOMPASS,N,pitch A,B,C,D: 0.000000 1.000000 0.000000 0.000000
+2638.769,HCOMPASS,N,roll A,B,C,D:  0.000000 1.000000 0.000000 0.000000
+2638.876,HCOMPASS,N,hard iron P,Q,R: 24.540899 48.228001 81.050301
+2638.974,HCOMPASS,N,soft iron: 0.963900 -0.010100 -0.001900
+2639.063,HCOMPASS,N,           0.002500 1.010100 -0.032800
+2639.152,HCOMPASS,N,           0.005600 0.023400 1.016000
+Succeeded in 1.43 secs
+Executing 'ren tcm2mat.175 tcm2mat.old'...
+Succeeded in 2.51 secs
+Executing 'xr tcm2mat.175'...
+Receiving tcm2mat.175...
+2644.800,SSURF,N,Sending cmd lsx -k -t150 tcm2mat.175
+2648.978,SSURF,N,Receiving tcm2mat.175...
+2650.189,SSURF,N,SOH/STX: 0x1 received (1), secSize= 128...
+2651.719,SSURF,N,SOH/STX: 0x1 received (1), secSize= 128...
+2653.248,SSURF,N,SOH/STX: 0x1 received (1), secSize= 128...
+2654.778,SSURF,N,EOT: 0x4 received (1), secSize= 128...
+2657.105,SSURF,N,Received tcm2mat.175 384 bytes
+2658.569,SSURF,N,Transmission succeeded...
+1 file transferred.
+Succeeded in 17.11 secs
+Executing 'strip1a tcm2mat.175'...
+Stripped to 272 bytes.
+Succeeded in 2.31 secs
+Executing 'menu hw/compass/coeff'...
+2662.063,HCOMPASS,N,Reading compass coefficients tagged: “SG175 dive compass cal using OTT3RS dives 239,240 collected at 47°43.793′,-122°25.349′ on 5/30/2026 for SN XXX (IGRF = 526.682)"
+2662.314,HCOMPASS,N,Compass 1, SP3003
+2662.369,HCOMPASS,N,pitch A,B,C,D: 0.000000 1.000000 0.000000 0.000000
+2662.462,HCOMPASS,N,roll A,B,C,D:  0.000000 1.000000 0.000000 0.000000
+2662.567,HCOMPASS,N,hard iron P,Q,R: -9.400000 56.700001 73.099998
+2662.664,HCOMPASS,N,soft iron: 1.000000 -0.015000 0.005000
+2662.751,HCOMPASS,N,           0.003000 1.068000 -0.003000
+2662.839,HCOMPASS,N,           0.007000 -0.003000 1.059000
+Succeeded in 1.38 secs
+2663.548,SSURF,N,finished commands
+2663.602,SSYS,N,Changing capture file

@@ -1,0 +1,9 @@
+// check old tcm2mat file
+menu hw/compass/coeff
+// backup old tcm2mat.175 file
+ren tcm2mat.175 tcm2mat.old
+// install new tcm2mat file
+xr tcm2mat.175
+strip1a tcm2mat.175
+// use new file
+menu hw/compass/coeff
